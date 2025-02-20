@@ -28,12 +28,18 @@ jobs:
           inlineScript: |
             az account list-locations --query '[].{name: name, regionalDisplayName: regionalDisplayName, type: type, displayName: displayName, metadata: {geography: metadata.geography, geographyGroup: metadata.geographyGroup, latitude: metadata.latitude, longitude: metadata.longitude, pairedRegion: metadata.pairedRegion[].name, physicalLocation: metadata.physicalLocation, regionCategory: metadata.regionCategory, regionType: metadata.regionType}}' > locations.json
             cat locations.json
+      - name: Converts README.md to index.html
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+            source: README.md
+            output: index.html
+            #github-corners: https://github.com/jaywcjlove/markdown-to-html-cli
+            favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>
       - name: Prepare deployment artifact
         run: |
           mkdir -p out
           mv locations.json out/
-          cp README.md out/
-
+          mv index.html out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
