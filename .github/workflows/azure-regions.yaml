@@ -32,6 +32,8 @@ jobs:
         run: |
           mkdir -p out
           mv locations.json out/
+          cp README.md out/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
