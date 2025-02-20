@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  id-token: write
   contents: read
-  pages: write
 
 jobs:
   build:
@@ -16,14 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Azure login
         uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-
       - name: Azure CLI script
         uses: azure/cli@v2
         with:
@@ -31,31 +27,25 @@ jobs:
           inlineScript: |
             az account list-locations --query '[].{name: name, regionalDisplayName: regionalDisplayName, type: type, displayName: displayName, metadata: {geography: metadata.geography, geographyGroup: metadata.geographyGroup, latitude: metadata.latitude, longitude: metadata.longitude, pairedRegion: metadata.pairedRegion[].name, physicalLocation: metadata.physicalLocation, regionCategory: metadata.regionCategory, regionType: metadata.regionType}}' > locations.json
             cat locations.json
+      - name: Prepare deployment artifact
+        run: |
+          mkdir -p out
+          mv locations.json out/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
 
-#       - name: Prepare deployment artifact
-#         run: |
-#           mkdir -p out
-#           mv locations.json out/
-#           mv index.html out/
-
-#       - name: Upload artifact
-#         uses: actions/upload-pages-artifact@v3
-#         with:
-#           path: ./out
-
-#   deploy:
-#     needs: build
-#     runs-on: ubuntu-latest
-
-#     permissions:
-#       pages: write  # to deploy to Pages
-#       id-token: write  # to verify the deployment originates from an appropriate source
-
-#     environment:
-#       name: github-pages
-#       url: ${{ steps.deployment.outputs.page_url }}
-
-#     steps:
-#       - name: Deploy to GitHub Pages
-#         id: deployment
-#         uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write  # to deploy to Pages
+      id-token: write  # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
