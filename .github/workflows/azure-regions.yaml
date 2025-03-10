@@ -15,6 +15,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.x
+      - name: Generate Azure Services-Products mapping
+        run: |
+          cd AzureProducts
+          dotnet run > ../products.json
+          cd ..
+          cat products.json
       - name: Azure login
         uses: azure/login@v2
         with:
@@ -43,6 +53,7 @@ jobs:
         run: |
           mkdir -p out
           mv locations.json out/
+          mv products.json out/
           mv index.html out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
