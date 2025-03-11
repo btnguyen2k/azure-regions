@@ -1,10 +1,17 @@
 # azure-regions
 
-This [repository](https://github.com/btnguyen2k/azure-regions) generates a list of Azure regions in JSON format and hosts it on GitHub Pages.
+This [repository](https://github.com/btnguyen2k/azure-regions) generates a list of Azure regions and the associated Azure products available in each region, formatted in JSON and hosts if on GitHub Pages.
 
-## The JSON file
+## The JSON files
 
-The JSON file is generated daily and is available at the following URL: https://btnguyen2k.github.io/azure-regions/locations.json
+The JSON files are generated daily and are available at the following URLs:
+
+- [List of Azure regions](https://btnguyen2k.github.io/azure-regions/locations.json)
+- [Summary of Azure products](https://btnguyen2k.github.io/azure-regions/products.json)
+- Azure products available in a specific region: `https://btnguyen2k.github.io/azure-regions/products-<region>.json`, examples:
+  - https://btnguyen2k.github.io/azure-regions/products-eastus.json
+  - https://btnguyen2k.github.io/azure-regions/products-southeastasia.json
+  - https://btnguyen2k.github.io/azure-regions/products-australiaeast.json
 
 <!--TIMESTAMP-->
 
