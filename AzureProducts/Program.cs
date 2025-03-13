@@ -4,11 +4,12 @@ using System.Net.Http.Json;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-async Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(string region)
+async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(string region)
 {
     using HttpClient client = new();
     var serviceFamilyMap = new Dictionary<string, ServiceFamilyRecord>();
-    var apiUrl = $"https://prices.azure.com/api/retail/prices?$filter=armRegionName eq '{region}' and type eq 'Consumption' and armSkuName ne ''";
+    // var apiUrl = $"https://prices.azure.com/api/retail/prices?$filter=armRegionName eq '{region}' and type eq 'Consumption' and armSkuName ne ''";
+    var apiUrl = $"https://prices.azure.com/api/retail/prices?$filter=armRegionName eq '{region}' and type eq 'Consumption'";
     Console.WriteLine($"Fetching product category from {region}...");
     while (true)
     {
@@ -33,7 +34,9 @@ async Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(string r
                 Id = item.ProductId,
                 Name = item.ProductName,
                 SkuId = item.SkuId,
-                SkuName = item.SkuName
+                SkuName = item.SkuName,
+                MetterId = item.MeterId,
+                MetterName = item.MeterName,
             };
             service.AddProduct(product);
         }
@@ -116,6 +119,12 @@ internal class ProductRecord
 
     [JsonPropertyName("sku_name")]
     public string SkuName { get; set; } = default!;
+
+    [JsonPropertyName("meter_id")]
+    public string MetterId { get; set; } = default!;
+
+    [JsonPropertyName("meter_name")]
+    public string MetterName { get; set; } = default!;
 }
 
 internal class ServiceRecord
@@ -131,7 +140,7 @@ internal class ServiceRecord
 
     public ServiceRecord AddProduct(ProductRecord product)
     {
-        Products[product.Id] = product;
+        Products[$"{product.Id}/{product.MetterId}"] = product;
         return this;
     }
 }
