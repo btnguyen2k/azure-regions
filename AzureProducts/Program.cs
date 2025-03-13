@@ -33,9 +33,9 @@ async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(s
             {
                 Id = item.ProductId,
                 Name = item.ProductName,
-                SkuId = item.SkuId,
+                // SkuId = item.SkuId,
                 SkuName = item.SkuName,
-                MetterId = item.MeterId,
+                // MetterId = item.MeterId,
                 MetterName = item.MeterName,
             };
             service.AddProduct(product);
@@ -114,14 +114,14 @@ internal class ProductRecord
     [JsonPropertyName("name")]
     public string Name { get; set; } = default!;
 
-    [JsonPropertyName("sku_id")]
-    public string SkuId { get; set; } = default!;
+    // [JsonPropertyName("sku_id")]
+    // public string SkuId { get; set; } = default!;
 
     [JsonPropertyName("sku_name")]
     public string SkuName { get; set; } = default!;
 
-    [JsonPropertyName("meter_id")]
-    public string MetterId { get; set; } = default!;
+    // [JsonPropertyName("meter_id")]
+    // public string MetterId { get; set; } = default!;
 
     [JsonPropertyName("meter_name")]
     public string MetterName { get; set; } = default!;
@@ -140,7 +140,7 @@ internal class ServiceRecord
 
     public ServiceRecord AddProduct(ProductRecord product)
     {
-        Products[$"{product.Id}/{product.MetterId}"] = product;
+        Products[$"{product.Id}/{product.MetterName}"] = product;
         return this;
     }
 }
