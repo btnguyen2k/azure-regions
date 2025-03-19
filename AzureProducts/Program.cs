@@ -10,11 +10,25 @@ async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(s
     var serviceFamilyMap = new Dictionary<string, ServiceFamilyRecord>();
     // var apiUrl = $"https://prices.azure.com/api/retail/prices?$filter=armRegionName eq '{region}' and type eq 'Consumption' and armSkuName ne ''";
     var apiUrl = $"https://prices.azure.com/api/retail/prices?$filter=armRegionName eq '{region}' and type eq 'Consumption'";
-    Console.WriteLine($"Fetching product category from {region}...");
+    Console.WriteLine($"===== Fetching product category from {region}...");
     while (true)
     {
         var httpResp = await client.GetAsync(apiUrl);
-        var jsonResp = await httpResp.Content.ReadFromJsonAsync<RetailPrice>() ?? throw new InvalidOperationException("Failed to read JSON response");
+        if (!httpResp.IsSuccessStatusCode)
+        {
+            throw new InvalidOperationException($"[ERROR: {httpResp.StatusCode}] Failed to fetch product category from {apiUrl}");
+        }
+        var respBody = await httpResp.Content.ReadAsStringAsync();
+        RetailPrice? jsonResp;
+        try
+        {
+            jsonResp = JsonSerializer.Deserialize<RetailPrice>(respBody) ?? throw new InvalidOperationException("Failed to deserialize JSON response");
+        }
+        catch (JsonException)
+        {
+            Console.WriteLine($"[DEBUG]: {respBody[..Math.Min(100, respBody.Length)]}");
+            throw new InvalidOperationException("Failed to deserialize JSON response");
+        }
         foreach (var item in jsonResp.Items)
         {
             if (!serviceFamilyMap.TryGetValue(item.ServiceFamily, out var serviceFamily))
@@ -43,6 +57,8 @@ async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(s
         Console.WriteLine($"Fetched {jsonResp.Count} items from {apiUrl}");
         apiUrl = jsonResp.NextPageLink;
         if (string.IsNullOrEmpty(apiUrl)) break;
+
+        Thread.Sleep(100); // slow down to avoid throttling
     }
 
     return serviceFamilyMap;
@@ -72,6 +88,7 @@ var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
 foreach (var region in baseRegions)
 {
     var servicesMap = await GetProductCategory(region);
+    Thread.Sleep(1000); // slow down to avoid throttling
     var servicesList = servicesMap.Values.OrderBy(sf => sf.Name).ToArray();
     var outputData = new Dictionary<string, ServiceFamilyRecord[]> { [region] = servicesList };
     var outFileProductList = Path.Combine(outputDir, $"products-{region}.json");
