@@ -157,7 +157,7 @@ internal class ServiceRecord
 
     public ServiceRecord AddProduct(ProductRecord product)
     {
-        Products[$"{product.Id}/${product.SkuName}/{product.MeterName}"] = product;
+        Products[$"{product.Id}/{product.SkuName}/{product.MeterName}"] = product;
         return this;
     }
 }
