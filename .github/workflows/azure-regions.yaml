@@ -34,12 +34,13 @@ jobs:
       - name: Generate Azure Services-Products mapping
         run: |
           cd AzureProducts
-          regions=$(az account list-locations --query '[].name' | jq -r '. | @csv' | tr -d '"')
+          regions=$(az account list-locations --query "[?metadata.regionType=='Physical'].name" | jq -r '. | @csv' | tr -d '"')
           dotnet run -- -o ../data/ -r $regions
           cd ..
           ls -l ./data/products*.json
       - name: Commit updated data files
         run: |
+          git add ./data/*.json
           git config --global user.email "<>"
           git config --global user.name "CI Build"
           git commit -am "Update data files"
