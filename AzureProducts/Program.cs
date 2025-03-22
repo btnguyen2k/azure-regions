@@ -83,6 +83,15 @@ var rootCommand = new RootCommand{
 var outputDir = rootCommand.Parse(args).GetValueForOption(optOutProductList) ?? DEFAULT_OUTPUT_DIR;
 var baseRegions = (rootCommand.Parse(args).GetValueForOption(optBaseRegions) ?? DEFAULT_BASE_REGIONS).Split([',', ';', ' '], StringSplitOptions.RemoveEmptyEntries);
 
+/* Fix throttling issue */
+if (baseRegions.Length > 10)
+{
+    // suffle the list and take the first 10
+    var rnd = new Random();
+    baseRegions = [.. baseRegions.OrderBy(r => rnd.Next()).Take(10)];
+}
+/* END */
+
 var jsonOpts = new JsonSerializerOptions() { WriteIndented = true };
 var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
 foreach (var region in baseRegions)

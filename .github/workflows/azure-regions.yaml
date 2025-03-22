@@ -1,8 +1,8 @@
 name: Azure Regions
 on:
   schedule:
-    # run every day, twice at midnight and noon (UTC)
-    - cron: '7 0,12 * * *'
+    # run every day (UTC)
+    - cron: '7 */4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,6 +12,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to commit the updated data files
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,16 +32,22 @@ jobs:
         with:
           azcliversion: latest
           inlineScript: |
-            az account list-locations --query '[].{name: name, regionalDisplayName: regionalDisplayName, type: type, displayName: displayName, metadata: {geography: metadata.geography, geographyGroup: metadata.geographyGroup, latitude: metadata.latitude, longitude: metadata.longitude, pairedRegion: metadata.pairedRegion[].name, physicalLocation: metadata.physicalLocation, regionCategory: metadata.regionCategory, regionType: metadata.regionType}}' > locations.json
-            cat locations.json
+            az account list-locations --query '[].{name: name, regionalDisplayName: regionalDisplayName, type: type, displayName: displayName, metadata: {geography: metadata.geography, geographyGroup: metadata.geographyGroup, latitude: metadata.latitude, longitude: metadata.longitude, pairedRegion: metadata.pairedRegion[].name, physicalLocation: metadata.physicalLocation, regionCategory: metadata.regionCategory, regionType: metadata.regionType}}' > ./data/locations.json
+            cat ./data/locations.json
       - name: Generate Azure Services-Products mapping
         run: |
           cd AzureProducts
           regions=$(az account list-locations --query '[].name' | jq -r '. | @csv' | tr -d '"')
-          dotnet run -- -o ../ -r $regions
+          dotnet run -- -o ../data/ -r $regions
           cd ..
-          ls -l products*.json
-      - name: Update timestamp
+          ls -l ./data/products*.json
+      - name: Commit updated data files
+        run: |
+          git config --global user.email "<>"
+          git config --global user.name "CI Build"
+          git commit -am "Update data files"
+          git push
+      - name: Update timestamp in README.md
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           sed -i -E "s/<\!--TIMESTAMP-->/Last update: ${TIMESTAMP}/" README.md
@@ -53,8 +61,7 @@ jobs:
       - name: Prepare deployment artifact
         run: |
           mkdir -p out
-          mv locations.json out/
-          mv products*.json out/
+          cp ./data/*.json out/
           mv index.html out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
