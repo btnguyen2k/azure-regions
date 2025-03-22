@@ -58,7 +58,7 @@ async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(s
         apiUrl = jsonResp.NextPageLink;
         if (string.IsNullOrEmpty(apiUrl)) break;
 
-        Thread.Sleep(100); // slow down to avoid throttling
+        Thread.Sleep(1000); // slow down to avoid throttling
     }
 
     return serviceFamilyMap;
@@ -88,7 +88,7 @@ var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
 foreach (var region in baseRegions)
 {
     var servicesMap = await GetProductCategory(region);
-    Thread.Sleep(1000); // slow down to avoid throttling
+    Thread.Sleep(10000); // slow down to avoid throttling
     var servicesList = servicesMap.Values.OrderBy(sf => sf.Name).ToArray();
     var outputData = new Dictionary<string, ServiceFamilyRecord[]> { [region] = servicesList };
     var outFileProductList = Path.Combine(outputDir, $"products-{region}.json");
