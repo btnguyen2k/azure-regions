@@ -1,0 +1,67 @@
+{
+  "southcentralusstg": [
+    {
+      "name": "Azure Communication Services",
+      "services": {
+        "DZH3156JR97F": {
+          "id": "DZH3156JR97F",
+          "name": "Voice",
+          "products": {
+            "DZH318Z08QXH/Trial/Trial Consumption Unit - Inbound": {
+              "id": "DZH318Z08QXH",
+              "name": "Toll Free Calls - Inbound - I",
+              "sku_name": "Trial",
+              "meter_name": "Trial Consumption Unit - Inbound"
+            },
+            "DZH318Z0D90N/Trial/Trial Consumption Unit - Outbound": {
+              "id": "DZH318Z0D90N",
+              "name": "Toll Free Calls - Outbound - I",
+              "sku_name": "Trial",
+              "meter_name": "Trial Consumption Unit - Outbound"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Networking",
+      "services": {
+        "DZH314HC0WV9": {
+          "id": "DZH314HC0WV9",
+          "name": "Virtual Network",
+          "products": {
+            "DZH318Z0BNXN/Global/Global IPv4 Static Public IP": {
+              "id": "DZH318Z0BNXN",
+              "name": "IP Addresses",
+              "sku_name": "Global",
+              "meter_name": "Global IPv4 Static Public IP"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Windows Virtual Desktop",
+      "services": {
+        "DZH317LJ9WLP": {
+          "id": "DZH317LJ9WLP",
+          "name": "Windows Virtual Desktop",
+          "products": {
+            "DZH318Z0D45N/App Hosting/App Hosting App Users": {
+              "id": "DZH318Z0D45N",
+              "name": "Azure Virtual Desktop",
+              "sku_name": "App Hosting",
+              "meter_name": "App Hosting App Users"
+            },
+            "DZH318Z0D45N/Desktop \u0026 App Hosting/Desktop \u0026 App Hosting Desktop and App Users": {
+              "id": "DZH318Z0D45N",
+              "name": "Azure Virtual Desktop",
+              "sku_name": "Desktop \u0026 App Hosting",
+              "meter_name": "Desktop \u0026 App Hosting Desktop and App Users"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
