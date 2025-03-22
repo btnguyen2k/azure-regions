@@ -5,15 +5,12 @@ on:
     - cron: '7 */4 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: read
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write # to commit the updated data files
+      id-token: write # to login to Azure
     steps:
       - name: Checkout
         uses: actions/checkout@v4
