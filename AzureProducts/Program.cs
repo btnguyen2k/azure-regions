@@ -1,9 +1,11 @@
 ﻿
 using System.CommandLine;
+using System.Drawing;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
+/// <returns>Product category as a map {ServiceFamilyName -> ServiceFamilyRecord}</returns>
 async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(string region)
 {
     using HttpClient client = new();
@@ -64,6 +66,13 @@ async static Task<IDictionary<string, ServiceFamilyRecord>> GetProductCategory(s
     return serviceFamilyMap;
 }
 
+async static Task<ServiceFamilyRecord[]> LoadProductCategory(string filepath)
+{
+    var jsonStr = await File.ReadAllTextAsync(filepath);
+    var jsonData = JsonSerializer.Deserialize<Dictionary<string, ServiceFamilyRecord[]>>(jsonStr) ?? throw new InvalidOperationException($"Failed to deserialize JSON file {filepath}");
+    return jsonData.Values.First();
+}
+
 const string DEFAULT_OUTPUT_DIR = "./";
 var optOutProductList = new Option<string>(
     aliases: ["-o", "--output-dir"],
@@ -83,6 +92,11 @@ var rootCommand = new RootCommand{
 var outputDir = rootCommand.Parse(args).GetValueForOption(optOutProductList) ?? DEFAULT_OUTPUT_DIR;
 var baseRegions = (rootCommand.Parse(args).GetValueForOption(optBaseRegions) ?? DEFAULT_BASE_REGIONS).Split([',', ';', ' '], StringSplitOptions.RemoveEmptyEntries);
 
+if (!Directory.Exists(outputDir))
+{
+    throw new InvalidOperationException($"Output directory {outputDir} does not exist or is not accessible.");
+}
+
 /* Fix throttling issue */
 if (baseRegions.Length > 10)
 {
@@ -92,8 +106,8 @@ if (baseRegions.Length > 10)
 }
 /* END */
 
+/* Fetch product category from Azure and write result to files, one file per region*/
 var jsonOpts = new JsonSerializerOptions() { WriteIndented = true };
-var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
 foreach (var region in baseRegions)
 {
     var servicesMap = await GetProductCategory(region);
@@ -102,9 +116,16 @@ foreach (var region in baseRegions)
     var outputData = new Dictionary<string, ServiceFamilyRecord[]> { [region] = servicesList };
     var outFileProductList = Path.Combine(outputDir, $"products-{region}.json");
     await File.WriteAllTextAsync(outFileProductList, JsonSerializer.Serialize(outputData, jsonOpts));
+}
 
-    // merge to the global map
-    foreach (var serviceFamily in servicesList)
+/* Combine data from all existing+new product category files */
+var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
+var productCategoryFiles = Directory.GetFiles(outputDir, "products-*.json");
+foreach (var file in productCategoryFiles)
+{
+    var productCategory = await LoadProductCategory(file);
+    Console.WriteLine($"Loaded {productCategory.Length} services from {file}");
+    foreach (var serviceFamily in productCategory)
     {
         if (!allServicesMap.TryGetValue(serviceFamily.Name, out var allServiceFamily))
         {
@@ -127,7 +148,6 @@ foreach (var region in baseRegions)
         }
     }
 }
-
 var allServicesList = allServicesMap.Values.OrderBy(sf => sf.Name).ToArray();
 var outFileAllProductList = Path.Combine(outputDir, $"products.json");
 await File.WriteAllTextAsync(outFileAllProductList, JsonSerializer.Serialize(allServicesList, jsonOpts));
