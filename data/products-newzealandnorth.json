@@ -22707,6 +22707,12 @@
               "sku_name": "16 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0T5NC/vCore/vCore": {
+              "id": "DZH318Z0T5NC",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRZ/vCore/vCore": {
               "id": "DZH318Z0DCRZ",
               "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
@@ -22891,6 +22897,12 @@
               "id": "DZH318Z09SM1",
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
               "sku_name": "20 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0T669/vCore/vCore": {
+              "id": "DZH318Z0T669",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
+              "sku_name": "vCore",
               "meter_name": "vCore"
             },
             "DZH318Z09SM1/vCore/vCore": {
@@ -24712,6 +24724,12 @@
               "sku_name": "Basic",
               "meter_name": "P2S Connection"
             },
+            "DZH318Z0BNXL/Advanced Connectivity Add-On/Advanced Connectivity Add-On": {
+              "id": "DZH318Z0BNXL",
+              "name": "VPN Gateway",
+              "sku_name": "Advanced Connectivity Add-On",
+              "meter_name": "Advanced Connectivity Add-On"
+            },
             "DZH318Z0BNXL/VpnGw1AZ/S2S Connection": {
               "id": "DZH318Z0BNXL",
               "name": "VPN Gateway",
@@ -25844,6 +25862,12 @@
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS Write Operations"
             },
+            "DZH318Z0H96B/HDD ZRS/HDD ZRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD ZRS",
+              "meter_name": "HDD ZRS Provisioned IOPS"
+            },
             "DZH318Z0BNZJ/Hot LRS/Hot LRS Data Stored": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -26384,6 +26408,12 @@
               "sku_name": "E15 ZRS",
               "meter_name": "E15 ZRS Disk"
             },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Task Execution": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Task Execution"
+            },
             "DZH318Z0BNZ5/Standard ZRS/ZRS Data Stored": {
               "id": "DZH318Z0BNZ5",
               "name": "Tables",
@@ -26900,6 +26930,12 @@
               "sku_name": "Hot ZRS",
               "meter_name": "Hot Read Operations"
             },
+            "DZH318Z0H96B/HDD LRS/HDD LRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD LRS",
+              "meter_name": "HDD LRS Soft-Deleted Usage"
+            },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Data Write": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -27056,11 +27092,23 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Stored"
             },
+            "DZH318Z0H96B/HDD ZRS/HDD ZRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD ZRS",
+              "meter_name": "HDD ZRS Provisioned Throughput MiBPS"
+            },
             "DZH318Z0BP88/Snapshots LRS/Snapshots LRS Snapshots": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
               "sku_name": "Snapshots LRS",
               "meter_name": "Snapshots LRS Snapshots"
+            },
+            "DZH318Z0H96B/HDD LRS/HDD LRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD LRS",
+              "meter_name": "HDD LRS Overflow Snapshot Usage"
             },
             "DZH318Z0C120/Hot ZRS/Hot ZRS Data Stored": {
               "id": "DZH318Z0C120",
@@ -27367,6 +27415,12 @@
               "name": "Premium Block Blob v2 Hierarchical Namespace",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS All Other Operations"
+            },
+            "DZH318Z0H96B/HDD ZRS/HDD ZRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD ZRS",
+              "meter_name": "HDD ZRS Soft-Deleted Usage"
             },
             "DZH318Z0C120/Cool ZRS/Cool ZRS Data Stored": {
               "id": "DZH318Z0C120",
@@ -27836,6 +27890,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "Disk Write Operations"
             },
+            "DZH318Z0H96B/HDD LRS/HDD LRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD LRS",
+              "meter_name": "HDD LRS Provisioned IOPS"
+            },
             "DZH318Z0C120/Cool LRS/Cool LRS Early Delete": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -28057,6 +28117,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Hot ZRS",
               "meter_name": "Hot Read Operations"
+            },
+            "DZH318Z0H96B/HDD ZRS/HDD ZRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD ZRS",
+              "meter_name": "HDD ZRS Provisioned Storage"
             },
             "DZH318Z0CPS4/Premium ZRS/Premium ZRS Read Operations": {
               "id": "DZH318Z0CPS4",
@@ -28682,6 +28748,12 @@
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Hot Tier Down"
             },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Operations Invoked": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Operations Invoked"
+            },
             "DZH318Z0BP04/Snapshots ZRS/ZRS Snapshots": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -28808,6 +28880,12 @@
               "sku_name": "S70 LRS",
               "meter_name": "S70 LRS Disk Operations"
             },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Objects Targeted": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Objects Targeted"
+            },
             "DZH318Z0BJRM/Cold LRS/Cold LRS Read Operations": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -28843,6 +28921,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Read Operations"
+            },
+            "DZH318Z0H96B/HDD LRS/HDD LRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD LRS",
+              "meter_name": "HDD LRS Provisioned Storage"
             },
             "DZH318Z0BP09/Hot LRS/Hot LRS Data Stored": {
               "id": "DZH318Z0BP09",
@@ -28982,6 +29066,12 @@
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Index Tags"
             },
+            "DZH318Z0H96B/HDD LRS/HDD LRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD LRS",
+              "meter_name": "HDD LRS Provisioned Throughput MiBPS"
+            },
             "DZH318Z0CPS4/Premium LRS/LRS Early Premium To Cool Tier Down": {
               "id": "DZH318Z0CPS4",
               "name": "Premium Block Blob v2 Hierarchical Namespace",
@@ -29017,6 +29107,12 @@
               "name": "Premium Block Blob v2 Hierarchical Namespace",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Data Stored"
+            },
+            "DZH318Z0H96B/HDD ZRS/HDD ZRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "HDD ZRS",
+              "meter_name": "HDD ZRS Overflow Snapshot Usage"
             },
             "DZH318Z0BP6Q/Premium LRS/Premium LRS Snapshots": {
               "id": "DZH318Z0BP6Q",
@@ -29395,6 +29491,102 @@
               "name": "Backup",
               "sku_name": "Standard",
               "meter_name": "GRS Data Stored"
+            }
+          }
+        },
+        "DZH3147RZ57L": {
+          "id": "DZH3147RZ57L",
+          "name": "Azure NetApp Files",
+          "products": {
+            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Throughput MiBps": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Flexible Service Level",
+              "meter_name": "Flexible Service Level Throughput MiBps"
+            },
+            "DZH318Z0BXV9/Cross Region Replication - NZ North to AU East/Cross Region Replication - NZ North to AU East Hours": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Cross Region Replication - NZ North to AU East",
+              "meter_name": "Cross Region Replication - NZ North to AU East Hours"
+            },
+            "DZH318Z0BXV9/Volume Restore/Volume Restore Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Volume Restore",
+              "meter_name": "Volume Restore Capacity"
+            },
+            "DZH318Z0BXV9/Standard Double Encrypted/Standard Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Double Encrypted",
+              "meter_name": "Standard Double Encrypted Capacity"
+            },
+            "DZH318Z0BXV9/Backup/Backup Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Backup",
+              "meter_name": "Backup Capacity"
+            },
+            "DZH318Z0BXV9/Ultra/Ultra Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Ultra",
+              "meter_name": "Ultra Capacity"
+            },
+            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Flexible Service Level",
+              "meter_name": "Flexible Service Level Capacity"
+            },
+            "DZH318Z0BXV9/Standard/Standard Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard",
+              "meter_name": "Standard Capacity"
+            },
+            "DZH318Z0BXV9/Cross Region Replication - NZ North to AU East/Cross Region Replication - NZ North to AU East Days": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Cross Region Replication - NZ North to AU East",
+              "meter_name": "Cross Region Replication - NZ North to AU East Days"
+            },
+            "DZH318Z0BXV9/Cross Region Replication - NZ North to AU East/Cross Region Replication - NZ North to AU East Minutes": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Cross Region Replication - NZ North to AU East",
+              "meter_name": "Cross Region Replication - NZ North to AU East Minutes"
+            },
+            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Storage with Cool Access",
+              "meter_name": "Standard Storage with Cool Access Capacity"
+            },
+            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Data Transfer": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Storage with Cool Access",
+              "meter_name": "Standard Storage with Cool Access Data Transfer"
+            },
+            "DZH318Z0BXV9/Premium Double Encrypted/Premium Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Premium Double Encrypted",
+              "meter_name": "Premium Double Encrypted Capacity"
+            },
+            "DZH318Z0BXV9/Ultra Double Encrypted/Ultra Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Ultra Double Encrypted",
+              "meter_name": "Ultra Double Encrypted Capacity"
+            },
+            "DZH318Z0BXV9/Premium/Premium Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Premium",
+              "meter_name": "Premium Capacity"
             }
           }
         }
