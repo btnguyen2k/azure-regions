@@ -469,6 +469,12 @@
               "sku_name": "S1",
               "meter_name": "S1 Custom Neural Long Audio Characters"
             },
+            "DZH318Z0T7L1/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
+              "id": "DZH318Z0T7L1",
+              "name": "Deepseek model family",
+              "sku_name": "Provisioned Managed Data Zone",
+              "meter_name": "Provisioned Managed Data Zone Unit"
+            },
             "DZH318Z0BP4S/S1/S1 Custom Neural Voice Model Hosting Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -1039,6 +1045,12 @@
               "sku_name": "Commitment Tier CLU 25M",
               "meter_name": "Commitment Tier CLU 25M CT Overage Transactions"
             },
+            "DZH318Z0T7L1/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
+              "id": "DZH318Z0T7L1",
+              "name": "Deepseek model family",
+              "sku_name": "Provisioned Managed Regional",
+              "meter_name": "Provisioned Managed Regional Unit"
+            },
             "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 100K/Commitment Tier Speech to Text Connected 100K Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -1404,6 +1416,12 @@
               "name": "Speech",
               "sku_name": "Commitment Tier Speech to Text Connected 50K",
               "meter_name": "Commitment Tier Speech to Text Connected 50K Unit"
+            },
+            "DZH318Z0T7L1/Provisioned Managed Global/Provisioned Managed Global Unit": {
+              "id": "DZH318Z0T7L1",
+              "name": "Deepseek model family",
+              "sku_name": "Provisioned Managed Global",
+              "meter_name": "Provisioned Managed Global Unit"
             },
             "DZH318Z0BQL9/Commitment Tier Summarization Connected 10M/Commitment Tier Summarization Connected 10M CT Overage Transactions": {
               "id": "DZH318Z0BQL9",
@@ -9520,6 +9538,12 @@
               "sku_name": "DC48adsv6",
               "meter_name": "DC48adsv6"
             },
+            "DZH318Z0GNHB/D192s v6/D192s v6": {
+              "id": "DZH318Z0GNHB",
+              "name": "Virtual Machines Dsv6 Series",
+              "sku_name": "D192s v6",
+              "meter_name": "D192s v6"
+            },
             "DZH318Z0BPW1/A4m v2/A4m v2": {
               "id": "DZH318Z0BPW1",
               "name": "Virtual Machines Av2 Series Windows",
@@ -9777,6 +9801,12 @@
               "name": "Virtual Machines Dlsv6 Series Windows",
               "sku_name": "D96ls v6",
               "meter_name": "D96ls v6"
+            },
+            "DZH318Z0GNHJ/D192ds_v6/D192ds_v6": {
+              "id": "DZH318Z0GNHJ",
+              "name": "Virtual Machines Ddsv6 Series",
+              "sku_name": "D192ds_v6",
+              "meter_name": "D192ds_v6"
             },
             "DZH318Z0CSHL/E64-16s v4/E64-16s v4": {
               "id": "DZH318Z0CSHL",
@@ -13570,6 +13600,12 @@
               "sku_name": "B8ps v2",
               "meter_name": "B8ps v2"
             },
+            "DZH318Z0GNHZ/D192ds_v6/D192ds_v6": {
+              "id": "DZH318Z0GNHZ",
+              "name": "Virtual Machines Ddsv6 Series Windows",
+              "sku_name": "D192ds_v6",
+              "meter_name": "D192ds_v6"
+            },
             "DZH318Z0CM29/E2a v4 Low Priority/E2a v4/E2as v4 Low Priority": {
               "id": "DZH318Z0CM29",
               "name": "Virtual Machines Eav4 Series",
@@ -13833,6 +13869,12 @@
               "name": "Virtual Machines DSv3 Series Windows",
               "sku_name": "D8s v3",
               "meter_name": "D8s v3"
+            },
+            "DZH318Z0GNHF/D192s v6/D192s v6": {
+              "id": "DZH318Z0GNHF",
+              "name": "Virtual Machines Dsv6 Series Windows",
+              "sku_name": "D192s v6",
+              "meter_name": "D192s v6"
             },
             "DZH318Z0F5F4/D64als v6/D64als v6": {
               "id": "DZH318Z0F5F4",
@@ -23833,6 +23875,12 @@
               "sku_name": "20 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0T5NC/vCore/vCore": {
+              "id": "DZH318Z0T5NC",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRX/PMD V2 Throughput/PMD V2 Throughput Prov Throughput (MBps)": {
               "id": "DZH318Z0DCRX",
               "name": "Az DB for PostgreSQL Flexible Server Storage",
@@ -24559,6 +24607,12 @@
               "sku_name": "B20ms",
               "meter_name": "B20ms vCore"
             },
+            "DZH318Z0T669/vCore/vCore": {
+              "id": "DZH318Z0T669",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRX/IOPS Scaling/IOPS Scaling Provisioned IOPS": {
               "id": "DZH318Z0DCRX",
               "name": "Az DB for PostgreSQL Flexible Server Storage",
@@ -25087,6 +25141,18 @@
               "meter_name": "Standard Storage"
             }
           }
+        },
+        "DZH318BMCKMG": {
+          "id": "DZH318BMCKMG",
+          "name": "Azure Load Testing",
+          "products": {
+            "DZH318Z0B21Q/JMeter/JMeter Virtual User Additional Usage": {
+              "id": "DZH318Z0B21Q",
+              "name": "Azure Load Testing",
+              "sku_name": "JMeter",
+              "meter_name": "JMeter Virtual User Additional Usage"
+            }
+          }
         }
       }
     },
@@ -25553,16 +25619,160 @@
     {
       "name": "Management and Governance",
       "services": {
+        "DZH317M2MHR4": {
+          "id": "DZH317M2MHR4",
+          "name": "Sentinel",
+          "products": {
+            "DZH318Z0CF6H/50000 GB Commitment Tier/50000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "50000 GB Commitment Tier",
+              "meter_name": "50000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/Basic Logs/Basic Logs Analysis": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Basic Logs",
+              "meter_name": "Basic Logs Analysis"
+            },
+            "DZH318Z0CF6H/100 GB Commitment Tier/100 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "100 GB Commitment Tier",
+              "meter_name": "100 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/Pay-as-you-go/Pay-as-you-go Analysis": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Pay-as-you-go",
+              "meter_name": "Pay-as-you-go Analysis"
+            },
+            "DZH318Z0CF6H/Free Benefit - M365 Defender/Free Benefit - M365 Defender Analysis": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Free Benefit - M365 Defender",
+              "meter_name": "Free Benefit - M365 Defender Analysis"
+            },
+            "DZH318Z0CF6H/Free Trial/Free Trial Analysis": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Free Trial",
+              "meter_name": "Free Trial Analysis"
+            },
+            "DZH318Z0CF6H/Solution for SAP Applications/Solution for SAP Applications Hourly": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Solution for SAP Applications",
+              "meter_name": "Solution for SAP Applications Hourly"
+            },
+            "DZH318Z0CF6H/300 GB Commitment Tier/300 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "300 GB Commitment Tier",
+              "meter_name": "300 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/5000 GB Commitment Tier/5000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "5000 GB Commitment Tier",
+              "meter_name": "5000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/2000 GB Commitment Tier/2000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "2000 GB Commitment Tier",
+              "meter_name": "2000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/400 GB Commitment Tier/400 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "400 GB Commitment Tier",
+              "meter_name": "400 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/25000 GB Commitment Tier/25000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "25000 GB Commitment Tier",
+              "meter_name": "25000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/200 GB Commitment Tier/200 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "200 GB Commitment Tier",
+              "meter_name": "200 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/1000 GB Commitment Tier/1000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "1000 GB Commitment Tier",
+              "meter_name": "1000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/10000 GB Commitment Tier/10000 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "10000 GB Commitment Tier",
+              "meter_name": "10000 GB Commitment Tier Capacity Reservation"
+            },
+            "DZH318Z0CF6H/Classic Auxiliary Logs Analysis/Classic Auxiliary Logs Analysis": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "Classic Auxiliary Logs Analysis",
+              "meter_name": "Classic Auxiliary Logs Analysis"
+            },
+            "DZH318Z0CF6H/500 GB Commitment Tier/500 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "500 GB Commitment Tier",
+              "meter_name": "500 GB Commitment Tier Capacity Reservation"
+            }
+          }
+        },
+        "DZH3140GXVMF": {
+          "id": "DZH3140GXVMF",
+          "name": "Log Analytics",
+          "products": {
+            "DZH318Z0BQD2/Free/Free Data Analyzed": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Free",
+              "meter_name": "Free Data Analyzed"
+            },
+            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Retention": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Pay-as-you-go",
+              "meter_name": "Pay-as-you-go Data Retention"
+            },
+            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Analyzed": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Pay-as-you-go",
+              "meter_name": "Pay-as-you-go Data Analyzed"
+            },
+            "DZH318Z0BQD2/Standard/Standard Data Analyzed": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Standard",
+              "meter_name": "Standard Data Analyzed"
+            },
+            "DZH318Z0BQD2/Premium/Premium Data Analyzed": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Premium",
+              "meter_name": "Premium Data Analyzed"
+            },
+            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Ingestion": {
+              "id": "DZH318Z0BQD2",
+              "name": "Log Analytics",
+              "sku_name": "Pay-as-you-go",
+              "meter_name": "Pay-as-you-go Data Ingestion"
+            }
+          }
+        },
         "DZH315BMCLC8": {
           "id": "DZH315BMCLC8",
           "name": "Azure Monitor",
           "products": {
-            "DZH318Z0BQLB/Auxiliary Logs/Auxiliary Logs Data Ingestion": {
-              "id": "DZH318Z0BQLB",
-              "name": "Azure Monitor",
-              "sku_name": "Auxiliary Logs",
-              "meter_name": "Auxiliary Logs Data Ingestion"
-            },
             "DZH318Z0BQLB/Data Replication/Data Replication Data Replicated": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
@@ -26330,162 +26540,6 @@
               "name": "Azure Monitor",
               "sku_name": "API Calls",
               "meter_name": "API Calls Standard API Call"
-            }
-          }
-        },
-        "DZH317M2MHR4": {
-          "id": "DZH317M2MHR4",
-          "name": "Sentinel",
-          "products": {
-            "DZH318Z0CF6H/50000 GB Commitment Tier/50000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "50000 GB Commitment Tier",
-              "meter_name": "50000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/Basic Logs/Basic Logs Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Basic Logs",
-              "meter_name": "Basic Logs Analysis"
-            },
-            "DZH318Z0CF6H/100 GB Commitment Tier/100 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "100 GB Commitment Tier",
-              "meter_name": "100 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/Pay-as-you-go/Pay-as-you-go Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Pay-as-you-go",
-              "meter_name": "Pay-as-you-go Analysis"
-            },
-            "DZH318Z0CF6H/Free Benefit - M365 Defender/Free Benefit - M365 Defender Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Free Benefit - M365 Defender",
-              "meter_name": "Free Benefit - M365 Defender Analysis"
-            },
-            "DZH318Z0CF6H/Free Trial/Free Trial Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Free Trial",
-              "meter_name": "Free Trial Analysis"
-            },
-            "DZH318Z0CF6H/Solution for SAP Applications/Solution for SAP Applications Hourly": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Solution for SAP Applications",
-              "meter_name": "Solution for SAP Applications Hourly"
-            },
-            "DZH318Z0CF6H/300 GB Commitment Tier/300 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "300 GB Commitment Tier",
-              "meter_name": "300 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/5000 GB Commitment Tier/5000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "5000 GB Commitment Tier",
-              "meter_name": "5000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/2000 GB Commitment Tier/2000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "2000 GB Commitment Tier",
-              "meter_name": "2000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/400 GB Commitment Tier/400 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "400 GB Commitment Tier",
-              "meter_name": "400 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/25000 GB Commitment Tier/25000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "25000 GB Commitment Tier",
-              "meter_name": "25000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/200 GB Commitment Tier/200 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "200 GB Commitment Tier",
-              "meter_name": "200 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/1000 GB Commitment Tier/1000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "1000 GB Commitment Tier",
-              "meter_name": "1000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/Auxiliary Logs Analysis/Auxiliary Logs Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Auxiliary Logs Analysis",
-              "meter_name": "Auxiliary Logs Analysis"
-            },
-            "DZH318Z0CF6H/10000 GB Commitment Tier/10000 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "10000 GB Commitment Tier",
-              "meter_name": "10000 GB Commitment Tier Capacity Reservation"
-            },
-            "DZH318Z0CF6H/Classic Auxiliary Logs Analysis/Classic Auxiliary Logs Analysis": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "Classic Auxiliary Logs Analysis",
-              "meter_name": "Classic Auxiliary Logs Analysis"
-            },
-            "DZH318Z0CF6H/500 GB Commitment Tier/500 GB Commitment Tier Capacity Reservation": {
-              "id": "DZH318Z0CF6H",
-              "name": "Sentinel",
-              "sku_name": "500 GB Commitment Tier",
-              "meter_name": "500 GB Commitment Tier Capacity Reservation"
-            }
-          }
-        },
-        "DZH3140GXVMF": {
-          "id": "DZH3140GXVMF",
-          "name": "Log Analytics",
-          "products": {
-            "DZH318Z0BQD2/Free/Free Data Analyzed": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Free",
-              "meter_name": "Free Data Analyzed"
-            },
-            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Retention": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Pay-as-you-go",
-              "meter_name": "Pay-as-you-go Data Retention"
-            },
-            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Analyzed": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Pay-as-you-go",
-              "meter_name": "Pay-as-you-go Data Analyzed"
-            },
-            "DZH318Z0BQD2/Standard/Standard Data Analyzed": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Standard",
-              "meter_name": "Standard Data Analyzed"
-            },
-            "DZH318Z0BQD2/Premium/Premium Data Analyzed": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Premium",
-              "meter_name": "Premium Data Analyzed"
-            },
-            "DZH318Z0BQD2/Pay-as-you-go/Pay-as-you-go Data Ingestion": {
-              "id": "DZH318Z0BQD2",
-              "name": "Log Analytics",
-              "sku_name": "Pay-as-you-go",
-              "meter_name": "Pay-as-you-go Data Ingestion"
             }
           }
         },
@@ -27424,6 +27478,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Queries"
             },
+            "DZH318Z09VQ1/Standard vCore/Standard vCore vCore Pack": {
+              "id": "DZH318Z09VQ1",
+              "name": "Microsoft Defender for Containers",
+              "sku_name": "Standard vCore",
+              "meter_name": "Standard vCore vCore Pack"
+            },
             "DZH318Z0C16V/Standard/Standard Node": {
               "id": "DZH318Z0C16V",
               "name": "Microsoft Defender for SQL",
@@ -27442,6 +27502,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Node"
             },
+            "DZH318Z0CT8B/Per node Std/Per node Std Node": {
+              "id": "DZH318Z0CT8B",
+              "name": "Microsoft Defender for Key Vault",
+              "sku_name": "Per node Std",
+              "meter_name": "Per node Std Node"
+            },
             "DZH318Z0BQFX/Standard P2/Standard P2 Node": {
               "id": "DZH318Z0BQFX",
               "name": "Microsoft Defender for Servers",
@@ -27454,11 +27520,23 @@
               "sku_name": "Standard",
               "meter_name": "Standard Instance"
             },
+            "DZH318Z0BXB9/Malware Scanning/Malware Scanning Data Ingested": {
+              "id": "DZH318Z0BXB9",
+              "name": "Microsoft Defender for Storage",
+              "sku_name": "Malware Scanning",
+              "meter_name": "Malware Scanning Data Ingested"
+            },
             "DZH318Z0BXV5/Standard Trial/Standard Trial Node": {
               "id": "DZH318Z0BXV5",
               "name": "Microsoft Defender for MySQL",
               "sku_name": "Standard Trial",
               "meter_name": "Standard Trial Node"
+            },
+            "DZH318Z09VQ1/Standard Images/Standard Images": {
+              "id": "DZH318Z09VQ1",
+              "name": "Microsoft Defender for Containers",
+              "sku_name": "Standard Images",
+              "meter_name": "Standard Images"
             },
             "DZH318Z0BZ30/Standard Trial/Standard Trial Node": {
               "id": "DZH318Z0BZ30",
@@ -27472,11 +27550,35 @@
               "sku_name": "Standard",
               "meter_name": "Standard 100 RU/s"
             },
+            "DZH318Z093X9/Standard/Standard Instance": {
+              "id": "DZH318Z093X9",
+              "name": "Microsoft Defender for MariaDB",
+              "sku_name": "Standard",
+              "meter_name": "Standard Instance"
+            },
+            "DZH318Z0BXB9/Standard/Standard Node": {
+              "id": "DZH318Z0BXB9",
+              "name": "Microsoft Defender for Storage",
+              "sku_name": "Standard",
+              "meter_name": "Standard Node"
+            },
+            "DZH318Z0BXB9/Free/Free Transactions": {
+              "id": "DZH318Z0BXB9",
+              "name": "Microsoft Defender for Storage",
+              "sku_name": "Free",
+              "meter_name": "Free Transactions"
+            },
             "DZH318Z0BQFX/Standard P2/Standard P2 Node - MDATP Benefit": {
               "id": "DZH318Z0BQFX",
               "name": "Microsoft Defender for Servers",
               "sku_name": "Standard P2",
               "meter_name": "Standard P2 Node - MDATP Benefit"
+            },
+            "DZH318Z0D9CQ/Per node Std/Per node Std Node": {
+              "id": "DZH318Z0D9CQ",
+              "name": "Microsoft Defender for Resource Manager",
+              "sku_name": "Per node Std",
+              "meter_name": "Per node Std Node"
             },
             "DZH318Z0BXV4/Standard/Standard Node": {
               "id": "DZH318Z0BXV4",
@@ -27507,6 +27609,24 @@
               "name": "Microsoft Defender for SQL",
               "sku_name": "Standard Trial",
               "meter_name": "Standard Trial vCore"
+            },
+            "DZH318Z0BQFX/Standard P1/Standard P1 Node": {
+              "id": "DZH318Z0BQFX",
+              "name": "Microsoft Defender for Servers",
+              "sku_name": "Standard P1",
+              "meter_name": "Standard P1 Node"
+            },
+            "DZH318Z0BXB9/Standard/Standard Transactions": {
+              "id": "DZH318Z0BXB9",
+              "name": "Microsoft Defender for Storage",
+              "sku_name": "Standard",
+              "meter_name": "Standard Transactions"
+            },
+            "DZH318Z09VQ1/Free Images/Free Images": {
+              "id": "DZH318Z09VQ1",
+              "name": "Microsoft Defender for Containers",
+              "sku_name": "Free Images",
+              "meter_name": "Free Images"
             },
             "DZH318Z0BXV5/Standard/Standard Node": {
               "id": "DZH318Z0BXV5",
@@ -27722,6 +27842,12 @@
               "name": "Blob Storage",
               "sku_name": "Archive RA-GRS",
               "meter_name": "GRS Index Tags"
+            },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Objects Targeted": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Objects Targeted"
             },
             "DZH318Z0BP09/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BP09",
@@ -28149,6 +28275,12 @@
               "sku_name": "Archive GRS",
               "meter_name": "Archive GRS Data Stored"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive LRS Write Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive LRS Write Operations"
+            },
             "DZH318Z0BP88/Disk Transactions LRS/Disk Transactions LRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -28268,6 +28400,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Data Scanned for Query Acceleration"
+            },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive GRS Write Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive GRS Write Operations"
             },
             "DZH318Z0BNWT/Standard LRS/LRS Write Additional IO": {
               "id": "DZH318Z0BNWT",
@@ -28449,6 +28587,12 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool GRS Write Operations"
             },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive RA-GRS Data Stored": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive RA-GRS Data Stored"
+            },
             "DZH318Z0BJRN/Archive GRS/Archive Read Operations": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -28514,6 +28658,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Write"
+            },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Task Execution": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Task Execution"
             },
             "DZH318Z0BP88/E70 LRS/E70 LRS Disk": {
               "id": "DZH318Z0BP88",
@@ -28809,6 +28959,12 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "GRS Index Tags"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive Priority Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive Priority Data Retrieval"
+            },
             "DZH318Z0BP04/P60 LRS/P60 LRS Disk Mount": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -28826,6 +28982,12 @@
               "name": "Tables",
               "sku_name": "Account Encrypted LRS",
               "meter_name": "Account Encrypted List Operations"
+            },
+            "DZH318Z0BPH7/Archive GRS/Archive GRS Data Stored": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive GRS Data Stored"
             },
             "DZH318Z0C120/Archive RA-GRS/Archive GRS Write Operations": {
               "id": "DZH318Z0C120",
@@ -28947,6 +29109,12 @@
               "sku_name": "S80 LRS",
               "meter_name": "S80 LRS Disk"
             },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive RA-GRS Early Delete": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive RA-GRS Early Delete"
+            },
             "DZH318Z0BPH7/Cold GRS/Cold GRS Data Retrieval": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -29018,6 +29186,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Archive LRS",
               "meter_name": "Archive LRS Data Stored"
+            },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive Data Retrieval"
             },
             "DZH318Z0BP0B/Standard GRS/Read Operations": {
               "id": "DZH318Z0BP0B",
@@ -29354,6 +29528,12 @@
               "name": "Standard HDD Managed Disks",
               "sku_name": "S15 LRS",
               "meter_name": "S15 LRS Disk Operations"
+            },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive Data Write": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive Data Write"
             },
             "DZH318Z0BNZH/Standard GRS/GRS List and Create Container Operations": {
               "id": "DZH318Z0BNZH",
@@ -29709,6 +29889,12 @@
               "sku_name": "P15 LRS",
               "meter_name": "P15 LRS Disk Mount"
             },
+            "DZH318Z0BPH7/Archive GRS/Archive Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive Data Retrieval"
+            },
             "DZH318Z0H96B/HDD LRS/HDD LRS Provisioned Throughput MiBPS": {
               "id": "DZH318Z0H96B",
               "name": "Azure Files Provisioned v2",
@@ -29781,6 +29967,12 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "GRS Class 2 Additional IO"
             },
+            "DZH318Z0BPH7/Archive GRS/Archive GRS Early Delete": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive GRS Early Delete"
+            },
             "DZH318Z0C120/Archive RA-GRS/Archive Priority Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -29792,6 +29984,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Retrieval"
+            },
+            "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Operations Invoked": {
+              "id": "DZH318Z0FPZF",
+              "name": "Storage Actions",
+              "sku_name": "Azure Storage Tasks",
+              "meter_name": "Azure Storage Tasks Operations Invoked"
             },
             "DZH318Z0BJRM/Hot LRS/Hot Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -29840,6 +30038,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Stored"
+            },
+            "DZH318Z0BPH7/Archive GRS/Archive Priority Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive Priority Data Retrieval"
             },
             "DZH318Z0BNZJ/Archive LRS/Archive Read Operations": {
               "id": "DZH318Z0BNZJ",
@@ -29936,6 +30140,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot GRS Iterative Write Operations"
+            },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive Read Operations"
             },
             "DZH318Z0BNZJ/Cold GRS/Cold GRS Data Write": {
               "id": "DZH318Z0BNZJ",
@@ -30717,6 +30927,12 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Early Delete"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive Data Write": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive Data Write"
+            },
             "DZH318Z0BNZJ/Cool LRS/Cool LRS Write Operations": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -30819,6 +31035,12 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Data Scanned for Query Acceleration"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive Read Operations"
+            },
             "DZH318Z0BP04/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -30915,6 +31137,12 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot RA-GRS Data Stored"
             },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive Priority Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive Priority Read Operations"
+            },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive Data Write": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -30944,6 +31172,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Archive RA-GRS",
               "meter_name": "Priority Data Retrieval"
+            },
+            "DZH318Z0BPH7/Archive LRS/Archive LRS Early Delete": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive LRS Early Delete"
             },
             "DZH318Z0BNWT/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BNWT",
@@ -30980,6 +31214,12 @@
               "name": "Tables",
               "sku_name": "Standard GRS",
               "meter_name": "Read Operations"
+            },
+            "DZH318Z0BPH7/Archive GRS/Archive Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive Read Operations"
             },
             "DZH318Z0BJRM/Cool RA-GRS/Cool GRS Write Operations": {
               "id": "DZH318Z0BJRM",
@@ -31131,6 +31371,12 @@
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS All Other Operations"
             },
+            "DZH318Z0BPH7/Archive GRS/Archive Data Write": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive Data Write"
+            },
             "DZH318Z0BPH7/Cold GRS/Cold GRS Data Stored": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -31154,6 +31400,12 @@
               "name": "Blob Storage",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Write Operations"
+            },
+            "DZH318Z0BPH7/Archive RA-GRS/Archive Priority Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive RA-GRS",
+              "meter_name": "Archive Priority Data Retrieval"
             },
             "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Early Delete": {
               "id": "DZH318Z0C120",
@@ -31461,6 +31713,12 @@
               "sku_name": "S10 LRS",
               "meter_name": "S10 LRS Disk"
             },
+            "DZH318Z0BPH7/Archive GRS/Archive GRS Write Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive GRS Write Operations"
+            },
             "DZH318Z0BNWT/Standard RA-GRS/Read Additional IO": {
               "id": "DZH318Z0BNWT",
               "name": "Standard Page Blob v2",
@@ -31478,6 +31736,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Stored"
+            },
+            "DZH318Z0BPH7/Archive GRS/Archive Priority Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive GRS",
+              "meter_name": "Archive Priority Read Operations"
             },
             "DZH318Z0BP0W/P40 LRS/P40 LRS Disk": {
               "id": "DZH318Z0BP0W",
@@ -31749,6 +32013,12 @@
               "sku_name": "E40 LRS",
               "meter_name": "E40 LRS Disk Mount"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive LRS Data Stored": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive LRS Data Stored"
+            },
             "DZH318Z0BNZ4/Standard LRS/LRS Class 1 Additional IO": {
               "id": "DZH318Z0BNZ4",
               "name": "Queues v2",
@@ -31826,6 +32096,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Blob Inventory"
+            },
+            "DZH318Z0BPH7/Archive LRS/Archive Priority Read Operations": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive Priority Read Operations"
             },
             "DZH318Z0BP04/P1 LRS/P1 LRS Disk": {
               "id": "DZH318Z0BP04",
@@ -32043,6 +32319,12 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Early Delete"
             },
+            "DZH318Z0BPH7/Archive LRS/Archive Data Retrieval": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Archive LRS",
+              "meter_name": "Archive Data Retrieval"
+            },
             "DZH318Z0BNZH/Standard ZRS/All Other Operations": {
               "id": "DZH318Z0BNZH",
               "name": "General Block Blob",
@@ -32213,36 +32495,6 @@
             }
           }
         },
-        "DZH31890S8SF": {
-          "id": "DZH31890S8SF",
-          "name": "Data Box",
-          "products": {
-            "DZH318Z0BZ3R/Standard/Standard Service Fee": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Service Fee"
-            },
-            "DZH318Z0BZ3R/Standard/Standard Lost or Damaged Disk": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Lost or Damaged Disk"
-            },
-            "DZH318Z0BZ3R/Standard/Device Standard Shipping": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Device Standard Shipping"
-            },
-            "DZH318Z0BZ3R/Standard/Standard Daily Use Fee": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Daily Use Fee"
-            }
-          }
-        },
         "DZH3155G7B5D": {
           "id": "DZH3155G7B5D",
           "name": "Backup",
@@ -32384,6 +32636,18 @@
               "name": "Backup",
               "sku_name": "Azure Data Lake Storage Gen2 Vaulted backup",
               "meter_name": "Azure Data Lake Storage Gen2 Vaulted backup Protected Instances"
+            }
+          }
+        },
+        "DZH31890S8SF": {
+          "id": "DZH31890S8SF",
+          "name": "Data Box",
+          "products": {
+            "DZH318Z0BZ3R/Standard/Device Standard Shipping": {
+              "id": "DZH318Z0BZ3R",
+              "name": "Data Box Disk",
+              "sku_name": "Standard",
+              "meter_name": "Device Standard Shipping"
             }
           }
         }
