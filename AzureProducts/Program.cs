@@ -115,7 +115,7 @@ if (baseRegions.Length > BATCH_SIZE)
     Console.WriteLine($"Total regions are {baseRegions.Length}, exceeding the batch size {BATCH_SIZE}...");
 
     var regionsToIgnore = logData.Keys.OrderByDescending(r => logData[r]).Take(BATCH_SIZE).ToArray();
-    Console.WriteLine($"\tIgnoring regions {string.Join(", ", regionsToIgnore)}");
+    Console.WriteLine($"\tIgnoring regions: {string.Join(", ", regionsToIgnore)}");
 
     baseRegions = [.. baseRegions.Where(r => !regionsToIgnore.Contains(r))];
 
@@ -125,7 +125,7 @@ if (baseRegions.Length > BATCH_SIZE)
         var rnd = new Random();
         baseRegions = [.. baseRegions.OrderBy(r => rnd.Next()).Take(BATCH_SIZE)];
     }
-    Console.WriteLine($"\tFetching data for regions {string.Join(", ", baseRegions)}");
+    Console.WriteLine($"\tFetching data for regions: {string.Join(", ", baseRegions)}");
 }
 /* END */
 
