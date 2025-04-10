@@ -1,7 +1,5 @@
 ﻿
 using System.CommandLine;
-using System.Drawing;
-using System.Net.Http.Json;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -73,6 +71,13 @@ async static Task<ServiceFamilyRecord[]> LoadProductCategory(string filepath)
     return jsonData.Values.First();
 }
 
+async static Task<IDictionary<string, DateTime>> LoadLog(string filepath)
+{
+    var jsonStr = await File.ReadAllTextAsync(filepath);
+    var jsonData = JsonSerializer.Deserialize<Dictionary<string, DateTime>>(jsonStr) ?? throw new InvalidOperationException($"Failed to deserialize JSON file {filepath}");
+    return jsonData;
+}
+
 const string DEFAULT_OUTPUT_DIR = "./";
 var optOutProductList = new Option<string>(
     aliases: ["-o", "--output-dir"],
@@ -97,12 +102,30 @@ if (!Directory.Exists(outputDir))
     throw new InvalidOperationException($"Output directory {outputDir} does not exist or is not accessible.");
 }
 
+const int BATCH_SIZE = 10;
+
+/* Load the log from previous run */
+var logFile = Path.Combine(outputDir, "log.json");
+var logData = await LoadLog(logFile);
+Console.WriteLine($"Log {JsonSerializer.Serialize(logData)}");
+
 /* Fix throttling issue */
-if (baseRegions.Length > 10)
+if (baseRegions.Length > BATCH_SIZE)
 {
-    // suffle the list and take the first 10
-    var rnd = new Random();
-    baseRegions = [.. baseRegions.OrderBy(r => rnd.Next()).Take(10)];
+    Console.WriteLine($"Total regions are {baseRegions.Length}, exceeding the batch size {BATCH_SIZE}...");
+
+    var regionsToIgnore = logData.Keys.OrderByDescending(r => logData[r]).Take(BATCH_SIZE).ToArray();
+    Console.WriteLine($"\tIgnoring regions {string.Join(", ", regionsToIgnore)}");
+
+    baseRegions = [.. baseRegions.Where(r => !regionsToIgnore.Contains(r))];
+
+    if (baseRegions.Length > BATCH_SIZE)
+    {
+        // suffle the list and take the first BATCH_SIZE
+        var rnd = new Random();
+        baseRegions = [.. baseRegions.OrderBy(r => rnd.Next()).Take(BATCH_SIZE)];
+    }
+    Console.WriteLine($"\tFetching data for regions {string.Join(", ", baseRegions)}");
 }
 /* END */
 
@@ -116,7 +139,12 @@ foreach (var region in baseRegions)
     var outputData = new Dictionary<string, ServiceFamilyRecord[]> { [region] = servicesList };
     var outFileProductList = Path.Combine(outputDir, $"products-{region}.json");
     await File.WriteAllTextAsync(outFileProductList, JsonSerializer.Serialize(outputData, jsonOpts));
+
+    logData[region] = DateTime.UtcNow;
 }
+
+// Update the log file
+await File.WriteAllTextAsync(logFile, JsonSerializer.Serialize(logData, jsonOpts));
 
 /* Combine data from all existing+new product category files */
 var allServicesMap = new Dictionary<string, ServiceFamilyRecord>();
