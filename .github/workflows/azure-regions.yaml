@@ -40,10 +40,11 @@ jobs:
           ls -l ./data/products*.json
       - name: Commit updated data files
         run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           git add ./data/*.json
           git config --global user.email "<>"
           git config --global user.name "CI Build"
-          git commit -am "Update data files"
+          git commit -am "Update data files - ${TIMESTAMP}"
           git push
       - name: Update timestamp in README.md
         run: |
