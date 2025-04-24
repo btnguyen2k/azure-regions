@@ -1,8 +1,8 @@
 name: Azure Regions
 on:
   schedule:
-    # run 2 times per day (UTC)
-    - cron: '7 */12 * * *'
+    # run 4 times per day (UTC)
+    - cron: '7 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -32,14 +32,22 @@ jobs:
             az account list-locations --query '[].{name: name, regionalDisplayName: regionalDisplayName, type: type, displayName: displayName, metadata: {geography: metadata.geography, geographyGroup: metadata.geographyGroup, latitude: metadata.latitude, longitude: metadata.longitude, pairedRegion: metadata.pairedRegion[].name, physicalLocation: metadata.physicalLocation, regionCategory: metadata.regionCategory, regionType: metadata.regionType}}' > ./data/locations.json
             cat ./data/locations.json
       - name: Generate Azure Services-Products mapping
+        continue-on-error: true
+        id: gen_azure_products
+        run: |
+          cd ${GITHUB_WORKSPACE}/AzureProducts
+          regions=$(az account list-locations --query "[?metadata.regionType=='Physical'].name" | jq -r '. | @csv' | tr -d '"')
+          dotnet run -- -o ../data/ -r $regions
+      - name: Generate Azure Services-Products mapping (retry 1)
+        continue-on-error: true
+        if: ${{ failure() && steps.gen_azure_products.conclusion == 'failure' }} 
         run: |
           cd AzureProducts
           regions=$(az account list-locations --query "[?metadata.regionType=='Physical'].name" | jq -r '. | @csv' | tr -d '"')
           dotnet run -- -o ../data/ -r $regions
-          cd ..
-          ls -l ./data/products*.json
       - name: Commit updated data files
         run: |
+          cd ${GITHUB_WORKSPACE}
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           git add ./data/*.json
           git config --global user.email "<>"
