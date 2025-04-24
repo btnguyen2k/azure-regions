@@ -1,8 +1,8 @@
 name: Azure Regions
 on:
   schedule:
-    # run 3 times per day (UTC)
-    - cron: '7 */8 * * *'
+    # run 2 times per day (UTC)
+    - cron: '7 */12 * * *'
   workflow_dispatch:
 
 jobs:
