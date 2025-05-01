@@ -4210,6 +4210,23 @@
       }
     },
     {
+      "name": "Azure Security",
+      "services": {
+        "DZH315XVWMK0": {
+          "id": "DZH315XVWMK0",
+          "name": "Azure Cloud HSM",
+          "products": {
+            "DZH318Z0F94C/Standard_B1/Standard_B1 vCore": {
+              "id": "DZH318Z0F94C",
+              "name": "Microsoft Azure Cloud HSM",
+              "sku_name": "Standard_B1",
+              "meter_name": "Standard_B1 vCore"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Compute",
       "services": {
         "DZH313Z7MMC8": {
@@ -5872,12 +5889,6 @@
               "sku_name": "E64-32ds v6",
               "meter_name": "E64-32ds v6"
             },
-            "DZH318Z0FG79/DC16adsv6/DC16adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC16adsv6",
-              "meter_name": "DC16adsv6"
-            },
             "DZH318Z0G1GH/D96pds v6 Spot/D96pds v6 Spot": {
               "id": "DZH318Z0G1GH",
               "name": "Virtual Machines Dpdsv6 Series",
@@ -6472,12 +6483,6 @@
               "sku_name": "Standard_DC8ads_v5",
               "meter_name": "DC8ads v5"
             },
-            "DZH318Z0FG79/DC4adsv6 Spot/DC4adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC4adsv6 Spot",
-              "meter_name": "DC4adsv6 Spot"
-            },
             "DZH318Z0CM92/E32as v4 Low Priority/E32as v4 Low Priority": {
               "id": "DZH318Z0CM92",
               "name": "Virtual Machines Easv4 Series Windows",
@@ -6591,12 +6596,6 @@
               "name": "Virtual Machines Basv2 Series Windows",
               "sku_name": "B8als v2 Low Priority",
               "meter_name": "B8als v2 Low Priority"
-            },
-            "DZH318Z0FG79/DC48adsv6 Spot/DC48adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC48adsv6 Spot",
-              "meter_name": "DC48adsv6 Spot"
             },
             "DZH318Z0G1GP/D64pls v6/D64pls v6": {
               "id": "DZH318Z0G1GP",
@@ -8571,12 +8570,6 @@
               "name": "Virtual Machines Eadsv5 Series Windows",
               "sku_name": "E16-4ads v5 Low Priority",
               "meter_name": "E16-4ads v5 Low Priority"
-            },
-            "DZH318Z0FG79/DC2adsv6/DC2adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC2adsv6",
-              "meter_name": "DC2adsv6"
             },
             "DZH318Z0BQ4R/E20s v3 Low Priority/E20s v3 Low Priority": {
               "id": "DZH318Z0BQ4R",
@@ -12670,12 +12663,6 @@
               "sku_name": "E16s v3 Low Priority",
               "meter_name": "E16s v3 Low Priority"
             },
-            "DZH318Z0FG79/DC2adsv6 Spot/DC2adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC2adsv6 Spot",
-              "meter_name": "DC2adsv6 Spot"
-            },
             "DZH318Z08M9L/D8ls v5 Low Priority/D8ls v5 Low Priority": {
               "id": "DZH318Z08M9L",
               "name": "Virtual Machines Dlsv5 Series",
@@ -13059,12 +13046,6 @@
               "name": "Virtual Machines Ev5 Series",
               "sku_name": "Standard_E96_v5 Spot",
               "meter_name": "E96 v5 Spot"
-            },
-            "DZH318Z0FG79/DC4adsv6/DC4adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC4adsv6",
-              "meter_name": "DC4adsv6"
             },
             "DZH318Z0CSHL/E64-16s v4/E64-16s v4": {
               "id": "DZH318Z0CSHL",
@@ -15370,12 +15351,6 @@
               "sku_name": "EC8adsv6 Spot",
               "meter_name": "EC8adsv6 Spot"
             },
-            "DZH318Z0FG79/DC8adsv6/DC8adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC8adsv6",
-              "meter_name": "DC8adsv6"
-            },
             "DZH318Z0K9JF/B16als v2 Spot/B16als v2 Spot": {
               "id": "DZH318Z0K9JF",
               "name": "Virtual Machines Basv2 Series Windows",
@@ -16552,12 +16527,6 @@
               "sku_name": "Standard_DC64ads_cc_v5",
               "meter_name": "DC64adscc v5"
             },
-            "DZH318Z0FG79/DC64adsv6/DC64adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC64adsv6",
-              "meter_name": "DC64adsv6"
-            },
             "DZH318Z0BQ4C/DS1 v2 Low Priority/DS1 v2 Low Priority": {
               "id": "DZH318Z0BQ4C",
               "name": "Virtual Machines DSv2 Series",
@@ -16815,12 +16784,6 @@
               "name": "Virtual Machines ESv3 Series",
               "sku_name": "E32s v3 Spot",
               "meter_name": "E32s v3 Spot"
-            },
-            "DZH318Z0FG79/DC96adsv6 Spot/DC96adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC96adsv6 Spot",
-              "meter_name": "DC96adsv6 Spot"
             },
             "DZH318Z0GNHB/D48s v6/D48s v6": {
               "id": "DZH318Z0GNHB",
@@ -18375,12 +18338,6 @@
               "name": "ECasv5-series Linux",
               "sku_name": "Standard_EC20as_v5 Low Priority",
               "meter_name": "EC20as_v5 Low Priority"
-            },
-            "DZH318Z0FG79/DC32adsv6 Spot/DC32adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC32adsv6 Spot",
-              "meter_name": "DC32adsv6 Spot"
             },
             "DZH318Z0CSHB/E2ds v4 Low Priority/E2ds v4 Low Priority": {
               "id": "DZH318Z0CSHB",
@@ -22114,12 +22071,6 @@
               "sku_name": "E32s v3",
               "meter_name": "E32s v3"
             },
-            "DZH318Z0FG79/DC48adsv6/DC48adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC48adsv6",
-              "meter_name": "DC48adsv6"
-            },
             "DZH318Z09B5Z/Standard_DC32ads_v5/DC32ads v5": {
               "id": "DZH318Z09B5Z",
               "name": "DCadsv5-series Linux",
@@ -23853,12 +23804,6 @@
               "name": "Virtual Machines Ddsv6 Series",
               "sku_name": "D96ds v6",
               "meter_name": "D96ds v6"
-            },
-            "DZH318Z0FG79/DC16adsv6 Spot/DC16adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC16adsv6 Spot",
-              "meter_name": "DC16adsv6 Spot"
             },
             "DZH318Z0K7B3/Standard_M96s_2_v3 Spot/Standard_M96s_2_v3 Spot": {
               "id": "DZH318Z0K7B3",
@@ -25960,12 +25905,6 @@
               "sku_name": "DS11 Low Priority",
               "meter_name": "DS11 Low Priority"
             },
-            "DZH318Z0FG79/DC64adsv6 Spot/DC64adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC64adsv6 Spot",
-              "meter_name": "DC64adsv6 Spot"
-            },
             "DZH318Z09LQN/Standard_E32bds_v5/E32bds v5": {
               "id": "DZH318Z09LQN",
               "name": "Virtual Machines Ebdsv5 Series Windows",
@@ -26451,12 +26390,6 @@
               "name": "Virtual Machines Dv5 Series Windows",
               "sku_name": "Standard_D48_v5",
               "meter_name": "D48 v5"
-            },
-            "DZH318Z0FG79/DC96adsv6/DC96adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC96adsv6",
-              "meter_name": "DC96adsv6"
             },
             "DZH318Z08NRF/standard_D24ds_v3 Spot/DC24ds_v3 Spot": {
               "id": "DZH318Z08NRF",
@@ -28413,12 +28346,6 @@
               "name": "Virtual Machines Dadsv6 Series Windows",
               "sku_name": "D8ads v6 Spot",
               "meter_name": "D8ads v6 Spot"
-            },
-            "DZH318Z0FG79/DC32adsv6/DC32adsv6": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC32adsv6",
-              "meter_name": "DC32adsv6"
             },
             "DZH318Z09B66/Standard_EC8as_v5/EC8as_v5": {
               "id": "DZH318Z09B66",
@@ -32302,12 +32229,6 @@
               "sku_name": "E48ds v6 Spot",
               "meter_name": "E48ds v6 Spot"
             },
-            "DZH318Z0FG79/DC8adsv6 Spot/DC8adsv6 Spot": {
-              "id": "DZH318Z0FG79",
-              "name": "Virtual Machines DCadsv6 series Windows",
-              "sku_name": "DC8adsv6 Spot",
-              "meter_name": "DC8adsv6 Spot"
-            },
             "DZH318Z093WZ/E8-4as v5 Low Priority/E8-4as v5 Low Priority": {
               "id": "DZH318Z093WZ",
               "name": "Virtual Machines Easv5 Series",
@@ -35836,6 +35757,12 @@
               "sku_name": "S3",
               "meter_name": "S3 App"
             },
+            "DZH318Z0TD7T/P3mv4/P3mv4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P3mv4",
+              "meter_name": "P3mv4"
+            },
             "DZH318Z0DCR6/P5mv3/P5mv3 App": {
               "id": "DZH318Z0DCR6",
               "name": "Azure App Service Premium v3 Plan - Linux",
@@ -35847,6 +35774,12 @@
               "name": "Azure App Service Premium Plan",
               "sku_name": "P1",
               "meter_name": "P1 App"
+            },
+            "DZH318Z0TD7T/P0v4/P0v4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P0v4",
+              "meter_name": "P0v4"
             },
             "DZH318Z0DCR6/P1 v3/P1 v3 App": {
               "id": "DZH318Z0DCR6",
@@ -35871,6 +35804,12 @@
               "name": "Azure App Service Isolated v2 Plan",
               "sku_name": "I2mv2",
               "meter_name": "I2mv2 App"
+            },
+            "DZH318Z0TFB3/P0v4/P0v4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P0v4",
+              "meter_name": "P0v4"
             },
             "DZH318Z0BQJL/P2 v2/P2 v2 App": {
               "id": "DZH318Z0BQJL",
@@ -35920,11 +35859,23 @@
               "sku_name": "I6 v2",
               "meter_name": "I6 v2 App"
             },
+            "DZH318Z0TD7T/P1mv4/P1mv4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P1mv4",
+              "meter_name": "P1mv4"
+            },
             "DZH318Z0BQJK/B3/B3 App": {
               "id": "DZH318Z0BQJK",
               "name": "Azure App Service Basic Plan",
               "sku_name": "B3",
               "meter_name": "B3 App"
+            },
+            "DZH318Z0TD7T/P5mv4/P5mv4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P5mv4",
+              "meter_name": "P5mv4"
             },
             "DZH318Z0BXWP/P2 v2/P2 v2 App": {
               "id": "DZH318Z0BXWP",
@@ -35986,6 +35937,12 @@
               "sku_name": "I1 v2",
               "meter_name": "I1 v2 App"
             },
+            "DZH318Z0TD7T/P3v4/P3v4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P3v4",
+              "meter_name": "P3v4"
+            },
             "DZH318Z0BXW6/I13/I13 App": {
               "id": "DZH318Z0BXW6",
               "name": "Azure App Service Isolated Plan - Linux",
@@ -36021,6 +35978,12 @@
               "name": "Azure App Service Isolated v2 Plan - Linux",
               "sku_name": "I1mv2",
               "meter_name": "I1mv2 App"
+            },
+            "DZH318Z0TFB3/P1v4/P1v4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P1v4",
+              "meter_name": "P1v4"
             },
             "DZH318Z0BXW6/I1/I1 App": {
               "id": "DZH318Z0BXW6",
@@ -36058,6 +36021,12 @@
               "sku_name": "P1 v2",
               "meter_name": "P1 v2 App"
             },
+            "DZH318Z0TD7T/P4mv4/P4mv4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P4mv4",
+              "meter_name": "P4mv4"
+            },
             "DZH318Z0DCR6/P1mv3/P1mv3 App": {
               "id": "DZH318Z0DCR6",
               "name": "Azure App Service Premium v3 Plan - Linux",
@@ -36069,6 +36038,12 @@
               "name": "Azure App Service Premium v3 Plan",
               "sku_name": "P1 v3",
               "meter_name": "P1 v3 App"
+            },
+            "DZH318Z0TFB3/P5mv4/P5mv4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P5mv4",
+              "meter_name": "P5mv4"
             },
             "DZH318Z0BXW9/B1/B1": {
               "id": "DZH318Z0BXW9",
@@ -36099,6 +36074,12 @@
               "name": "Azure App Service Isolated v2 Plan - Linux",
               "sku_name": "I2mv2",
               "meter_name": "I2mv2 App"
+            },
+            "DZH318Z0TFB3/P2v4/P2v4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P2v4",
+              "meter_name": "P2v4"
             },
             "DZH318Z0BXWP/P3 v2/P3 v2 App": {
               "id": "DZH318Z0BXWP",
@@ -36214,6 +36195,24 @@
               "sku_name": "I4mv2",
               "meter_name": "I4mv2 App"
             },
+            "DZH318Z0TFB3/P2mv4/P2mv4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P2mv4",
+              "meter_name": "P2mv4"
+            },
+            "DZH318Z0TFB3/P4mv4/P4mv4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P4mv4",
+              "meter_name": "P4mv4"
+            },
+            "DZH318Z0TFB3/P3v4/P3v4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P3v4",
+              "meter_name": "P3v4"
+            },
             "DZH318Z0DCR6/P3 v3/P3 v3 App": {
               "id": "DZH318Z0DCR6",
               "name": "Azure App Service Premium v3 Plan - Linux",
@@ -36268,17 +36267,41 @@
               "sku_name": "I2",
               "meter_name": "I2 App"
             },
+            "DZH318Z0TD7T/P1v4/P1v4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P1v4",
+              "meter_name": "P1v4"
+            },
+            "DZH318Z0TD7T/P2mv4/P2mv4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P2mv4",
+              "meter_name": "P2mv4"
+            },
             "DZH318Z0DCR6/P0v3/P0v3 App": {
               "id": "DZH318Z0DCR6",
               "name": "Azure App Service Premium v3 Plan - Linux",
               "sku_name": "P0v3",
               "meter_name": "P0v3 App"
             },
+            "DZH318Z0TD7T/P2v4/P2v4": {
+              "id": "DZH318Z0TD7T",
+              "name": "Azure App Service Premium v4 Plan",
+              "sku_name": "P2v4",
+              "meter_name": "P2v4"
+            },
             "DZH318Z0BXW7/S1/S1 App": {
               "id": "DZH318Z0BXW7",
               "name": "Azure App Service Standard Plan - Linux",
               "sku_name": "S1",
               "meter_name": "S1 App"
+            },
+            "DZH318Z0TFB3/P1mv4/P1mv4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P1mv4",
+              "meter_name": "P1mv4"
             },
             "DZH318Z0BQJN/P3/P3 App": {
               "id": "DZH318Z0BQJN",
@@ -36297,6 +36320,12 @@
               "name": "Azure App Service Premium v3 Plan",
               "sku_name": "P3mv3",
               "meter_name": "P3mv3 App"
+            },
+            "DZH318Z0TFB3/P3mv4/P3mv4": {
+              "id": "DZH318Z0TFB3",
+              "name": "Azure App Service Premium v4 Plan - Linux",
+              "sku_name": "P3mv4",
+              "meter_name": "P3mv4"
             },
             "DZH318Z0DCR2/I2 v2/I2 v2 App": {
               "id": "DZH318Z0DCR2",
@@ -37340,6 +37369,12 @@
               "sku_name": "Eventstream Flat Capacity Usage",
               "meter_name": "Eventstream Flat Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/ML Model Endpoint Capacity Usage/ML Model Endpoint Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "ML Model Endpoint Capacity Usage",
+              "meter_name": "ML Model Endpoint Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Eventhouse Capacity Usage/Eventhouse Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -37675,6 +37710,12 @@
               "sku_name": "RUm",
               "meter_name": "Data Stored"
             },
+            "DZH318Z0J95H/B2S/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure Cosmos DB for MongoDB vCore",
+              "sku_name": "B2S",
+              "meter_name": "vCore"
+            },
             "DZH318Z0B07D/D4s/D4s": {
               "id": "DZH318Z0B07D",
               "name": "Graph API - General Purpose Compute",
@@ -37734,6 +37775,12 @@
               "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
               "sku_name": "D4s",
               "meter_name": "D4s"
+            },
+            "DZH318Z0J95H/1 vCore - autoscale/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure Cosmos DB for MongoDB vCore",
+              "sku_name": "1 vCore - autoscale",
+              "meter_name": "vCore"
             },
             "DZH318Z0BPJH/mRUs/Data Stored": {
               "id": "DZH318Z0BPJH",
@@ -38406,6 +38453,12 @@
               "name": "Azure Database for MySQL Single Server - Backup Storage",
               "sku_name": "Backup GRS",
               "meter_name": "Backup GRS Data Stored"
+            },
+            "DZH318Z0DCQ4/Storage GP Accelerated Logs/Storage GP Accelerated Logs": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Az DB for MySQL Flexible Server Storage",
+              "sku_name": "Storage GP Accelerated Logs",
+              "meter_name": "Storage GP Accelerated Logs"
             },
             "DZH318Z0DCRV/Standard_E112ias/vCore": {
               "id": "DZH318Z0DCRV",
@@ -39355,6 +39408,12 @@
               "sku_name": "P5",
               "meter_name": "P5 Cache"
             },
+            "DZH318Z0LKKN/A700/A700 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A700",
+              "meter_name": "A700 Cache Instance"
+            },
             "DZH318Z0BQH2/C1/C1 Cache Instance": {
               "id": "DZH318Z0BQH2",
               "name": "Azure Redis Cache Standard",
@@ -39373,6 +39432,12 @@
               "sku_name": "P2",
               "meter_name": "P2 Cache Instance"
             },
+            "DZH318Z0LKKN/A4500/A4500 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A4500",
+              "meter_name": "A4500 Cache Instance"
+            },
             "DZH318Z0BQH5/C6/C6 Cache": {
               "id": "DZH318Z0BQH5",
               "name": "Azure Redis Cache Basic",
@@ -39384,6 +39449,24 @@
               "name": "Azure Redis Cache Standard",
               "sku_name": "C0",
               "meter_name": "C0 Cache"
+            },
+            "DZH318Z0LKKN/A250/A250 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A250",
+              "meter_name": "A250 Cache Instance"
+            },
+            "DZH318Z0LKKN/A1500/A1500 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A1500",
+              "meter_name": "A1500 Cache Instance"
+            },
+            "DZH318Z0LKKN/A2000/A2000 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A2000",
+              "meter_name": "A2000 Cache Instance"
             },
             "DZH318Z0BQH2/C6/C6 Cache Instance": {
               "id": "DZH318Z0BQH2",
@@ -39475,6 +39558,12 @@
               "sku_name": "C3",
               "meter_name": "C3 Cache Instance"
             },
+            "DZH318Z0LKKN/A500/A500 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A500",
+              "meter_name": "A500 Cache Instance"
+            },
             "DZH318Z0DBT8/E50/E50 Cache": {
               "id": "DZH318Z0DBT8",
               "name": "Azure Redis Cache Enterprise",
@@ -39540,6 +39629,12 @@
               "name": "Azure Redis Cache Premium",
               "sku_name": "P3",
               "meter_name": "P3 Cache Instance"
+            },
+            "DZH318Z0LKKN/A1000/A1000 Cache Instance": {
+              "id": "DZH318Z0LKKN",
+              "name": "Azure Managed Redis - Flash Optimized",
+              "sku_name": "A1000",
+              "meter_name": "A1000 Cache Instance"
             },
             "DZH318Z0BQH2/C6/C6 Cache": {
               "id": "DZH318Z0BQH2",
@@ -42091,6 +42186,12 @@
               "sku_name": "4 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0T6BM/1 vCore/1 vCore": {
+              "id": "DZH318Z0T6BM",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCasv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0BQKK/1 vCore/vCore": {
               "id": "DZH318Z0BQKK",
               "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
@@ -42162,6 +42263,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Memory Purpose Eadsv5 Series Compute",
               "sku_name": "104 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TL6J/1 vCore/1 vCore": {
+              "id": "DZH318Z0TL6J",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z09SM2/4 vCore/vCore": {
               "id": "DZH318Z09SM2",
@@ -42235,6 +42342,12 @@
               "sku_name": "32 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0T63X/1 vCore/1 vCore": {
+              "id": "DZH318Z0T63X",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECasv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0DCRZ/8 vCore/vCore": {
               "id": "DZH318Z0DCRZ",
               "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
@@ -42246,6 +42359,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "8 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TKXL/1 vCore/1 vCore": {
+              "id": "DZH318Z0TKXL",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0KDZJ/96 vCore/vCore": {
               "id": "DZH318Z0KDZJ",
@@ -42312,6 +42431,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
               "sku_name": "2 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TLQD/1 vCore/1 vCore": {
+              "id": "DZH318Z0TLQD",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0KF1X/vCore/vCore": {
               "id": "DZH318Z0KF1X",
@@ -42396,6 +42521,12 @@
               "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
               "sku_name": "2 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TLN8/1 vCore/1 vCore": {
+              "id": "DZH318Z0TLN8",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0KDVH/16 vCore/vCore": {
               "id": "DZH318Z0KDVH",
@@ -42866,6 +42997,210 @@
     {
       "name": "Developer Tools",
       "services": {
+        "DZH3153CJ78N": {
+          "id": "DZH3153CJ78N",
+          "name": "Microsoft Dev Box",
+          "products": {
+            "DZH318Z0HL8R/8vCPU_32GB_256SSD/8vCPU_32GB_256SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_256SSD",
+              "meter_name": "8vCPU_32GB_256SSD Included Compute"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_512SSD/8vCPU_32GB_512SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_512SSD",
+              "meter_name": "8vCPU_32GB_512SSD Disk"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_256SSD/16vCPU_64GB_256SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_256SSD",
+              "meter_name": "16vCPU_64GB_256SSD Included Compute"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_2048SSD/8vCPU_32GB_2048SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_2048SSD",
+              "meter_name": "8vCPU_32GB_2048SSD"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_512SSD/8vCPU_32GB_512SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_512SSD",
+              "meter_name": "8vCPU_32GB_512SSD Included Compute"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_1024SSD/32vCPU_128GB_1024SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_1024SSD",
+              "meter_name": "32vCPU_128GB_1024SSD Disk"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_512SSD/16vCPU_64GB_512SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_512SSD",
+              "meter_name": "16vCPU_64GB_512SSD Disk"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_2048SSD/32vCPU_128GB_2048SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_2048SSD",
+              "meter_name": "32vCPU_128GB_2048SSD Included Compute"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_512SSD/8vCPU_32GB_512SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_512SSD",
+              "meter_name": "8vCPU_32GB_512SSD"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_512SSD/32vCPU_128GB_512SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_512SSD",
+              "meter_name": "32vCPU_128GB_512SSD Included Compute"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_256SSD/16vCPU_64GB_256SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_256SSD",
+              "meter_name": "16vCPU_64GB_256SSD Disk"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_2048SSD/32vCPU_128GB_2048SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_2048SSD",
+              "meter_name": "32vCPU_128GB_2048SSD Disk"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_512SSD/32vCPU_128GB_512SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_512SSD",
+              "meter_name": "32vCPU_128GB_512SSD"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_2048SSD/16vCPU_64GB_2048SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_2048SSD",
+              "meter_name": "16vCPU_64GB_2048SSD Disk"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_1024SSD/8vCPU_32GB_1024SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_1024SSD",
+              "meter_name": "8vCPU_32GB_1024SSD Disk"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_512SSD/32vCPU_128GB_512SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_512SSD",
+              "meter_name": "32vCPU_128GB_512SSD Disk"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_1024SSD/16vCPU_64GB_1024SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_1024SSD",
+              "meter_name": "16vCPU_64GB_1024SSD Disk"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_2048SSD/16vCPU_64GB_2048SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_2048SSD",
+              "meter_name": "16vCPU_64GB_2048SSD"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_2048SSD/8vCPU_32GB_2048SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_2048SSD",
+              "meter_name": "8vCPU_32GB_2048SSD Included Compute"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_2048SSD/8vCPU_32GB_2048SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_2048SSD",
+              "meter_name": "8vCPU_32GB_2048SSD Disk"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_1024SSD/8vCPU_32GB_1024SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_1024SSD",
+              "meter_name": "8vCPU_32GB_1024SSD Included Compute"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_1024SSD/16vCPU_64GB_1024SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_1024SSD",
+              "meter_name": "16vCPU_64GB_1024SSD Included Compute"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_1024SSD/16vCPU_64GB_1024SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_1024SSD",
+              "meter_name": "16vCPU_64GB_1024SSD"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_1024SSD/8vCPU_32GB_1024SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_1024SSD",
+              "meter_name": "8vCPU_32GB_1024SSD"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_512SSD/16vCPU_64GB_512SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_512SSD",
+              "meter_name": "16vCPU_64GB_512SSD"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_512SSD/16vCPU_64GB_512SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_512SSD",
+              "meter_name": "16vCPU_64GB_512SSD Included Compute"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_256SSD/8vCPU_32GB_256SSD Disk": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_256SSD",
+              "meter_name": "8vCPU_32GB_256SSD Disk"
+            },
+            "DZH318Z0HL8R/8vCPU_32GB_256SSD/8vCPU_32GB_256SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "8vCPU_32GB_256SSD",
+              "meter_name": "8vCPU_32GB_256SSD"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_1024SSD/32vCPU_128GB_1024SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_1024SSD",
+              "meter_name": "32vCPU_128GB_1024SSD"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_2048SSD/16vCPU_64GB_2048SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_2048SSD",
+              "meter_name": "16vCPU_64GB_2048SSD Included Compute"
+            },
+            "DZH318Z0HL8R/16vCPU_64GB_256SSD/16vCPU_64GB_256SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "16vCPU_64GB_256SSD",
+              "meter_name": "16vCPU_64GB_256SSD"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_2048SSD/32vCPU_128GB_2048SSD": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_2048SSD",
+              "meter_name": "32vCPU_128GB_2048SSD"
+            },
+            "DZH318Z0HL8R/32vCPU_128GB_1024SSD/32vCPU_128GB_1024SSD Included Compute": {
+              "id": "DZH318Z0HL8R",
+              "name": "Microsoft Dev Box",
+              "sku_name": "32vCPU_128GB_1024SSD",
+              "meter_name": "32vCPU_128GB_1024SSD Included Compute"
+            }
+          }
+        },
         "DZH319K8RFPB": {
           "id": "DZH319K8RFPB",
           "name": "App Configuration",
@@ -42906,6 +43241,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Replica Instance"
             },
+            "DZH318Z0CHL0/Free/Free Experimentation Events": {
+              "id": "DZH318Z0CHL0",
+              "name": "App Configuration",
+              "sku_name": "Free",
+              "meter_name": "Free Experimentation Events"
+            },
             "DZH318Z0CHL0/Developer/Developer Overage Operations": {
               "id": "DZH318Z0CHL0",
               "name": "App Configuration",
@@ -42930,11 +43271,29 @@
               "sku_name": "Premium",
               "meter_name": "Premium Overage Operations"
             },
+            "DZH318Z0CHL0/Standard/Standard Experimentation Events": {
+              "id": "DZH318Z0CHL0",
+              "name": "App Configuration",
+              "sku_name": "Standard",
+              "meter_name": "Standard Experimentation Events"
+            },
             "DZH318Z0CHL0/Free/Free Instance": {
               "id": "DZH318Z0CHL0",
               "name": "App Configuration",
               "sku_name": "Free",
               "meter_name": "Free Instance"
+            },
+            "DZH318Z0CHL0/Premium/Premium Experimentation Events": {
+              "id": "DZH318Z0CHL0",
+              "name": "App Configuration",
+              "sku_name": "Premium",
+              "meter_name": "Premium Experimentation Events"
+            },
+            "DZH318Z0CHL0/Developer/Developer Experimentation Events": {
+              "id": "DZH318Z0CHL0",
+              "name": "App Configuration",
+              "sku_name": "Developer",
+              "meter_name": "Developer Experimentation Events"
             },
             "DZH318Z0CHL0/Premium/Premium Snapshots Overage": {
               "id": "DZH318Z0CHL0",
@@ -45775,6 +46134,36 @@
               "meter_name": "Standard Overage Memory Duration"
             }
           }
+        },
+        "DZH318T8ZLFS": {
+          "id": "DZH318T8ZLFS",
+          "name": "Energy Data Manager",
+          "products": {
+            "DZH318Z0K03L/Standard/Standard Instance": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Standard",
+              "meter_name": "Standard Instance"
+            },
+            "DZH318Z0K03L/Developer/Developer Instance": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Developer",
+              "meter_name": "Developer Instance"
+            },
+            "DZH318Z0K03L/Standard/Standard Additional Data Partition": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Standard",
+              "meter_name": "Standard Additional Data Partition"
+            },
+            "DZH318Z0K03L/Developer/Developer Additional Data Partition": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Developer",
+              "meter_name": "Developer Additional Data Partition"
+            }
+          }
         }
       }
     },
@@ -46150,11 +46539,29 @@
               "sku_name": "Investigations",
               "meter_name": "Investigations GB"
             },
+            "DZH318Z0TJ9D/eDiscovery Premium/eDiscovery Premium GB": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "eDiscovery Premium",
+              "meter_name": "eDiscovery Premium GB"
+            },
             "DZH318Z0LFXP/Standard/Standard Asset": {
               "id": "DZH318Z0LFXP",
               "name": "Microsoft Purview Data Security",
               "sku_name": "Standard",
               "meter_name": "Standard Asset"
+            },
+            "DZH318Z0LFXP/In Transit Protection/In Transit Protection Request": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "In Transit Protection",
+              "meter_name": "In Transit Protection Request"
+            },
+            "DZH318Z0TJ9D/Communication Compliance Premium/Communication Compliance Premium Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Communication Compliance Premium",
+              "meter_name": "Communication Compliance Premium Asset"
             },
             "DZH318Z0M4DR/Data Management Basic/Data Management Basic Data Governance Processing Unit": {
               "id": "DZH318Z0M4DR",
@@ -46167,6 +46574,12 @@
               "name": "Microsoft Purview Data Security",
               "sku_name": "Standard",
               "meter_name": "Standard Data Security Processing Unit"
+            },
+            "DZH318Z0TJ9D/Data Lifecycle Management Premium/Data Lifecycle Management Premium Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Data Lifecycle Management Premium",
+              "meter_name": "Data Lifecycle Management Premium Asset"
             },
             "DZH318Z0M4DR/Data Management Advanced/Data Management Advanced Data Governance Processing Unit": {
               "id": "DZH318Z0M4DR",
@@ -46185,6 +46598,18 @@
               "name": "Microsoft Purview On-Demand Classification",
               "sku_name": "Standard",
               "meter_name": "Standard Assets"
+            },
+            "DZH318Z0TJ9D/Communication Compliance Standard/Communication Compliance Standard Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Communication Compliance Standard",
+              "meter_name": "Communication Compliance Standard Asset"
+            },
+            "DZH318Z0TJ9D/Audit Standard/Audit Standard Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Audit Standard",
+              "meter_name": "Audit Standard Asset"
             },
             "DZH318Z0M4DR/Data Management Standard/Data Management Standard Data Governance Processing Unit": {
               "id": "DZH318Z0M4DR",
