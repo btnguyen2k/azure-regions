@@ -3690,6 +3690,12 @@
             "sku_name": "gpt4omini-rt-aud1217 Outp regnl",
             "meter_name": "gpt4omini-rt-aud1217 Outp regnl Tokens"
           },
+          "DZH318Z0LCK0/Phi-4-reasoning-Output/Phi-4-reasoning-Output Tokens": {
+            "id": "DZH318Z0LCK0",
+            "name": "Phi",
+            "sku_name": "Phi-4-reasoning-Output",
+            "meter_name": "Phi-4-reasoning-Output Tokens"
+          },
           "DZH318Z0HHG7/computer-use-batch-outp-datazone/computer-use-batch-outp-datazone Tokens": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
@@ -4001,6 +4007,12 @@
             "name": "Azure OpenAI",
             "sku_name": "embedding-ada-datazone",
             "meter_name": "embedding-ada-datazone Tokens"
+          },
+          "DZH318Z0LCK0/Phi-4-mini-reasoning-Output/Phi-4-mini-reasoning-Output Tokens": {
+            "id": "DZH318Z0LCK0",
+            "name": "Phi",
+            "sku_name": "Phi-4-mini-reasoning-Output",
+            "meter_name": "Phi-4-mini-reasoning-Output Tokens"
           },
           "DZH318Z0HHG7/gpt-35-turbo16K-FT-Trng-glbl/gpt-35-turbo16K-FT-Trng-glbl Unit": {
             "id": "DZH318Z0HHG7",
@@ -4650,6 +4662,12 @@
             "sku_name": "gpt-35-turbo16K-Batch-Outp-glbl",
             "meter_name": "gpt-35-turbo16K-Batch-Outp-glbl Tokens"
           },
+          "DZH318Z0LCK0/Phi-4-reasoning-Input/Phi-4-reasoning-Input Tokens": {
+            "id": "DZH318Z0LCK0",
+            "name": "Phi",
+            "sku_name": "Phi-4-reasoning-Input",
+            "meter_name": "Phi-4-reasoning-Input Tokens"
+          },
           "DZH318Z0HHG7/gpt 4.1 Batch Outp Data Zone/gpt 4.1 Batch Outp Data Zone Tokens": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
@@ -5003,6 +5021,12 @@
             "name": "Azure OpenAI",
             "sku_name": "o1 1217 Batch Outp Data Zone",
             "meter_name": "o1 1217 Batch Outp Data Zone Tokens"
+          },
+          "DZH318Z0LCK0/Phi-4-mini-reasoning-Input/Phi-4-mini-reasoning-Input Tokens": {
+            "id": "DZH318Z0LCK0",
+            "name": "Phi",
+            "sku_name": "Phi-4-mini-reasoning-Input",
+            "meter_name": "Phi-4-mini-reasoning-Input Tokens"
           },
           "DZH318Z0HHG7/gpt-4-8K-FT-Trng-glbl tkn/gpt-4-8K-FT-Trng-glbl tkn Tokens": {
             "id": "DZH318Z0HHG7",
@@ -5550,12 +5574,6 @@
             "sku_name": "Voice Conversion - Standard",
             "meter_name": "Voice Conversion - Standard Speech"
           },
-          "DZH318Z0LCK0/Phi-4-mini-reasoning-Input/Phi-4-mini-reasoning-Input Tokens": {
-            "id": "DZH318Z0LCK0",
-            "name": "Phi",
-            "sku_name": "Phi-4-mini-reasoning-Input",
-            "meter_name": "Phi-4-mini-reasoning-Input Tokens"
-          },
           "DZH318Z0BZ35/Image Retrieval - Query/Image Retrieval - Query Transactions": {
             "id": "DZH318Z0BZ35",
             "name": "Computer Vision",
@@ -5579,12 +5597,6 @@
             "name": "Computer Vision",
             "sku_name": "Vectorize Image",
             "meter_name": "Vectorize Image Transactions"
-          },
-          "DZH318Z0LCK0/Phi-4-reasoning-Input/Phi-4-reasoning-Input Tokens": {
-            "id": "DZH318Z0LCK0",
-            "name": "Phi",
-            "sku_name": "Phi-4-reasoning-Input",
-            "meter_name": "Phi-4-reasoning-Input Tokens"
           },
           "DZH318Z0TDSR/o4-mini 0416 cached Inp glbl/o4-mini 0416 cached Inp glbl Tokens": {
             "id": "DZH318Z0TDSR",
@@ -5610,23 +5622,11 @@
             "sku_name": "Video Retrieval and Description - Ingestion",
             "meter_name": "Video Retrieval and Description - Ingestion Vision"
           },
-          "DZH318Z0LCK0/Phi-4-reasoning-Output/Phi-4-reasoning-Output Tokens": {
-            "id": "DZH318Z0LCK0",
-            "name": "Phi",
-            "sku_name": "Phi-4-reasoning-Output",
-            "meter_name": "Phi-4-reasoning-Output Tokens"
-          },
           "DZH318Z0BP4S/Video Translation Automated/Video Translation Automated Speech": {
             "id": "DZH318Z0BP4S",
             "name": "Speech",
             "sku_name": "Video Translation Automated",
             "meter_name": "Video Translation Automated Speech"
-          },
-          "DZH318Z0LCK0/Phi-4-mini-reasoning-Output/Phi-4-mini-reasoning-Output Tokens": {
-            "id": "DZH318Z0LCK0",
-            "name": "Phi",
-            "sku_name": "Phi-4-mini-reasoning-Output",
-            "meter_name": "Phi-4-mini-reasoning-Output Tokens"
           },
           "DZH318Z0BP4S/Video Translation AddOn PersonalVoice/Video Translation AddOn PersonalVoice Speech": {
             "id": "DZH318Z0BP4S",
@@ -10899,6 +10899,30 @@
             "name": "Direct Routing",
             "sku_name": "Standard",
             "meter_name": "Standard Transfer Unit"
+          },
+          "DZH318Z0DJ0L/A2AGroupCalling/A2AGroupCalling User InterOp M365 Minute": {
+            "id": "DZH318Z0DJ0L",
+            "name": "Voice and Video Calling",
+            "sku_name": "A2AGroupCalling",
+            "meter_name": "A2AGroupCalling User InterOp M365 Minute"
+          },
+          "DZH318Z0DJ0L/A2AGroupCalling/A2AGroupCalling User CCaaS Minute": {
+            "id": "DZH318Z0DJ0L",
+            "name": "Voice and Video Calling",
+            "sku_name": "A2AGroupCalling",
+            "meter_name": "A2AGroupCalling User CCaaS Minute"
+          },
+          "DZH318Z0DJ0L/A2AGroupCalling/A2AGroupCalling User Minute": {
+            "id": "DZH318Z0DJ0L",
+            "name": "Voice and Video Calling",
+            "sku_name": "A2AGroupCalling",
+            "meter_name": "A2AGroupCalling User Minute"
+          },
+          "DZH318Z0DJ0L/A2AGroupCalling/A2AGroupCalling User InterOp Azure Minute": {
+            "id": "DZH318Z0DJ0L",
+            "name": "Voice and Video Calling",
+            "sku_name": "A2AGroupCalling",
+            "meter_name": "A2AGroupCalling User InterOp Azure Minute"
           }
         }
       },
@@ -54847,11 +54871,59 @@
             "sku_name": "E112iads v5",
             "meter_name": "E112iads v5"
           },
+          "DZH318Z09LQN/Ebdsv5/Ebdsv5": {
+            "id": "DZH318Z09LQN",
+            "name": "Virtual Machines Ebdsv5 Series Windows",
+            "sku_name": "Ebdsv5",
+            "meter_name": "Ebdsv5"
+          },
+          "DZH318Z09LR5/Ebsv5/Ebsv5": {
+            "id": "DZH318Z09LR5",
+            "name": "Virtual Machines Ebsv5 Series",
+            "sku_name": "Ebsv5",
+            "meter_name": "Ebsv5"
+          },
+          "DZH318Z09LR4/Ebsv5 Spot/Ebsv5 Spot": {
+            "id": "DZH318Z09LR4",
+            "name": "Virtual Machines Ebsv5 Series Windows",
+            "sku_name": "Ebsv5 Spot",
+            "meter_name": "Ebsv5 Spot"
+          },
+          "DZH318Z09LQP/Ebdsv5 Spot/Ebdsv5 Spot": {
+            "id": "DZH318Z09LQP",
+            "name": "Virtual Machines Ebdsv5 Series",
+            "sku_name": "Ebdsv5 Spot",
+            "meter_name": "Ebdsv5 Spot"
+          },
+          "DZH318Z09LR5/Ebsv5 Spot/Ebsv5 Spot": {
+            "id": "DZH318Z09LR5",
+            "name": "Virtual Machines Ebsv5 Series",
+            "sku_name": "Ebsv5 Spot",
+            "meter_name": "Ebsv5 Spot"
+          },
+          "DZH318Z09LQN/Ebdsv5 Spot/Ebdsv5 Spot": {
+            "id": "DZH318Z09LQN",
+            "name": "Virtual Machines Ebdsv5 Series Windows",
+            "sku_name": "Ebdsv5 Spot",
+            "meter_name": "Ebdsv5 Spot"
+          },
+          "DZH318Z09LQP/Ebdsv5/Ebdsv5": {
+            "id": "DZH318Z09LQP",
+            "name": "Virtual Machines Ebdsv5 Series",
+            "sku_name": "Ebdsv5",
+            "meter_name": "Ebdsv5"
+          },
           "DZH318Z092QW/E112ias v5/E112ias v5": {
             "id": "DZH318Z092QW",
             "name": "Easv5 Series CloudServices",
             "sku_name": "E112ias v5",
             "meter_name": "E112ias v5"
+          },
+          "DZH318Z09LR4/Ebsv5/Ebsv5": {
+            "id": "DZH318Z09LR4",
+            "name": "Virtual Machines Ebsv5 Series Windows",
+            "sku_name": "Ebsv5",
+            "meter_name": "Ebsv5"
           },
           "DZH318Z0K803/DC16edsv5 Spot/DC16edsv5 Spot": {
             "id": "DZH318Z0K803",
@@ -56184,54 +56256,6 @@
             "name": "Virtual Machines DSv2 promo Series",
             "sku_name": "DS14 v2",
             "meter_name": "DS14 v2 - Expired"
-          },
-          "DZH318Z09LR5/Ebsv5/Ebsv5": {
-            "id": "DZH318Z09LR5",
-            "name": "Virtual Machines Ebsv5 Series",
-            "sku_name": "Ebsv5",
-            "meter_name": "Ebsv5"
-          },
-          "DZH318Z09LR5/Ebsv5 Spot/Ebsv5 Spot": {
-            "id": "DZH318Z09LR5",
-            "name": "Virtual Machines Ebsv5 Series",
-            "sku_name": "Ebsv5 Spot",
-            "meter_name": "Ebsv5 Spot"
-          },
-          "DZH318Z09LR4/Ebsv5 Spot/Ebsv5 Spot": {
-            "id": "DZH318Z09LR4",
-            "name": "Virtual Machines Ebsv5 Series Windows",
-            "sku_name": "Ebsv5 Spot",
-            "meter_name": "Ebsv5 Spot"
-          },
-          "DZH318Z09LR4/Ebsv5/Ebsv5": {
-            "id": "DZH318Z09LR4",
-            "name": "Virtual Machines Ebsv5 Series Windows",
-            "sku_name": "Ebsv5",
-            "meter_name": "Ebsv5"
-          },
-          "DZH318Z09LQP/Ebdsv5 Spot/Ebdsv5 Spot": {
-            "id": "DZH318Z09LQP",
-            "name": "Virtual Machines Ebdsv5 Series",
-            "sku_name": "Ebdsv5 Spot",
-            "meter_name": "Ebdsv5 Spot"
-          },
-          "DZH318Z09LQN/Ebdsv5 Spot/Ebdsv5 Spot": {
-            "id": "DZH318Z09LQN",
-            "name": "Virtual Machines Ebdsv5 Series Windows",
-            "sku_name": "Ebdsv5 Spot",
-            "meter_name": "Ebdsv5 Spot"
-          },
-          "DZH318Z09LQN/Ebdsv5/Ebdsv5": {
-            "id": "DZH318Z09LQN",
-            "name": "Virtual Machines Ebdsv5 Series Windows",
-            "sku_name": "Ebdsv5",
-            "meter_name": "Ebdsv5"
-          },
-          "DZH318Z09LQP/Ebdsv5/Ebdsv5": {
-            "id": "DZH318Z09LQP",
-            "name": "Virtual Machines Ebdsv5 Series",
-            "sku_name": "Ebdsv5",
-            "meter_name": "Ebdsv5"
           },
           "DZH318Z0CM2D/SQLG7_AMD_IaaS/SQLG7_AMD_IaaS": {
             "id": "DZH318Z0CM2D",
@@ -58615,23 +58639,29 @@
             "sku_name": "SNI SSL",
             "meter_name": "SNI SSL Connection"
           },
-          "DZH318Z0TD7T/P5mv4/P5mv4": {
+          "DZH318Z0TD7T/P1v4/P1v4": {
             "id": "DZH318Z0TD7T",
             "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P5mv4",
-            "meter_name": "P5mv4"
+            "sku_name": "P1v4",
+            "meter_name": "P1v4"
           },
-          "DZH318Z0TD7T/P1mv4/P1mv4": {
-            "id": "DZH318Z0TD7T",
-            "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P1mv4",
-            "meter_name": "P1mv4"
-          },
-          "DZH318Z0TFB3/P1mv4/P1mv4": {
+          "DZH318Z0TFB3/P2mv4/P2mv4": {
             "id": "DZH318Z0TFB3",
             "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P1mv4",
-            "meter_name": "P1mv4"
+            "sku_name": "P2mv4",
+            "meter_name": "P2mv4"
+          },
+          "DZH318Z0TFB3/P4mv4/P4mv4": {
+            "id": "DZH318Z0TFB3",
+            "name": "Azure App Service Premium v4 Plan - Linux",
+            "sku_name": "P4mv4",
+            "meter_name": "P4mv4"
+          },
+          "DZH318Z0TFB3/P3v4/P3v4": {
+            "id": "DZH318Z0TFB3",
+            "name": "Azure App Service Premium v4 Plan - Linux",
+            "sku_name": "P3v4",
+            "meter_name": "P3v4"
           },
           "DZH318Z0TD7T/P3v4/P3v4": {
             "id": "DZH318Z0TD7T",
@@ -58639,17 +58669,29 @@
             "sku_name": "P3v4",
             "meter_name": "P3v4"
           },
-          "DZH318Z0TD7T/P2v4/P2v4": {
-            "id": "DZH318Z0TD7T",
-            "name": "Azure App Service Premium v4 Plan",
+          "DZH318Z0TFB3/P2v4/P2v4": {
+            "id": "DZH318Z0TFB3",
+            "name": "Azure App Service Premium v4 Plan - Linux",
             "sku_name": "P2v4",
             "meter_name": "P2v4"
           },
-          "DZH318Z0TD7T/P0v4/P0v4": {
-            "id": "DZH318Z0TD7T",
-            "name": "Azure App Service Premium v4 Plan",
+          "DZH318Z0TFB3/P0v4/P0v4": {
+            "id": "DZH318Z0TFB3",
+            "name": "Azure App Service Premium v4 Plan - Linux",
             "sku_name": "P0v4",
             "meter_name": "P0v4"
+          },
+          "DZH318Z0TD7T/P2mv4/P2mv4": {
+            "id": "DZH318Z0TD7T",
+            "name": "Azure App Service Premium v4 Plan",
+            "sku_name": "P2mv4",
+            "meter_name": "P2mv4"
+          },
+          "DZH318Z0TD7T/P1mv4/P1mv4": {
+            "id": "DZH318Z0TD7T",
+            "name": "Azure App Service Premium v4 Plan",
+            "sku_name": "P1mv4",
+            "meter_name": "P1mv4"
           },
           "DZH318Z0TFB3/P1v4/P1v4": {
             "id": "DZH318Z0TFB3",
@@ -58663,35 +58705,23 @@
             "sku_name": "P3mv4",
             "meter_name": "P3mv4"
           },
-          "DZH318Z0TFB3/P0v4/P0v4": {
-            "id": "DZH318Z0TFB3",
-            "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P0v4",
-            "meter_name": "P0v4"
-          },
-          "DZH318Z0TFB3/P4mv4/P4mv4": {
-            "id": "DZH318Z0TFB3",
-            "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P4mv4",
-            "meter_name": "P4mv4"
-          },
-          "DZH318Z0TFB3/P2v4/P2v4": {
-            "id": "DZH318Z0TFB3",
-            "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P2v4",
-            "meter_name": "P2v4"
-          },
-          "DZH318Z0TFB3/P2mv4/P2mv4": {
-            "id": "DZH318Z0TFB3",
-            "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P2mv4",
-            "meter_name": "P2mv4"
-          },
-          "DZH318Z0TD7T/P2mv4/P2mv4": {
+          "DZH318Z0TD7T/P3mv4/P3mv4": {
             "id": "DZH318Z0TD7T",
             "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P2mv4",
-            "meter_name": "P2mv4"
+            "sku_name": "P3mv4",
+            "meter_name": "P3mv4"
+          },
+          "DZH318Z0TD7T/P5mv4/P5mv4": {
+            "id": "DZH318Z0TD7T",
+            "name": "Azure App Service Premium v4 Plan",
+            "sku_name": "P5mv4",
+            "meter_name": "P5mv4"
+          },
+          "DZH318Z0TD7T/P4mv4/P4mv4": {
+            "id": "DZH318Z0TD7T",
+            "name": "Azure App Service Premium v4 Plan",
+            "sku_name": "P4mv4",
+            "meter_name": "P4mv4"
           },
           "DZH318Z0TFB3/P5mv4/P5mv4": {
             "id": "DZH318Z0TFB3",
@@ -58699,29 +58729,23 @@
             "sku_name": "P5mv4",
             "meter_name": "P5mv4"
           },
-          "DZH318Z0TD7T/P3mv4/P3mv4": {
-            "id": "DZH318Z0TD7T",
-            "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P3mv4",
-            "meter_name": "P3mv4"
-          },
-          "DZH318Z0TFB3/P3v4/P3v4": {
+          "DZH318Z0TFB3/P1mv4/P1mv4": {
             "id": "DZH318Z0TFB3",
             "name": "Azure App Service Premium v4 Plan - Linux",
-            "sku_name": "P3v4",
-            "meter_name": "P3v4"
+            "sku_name": "P1mv4",
+            "meter_name": "P1mv4"
           },
-          "DZH318Z0TD7T/P1v4/P1v4": {
+          "DZH318Z0TD7T/P2v4/P2v4": {
             "id": "DZH318Z0TD7T",
             "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P1v4",
-            "meter_name": "P1v4"
+            "sku_name": "P2v4",
+            "meter_name": "P2v4"
           },
-          "DZH318Z0TD7T/P4mv4/P4mv4": {
+          "DZH318Z0TD7T/P0v4/P0v4": {
             "id": "DZH318Z0TD7T",
             "name": "Azure App Service Premium v4 Plan",
-            "sku_name": "P4mv4",
-            "meter_name": "P4mv4"
+            "sku_name": "P0v4",
+            "meter_name": "P0v4"
           },
           "DZH318Z0BNW9/Custom Domain/Custom Domain": {
             "id": "DZH318Z0BNW9",
@@ -70928,11 +70952,11 @@
         "id": "DZH318T8ZLFS",
         "name": "Energy Data Manager",
         "products": {
-          "DZH318Z0K03L/Standard/Standard Instance": {
+          "DZH318Z0K03L/Standard/Standard Additional Data Partition": {
             "id": "DZH318Z0K03L",
             "name": "Azure Data Manager for Energy",
             "sku_name": "Standard",
-            "meter_name": "Standard Instance"
+            "meter_name": "Standard Additional Data Partition"
           },
           "DZH318Z0K03L/Developer/Developer Instance": {
             "id": "DZH318Z0K03L",
@@ -70940,17 +70964,17 @@
             "sku_name": "Developer",
             "meter_name": "Developer Instance"
           },
+          "DZH318Z0K03L/Standard/Standard Instance": {
+            "id": "DZH318Z0K03L",
+            "name": "Azure Data Manager for Energy",
+            "sku_name": "Standard",
+            "meter_name": "Standard Instance"
+          },
           "DZH318Z0K03L/Developer/Developer Additional Data Partition": {
             "id": "DZH318Z0K03L",
             "name": "Azure Data Manager for Energy",
             "sku_name": "Developer",
             "meter_name": "Developer Additional Data Partition"
-          },
-          "DZH318Z0K03L/Standard/Standard Additional Data Partition": {
-            "id": "DZH318Z0K03L",
-            "name": "Azure Data Manager for Energy",
-            "sku_name": "Standard",
-            "meter_name": "Standard Additional Data Partition"
           }
         }
       },
