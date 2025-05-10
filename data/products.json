@@ -168,6 +168,12 @@
             "sku_name": "gpt-4o-transcribe-txt-inp-glbl",
             "meter_name": "gpt-4o-transcribe-txt-inp-glbl Tokens"
           },
+          "DZH318Z0TDSR/o4-mini RFT Training global/o4-mini RFT Training global Unit": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini RFT Training global",
+            "meter_name": "o4-mini RFT Training global Unit"
+          },
           "DZH318Z0HHG7/gpt-4o-0806-Outp-glbl/gpt-4o-0806-Outp-glbl Tokens": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
@@ -269,6 +275,12 @@
             "name": "Azure OpenAI o4",
             "sku_name": "o4-mini 0416 Batch Outp glbl",
             "meter_name": "o4-mini 0416 Batch Outp glbl Tokens"
+          },
+          "DZH318Z0TDSR/o4-mini-ft hosting global/o4-mini-ft hosting global Unit": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft hosting global",
+            "meter_name": "o4-mini-ft hosting global Unit"
           },
           "DZH318Z0BZ3Q/Free/Free Transactions": {
             "id": "DZH318Z0BZ3Q",
@@ -467,6 +479,12 @@
             "name": "Azure OpenAI",
             "sku_name": "gpt-4o-rt-aud-1217 cchd Inp glbl",
             "meter_name": "gpt-4o-rt-aud-1217 cchd Inp glbl Tokens"
+          },
+          "DZH318Z0TDSR/o4-mini-ft output global/o4-mini-ft output global Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft output global",
+            "meter_name": "o4-mini-ft output global Tokens"
           },
           "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 100K/Commitment Tier Speech to Text Connected 100K Speech To Text CT Overage": {
             "id": "DZH318Z0BP4S",
@@ -797,6 +815,12 @@
             "name": "Speech",
             "sku_name": "Commitment Tier Custom Speech to Text Connected 10K",
             "meter_name": "Commitment Tier Custom Speech to Text Connected 10K Unit"
+          },
+          "DZH318Z0TDSR/o4-mini-ft input global/o4-mini-ft input global Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft input global",
+            "meter_name": "o4-mini-ft input global Tokens"
           },
           "DZH318Z09WSW/Commitment Tier STT Disconnected 50K/Commitment Tier STT Disconnected 50K Unit": {
             "id": "DZH318Z09WSW",
@@ -1235,6 +1259,12 @@
             "name": "Speech",
             "sku_name": "Commitment Tier Neural Text to Speech Azure 2000M",
             "meter_name": "Commitment Tier Neural Text to Speech Azure 2000M Unit"
+          },
+          "DZH318Z0TDSR/o4-mini-ft cached input global/o4-mini-ft cached input global Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft cached input global",
+            "meter_name": "o4-mini-ft cached input global Tokens"
           },
           "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 10K/Commitment Tier Speech to Text Connected 10K Unit": {
             "id": "DZH318Z0BP4S",
@@ -5501,6 +5531,24 @@
             "name": "Azure OpenAI",
             "sku_name": "gpt-4-8K-FT-Hstng-glbl",
             "meter_name": "gpt-4-8K-FT-Hstng-glbl Unit"
+          },
+          "DZH318Z0TDSR/o4-mini-ft model grader output/o4-mini-ft model grader output Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft model grader output",
+            "meter_name": "o4-mini-ft model grader output Tokens"
+          },
+          "DZH318Z0TDSR/o4-mini-ft model grader input/o4-mini-ft model grader input Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft model grader input",
+            "meter_name": "o4-mini-ft model grader input Tokens"
+          },
+          "DZH318Z0TDSR/o4-mini-ft model grader cchd inpt/o4-mini-ft model grader cchd inpt Tokens": {
+            "id": "DZH318Z0TDSR",
+            "name": "Azure OpenAI o4",
+            "sku_name": "o4-mini-ft model grader cchd inpt",
+            "meter_name": "o4-mini-ft model grader cchd inpt Tokens"
           }
         }
       },
@@ -37257,7 +37305,7 @@
           },
           "DZH318Z0M80M/EC8edsv6/EC8edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC8edsv6",
             "meter_name": "EC8edsv6"
           },
@@ -37329,7 +37377,7 @@
           },
           "DZH318Z0M80M/EC4edsv6 Spot/EC4edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC4edsv6 Spot",
             "meter_name": "EC4edsv6 Spot"
           },
@@ -37359,7 +37407,7 @@
           },
           "DZH318Z0M80M/EC16edsv6/EC16edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC16edsv6",
             "meter_name": "EC16edsv6"
           },
@@ -37737,7 +37785,7 @@
           },
           "DZH318Z0M80P/EC8edsv6/EC8edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC8edsv6",
             "meter_name": "EC8edsv6"
           },
@@ -37869,7 +37917,7 @@
           },
           "DZH318Z0M80P/EC64edsv6/EC64edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC64edsv6",
             "meter_name": "EC64edsv6"
           },
@@ -38067,7 +38115,7 @@
           },
           "DZH318Z0M80P/EC4edsv6 Spot/EC4edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC4edsv6 Spot",
             "meter_name": "EC4edsv6 Spot"
           },
@@ -38115,7 +38163,7 @@
           },
           "DZH318Z0M80P/EC128edsv6 Spot/EC128edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC128edsv6 Spot",
             "meter_name": "EC128edsv6 Spot"
           },
@@ -38133,7 +38181,7 @@
           },
           "DZH318Z0M80M/EC16edsv6 Spot/EC16edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC16edsv6 Spot",
             "meter_name": "EC16edsv6 Spot"
           },
@@ -38313,7 +38361,7 @@
           },
           "DZH318Z0M80P/EC32edsv6 Spot/EC32edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC32edsv6 Spot",
             "meter_name": "EC32edsv6 Spot"
           },
@@ -38337,7 +38385,7 @@
           },
           "DZH318Z0M80P/EC16edsv6 Spot/EC16edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC16edsv6 Spot",
             "meter_name": "EC16edsv6 Spot"
           },
@@ -39141,7 +39189,7 @@
           },
           "DZH318Z0M80P/EC2edsv6/EC2edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC2edsv6",
             "meter_name": "EC2edsv6"
           },
@@ -39297,7 +39345,7 @@
           },
           "DZH318Z0M80P/EC8edsv6 Spot/EC8edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC8edsv6 Spot",
             "meter_name": "EC8edsv6 Spot"
           },
@@ -39381,7 +39429,7 @@
           },
           "DZH318Z0M80P/EC16edsv6/EC16edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC16edsv6",
             "meter_name": "EC16edsv6"
           },
@@ -39501,7 +39549,7 @@
           },
           "DZH318Z0M80M/EC2edsv6 Spot/EC2edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC2edsv6 Spot",
             "meter_name": "EC2edsv6 Spot"
           },
@@ -40077,7 +40125,7 @@
           },
           "DZH318Z0M80M/EC64edsv6/EC64edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC64edsv6",
             "meter_name": "EC64edsv6"
           },
@@ -40089,7 +40137,7 @@
           },
           "DZH318Z0M80M/EC128edsv6/EC128edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC128edsv6",
             "meter_name": "EC128edsv6"
           },
@@ -40107,7 +40155,7 @@
           },
           "DZH318Z0M80P/EC2edsv6 Spot/EC2edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC2edsv6 Spot",
             "meter_name": "EC2edsv6 Spot"
           },
@@ -40983,7 +41031,7 @@
           },
           "DZH318Z0M80M/EC32edsv6/EC32edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC32edsv6",
             "meter_name": "EC32edsv6"
           },
@@ -41475,7 +41523,7 @@
           },
           "DZH318Z0M80P/EC48edsv6/EC48edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC48edsv6",
             "meter_name": "EC48edsv6"
           },
@@ -41949,7 +41997,7 @@
           },
           "DZH318Z0M80M/EC64edsv6 Spot/EC64edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC64edsv6 Spot",
             "meter_name": "EC64edsv6 Spot"
           },
@@ -41967,7 +42015,7 @@
           },
           "DZH318Z0M80P/EC128edsv6/EC128edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC128edsv6",
             "meter_name": "EC128edsv6"
           },
@@ -42057,7 +42105,7 @@
           },
           "DZH318Z0M80M/EC2edsv6/EC2edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC2edsv6",
             "meter_name": "EC2edsv6"
           },
@@ -42297,7 +42345,7 @@
           },
           "DZH318Z0M80P/EC64edsv6 Spot/EC64edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC64edsv6 Spot",
             "meter_name": "EC64edsv6 Spot"
           },
@@ -42405,7 +42453,7 @@
           },
           "DZH318Z0M80P/EC48edsv6 Spot/EC48edsv6 Spot": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC48edsv6 Spot",
             "meter_name": "EC48edsv6 Spot"
           },
@@ -42483,7 +42531,7 @@
           },
           "DZH318Z0M80M/EC128edsv6 Spot/EC128edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC128edsv6 Spot",
             "meter_name": "EC128edsv6 Spot"
           },
@@ -42789,7 +42837,7 @@
           },
           "DZH318Z0M80P/EC32edsv6/EC32edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC32edsv6",
             "meter_name": "EC32edsv6"
           },
@@ -43059,7 +43107,7 @@
           },
           "DZH318Z0M80M/EC4edsv6/EC4edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC4edsv6",
             "meter_name": "EC4edsv6"
           },
@@ -43815,7 +43863,7 @@
           },
           "DZH318Z0M80M/EC48edsv6/EC48edsv6": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC48edsv6",
             "meter_name": "EC48edsv6"
           },
@@ -43905,7 +43953,7 @@
           },
           "DZH318Z0M80M/EC8edsv6 Spot/EC8edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC8edsv6 Spot",
             "meter_name": "EC8edsv6 Spot"
           },
@@ -44223,7 +44271,7 @@
           },
           "DZH318Z0M80P/EC4edsv6/EC4edsv6": {
             "id": "DZH318Z0M80P",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries Windows",
+            "name": "Virtual Machines ECedsv6 Series Windows",
             "sku_name": "EC4edsv6",
             "meter_name": "EC4edsv6"
           },
@@ -44991,7 +45039,7 @@
           },
           "DZH318Z0M80M/EC32edsv6 Spot/EC32edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC32edsv6 Spot",
             "meter_name": "EC32edsv6 Spot"
           },
@@ -45363,7 +45411,7 @@
           },
           "DZH318Z0M80M/EC48edsv6 Spot/EC48edsv6 Spot": {
             "id": "DZH318Z0M80M",
-            "name": "Virtual Machines ECedsv6\uFFFDSeries",
+            "name": "Virtual Machines ECedsv6 Series",
             "sku_name": "EC48edsv6 Spot",
             "meter_name": "EC48edsv6 Spot"
           },
@@ -56878,12 +56926,6 @@
             "name": "MS Planetary Computer Pro",
             "sku_name": "Cross Region Data Transfer",
             "meter_name": "Cross Region Data Transfer"
-          },
-          "DZH318Z0MLH3/Ingest and Tranform Standard/Ingest and Tranform Standard vCPU": {
-            "id": "DZH318Z0MLH3",
-            "name": "MS Planetary Computer Pro",
-            "sku_name": "Ingest and Tranform Standard",
-            "meter_name": "Ingest and Tranform Standard vCPU"
           }
         }
       }
