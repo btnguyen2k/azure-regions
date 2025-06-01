@@ -57521,6 +57521,30 @@
         "id": "DZH31767PK6Z",
         "name": "Microsoft Fabric",
         "products": {
+          "DZH318Z0KCZ7/Digital Twin Builder Query Capacity Usage/Digital Twin Builder Query Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Query Capacity Usage",
+            "meter_name": "Digital Twin Builder Query Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Security Capacity Usage/OneLake Security Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Security Capacity Usage",
+            "meter_name": "OneLake Security Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/Digital Twin Builder Capacity Usage/Digital Twin Builder Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Capacity Usage",
+            "meter_name": "Digital Twin Builder Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/Digital Twin Builder Operation Capacity Usage/Digital Twin Builder Operation Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Operation Capacity Usage",
+            "meter_name": "Digital Twin Builder Operation Capacity Usage CU"
+          },
           "DZH318Z0KCZ7/OneLake Write Operations Capacity Usage/OneLake Write Operations Capacity Usage CU": {
             "id": "DZH318Z0KCZ7",
             "name": "Fabric Capacity",
@@ -57826,30 +57850,6 @@
             "name": "Fabric Capacity",
             "sku_name": "Csms DB in MS Fabric Capacity Usage",
             "meter_name": "Csms DB in MS Fabric Capacity Usage CU"
-          },
-          "DZH318Z0KCZ7/OneLake Security Capacity Usage/OneLake Security Capacity Usage CU": {
-            "id": "DZH318Z0KCZ7",
-            "name": "Fabric Capacity",
-            "sku_name": "OneLake Security Capacity Usage",
-            "meter_name": "OneLake Security Capacity Usage CU"
-          },
-          "DZH318Z0KCZ7/Digital Twin Builder Operation Capacity Usage/Digital Twin Builder Operation Capacity Usage CU": {
-            "id": "DZH318Z0KCZ7",
-            "name": "Fabric Capacity",
-            "sku_name": "Digital Twin Builder Operation Capacity Usage",
-            "meter_name": "Digital Twin Builder Operation Capacity Usage CU"
-          },
-          "DZH318Z0KCZ7/Digital Twin Builder Query Capacity Usage/Digital Twin Builder Query Capacity Usage CU": {
-            "id": "DZH318Z0KCZ7",
-            "name": "Fabric Capacity",
-            "sku_name": "Digital Twin Builder Query Capacity Usage",
-            "meter_name": "Digital Twin Builder Query Capacity Usage CU"
-          },
-          "DZH318Z0KCZ7/Digital Twin Builder Capacity Usage/Digital Twin Builder Capacity Usage CU": {
-            "id": "DZH318Z0KCZ7",
-            "name": "Fabric Capacity",
-            "sku_name": "Digital Twin Builder Capacity Usage",
-            "meter_name": "Digital Twin Builder Capacity Usage CU"
           },
           "DZH318Z0F28J/Cosmos DB data restore/Cosmos DB data restore Data Stored": {
             "id": "DZH318Z0F28J",
@@ -63748,6 +63748,30 @@
             "sku_name": "Free",
             "meter_name": "vCore"
           },
+          "DZH318Z0T63X/1 vCore/1 vCore": {
+            "id": "DZH318Z0T63X",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECasv5 Series Compute",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
+          },
+          "DZH318Z0T6BM/1 vCore/1 vCore": {
+            "id": "DZH318Z0T6BM",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCasv5 Series Compute",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
+          },
+          "DZH318Z0MBM2/1 vCore/1 vCore": {
+            "id": "DZH318Z0MBM2",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute - DCadsv5",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
+          },
+          "DZH318Z0MBPH/1 vCore/1 vCore": {
+            "id": "DZH318Z0MBPH",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute - ECadsv5",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
+          },
           "DZH318Z0BQHV/1 vCore/vCore": {
             "id": "DZH318Z0BQHV",
             "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen4",
@@ -63763,18 +63787,6 @@
           "DZH318Z0M30T/1 vCore/1 vCore": {
             "id": "DZH318Z0M30T",
             "name": "Azure Database for PostgreSQL Flexible Server MO Ebdsv5 Series Compute",
-            "sku_name": "1 vCore",
-            "meter_name": "1 vCore"
-          },
-          "DZH318Z0T6BM/1 vCore/1 vCore": {
-            "id": "DZH318Z0T6BM",
-            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCasv5 Series Compute",
-            "sku_name": "1 vCore",
-            "meter_name": "1 vCore"
-          },
-          "DZH318Z0T63X/1 vCore/1 vCore": {
-            "id": "DZH318Z0T63X",
-            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECasv5 Series Compute",
             "sku_name": "1 vCore",
             "meter_name": "1 vCore"
           }
@@ -70186,6 +70198,12 @@
             "sku_name": "Cold LRS",
             "meter_name": "Cold LRS Data Retrieval"
           },
+          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned Throughput (MBps)": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Ultra LRS",
+            "meter_name": "Ultra LRS Provisioned Throughput (MBps)"
+          },
           "DZH318Z0BP88/E40 LRS/E40 LRS Disk": {
             "id": "DZH318Z0BP88",
             "name": "Standard SSD Managed Disks",
@@ -71145,6 +71163,12 @@
             "name": "Standard SSD Managed Disks",
             "sku_name": "E15 LRS",
             "meter_name": "E15 LRS Disk Operations"
+          },
+          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned Capacity": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Ultra LRS",
+            "meter_name": "Ultra LRS Provisioned Capacity"
           },
           "DZH318Z0BP88/E80 LRS/E80 LRS Disk": {
             "id": "DZH318Z0BP88",
@@ -73084,6 +73108,12 @@
             "sku_name": "Hot LRS",
             "meter_name": "Delete Operations"
           },
+          "DZH318Z0BP68/Ultra LRS/Ultra LRS Reservation per vCPU Provisioned": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Ultra LRS",
+            "meter_name": "Ultra LRS Reservation per vCPU Provisioned"
+          },
           "DZH318Z0BNZH/Standard LRS/LRS List and Create Container Operations": {
             "id": "DZH318Z0BNZH",
             "name": "General Block Blob",
@@ -73149,6 +73179,12 @@
             "name": "General Block Blob v2 Hierarchical Namespace",
             "sku_name": "Cold LRS",
             "meter_name": "Cold LRS Early Delete"
+          },
+          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned IOPS": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Ultra LRS",
+            "meter_name": "Ultra LRS Provisioned IOPS"
           },
           "DZH318Z0BP04/P20 ZRS/P20 ZRS Disk": {
             "id": "DZH318Z0BP04",
@@ -74110,12 +74146,6 @@
             "sku_name": "Cold RA-GRS",
             "meter_name": "Cold RA-GRS Data Write"
           },
-          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned Capacity": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Ultra LRS",
-            "meter_name": "Ultra LRS Provisioned Capacity"
-          },
           "DZH318Z0BPH7/Cold GZRS/Cold GZRS Early Delete": {
             "id": "DZH318Z0BPH7",
             "name": "General Block Blob v2",
@@ -74391,12 +74421,6 @@
             "name": "Standard Page Blob",
             "sku_name": "Standard RA-GRS",
             "meter_name": "RA-GRS Data Stored"
-          },
-          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned IOPS": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Ultra LRS",
-            "meter_name": "Ultra LRS Provisioned IOPS"
           },
           "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Data Stored": {
             "id": "DZH318Z0C120",
@@ -76870,12 +76894,6 @@
             "sku_name": "Cool GZRS",
             "meter_name": "Cool GZRS Data Stored"
           },
-          "DZH318Z0BP68/Ultra LRS/Ultra LRS Reservation per vCPU Provisioned": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Ultra LRS",
-            "meter_name": "Ultra LRS Reservation per vCPU Provisioned"
-          },
           "DZH318Z0C120/Cool GRS/Cool GRS Blob Inventory": {
             "id": "DZH318Z0C120",
             "name": "General Block Blob v2 Hierarchical Namespace",
@@ -77475,12 +77493,6 @@
             "name": "Tables",
             "sku_name": "Account Encrypted RA-GRS",
             "meter_name": "Account Encrypted Read Operations"
-          },
-          "DZH318Z0BP68/Ultra LRS/Ultra LRS Provisioned Throughput (MBps)": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Ultra LRS",
-            "meter_name": "Ultra LRS Provisioned Throughput (MBps)"
           },
           "DZH318Z0BJRM/Hot RA-GZRS/Hot Data Scanned for Query Acceleration": {
             "id": "DZH318Z0BJRM",
