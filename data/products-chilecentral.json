@@ -16325,6 +16325,90 @@
     {
       "name": "Containers",
       "services": {
+        "DZH31976D030": {
+          "id": "DZH31976D030",
+          "name": "Container Instances",
+          "products": {
+            "DZH318Z0BQV6/Confidential containers ACI/Confidential containers ACI Memory Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Confidential containers ACI",
+              "meter_name": "Confidential containers ACI Memory Duration"
+            },
+            "DZH318Z0BWWM/K80/Memory Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "K80",
+              "meter_name": "Memory Duration"
+            },
+            "DZH318Z0BWWM/P100/P100 vGPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "P100",
+              "meter_name": "P100 vGPU Duration"
+            },
+            "DZH318Z0BQV6/Standard/Standard Memory Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Standard",
+              "meter_name": "Standard Memory Duration"
+            },
+            "DZH318Z0BWWM/P100/vCPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "P100",
+              "meter_name": "vCPU Duration"
+            },
+            "DZH318Z0BWWM/V100/vCPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "V100",
+              "meter_name": "vCPU Duration"
+            },
+            "DZH318Z0BWWM/K80/K80 vGPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "K80",
+              "meter_name": "K80 vGPU Duration"
+            },
+            "DZH318Z0BWWM/V100/Memory Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "V100",
+              "meter_name": "Memory Duration"
+            },
+            "DZH318Z0BQV6/Standard/Standard vCPU Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Standard",
+              "meter_name": "Standard vCPU Duration"
+            },
+            "DZH318Z0BWWM/K80/vCPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "K80",
+              "meter_name": "vCPU Duration"
+            },
+            "DZH318Z0BWWM/V100/V100 vGPU Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "V100",
+              "meter_name": "V100 vGPU Duration"
+            },
+            "DZH318Z0BWWM/P100/Memory Duration": {
+              "id": "DZH318Z0BWWM",
+              "name": "Container Instances with GPU",
+              "sku_name": "P100",
+              "meter_name": "Memory Duration"
+            },
+            "DZH318Z0BQV6/Confidential containers ACI/Confidential containers ACI vCPU Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Confidential containers ACI",
+              "meter_name": "Confidential containers ACI vCPU Duration"
+            }
+          }
+        },
         "DZH315F9L8DM": {
           "id": "DZH315F9L8DM",
           "name": "Container Registry",
@@ -16394,78 +16478,6 @@
               "name": "Container Registry",
               "sku_name": "Standard",
               "meter_name": "Standard Registry Unit"
-            }
-          }
-        },
-        "DZH31976D030": {
-          "id": "DZH31976D030",
-          "name": "Container Instances",
-          "products": {
-            "DZH318Z0BWWM/K80/Memory Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "K80",
-              "meter_name": "Memory Duration"
-            },
-            "DZH318Z0BWWM/P100/P100 vGPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "P100",
-              "meter_name": "P100 vGPU Duration"
-            },
-            "DZH318Z0BQV6/Standard/Standard Memory Duration": {
-              "id": "DZH318Z0BQV6",
-              "name": "Container Instances",
-              "sku_name": "Standard",
-              "meter_name": "Standard Memory Duration"
-            },
-            "DZH318Z0BWWM/P100/vCPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "P100",
-              "meter_name": "vCPU Duration"
-            },
-            "DZH318Z0BWWM/V100/vCPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "V100",
-              "meter_name": "vCPU Duration"
-            },
-            "DZH318Z0BWWM/K80/K80 vGPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "K80",
-              "meter_name": "K80 vGPU Duration"
-            },
-            "DZH318Z0BWWM/V100/Memory Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "V100",
-              "meter_name": "Memory Duration"
-            },
-            "DZH318Z0BQV6/Standard/Standard vCPU Duration": {
-              "id": "DZH318Z0BQV6",
-              "name": "Container Instances",
-              "sku_name": "Standard",
-              "meter_name": "Standard vCPU Duration"
-            },
-            "DZH318Z0BWWM/K80/vCPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "K80",
-              "meter_name": "vCPU Duration"
-            },
-            "DZH318Z0BWWM/V100/V100 vGPU Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "V100",
-              "meter_name": "V100 vGPU Duration"
-            },
-            "DZH318Z0BWWM/P100/Memory Duration": {
-              "id": "DZH318Z0BWWM",
-              "name": "Container Instances with GPU",
-              "sku_name": "P100",
-              "meter_name": "Memory Duration"
             }
           }
         }
@@ -24168,6 +24180,12 @@
               "sku_name": "P30 LRS",
               "meter_name": "P30 LRS Disk Mount"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned IOPS"
+            },
             "DZH318Z0C120/Hot ZRS/Delete Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -24804,6 +24822,12 @@
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Data Write"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Soft-Deleted Usage"
+            },
             "DZH318Z0BP88/E70 LRS/E70 LRS Disk": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -25062,6 +25086,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "LRS Data Stored"
             },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned Throughput MiBPS"
+            },
             "DZH318Z0BP0L/S6 LRS/S6 LRS Disk": {
               "id": "DZH318Z0BP0L",
               "name": "Standard HDD Managed Disks",
@@ -25308,6 +25338,12 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Retrieval"
             },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned Storage"
+            },
             "DZH318Z0BNZJ/Hot LRS/Hot Read Operations": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -25451,6 +25487,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot ZRS",
               "meter_name": "Hot ZRS Data Stored"
+            },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned IOPS"
             },
             "DZH318Z0BNWT/Standard ZRS/Disk Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -26244,6 +26286,12 @@
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS List Operations"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Throughput MiBPS"
+            },
             "DZH318Z0BP6Q/Premium ZRS/Premium ZRS Burst Transactions": {
               "id": "DZH318Z0BP6Q",
               "name": "Premium Files",
@@ -26436,6 +26484,12 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS Write Operations"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Overflow Snapshot Usage"
+            },
             "DZH318Z0BP88/Confidential Compute Encryption ZRS/Confidential Compute Encryption ZRS Provisioned Capacity": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -26525,6 +26579,12 @@
               "name": "Tables",
               "sku_name": "Standard LRS",
               "meter_name": "Read Operations"
+            },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Overflow Snapshot Usage"
             },
             "DZH318Z0BJRM/Cool LRS/Cool Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
@@ -26813,6 +26873,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Hot ZRS",
               "meter_name": "Hot ZRS Data Stored"
+            },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Soft-Deleted Usage"
             },
             "DZH318Z0BJRM/Cold ZRS/Cold ZRS Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -27509,6 +27575,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E50 LRS",
               "meter_name": "E50 LRS Disk Mount"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Storage"
             },
             "DZH318Z0BNZH/Standard LRS/All Other Operations": {
               "id": "DZH318Z0BNZH",

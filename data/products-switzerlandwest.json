@@ -283,6 +283,12 @@
               "sku_name": "babbage-002-FT-Hstng-glbl",
               "meter_name": "babbage-002-FT-Hstng-glbl Unit"
             },
+            "DZH318Z0V4HX/Provisioned Managed Global/Provisioned Managed Global Unit": {
+              "id": "DZH318Z0V4HX",
+              "name": "BFL Flux Models",
+              "sku_name": "Provisioned Managed Global",
+              "meter_name": "Provisioned Managed Global Unit"
+            },
             "DZH318Z0HHG7/gpt-35-turbo16K-FT-Trng-glbl/gpt-35-turbo16K-FT-Trng-glbl Unit": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -685,6 +691,12 @@
               "sku_name": "Commitment Tier Custom Speech to Text Azure 2K",
               "meter_name": "Commitment Tier Custom Speech to Text Azure 2K Unit"
             },
+            "DZH318Z0BP4S/CNV Neural HD Synthesis/CNV Neural HD Synthesis Characters": {
+              "id": "DZH318Z0BP4S",
+              "name": "Speech",
+              "sku_name": "CNV Neural HD Synthesis",
+              "meter_name": "CNV Neural HD Synthesis Characters"
+            },
             "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
               "id": "DZH318Z0BQLH",
               "name": "Translator Text",
@@ -1074,6 +1086,12 @@
               "name": "Language",
               "sku_name": "Commitment Tier Azure 10M",
               "meter_name": "Commitment Tier Azure 10M CT Overage Transactions"
+            },
+            "DZH318Z0T879/Provisioned Managed Global/Provisioned Managed Global Unit": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Provisioned Managed Global",
+              "meter_name": "Provisioned Managed Global Unit"
             },
             "DZH318Z0BZ3Q/Standard/Standard Faces": {
               "id": "DZH318Z0BZ3Q",
@@ -27239,6 +27257,54 @@
             }
           }
         },
+        "DZH319HJX2WX": {
+          "id": "DZH319HJX2WX",
+          "name": "Functions",
+          "products": {
+            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Total Executions"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Baseline"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Total Executions"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Execution Time"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Execution Time"
+            },
+            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium Memory Duration"
+            },
+            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium vCPU Duration"
+            }
+          }
+        },
         "DZH319F70F09": {
           "id": "DZH319F70F09",
           "name": "Azure Container Apps",
@@ -27833,24 +27899,6 @@
             }
           }
         },
-        "DZH319HJX2WX": {
-          "id": "DZH319HJX2WX",
-          "name": "Functions",
-          "products": {
-            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium Memory Duration"
-            },
-            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium vCPU Duration"
-            }
-          }
-        },
         "DZH315HTQSK6": {
           "id": "DZH315HTQSK6",
           "name": "Azure Kubernetes Service",
@@ -28159,6 +28207,12 @@
               "sku_name": "Copilot and AI Capacity Usage",
               "meter_name": "Copilot and AI Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Data Movement - Incremental copy Capacity Usage/Data Movement - Incremental copy Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Data Movement - Incremental copy Capacity Usage",
+              "meter_name": "Data Movement - Incremental copy Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Digital Twin Builder Capacity Usage/Digital Twin Builder Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -28206,6 +28260,12 @@
               "name": "OneLake",
               "sku_name": "Storage Mirroring Free",
               "meter_name": "Storage Mirroring Free Data Stored"
+            },
+            "DZH318Z0KCZ7/autoscale for Spark Capacity Usage/autoscale for Spark Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "autoscale for Spark Capacity Usage",
+              "meter_name": "autoscale for Spark Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations via proxy Capacity Usage/OneLake BCDR Read Operations via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -30576,6 +30636,18 @@
               "sku_name": "DS13_v2",
               "meter_name": "DS13_v2 vCore"
             },
+            "DZH318Z08VF5/Standard_DS14_v2/Standard_DS14_v2 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_DS14_v2",
+              "meter_name": "Standard_DS14_v2 vCore"
+            },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_D16ads_v5/Standard_D16ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_D16ads_v5",
+              "meter_name": "Standard_D16ads_v5 vCore"
+            },
             "DZH318Z08VF5/D32ds_v4/D32ds_v4 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30612,6 +30684,12 @@
               "sku_name": "D16as_v4",
               "meter_name": "D16as_v4 vCore"
             },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E2ads_v5/Standard_E2ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E2ads_v5",
+              "meter_name": "Standard_E2ads_v5 vCore"
+            },
             "DZH318Z08VF5/Apache_Cassandra_Standard_D4s_v5/Standard_D4s_v5 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30636,6 +30714,12 @@
               "sku_name": "Apache_Cassandra_Standard_E16s_v5",
               "meter_name": "Standard_E16s_v5 vCore"
             },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E16ads_v5/Standard_E16ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E16ads_v5",
+              "meter_name": "Standard_E16ads_v5 vCore"
+            },
             "DZH318Z08VF5/Apache_Cassandra_Standard_D4as_v5/Standard_D4as_v5 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30653,6 +30737,12 @@
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
               "sku_name": "Apache_Cassandra_Standard_L16as_v3",
               "meter_name": "Standard_L16as_v3 vCore"
+            },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E4ads_v5/Standard_E4ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E4ads_v5",
+              "meter_name": "Standard_E4ads_v5 vCore"
             },
             "DZH318Z08VF5/Apache_Cassandra_Standard_D8as_v5/Standard_D8as_v5 vCore": {
               "id": "DZH318Z08VF5",
@@ -30678,6 +30768,12 @@
               "sku_name": "DS4_v2",
               "meter_name": "DS4_v2 vCore"
             },
+            "DZH318Z08VF5/Standard_E2s_v4/Standard_E2s_v4 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_E2s_v4",
+              "meter_name": "Standard_E2s_v4 vCore"
+            },
             "DZH318Z08VF5/NP20s/NP20s vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30702,6 +30798,18 @@
               "sku_name": "E8as_v4",
               "meter_name": "E8as_v4 vCore"
             },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_D32ads_v5/Standard_D32ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_D32ads_v5",
+              "meter_name": "Standard_D32ads_v5 vCore"
+            },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E20ads_v5/Standard_E20ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E20ads_v5",
+              "meter_name": "Standard_E20ads_v5 vCore"
+            },
             "DZH318Z08VF5/P30/P30 Disk": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30714,11 +30822,23 @@
               "sku_name": "Apache_Cassandra_Standard_E4s_v5",
               "meter_name": "Standard_E4s_v5 vCore"
             },
+            "DZH318Z08VF5/Standard_E4s_v4/Standard_E4s_v4 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_E4s_v4",
+              "meter_name": "Standard_E4s_v4 vCore"
+            },
             "DZH318Z08VF5/L16s_v2/L16s_v2 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
               "sku_name": "L16s_v2",
               "meter_name": "L16s_v2 vCore"
+            },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_D8ads_v5/Standard_D8ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_D8ads_v5",
+              "meter_name": "Standard_D8ads_v5 vCore"
             },
             "DZH318Z08VF5/Apache_Cassandra_Standard_D2as_v5/Standard_D2as_v5 vCore": {
               "id": "DZH318Z08VF5",
@@ -30774,6 +30894,12 @@
               "sku_name": "Apache_Cassandra_Standard_E8as_v5",
               "meter_name": "Standard_E8as_v5 vCore"
             },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E8ads_v5/Standard_E8ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E8ads_v5",
+              "meter_name": "Standard_E8ads_v5 vCore"
+            },
             "DZH318Z08VF5/Standard_D16s_v4/Standard_D16s_v4 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30791,6 +30917,12 @@
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
               "sku_name": "Apache_Cassandra_Standard_E4as_v5",
               "meter_name": "Standard_E4as_v5 vCore"
+            },
+            "DZH318Z08VF5/Standard_DS13_v2/Standard_DS13_v2 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_DS13_v2",
+              "meter_name": "Standard_DS13_v2 vCore"
             },
             "DZH318Z08VF5/VM Instance/VM Instance vCore": {
               "id": "DZH318Z08VF5",
@@ -30846,11 +30978,23 @@
               "sku_name": "E16ds_v4",
               "meter_name": "E16ds_v4 vCore"
             },
+            "DZH318Z08VF5/Standard_D2s_v4/Standard_D2s_v4 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_D2s_v4",
+              "meter_name": "Standard_D2s_v4 vCore"
+            },
             "DZH318Z08VF5/Apache_Cassandra_Standard_E2as_v5/Standard_E2as_v5 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
               "sku_name": "Apache_Cassandra_Standard_E2as_v5",
               "meter_name": "Standard_E2as_v5 vCore"
+            },
+            "DZH318Z08VF5/Standard_D4s_v4/Standard_D4s_v4 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard_D4s_v4",
+              "meter_name": "Standard_D4s_v4 vCore"
             },
             "DZH318Z08VF5/Apache_Cassandra_Standard_D32s_v5/Standard_D32s_v5 vCore": {
               "id": "DZH318Z08VF5",
@@ -30906,6 +31050,12 @@
               "sku_name": "DS5_v2",
               "meter_name": "DS5_v2 vCore"
             },
+            "DZH318Z08VF5/Apache_Cassandra_Standard_E32ads_v5/Standard_E32ads_v5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Apache_Cassandra_Standard_E32ads_v5",
+              "meter_name": "Standard_E32ads_v5 vCore"
+            },
             "DZH318Z08VF5/E8ds_v4/E8ds_v4 vCore": {
               "id": "DZH318Z08VF5",
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
@@ -30947,6 +31097,12 @@
               "name": "Azure Managed Instance for Apache Cassandra - Compute",
               "sku_name": "Apache_Cassandra_Standard_E32s_v5",
               "meter_name": "Standard_E32s_v5 vCore"
+            },
+            "DZH318Z08VF5/Standard E2s V5/Standard E2s V5 vCore": {
+              "id": "DZH318Z08VF5",
+              "name": "Azure Managed Instance for Apache Cassandra - Compute",
+              "sku_name": "Standard E2s V5",
+              "meter_name": "Standard E2s V5 vCore"
             },
             "DZH318Z08VF5/L8s_v2/L8s_v2 vCore": {
               "id": "DZH318Z08VF5",
@@ -32580,11 +32736,35 @@
               "sku_name": "Standard_D8as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TTZQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TTZQ",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0DCRV/Standard_E16as/vCore": {
               "id": "DZH318Z0DCRV",
               "name": "Azure Database for MySQL Flexible Server Business Critical Compute",
               "sku_name": "Standard_E16as",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TVNQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TVNQ",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0TTZQ/vCore/vCore": {
+              "id": "DZH318Z0TTZQ",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TRNB/1 vCore/1 vCore": {
+              "id": "DZH318Z0TRNB",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCRV/2 vCore/vCore": {
               "id": "DZH318Z0DCRV",
@@ -32609,6 +32789,12 @@
               "name": "Azure Database for MySQL Flexible Server General Purpose Series Compute",
               "sku_name": "Standard_D16as",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TSCQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TSCQ",
+              "name": "Azure Database for MySQL Flexible Server Confidential Compute ECadsv6 Series",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCS3/Basic/Basic": {
               "id": "DZH318Z0DCS3",
@@ -32646,6 +32832,12 @@
               "sku_name": "Standard_D2as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TW7C/vCore/vCore": {
+              "id": "DZH318Z0TW7C",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCQ4/PMD LRS/PMD LRS Data Stored": {
               "id": "DZH318Z0DCQ4",
               "name": "Az DB for MySQL Flexible Server Storage",
@@ -32676,6 +32868,12 @@
               "sku_name": "Standard_E80is_v4",
               "meter_name": "vCore"
             },
+            "DZH318Z0TRNB/vCore/vCore": {
+              "id": "DZH318Z0TRNB",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRV/8 vCore/vCore": {
               "id": "DZH318Z0DCRV",
               "name": "Azure Database for MySQL Flexible Server Business Critical Compute",
@@ -32698,6 +32896,12 @@
               "id": "DZH318Z0BQKN",
               "name": "Azure Database for MySQL Single Server Memory Optimized - Compute Gen5",
               "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TVNQ/vCore/vCore": {
+              "id": "DZH318Z0TVNQ",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "vCore",
               "meter_name": "vCore"
             },
             "DZH318Z0DCRV/Standard_E96/vCore": {
@@ -32724,6 +32928,12 @@
               "sku_name": "48 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0TSCQ/vCore/vCore": {
+              "id": "DZH318Z0TSCQ",
+              "name": "Azure Database for MySQL Flexible Server Confidential Compute ECadsv6 Series",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0BQKM/2 vCore/2 vCore": {
               "id": "DZH318Z0BQKM",
               "name": "Azure Database for MySQL Single Server Basic - Compute Gen5",
@@ -32735,6 +32945,12 @@
               "name": "Azure Database for MySQL Flexible Server Business Critical Compute",
               "sku_name": "64 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TS9H/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS9H",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCS0/64 vCore/vCore": {
               "id": "DZH318Z0DCS0",
@@ -32844,6 +33060,12 @@
               "sku_name": "Standard_E8as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TS2D/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS2D",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0BQFH/Basic/Basic Data Stored": {
               "id": "DZH318Z0BQFH",
               "name": "Azure Database for MySQL Single Server Basic - Storage",
@@ -32898,11 +33120,23 @@
               "sku_name": "4 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0TS9H/vCore/vCore": {
+              "id": "DZH318Z0TS9H",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCS0/Standard_D96as/vCore": {
               "id": "DZH318Z0DCS0",
               "name": "Azure Database for MySQL Flexible Server General Purpose Series Compute",
               "sku_name": "Standard_D96as",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TS4J/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS4J",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0BQKN/vCore/vCore": {
               "id": "DZH318Z0BQKN",
@@ -32940,11 +33174,23 @@
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0TS4J/vCore/vCore": {
+              "id": "DZH318Z0TS4J",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCS0/16 vCore/vCore": {
               "id": "DZH318Z0DCS0",
               "name": "Azure Database for MySQL Flexible Server General Purpose Series Compute",
               "sku_name": "16 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TW7C/1 vCore/1 vCore": {
+              "id": "DZH318Z0TW7C",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCS0/Standard_Das/vCore": {
               "id": "DZH318Z0DCS0",
@@ -32957,6 +33203,12 @@
               "name": "Azure Database for MySQL Single Server - Backup Storage",
               "sku_name": "Backup LRS",
               "meter_name": "Backup LRS Data Stored"
+            },
+            "DZH318Z0TS2D/vCore/vCore": {
+              "id": "DZH318Z0TS2D",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
             },
             "DZH318Z0DCS3/B2S/B2S": {
               "id": "DZH318Z0DCS3",
@@ -37064,6 +37316,12 @@
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Write"
             },
+            "DZH318Z0B598/Premium LRS/Premium LRS Provisioned Capacity Unit": {
+              "id": "DZH318Z0B598",
+              "name": "Azure Elastic SAN",
+              "sku_name": "Premium LRS",
+              "meter_name": "Premium LRS Provisioned Capacity Unit"
+            },
             "DZH318Z0BNZF/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -37231,6 +37489,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Archive GRS",
               "meter_name": "Archive GRS Early Delete"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Storage"
             },
             "DZH318Z0BP88/E40 LRS/E40 LRS Disk Mount": {
               "id": "DZH318Z0BP88",
@@ -38624,6 +38888,12 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "RA-GRS List and Create Container Operations"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Overflow Snapshot Usage"
+            },
             "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Data Write": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -38953,6 +39223,12 @@
               "name": "Premium SSD Managed Disks",
               "sku_name": "Confidential Compute Encryption LRS",
               "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned IOPS"
             },
             "DZH318Z0BP09/Hot GRS/Hot GRS Data Stored": {
               "id": "DZH318Z0BP09",
@@ -39469,6 +39745,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool RA-GRS Data Stored"
+            },
+            "DZH318Z0B598/Premium LRS/Premium LRS Provisioned Base Unit": {
+              "id": "DZH318Z0B598",
+              "name": "Azure Elastic SAN",
+              "sku_name": "Premium LRS",
+              "meter_name": "Premium LRS Provisioned Base Unit"
             },
             "DZH318Z0H96B/HDD GRS/HDD GRS Provisioned Storage": {
               "id": "DZH318Z0H96B",
@@ -40256,6 +40538,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Hot LRS Data Stored"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Throughput MiBPS"
+            },
             "DZH318Z0BP04/P40 LRS/P40 LRS Disk Mount": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -40579,6 +40867,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool GRS",
               "meter_name": "Cool GRS Early Delete"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Soft-Deleted Usage"
             },
             "DZH318Z0BPH7/Archive GRS/Archive GRS Write Operations": {
               "id": "DZH318Z0BPH7",
@@ -41754,6 +42048,12 @@
               "name": "Azure AI Search",
               "sku_name": "Basic",
               "meter_name": "Basic Unit"
+            },
+            "DZH318Z0BQKZ/Agentic Grounding/Agentic Grounding Tokens": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Agentic Grounding",
+              "meter_name": "Agentic Grounding Tokens"
             },
             "DZH318Z0BQKZ/Storage Optimized L2/Storage Optimized L2 Unit": {
               "id": "DZH318Z0BQKZ",
