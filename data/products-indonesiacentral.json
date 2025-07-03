@@ -17395,6 +17395,66 @@
             }
           }
         },
+        "DZH319HJX2WX": {
+          "id": "DZH319HJX2WX",
+          "name": "Functions",
+          "products": {
+            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Baseline"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Execution Time"
+            },
+            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium vCPU Duration"
+            },
+            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium Memory Duration"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Total Executions"
+            },
+            "DZH318Z0BNWB/Standard/Standard Total Executions": {
+              "id": "DZH318Z0BNWB",
+              "name": "Functions",
+              "sku_name": "Standard",
+              "meter_name": "Standard Total Executions"
+            },
+            "DZH318Z0BNWB/Standard/Standard Execution Time": {
+              "id": "DZH318Z0BNWB",
+              "name": "Functions",
+              "sku_name": "Standard",
+              "meter_name": "Standard Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Total Executions"
+            }
+          }
+        },
         "DZH315TKSTVK": {
           "id": "DZH315TKSTVK",
           "name": "Service Fabric Mesh",
@@ -17784,36 +17844,6 @@
               "meter_name": "Standard Uptime SLA"
             }
           }
-        },
-        "DZH319HJX2WX": {
-          "id": "DZH319HJX2WX",
-          "name": "Functions",
-          "products": {
-            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium vCPU Duration"
-            },
-            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium Memory Duration"
-            },
-            "DZH318Z0BNWB/Standard/Standard Total Executions": {
-              "id": "DZH318Z0BNWB",
-              "name": "Functions",
-              "sku_name": "Standard",
-              "meter_name": "Standard Total Executions"
-            },
-            "DZH318Z0BNWB/Standard/Standard Execution Time": {
-              "id": "DZH318Z0BNWB",
-              "name": "Functions",
-              "sku_name": "Standard",
-              "meter_name": "Standard Execution Time"
-            }
-          }
         }
       }
     },
@@ -17979,6 +18009,29 @@
               "name": "Container Registry",
               "sku_name": "Premium",
               "meter_name": "Data Stored"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Data",
+      "services": {
+        "DZH31767PK6Z": {
+          "id": "DZH31767PK6Z",
+          "name": "Microsoft Fabric",
+          "products": {
+            "DZH318Z0F28J/SQL Backup Storage/SQL Backup Storage Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "SQL Backup Storage",
+              "meter_name": "SQL Backup Storage Data Stored"
+            },
+            "DZH318Z0F28J/SQL Storage/SQL Storage Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "SQL Storage",
+              "meter_name": "SQL Storage Data Stored"
             }
           }
         }
@@ -20115,6 +20168,12 @@
               "sku_name": "Standard_E2as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TSCQ/vCore/vCore": {
+              "id": "DZH318Z0TSCQ",
+              "name": "Azure Database for MySQL Flexible Server Confidential Compute ECadsv6 Series",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCQ6/8 vCore/vCore": {
               "id": "DZH318Z0DCQ6",
               "name": "Azure Database for MySQL Flexible Server Business Critical Ev3 Series Compute",
@@ -20156,6 +20215,12 @@
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
               "sku_name": "Standard_B8ms",
               "meter_name": "B8MS"
+            },
+            "DZH318Z0TRNB/1 vCore/1 vCore": {
+              "id": "DZH318Z0TRNB",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCQ6/64 vCore/vCore": {
               "id": "DZH318Z0DCQ6",
@@ -20205,6 +20270,12 @@
               "sku_name": "Standard_E2as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TTZQ/vCore/vCore": {
+              "id": "DZH318Z0TTZQ",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRV/Standard_E8as/vCore": {
               "id": "DZH318Z0DCRV",
               "name": "Azure Database for MySQL Flexible Server Business Critical Compute",
@@ -20235,11 +20306,23 @@
               "sku_name": "PMD LRS",
               "meter_name": "PMD LRS Data Stored"
             },
+            "DZH318Z0TTZQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TTZQ",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0DCS2/4 vCore/vCore": {
               "id": "DZH318Z0DCS2",
               "name": "Azure Database for MySQL Flexible Server General Purpose Dv3 Series Compute",
               "sku_name": "4 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TS2D/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS2D",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCS0/32 vCore/vCore": {
               "id": "DZH318Z0DCS0",
@@ -20324,6 +20407,18 @@
               "name": "Azure Database for MySQL Single Server Basic - Storage",
               "sku_name": "Basic",
               "meter_name": "Basic Data Stored"
+            },
+            "DZH318Z0TSCQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TSCQ",
+              "name": "Azure Database for MySQL Flexible Server Confidential Compute ECadsv6 Series",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0TRNB/vCore/vCore": {
+              "id": "DZH318Z0TRNB",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
             },
             "DZH318Z0DCS3/Basic/Basic": {
               "id": "DZH318Z0DCS3",
@@ -20475,6 +20570,18 @@
               "sku_name": "Standard_B12ms",
               "meter_name": "B12MS"
             },
+            "DZH318Z0TVNQ/1 vCore/1 vCore": {
+              "id": "DZH318Z0TVNQ",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0TS4J/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS4J",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0BQKN/16 vCore/vCore": {
               "id": "DZH318Z0BQKN",
               "name": "Azure Database for MySQL Single Server Memory Optimized - Compute Gen5",
@@ -20504,6 +20611,12 @@
               "name": "Azure Database for MySQL Flexible Server Business Critical Compute",
               "sku_name": "2 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0TW7C/1 vCore/1 vCore": {
+              "id": "DZH318Z0TW7C",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCS0/64 vCore/vCore": {
               "id": "DZH318Z0DCS0",
@@ -20577,6 +20690,12 @@
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0TVNQ/vCore/vCore": {
+              "id": "DZH318Z0TVNQ",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0BQJ7/32 vCore/vCore": {
               "id": "DZH318Z0BQJ7",
               "name": "Azure Database for MySQL Single Server General Purpose - Compute Gen5",
@@ -20605,6 +20724,12 @@
               "id": "DZH318Z0DCS2",
               "name": "Azure Database for MySQL Flexible Server General Purpose Dv3 Series Compute",
               "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TS2D/vCore/vCore": {
+              "id": "DZH318Z0TS2D",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "vCore",
               "meter_name": "vCore"
             },
             "DZH318Z0DCRV/32 vCore/vCore": {
@@ -20667,6 +20792,12 @@
               "sku_name": "Standard_E104",
               "meter_name": "vCore"
             },
+            "DZH318Z0TS9H/1 vCore/1 vCore": {
+              "id": "DZH318Z0TS9H",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0C16M/Standard/Standard Data Stored": {
               "id": "DZH318Z0C16M",
               "name": "Azure Database for MySQL Standard Storage",
@@ -20679,11 +20810,29 @@
               "sku_name": "Standard_E8as",
               "meter_name": "vCore"
             },
+            "DZH318Z0TW7C/vCore/vCore": {
+              "id": "DZH318Z0TW7C",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TS4J/vCore/vCore": {
+              "id": "DZH318Z0TS4J",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0BXBD/General Purpose/General Purpose Data Stored": {
               "id": "DZH318Z0BXBD",
               "name": "Azure Database for MySQL General Purpose - Large-Scale Storage",
               "sku_name": "General Purpose",
               "meter_name": "General Purpose Data Stored"
+            },
+            "DZH318Z0TS9H/vCore/vCore": {
+              "id": "DZH318Z0TS9H",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
             },
             "DZH318Z0DCQ4/Storage/Storage Data Stored": {
               "id": "DZH318Z0DCQ4",
@@ -25359,6 +25508,41 @@
       }
     },
     {
+      "name": "Other",
+      "services": {
+        "DZH318T8ZLFS": {
+          "id": "DZH318T8ZLFS",
+          "name": "Energy Data Manager",
+          "products": {
+            "DZH318Z0K03L/Developer/Developer Instance": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Developer",
+              "meter_name": "Developer Instance"
+            },
+            "DZH318Z0K03L/Standard/Standard Additional Data Partition": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Standard",
+              "meter_name": "Standard Additional Data Partition"
+            },
+            "DZH318Z0K03L/Developer/Developer Additional Data Partition": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Developer",
+              "meter_name": "Developer Additional Data Partition"
+            },
+            "DZH318Z0K03L/Standard/Standard Instance": {
+              "id": "DZH318Z0K03L",
+              "name": "Azure Data Manager for Energy",
+              "sku_name": "Standard",
+              "meter_name": "Standard Instance"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Security",
       "services": {
         "DZH317R3LFB4": {
@@ -25843,6 +26027,12 @@
               "name": "Premium Page Blob",
               "sku_name": "P10 ZRS",
               "meter_name": "P10 ZRS Disk"
+            },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned IOPS"
             },
             "DZH318Z0BNZ5/Account Encrypted LRS/Account Encrypted Batch Write Operations": {
               "id": "DZH318Z0BNZ5",
@@ -26486,6 +26676,12 @@
               "sku_name": "Hot ZRS",
               "meter_name": "All Other Operations"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Overflow Snapshot Usage"
+            },
             "DZH318Z0BP0B/Standard LRS/Delete Operations": {
               "id": "DZH318Z0BP0B",
               "name": "Files",
@@ -27007,6 +27203,12 @@
               "name": "Premium Block Blob v2 Hierarchical Namespace",
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Hot Tier Down"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Storage"
             },
             "DZH318Z0BP88/E10 ZRS/E10 ZRS Disk": {
               "id": "DZH318Z0BP88",
@@ -27800,6 +28002,12 @@
               "sku_name": "Cool ZRS",
               "meter_name": "Cool Data Scanned for Query Acceleration"
             },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Overflow Snapshot Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Overflow Snapshot Usage"
+            },
             "DZH318Z0BPH7/Cold ZRS/Cold ZRS Data Stored": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -28112,6 +28320,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Data Stored"
             },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Storage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned Storage"
+            },
             "DZH318Z0BNWT/Standard ZRS/ZRS Read Additional IO": {
               "id": "DZH318Z0BNWT",
               "name": "Standard Page Blob v2",
@@ -28130,6 +28344,12 @@
               "sku_name": "Archive LRS",
               "meter_name": "Archive Write Operations"
             },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Soft-Deleted Usage"
+            },
             "DZH318Z0BP09/Standard LRS/Read Operations": {
               "id": "DZH318Z0BP09",
               "name": "Files v2",
@@ -28141,12 +28361,6 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E20 ZRS",
               "meter_name": "E20 ZRS Disk Mount"
-            },
-            "DZH318Z0B598/Premium LRS/Premium LRS Provisioned Capacity Unit": {
-              "id": "DZH318Z0B598",
-              "name": "Azure Elastic SAN",
-              "sku_name": "Premium LRS",
-              "meter_name": "Premium LRS Provisioned Capacity Unit"
             },
             "DZH318Z0C120/Archive LRS/Archive LRS Early Delete": {
               "id": "DZH318Z0C120",
@@ -28243,12 +28457,6 @@
               "name": "Standard HDD Managed Disks",
               "sku_name": "S40 LRS",
               "meter_name": "S40 LRS Disk"
-            },
-            "DZH318Z0B598/Premium ZRS/Premium ZRS Provisioned Base Unit": {
-              "id": "DZH318Z0B598",
-              "name": "Azure Elastic SAN",
-              "sku_name": "Premium ZRS",
-              "meter_name": "Premium ZRS Provisioned Base Unit"
             },
             "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Objects Operated On": {
               "id": "DZH318Z0FPZF",
@@ -28369,12 +28577,6 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E10 LRS",
               "meter_name": "E10 LRS Disk Operations"
-            },
-            "DZH318Z0B598/Premium LRS/Premium LRS Provisioned Base Unit": {
-              "id": "DZH318Z0B598",
-              "name": "Azure Elastic SAN",
-              "sku_name": "Premium LRS",
-              "meter_name": "Premium LRS Provisioned Base Unit"
             },
             "DZH318Z0BNZJ/Archive LRS/Archive Priority Read Operations": {
               "id": "DZH318Z0BNZJ",
@@ -28627,6 +28829,12 @@
               "name": "Standard Page Blob v2",
               "sku_name": "Standard ZRS",
               "meter_name": "ZRS Write Operations"
+            },
+            "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD ZRS",
+              "meter_name": "SSD ZRS Provisioned Throughput MiBPS"
             },
             "DZH318Z0BP0L/Snapshots LRS/Snapshots LRS Snapshots": {
               "id": "DZH318Z0BP0L",
@@ -28958,6 +29166,12 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS Iterative Write Operations"
             },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned IOPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned IOPS"
+            },
             "DZH318Z0BPH7/Cool LRS/Cool LRS Write Operations": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -28981,6 +29195,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E1 ZRS",
               "meter_name": "E1 ZRS Disk Mount"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Soft-Deleted Usage": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Soft-Deleted Usage"
             },
             "DZH318Z0BNZ5/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNZ5",
@@ -29444,12 +29664,6 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS List and Create Container Operations"
             },
-            "DZH318Z0B598/Premium ZRS/Premium ZRS Provisioned Capacity Unit": {
-              "id": "DZH318Z0B598",
-              "name": "Azure Elastic SAN",
-              "sku_name": "Premium ZRS",
-              "meter_name": "Premium ZRS Provisioned Capacity Unit"
-            },
             "DZH318Z0BP88/Disk Transactions LRS/Disk Transactions LRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -29533,6 +29747,12 @@
               "name": "General Block Blob",
               "sku_name": "Standard ZRS",
               "meter_name": "Read Operations"
+            },
+            "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS": {
+              "id": "DZH318Z0H96B",
+              "name": "Azure Files Provisioned v2",
+              "sku_name": "SSD LRS",
+              "meter_name": "SSD LRS Provisioned Throughput MiBPS"
             },
             "DZH318Z0BPH7/Hot LRS/Hot LRS Blob Inventory": {
               "id": "DZH318Z0BPH7",
