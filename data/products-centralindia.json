@@ -45404,7 +45404,7 @@
             },
             "DZH318Z0H9TN/Standard_E4d_v5/4 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E4d_v5",
               "meter_name": "4 vCore"
             },
@@ -45422,7 +45422,7 @@
             },
             "DZH318Z0H9TN/Standard_E96d_v5/96 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E96d_v5",
               "meter_name": "96 vCore"
             },
@@ -45464,7 +45464,7 @@
             },
             "DZH318Z0H9TN/Standard_E104id_v5/104 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E104id_v5",
               "meter_name": "104 vCore"
             },
@@ -45554,7 +45554,7 @@
             },
             "DZH318Z0H9TN/Standard_E16d_v5/16 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E16d_v5",
               "meter_name": "16 vCore"
             },
@@ -45584,13 +45584,13 @@
             },
             "DZH318Z0H9TN/Standard_E2d_v5/2 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E2d_v5",
               "meter_name": "2 vCore"
             },
             "DZH318Z0H9TN/Standard_E8d_v5/8 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E8d_v5",
               "meter_name": "8 vCore"
             },
@@ -45626,7 +45626,7 @@
             },
             "DZH318Z0H9TN/Standard_E20d_v5/20 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E20d_v5",
               "meter_name": "20 vCore"
             },
@@ -45656,7 +45656,7 @@
             },
             "DZH318Z0H9TN/Standard_E64d_v5/64 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E64d_v5",
               "meter_name": "64 vCore"
             },
@@ -45680,7 +45680,7 @@
             },
             "DZH318Z0H9TN/Standard_E32d_v5/32 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E32d_v5",
               "meter_name": "32 vCore"
             },
@@ -45704,7 +45704,7 @@
             },
             "DZH318Z0H9TN/Standard_E48d_v5/48 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E48d_v5",
               "meter_name": "48 vCore"
             },
@@ -46896,6 +46896,24 @@
     {
       "name": "Integration",
       "services": {
+        "DZH316K5T72P": {
+          "id": "DZH316K5T72P",
+          "name": "Azure API Center",
+          "products": {
+            "DZH318Z0GF1L/Standard/Standard Unit": {
+              "id": "DZH318Z0GF1L",
+              "name": "Azure API Center",
+              "sku_name": "Standard",
+              "meter_name": "Standard Unit"
+            },
+            "DZH318Z0GF1L/Free/Free Unit": {
+              "id": "DZH318Z0GF1L",
+              "name": "Azure API Center",
+              "sku_name": "Free",
+              "meter_name": "Free Unit"
+            }
+          }
+        },
         "DZH3179N6FXW": {
           "id": "DZH3179N6FXW",
           "name": "Service Bus",
@@ -47618,11 +47636,11 @@
               "sku_name": "Alerts",
               "meter_name": "Alerts Resource Monitored at 15 Minute Frequency"
             },
-            "DZH318Z0BQLB/Log data ingestion and transformation/Log data ingestion and transformation GB": {
+            "DZH318Z0BQLB/Logs Processed/Logs Processed GB": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
-              "sku_name": "Log data ingestion and transformation",
-              "meter_name": "Log data ingestion and transformation GB"
+              "sku_name": "Logs Processed",
+              "meter_name": "Logs Processed GB"
             },
             "DZH318Z0BQLB/SMS Country Code 371/SMS Country Code 371 Notification": {
               "id": "DZH318Z0BQLB",

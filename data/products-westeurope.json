@@ -211,6 +211,12 @@
               "sku_name": "Video Retrieval and Description - Ingestion",
               "meter_name": "Video Retrieval and Description - Ingestion Vision"
             },
+            "DZH318Z0TDSR/o3-deep research 0626-inp-glbl/o3-deep research 0626-inp-glbl 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-inp-glbl",
+              "meter_name": "o3-deep research 0626-inp-glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt 4o 0806 Batch Inp Data Zone/gpt 4o 0806 Batch Inp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1062,6 +1068,12 @@
               "name": "Speech",
               "sku_name": "S1",
               "meter_name": "S1 Neural Text To Speech Characters"
+            },
+            "DZH318Z0TDSR/o3-deep research 0626-out-glbl/o3-deep research 0626-out-glbl 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-out-glbl",
+              "meter_name": "o3-deep research 0626-out-glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt4omini-aud1217-txt Outp glbl/gpt4omini-aud1217-txt Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2173,6 +2185,12 @@
               "sku_name": "Free",
               "meter_name": "Free Custom Text To Speech Characters"
             },
+            "DZH318Z0TDSR/o3-deep research 0626-inp-cchd-glbl/o3-deep research 0626-inp-cchd-glbl 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-inp-cchd-glbl",
+              "meter_name": "o3-deep research 0626-inp-cchd-glbl 1M Tokens"
+            },
             "DZH318Z0BP4S/Standard Streaming/Standard Streaming Minute": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -2328,6 +2346,12 @@
               "name": "Computer Vision",
               "sku_name": "Shelf Image Composition",
               "meter_name": "Shelf Image Composition Transactions"
+            },
+            "DZH318Z0TDSR/o3-deep research 0626-inp-dzone/o3-deep research 0626-inp-dzone 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-inp-dzone",
+              "meter_name": "o3-deep research 0626-inp-dzone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-mini-ft model grader output/gpt-4o-mini-ft model grader output Tokens": {
               "id": "DZH318Z0HHG7",
@@ -3829,6 +3853,12 @@
               "sku_name": "computer-use-inpt-datazone",
               "meter_name": "computer-use-inpt-datazone Tokens"
             },
+            "DZH318Z0TDSR/o3-deep research 0626-out-dzone/o3-deep research 0626-out-dzone 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-out-dzone",
+              "meter_name": "o3-deep research 0626-out-dzone 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4o-mini-transcribe-aud-inp-dz/gpt-4o-mini-transcribe-aud-inp-dz Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -4380,6 +4410,12 @@
               "name": "Language",
               "sku_name": "Commitment Tier Summarization Azure 10M",
               "meter_name": "Commitment Tier Summarization Azure 10M CT Overage Transactions"
+            },
+            "DZH318Z0TDSR/o3-deep research 0626-inp-cchd-dzone/o3-deep research 0626-inp-cchd-dzone 1M Tokens": {
+              "id": "DZH318Z0TDSR",
+              "name": "Azure OpenAI Reasoning",
+              "sku_name": "o3-deep research 0626-inp-cchd-dzone",
+              "meter_name": "o3-deep research 0626-inp-cchd-dzone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-mini-tts-aud-out-glbl/gpt-4o-mini-tts-aud-out-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -51853,6 +51889,36 @@
               "meter_name": "OneLake BCDR Iterative Read Operation via proxy Capacity Usage CU"
             }
           }
+        },
+        "DZH319DNZ54D": {
+          "id": "DZH319DNZ54D",
+          "name": "Microsoft Planetary Computer Pro",
+          "products": {
+            "DZH318Z0MLH3/Geospatial Data Reads/Geospatial Data Reads Operations": {
+              "id": "DZH318Z0MLH3",
+              "name": "MS Planetary Computer Pro",
+              "sku_name": "Geospatial Data Reads",
+              "meter_name": "Geospatial Data Reads Operations"
+            },
+            "DZH318Z0MLH3/Geospatial Storage/Geospatial Storage Data Stored": {
+              "id": "DZH318Z0MLH3",
+              "name": "MS Planetary Computer Pro",
+              "sku_name": "Geospatial Storage",
+              "meter_name": "Geospatial Storage Data Stored"
+            },
+            "DZH318Z0MLH3/Cross Region Data Transfer/Cross Region Data Transfer": {
+              "id": "DZH318Z0MLH3",
+              "name": "MS Planetary Computer Pro",
+              "sku_name": "Cross Region Data Transfer",
+              "meter_name": "Cross Region Data Transfer"
+            },
+            "DZH318Z0MLH3/Ingest and Trans Std/Ingest and Trans Std vCPU": {
+              "id": "DZH318Z0MLH3",
+              "name": "MS Planetary Computer Pro",
+              "sku_name": "Ingest and Trans Std",
+              "meter_name": "Ingest and Trans Std vCPU"
+            }
+          }
         }
       }
     },
@@ -57289,7 +57355,7 @@
             },
             "DZH318Z0H9TN/Standard_E16d_v5/16 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E16d_v5",
               "meter_name": "16 vCore"
             },
@@ -57313,7 +57379,7 @@
             },
             "DZH318Z0H9TN/Standard_E8d_v5/8 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E8d_v5",
               "meter_name": "8 vCore"
             },
@@ -57361,7 +57427,7 @@
             },
             "DZH318Z0H9TN/Standard_E20d_v5/20 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E20d_v5",
               "meter_name": "20 vCore"
             },
@@ -57433,7 +57499,7 @@
             },
             "DZH318Z0H9TN/Standard_E104id_v5/104 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E104id_v5",
               "meter_name": "104 vCore"
             },
@@ -57457,7 +57523,7 @@
             },
             "DZH318Z0H9TN/Standard_E64d_v5/64 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E64d_v5",
               "meter_name": "64 vCore"
             },
@@ -57469,13 +57535,13 @@
             },
             "DZH318Z0H9TN/Standard_E2d_v5/2 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E2d_v5",
               "meter_name": "2 vCore"
             },
             "DZH318Z0H9TN/Standard_E4d_v5/4 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E4d_v5",
               "meter_name": "4 vCore"
             },
@@ -57499,7 +57565,7 @@
             },
             "DZH318Z0H9TN/Standard_E96d_v5/96 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E96d_v5",
               "meter_name": "96 vCore"
             },
@@ -57565,7 +57631,7 @@
             },
             "DZH318Z0H9TN/Standard_E32d_v5/32 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E32d_v5",
               "meter_name": "32 vCore"
             },
@@ -57667,7 +57733,7 @@
             },
             "DZH318Z0H9TN/Standard_E48d_v5/48 vCore": {
               "id": "DZH318Z0H9TN",
-              "name": "Azure Database for MySQL Flexible Server Business Critical Ev5 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "Standard_E48d_v5",
               "meter_name": "48 vCore"
             }
@@ -58895,6 +58961,24 @@
             }
           }
         },
+        "DZH316K5T72P": {
+          "id": "DZH316K5T72P",
+          "name": "Azure API Center",
+          "products": {
+            "DZH318Z0GF1L/Standard/Standard Unit": {
+              "id": "DZH318Z0GF1L",
+              "name": "Azure API Center",
+              "sku_name": "Standard",
+              "meter_name": "Standard Unit"
+            },
+            "DZH318Z0GF1L/Free/Free Unit": {
+              "id": "DZH318Z0GF1L",
+              "name": "Azure API Center",
+              "sku_name": "Free",
+              "meter_name": "Free Unit"
+            }
+          }
+        },
         "DZH319C6BJQP": {
           "id": "DZH319C6BJQP",
           "name": "BizTalk Services",
@@ -60067,11 +60151,11 @@
               "sku_name": "200 GB Commitment Tier",
               "meter_name": "200 GB Commitment Tier Capacity Reservation"
             },
-            "DZH318Z0BQLB/Log data ingestion and transformation/Log data ingestion and transformation GB": {
+            "DZH318Z0BQLB/Logs Processed/Logs Processed GB": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
-              "sku_name": "Log data ingestion and transformation",
-              "meter_name": "Log data ingestion and transformation GB"
+              "sku_name": "Logs Processed",
+              "meter_name": "Logs Processed GB"
             },
             "DZH318Z0BQLB/300 GB Commitment Tier/300 GB Commitment Tier Capacity Reservation": {
               "id": "DZH318Z0BQLB",
