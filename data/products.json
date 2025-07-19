@@ -79738,11 +79738,11 @@
             "sku_name": "Azure Data Lake Storage Gen2 Vaulted backup",
             "meter_name": "Azure Data Lake Storage Gen2 Vaulted backup ZRS Write Operations"
           },
-          "DZH318Z0BP05/Azure Data Lake Storage Gen2 Vaulted backup/Azure Data Lake Storage Gen2 Vaulted backup RA-GRS Write Operations": {
+          "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted RA-GRS Write Operations": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
-            "sku_name": "Azure Data Lake Storage Gen2 Vaulted backup",
-            "meter_name": "Azure Data Lake Storage Gen2 Vaulted backup RA-GRS Write Operations"
+            "sku_name": "ADLS Gen2 Vaulted",
+            "meter_name": "ADLS Gen2 Vaulted RA-GRS Write Operations"
           },
           "DZH318Z0BP05/Archive/Archive GRS Early Delete": {
             "id": "DZH318Z0BP05",
@@ -79750,11 +79750,47 @@
             "sku_name": "Archive",
             "meter_name": "Archive GRS Early Delete"
           },
+          "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted Protected Instances": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "ADLS Gen2 Vaulted",
+            "meter_name": "ADLS Gen2 Vaulted Protected Instances"
+          },
+          "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted GRS Write Operations": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "ADLS Gen2 Vaulted",
+            "meter_name": "ADLS Gen2 Vaulted GRS Write Operations"
+          },
           "DZH318Z0BP05/SAP HANA on Azure VM/SAP HANA on Azure VM Snapshot Instance": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
             "sku_name": "SAP HANA on Azure VM",
             "meter_name": "SAP HANA on Azure VM Snapshot Instance"
+          },
+          "DZH318Z0BP05/Azure Files Vaulted/LRS Data Stored": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Files Vaulted",
+            "meter_name": "LRS Data Stored"
+          },
+          "DZH318Z0BP05/Azure Files Vaulted/RA-GRS Data Stored": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Files Vaulted",
+            "meter_name": "RA-GRS Data Stored"
+          },
+          "DZH318Z0BP05/Azure Files Vaulted/ZRS Data Stored": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Files Vaulted",
+            "meter_name": "ZRS Data Stored"
+          },
+          "DZH318Z0BP05/Azure Files Vaulted/Azure Files Vaulted Protected Instances": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Files Vaulted",
+            "meter_name": "Azure Files Vaulted Protected Instances"
           },
           "DZH318Z0BP05/AKS/AKS Namespace": {
             "id": "DZH318Z0BP05",
@@ -79768,6 +79804,18 @@
             "sku_name": "Standard",
             "meter_name": "GRS Data Stored"
           },
+          "DZH318Z0BP05/Azure Files Vaulted/GRS Data Stored": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Files Vaulted",
+            "meter_name": "GRS Data Stored"
+          },
+          "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted ZRS Write Operations": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "ADLS Gen2 Vaulted",
+            "meter_name": "ADLS Gen2 Vaulted ZRS Write Operations"
+          },
           "DZH318Z0BP05/Archive/Archive GRS Data Stored": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
@@ -79780,17 +79828,41 @@
             "sku_name": "Azure Blob",
             "meter_name": "Azure Blob RA-GRS Write Operations"
           },
-          "DZH318Z0BP05/AKS Backup/AKS Backup Protected Instances": {
+          "DZH318Z0BP05/PostgreSQL/PostgreSQL Protected Instances": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
-            "sku_name": "AKS Backup",
-            "meter_name": "AKS Backup Protected Instances"
+            "sku_name": "PostgreSQL",
+            "meter_name": "PostgreSQL Protected Instances"
+          },
+          "DZH318Z0BP05/Azure Kubernetes/Azure Kubernetes Protected Instances": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Kubernetes",
+            "meter_name": "Azure Kubernetes Protected Instances"
           },
           "DZH318Z0BP05/Standard/RA-GRS Data Stored": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
             "sku_name": "Standard",
             "meter_name": "RA-GRS Data Stored"
+          },
+          "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted LRS Write Operations": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "ADLS Gen2 Vaulted",
+            "meter_name": "ADLS Gen2 Vaulted LRS Write Operations"
+          },
+          "DZH318Z0BP05/Azure Data Lake Storage Gen2 Vaulted backup/Azure Data Lake Storage Gen2 Vaulted backup RA-GRS Write Operations": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Azure Data Lake Storage Gen2 Vaulted backup",
+            "meter_name": "Azure Data Lake Storage Gen2 Vaulted backup RA-GRS Write Operations"
+          },
+          "DZH318Z0BP05/AKS Backup/AKS Backup Protected Instances": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "AKS Backup",
+            "meter_name": "AKS Backup Protected Instances"
           }
         }
       },
