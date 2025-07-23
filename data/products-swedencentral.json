@@ -2737,11 +2737,11 @@
               "sku_name": "Llama 3.3 70B Outp Dzone",
               "meter_name": "Llama 3.3 70B Outp Dzone Tokens"
             },
-            "DZH318Z0HHG7/Assistants-Code-Interpreter-global/Assistants-Code-Interpreter-global Session": {
+            "DZH318Z0HHG7/Code-Interpreter-global/Code-Interpreter-global Session": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
-              "sku_name": "Assistants-Code-Interpreter-global",
-              "meter_name": "Assistants-Code-Interpreter-global Session"
+              "sku_name": "Code-Interpreter-global",
+              "meter_name": "Code-Interpreter-global Session"
             },
             "DZH318Z0TPCM/Codestral Outp glbl/Codestral Outp glbl Tokens": {
               "id": "DZH318Z0TPCM",
@@ -3805,11 +3805,11 @@
               "sku_name": "o1-pro Inp Data Zone",
               "meter_name": "o1-pro Inp Data Zone Tokens"
             },
-            "DZH318Z0HHG7/Assistants-Code-Interpreter-regnl EP/Assistants-Code-Interpreter-regnl EP Session": {
+            "DZH318Z0HHG7/Code-Interpreter-regnl EP/Code-Interpreter-regnl EP Session": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
-              "sku_name": "Assistants-Code-Interpreter-regnl EP",
-              "meter_name": "Assistants-Code-Interpreter-regnl EP Session"
+              "sku_name": "Code-Interpreter-regnl EP",
+              "meter_name": "Code-Interpreter-regnl EP Session"
             },
             "DZH318Z0HHG7/gpt-4.1-ft cached input regional/gpt-4.1-ft cached input regional Tokens": {
               "id": "DZH318Z0HHG7",
@@ -41230,6 +41230,18 @@
               "meter_name": "Standard Uptime SLA"
             }
           }
+        },
+        "DZH315LFVPHW": {
+          "id": "DZH315LFVPHW",
+          "name": "Durable Task Scheduler",
+          "products": {
+            "DZH318Z0N0PH/Dedicated/Dedicated Capacity Unit": {
+              "id": "DZH318Z0N0PH",
+              "name": "Durable Task Scheduler",
+              "sku_name": "Dedicated",
+              "meter_name": "Dedicated Capacity Unit"
+            }
+          }
         }
       }
     },
@@ -49834,6 +49846,23 @@
       }
     },
     {
+      "name": "Power Platform",
+      "services": {
+        "DZH31522F4P0": {
+          "id": "DZH31522F4P0",
+          "name": "Microsoft Copilot Studio",
+          "products": {
+            "DZH318Z0MH0G/Pay As You Go/Pay As You Go Message": {
+              "id": "DZH318Z0MH0G",
+              "name": "Microsoft Copilot Studio",
+              "sku_name": "Pay As You Go",
+              "meter_name": "Pay As You Go Message"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Security",
       "services": {
         "DZH317R3LFB4": {
@@ -50055,6 +50084,96 @@
               "name": "Microsoft Defender for PostgreSQL",
               "sku_name": "Standard",
               "meter_name": "Standard Node"
+            }
+          }
+        },
+        "DZH319R3XQR9": {
+          "id": "DZH319R3XQR9",
+          "name": "Microsoft Purview",
+          "products": {
+            "DZH318Z0LFXP/In Transit Protection/In Transit Protection Request": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "In Transit Protection",
+              "meter_name": "In Transit Protection Request"
+            },
+            "DZH318Z0TJ9D/eDiscovery Premium/eDiscovery Premium GB": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "eDiscovery Premium",
+              "meter_name": "eDiscovery Premium GB"
+            },
+            "DZH318Z0M4DR/Data Management Basic/Data Management Basic Data Governance Processing Unit": {
+              "id": "DZH318Z0M4DR",
+              "name": "Microsoft Purview Data Governance",
+              "sku_name": "Data Management Basic",
+              "meter_name": "Data Management Basic Data Governance Processing Unit"
+            },
+            "DZH318Z0LFXP/Standard/Standard Asset": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Standard",
+              "meter_name": "Standard Asset"
+            },
+            "DZH318Z0M4DR/Data Management Standard/Data Management Standard Data Governance Processing Unit": {
+              "id": "DZH318Z0M4DR",
+              "name": "Microsoft Purview Data Governance",
+              "sku_name": "Data Management Standard",
+              "meter_name": "Data Management Standard Data Governance Processing Unit"
+            },
+            "DZH318Z0LFXP/Standard/Standard Data Security Processing Unit": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Standard",
+              "meter_name": "Standard Data Security Processing Unit"
+            },
+            "DZH318Z0TJ9D/Data Lifecycle Management Premium/Data Lifecycle Management Premium Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Data Lifecycle Management Premium",
+              "meter_name": "Data Lifecycle Management Premium Asset"
+            },
+            "DZH318Z0TJ9D/Communication Compliance Standard/Communication Compliance Standard Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Communication Compliance Standard",
+              "meter_name": "Communication Compliance Standard Asset"
+            },
+            "DZH318Z0M4DR/Data Catalog Standard/Data Catalog Standard Asset": {
+              "id": "DZH318Z0M4DR",
+              "name": "Microsoft Purview Data Governance",
+              "sku_name": "Data Catalog Standard",
+              "meter_name": "Data Catalog Standard Asset"
+            },
+            "DZH318Z0TJ9D/Communication Compliance Premium/Communication Compliance Premium Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Communication Compliance Premium",
+              "meter_name": "Communication Compliance Premium Asset"
+            },
+            "DZH318Z0LFXP/Investigations/Investigations GB": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Investigations",
+              "meter_name": "Investigations GB"
+            },
+            "DZH318Z0TJ9D/Audit Standard/Audit Standard Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Audit Standard",
+              "meter_name": "Audit Standard Asset"
+            },
+            "DZH318Z0M4DR/Data Management Advanced/Data Management Advanced Data Governance Processing Unit": {
+              "id": "DZH318Z0M4DR",
+              "name": "Microsoft Purview Data Governance",
+              "sku_name": "Data Management Advanced",
+              "meter_name": "Data Management Advanced Data Governance Processing Unit"
+            },
+            "DZH318Z0M73N/Standard/Standard Assets": {
+              "id": "DZH318Z0M73N",
+              "name": "Microsoft Purview On-Demand Classification",
+              "sku_name": "Standard",
+              "meter_name": "Standard Assets"
             }
           }
         },

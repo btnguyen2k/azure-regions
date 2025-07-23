@@ -1794,11 +1794,11 @@
             "sku_name": "gpt 4o 1120 Batch Outp glbl",
             "meter_name": "gpt 4o 1120 Batch Outp glbl Tokens"
           },
-          "DZH318Z0HHG7/Assistants-Code-Interpreter-regnl EP/Assistants-Code-Interpreter-regnl EP Session": {
+          "DZH318Z0HHG7/Code-Interpreter-regnl EP/Code-Interpreter-regnl EP Session": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
-            "sku_name": "Assistants-Code-Interpreter-regnl EP",
-            "meter_name": "Assistants-Code-Interpreter-regnl EP Session"
+            "sku_name": "Code-Interpreter-regnl EP",
+            "meter_name": "Code-Interpreter-regnl EP Session"
           },
           "DZH318Z0HHG7/Speech-to-Text-Batch-Whisper-regnl/Speech-to-Text-Batch-Whisper-regnl Unit": {
             "id": "DZH318Z0HHG7",
@@ -1860,11 +1860,11 @@
             "sku_name": "gpt 4o 0513 Output global",
             "meter_name": "gpt 4o 0513 Output global Tokens"
           },
-          "DZH318Z0HHG7/Assistants-Code-Interpreter-global/Assistants-Code-Interpreter-global Session": {
+          "DZH318Z0HHG7/Code-Interpreter-global/Code-Interpreter-global Session": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
-            "sku_name": "Assistants-Code-Interpreter-global",
-            "meter_name": "Assistants-Code-Interpreter-global Session"
+            "sku_name": "Code-Interpreter-global",
+            "meter_name": "Code-Interpreter-global Session"
           },
           "DZH318Z0HHG7/gpt 4.5 0227 Batch Inp glbl/gpt 4.5 0227 Batch Inp glbl Tokens": {
             "id": "DZH318Z0HHG7",
@@ -5346,12 +5346,6 @@
             "sku_name": "gpt-4-32K-Outp-glbl",
             "meter_name": "gpt-4-32K-Outp-glbl Tokens"
           },
-          "DZH318Z0HHG7/Code-Interpreter-global/Code-Interpreter-global Session": {
-            "id": "DZH318Z0HHG7",
-            "name": "Azure OpenAI",
-            "sku_name": "Code-Interpreter-global",
-            "meter_name": "Code-Interpreter-global Session"
-          },
           "DZH318Z0HHG7/gpt-4o-mini-transcribe-aud-inp-dz/gpt-4o-mini-transcribe-aud-inp-dz Tokens": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
@@ -6161,12 +6155,6 @@
             "name": "Azure OpenAI",
             "sku_name": "o1 preview output Data Zone",
             "meter_name": "o1 preview output Data Zone Tokens"
-          },
-          "DZH318Z0HHG7/Code-Interpreter-regnl EP/Code-Interpreter-regnl EP Session": {
-            "id": "DZH318Z0HHG7",
-            "name": "Azure OpenAI",
-            "sku_name": "Code-Interpreter-regnl EP",
-            "meter_name": "Code-Interpreter-regnl EP Session"
           },
           "DZH318Z0BQL9/Commitment Tier TA4H Connected 10M/Commitment Tier TA4H Connected 10M CT Overage Transactions": {
             "id": "DZH318Z0BQL9",
@@ -7415,6 +7403,18 @@
             "name": "Azure AI Content Understanding",
             "sku_name": "Video Content Extraction",
             "meter_name": "Video Content Extraction"
+          },
+          "DZH318Z0HHG7/Assistants-Code-Interpreter-regnl EP/Assistants-Code-Interpreter-regnl EP Session": {
+            "id": "DZH318Z0HHG7",
+            "name": "Azure OpenAI",
+            "sku_name": "Assistants-Code-Interpreter-regnl EP",
+            "meter_name": "Assistants-Code-Interpreter-regnl EP Session"
+          },
+          "DZH318Z0HHG7/Assistants-Code-Interpreter-global/Assistants-Code-Interpreter-global Session": {
+            "id": "DZH318Z0HHG7",
+            "name": "Azure OpenAI",
+            "sku_name": "Assistants-Code-Interpreter-global",
+            "meter_name": "Assistants-Code-Interpreter-global Session"
           },
           "DZH318Z0BZ35/Video Retrieval - Summary/Video Retrieval - Summary Vision": {
             "id": "DZH318Z0BZ35",
@@ -58239,6 +58239,18 @@
           }
         }
       },
+      "DZH315LFVPHW": {
+        "id": "DZH315LFVPHW",
+        "name": "Durable Task Scheduler",
+        "products": {
+          "DZH318Z0N0PH/Dedicated/Dedicated Capacity Unit": {
+            "id": "DZH318Z0N0PH",
+            "name": "Durable Task Scheduler",
+            "sku_name": "Dedicated",
+            "meter_name": "Dedicated Capacity Unit"
+          }
+        }
+      },
       "DZH319PSD84L": {
         "id": "DZH319PSD84L",
         "name": "HPC Cache",
@@ -58296,18 +58308,6 @@
             "name": "Container Compute",
             "sku_name": "Standard",
             "meter_name": "Standard vCPU Duration"
-          }
-        }
-      },
-      "DZH315LFVPHW": {
-        "id": "DZH315LFVPHW",
-        "name": "Durable Task Scheduler",
-        "products": {
-          "DZH318Z0N0PH/Dedicated/Dedicated Capacity Unit": {
-            "id": "DZH318Z0N0PH",
-            "name": "Durable Task Scheduler",
-            "sku_name": "Dedicated",
-            "meter_name": "Dedicated Capacity Unit"
           }
         }
       }
@@ -70180,6 +70180,18 @@
           }
         }
       },
+      "DZH318V5W09L": {
+        "id": "DZH318V5W09L",
+        "name": "Microsoft Dragon Copilot",
+        "products": {
+          "DZH318Z0TL55/Pay As You Go/Pay As You Go Consumption Unit": {
+            "id": "DZH318Z0TL55",
+            "name": "Microsoft Dragon Copilot",
+            "sku_name": "Pay As You Go",
+            "meter_name": "Pay As You Go Consumption Unit"
+          }
+        }
+      },
       "DZH318T8ZLFS": {
         "id": "DZH318T8ZLFS",
         "name": "Energy Data Manager",
@@ -70207,18 +70219,6 @@
             "name": "Azure Data Manager for Energy",
             "sku_name": "Standard",
             "meter_name": "Standard Additional Data Partition"
-          }
-        }
-      },
-      "DZH318V5W09L": {
-        "id": "DZH318V5W09L",
-        "name": "Microsoft Dragon Copilot",
-        "products": {
-          "DZH318Z0TL55/Pay As You Go/Pay As You Go Consumption Unit": {
-            "id": "DZH318Z0TL55",
-            "name": "Microsoft Dragon Copilot",
-            "sku_name": "Pay As You Go",
-            "meter_name": "Pay As You Go Consumption Unit"
           }
         }
       }
@@ -70319,6 +70319,18 @@
             "sku_name": "Standard",
             "meter_name": "Standard Assets"
           },
+          "DZH318Z0LFXP/Standard/Standard Data Security Processing Unit": {
+            "id": "DZH318Z0LFXP",
+            "name": "Microsoft Purview Data Security",
+            "sku_name": "Standard",
+            "meter_name": "Standard Data Security Processing Unit"
+          },
+          "DZH318Z0LFXP/Standard/Standard Asset": {
+            "id": "DZH318Z0LFXP",
+            "name": "Microsoft Purview Data Security",
+            "sku_name": "Standard",
+            "meter_name": "Standard Asset"
+          },
           "DZH318Z0M4DR/Data Management Advanced/Data Management Advanced Data Governance Processing Unit": {
             "id": "DZH318Z0M4DR",
             "name": "Microsoft Purview Data Governance",
@@ -70342,18 +70354,6 @@
             "name": "Microsoft Purview Data Governance",
             "sku_name": "Data Management Standard",
             "meter_name": "Data Management Standard Data Governance Processing Unit"
-          },
-          "DZH318Z0LFXP/Standard/Standard Asset": {
-            "id": "DZH318Z0LFXP",
-            "name": "Microsoft Purview Data Security",
-            "sku_name": "Standard",
-            "meter_name": "Standard Asset"
-          },
-          "DZH318Z0LFXP/Standard/Standard Data Security Processing Unit": {
-            "id": "DZH318Z0LFXP",
-            "name": "Microsoft Purview Data Security",
-            "sku_name": "Standard",
-            "meter_name": "Standard Data Security Processing Unit"
           }
         }
       },
