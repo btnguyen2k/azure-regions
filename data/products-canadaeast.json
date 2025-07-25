@@ -217,6 +217,12 @@
               "sku_name": "Provisioned Managed Regional",
               "meter_name": "Provisioned Managed Regional Unit"
             },
+            "DZH318Z0TPCM/Doc AI glbl 2505/Doc AI glbl 2505 Pages": {
+              "id": "DZH318Z0TPCM",
+              "name": "Mistral Models",
+              "sku_name": "Doc AI glbl 2505",
+              "meter_name": "Doc AI glbl 2505 Pages"
+            },
             "DZH318Z0HHG7/gpt-4o-64k-outp-alpha-0730-Inp-glbl/gpt-4o-64k-outp-alpha-0730-Inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -306,6 +312,12 @@
               "name": "Translator Text",
               "sku_name": "Commitment Tier Connected 1000M",
               "meter_name": "Commitment Tier Connected 1000M Unit"
+            },
+            "DZH318Z0T879/Grok-4 Inp glbl/Grok-4 Inp glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Grok-4 Inp glbl",
+              "meter_name": "Grok-4 Inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-nano-dev-ft inpt glbl/gpt-4.1-nano-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1122,6 +1134,12 @@
               "name": "Azure OpenAI",
               "sku_name": "o1 mini input glbl",
               "meter_name": "o1 mini input glbl Tokens"
+            },
+            "DZH318Z0T879/Grok-4 Outp glbl/Grok-4 Outp glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Grok-4 Outp glbl",
+              "meter_name": "Grok-4 Outp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-mini-dev-ft inpt glbl/gpt-4.1-mini-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -39617,40 +39635,16 @@
             }
           }
         },
-        "DZH3155XRT6N": {
-          "id": "DZH3155XRT6N",
-          "name": "Azure IoT Security",
-          "products": {
-            "DZH318Z0C11S/Standard/Managed Device": {
-              "id": "DZH318Z0C11S",
-              "name": "Microsoft Defender for IoT - Managed IoT",
-              "sku_name": "Standard",
-              "meter_name": "Managed Device"
-            },
-            "DZH318Z0C11S/Standard/Managed Message": {
-              "id": "DZH318Z0C11S",
-              "name": "Microsoft Defender for IoT - Managed IoT",
-              "sku_name": "Standard",
-              "meter_name": "Managed Message"
-            },
-            "DZH318Z0C11S/Standard Trial/Managed Trial Device": {
-              "id": "DZH318Z0C11S",
-              "name": "Microsoft Defender for IoT - Managed IoT",
-              "sku_name": "Standard Trial",
-              "meter_name": "Managed Trial Device"
-            },
-            "DZH318Z0C11S/Standard Trial/Managed Trial Message": {
-              "id": "DZH318Z0C11S",
-              "name": "Microsoft Defender for IoT - Managed IoT",
-              "sku_name": "Standard Trial",
-              "meter_name": "Managed Trial Message"
-            }
-          }
-        },
         "DZH319R3XQR9": {
           "id": "DZH319R3XQR9",
           "name": "Microsoft Purview",
           "products": {
+            "DZH318Z0TJ9D/Communication Compliance Standard/Communication Compliance Standard Asset": {
+              "id": "DZH318Z0TJ9D",
+              "name": "Microsoft Purview Data Compliance",
+              "sku_name": "Communication Compliance Standard",
+              "meter_name": "Communication Compliance Standard Asset"
+            },
             "DZH318Z0M4DR/Data Management Standard/Data Management Standard Data Governance Processing Unit": {
               "id": "DZH318Z0M4DR",
               "name": "Microsoft Purview Data Governance",
@@ -39728,6 +39722,36 @@
               "name": "Microsoft Purview Data Compliance",
               "sku_name": "Communication Compliance Premium",
               "meter_name": "Communication Compliance Premium Asset"
+            }
+          }
+        },
+        "DZH3155XRT6N": {
+          "id": "DZH3155XRT6N",
+          "name": "Azure IoT Security",
+          "products": {
+            "DZH318Z0C11S/Standard/Managed Device": {
+              "id": "DZH318Z0C11S",
+              "name": "Microsoft Defender for IoT - Managed IoT",
+              "sku_name": "Standard",
+              "meter_name": "Managed Device"
+            },
+            "DZH318Z0C11S/Standard/Managed Message": {
+              "id": "DZH318Z0C11S",
+              "name": "Microsoft Defender for IoT - Managed IoT",
+              "sku_name": "Standard",
+              "meter_name": "Managed Message"
+            },
+            "DZH318Z0C11S/Standard Trial/Managed Trial Device": {
+              "id": "DZH318Z0C11S",
+              "name": "Microsoft Defender for IoT - Managed IoT",
+              "sku_name": "Standard Trial",
+              "meter_name": "Managed Trial Device"
+            },
+            "DZH318Z0C11S/Standard Trial/Managed Trial Message": {
+              "id": "DZH318Z0C11S",
+              "name": "Microsoft Defender for IoT - Managed IoT",
+              "sku_name": "Standard Trial",
+              "meter_name": "Managed Trial Message"
             }
           }
         },
