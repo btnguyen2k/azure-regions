@@ -4199,12 +4199,6 @@
               "sku_name": "E4ds v5",
               "meter_name": "E4ds v5"
             },
-            "DZH318Z09LR5/Ebsv5/Ebsv5": {
-              "id": "DZH318Z09LR5",
-              "name": "Virtual Machines Ebsv5 Series",
-              "sku_name": "Ebsv5",
-              "meter_name": "Ebsv5"
-            },
             "DZH318Z092R4/E20ads v5 Low Priority/E20ads v5 Low Priority": {
               "id": "DZH318Z092R4",
               "name": "Eadsv5 Series CloudServices",
@@ -7841,12 +7835,6 @@
               "sku_name": "D4a v4",
               "meter_name": "D4a v4/D4as v4"
             },
-            "DZH318Z09LR5/Ebsv5 Spot/Ebsv5 Spot": {
-              "id": "DZH318Z09LR5",
-              "name": "Virtual Machines Ebsv5 Series",
-              "sku_name": "Ebsv5 Spot",
-              "meter_name": "Ebsv5 Spot"
-            },
             "DZH318Z08M9X/Standard_D64_v5 Spot/D64 v5 Spot": {
               "id": "DZH318Z08M9X",
               "name": "Virtual Machines Dv5 Series",
@@ -8668,12 +8656,6 @@
               "name": "Virtual Machines Ddsv4 Series",
               "sku_name": "D16ds v4 Spot",
               "meter_name": "D16ds v4 Spot"
-            },
-            "DZH318Z09LQP/Ebdsv5 Spot/Ebdsv5 Spot": {
-              "id": "DZH318Z09LQP",
-              "name": "Virtual Machines Ebdsv5 Series",
-              "sku_name": "Ebdsv5 Spot",
-              "meter_name": "Ebdsv5 Spot"
             },
             "DZH318Z093WZ/E20as v5 Low Priority/E20as v5 Low Priority": {
               "id": "DZH318Z093WZ",
@@ -11992,12 +11974,6 @@
               "name": "Virtual Machines Falsv6 Series",
               "sku_name": "F32als v6",
               "meter_name": "F32als v6"
-            },
-            "DZH318Z09LQP/Ebdsv5/Ebdsv5": {
-              "id": "DZH318Z09LQP",
-              "name": "Virtual Machines Ebdsv5 Series",
-              "sku_name": "Ebdsv5",
-              "meter_name": "Ebdsv5"
             },
             "DZH318Z0D1L4/D8 v4 Spot/D8 v4 Spot": {
               "id": "DZH318Z0D1L4",
@@ -16942,6 +16918,18 @@
               "name": "Premium Functions",
               "sku_name": "Premium",
               "meter_name": "Premium vCPU Duration"
+            },
+            "DZH318Z0BNWB/Standard/Standard Total Executions": {
+              "id": "DZH318Z0BNWB",
+              "name": "Functions",
+              "sku_name": "Standard",
+              "meter_name": "Standard Total Executions"
+            },
+            "DZH318Z0BNWB/Standard/Standard Execution Time": {
+              "id": "DZH318Z0BNWB",
+              "name": "Functions",
+              "sku_name": "Standard",
+              "meter_name": "Standard Execution Time"
             }
           }
         }
@@ -17074,6 +17062,12 @@
               "sku_name": "Basic",
               "meter_name": "Task vCPU Duration"
             },
+            "DZH318Z0BQV5/Premium/Premium Connected registry": {
+              "id": "DZH318Z0BQV5",
+              "name": "Container Registry",
+              "sku_name": "Premium",
+              "meter_name": "Premium Connected registry"
+            },
             "DZH318Z0BQV5/Premium/Task vCPU Duration": {
               "id": "DZH318Z0BQV5",
               "name": "Container Registry",
@@ -17180,12 +17174,6 @@
               "name": "SQL Database Single Premium",
               "sku_name": "P6 Secondary",
               "meter_name": "P6 Secondary DTU"
-            },
-            "DZH318Z0BXWT/Backup - LRS/Backup - LRS Data Stored": {
-              "id": "DZH318Z0BXWT",
-              "name": "SQL Database SingleDB Hyperscale - Storage",
-              "sku_name": "Backup - LRS",
-              "meter_name": "Backup - LRS Data Stored"
             },
             "DZH318Z0BQHM/300 DTU Pack/eDTUs": {
               "id": "DZH318Z0BQHM",
@@ -17294,12 +17282,6 @@
               "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
               "sku_name": "40 vCore",
               "meter_name": "vCore"
-            },
-            "DZH318Z0BXWT/Hyperscale/Hyperscale Data Stored": {
-              "id": "DZH318Z0BXWT",
-              "name": "SQL Database SingleDB Hyperscale - Storage",
-              "sku_name": "Hyperscale",
-              "meter_name": "Hyperscale Data Stored"
             },
             "DZH318Z08M0H/vCore/vCore": {
               "id": "DZH318Z08M0H",
@@ -17673,12 +17655,6 @@
               "sku_name": "Backup LRS",
               "meter_name": "Backup LRS Data Stored"
             },
-            "DZH318Z0BXWT/Backup - ZRS/Backup - ZRS Data Stored": {
-              "id": "DZH318Z0BXWT",
-              "name": "SQL Database SingleDB Hyperscale - Storage",
-              "sku_name": "Backup - ZRS",
-              "meter_name": "Backup - ZRS Data Stored"
-            },
             "DZH318Z08M0G/8 vCore/vCore": {
               "id": "DZH318Z08M0G",
               "name": "SQL Database Single/Elastic Pool Business Critical - Compute DC-Series",
@@ -17690,12 +17666,6 @@
               "name": "SQL Database Single/Elastic Pool Business Critical - Compute M Series",
               "sku_name": "24 vCore",
               "meter_name": "vCore"
-            },
-            "DZH318Z0BXWT/Hyperscale/Hyperscale IO Rate Operations": {
-              "id": "DZH318Z0BXWT",
-              "name": "SQL Database SingleDB Hyperscale - Storage",
-              "sku_name": "Hyperscale",
-              "meter_name": "Hyperscale IO Rate Operations"
             },
             "DZH318Z0BQHC/P6/P6 DTU": {
               "id": "DZH318Z0BQHC",
@@ -18446,12 +18416,6 @@
               "name": "SQL Database Single/Elastic Pool General Purpose - Storage",
               "sku_name": "General Purpose Zone Redundancy",
               "meter_name": "General Purpose Zone Redundancy Data Stored"
-            },
-            "DZH318Z0BXWT/Backup - RA-GZRS/Backup - RA-GZRS Data Stored": {
-              "id": "DZH318Z0BXWT",
-              "name": "SQL Database SingleDB Hyperscale - Storage",
-              "sku_name": "Backup - RA-GZRS",
-              "meter_name": "Backup - RA-GZRS Data Stored"
             },
             "DZH318Z09PJB/80 vCore/vCore": {
               "id": "DZH318Z09PJB",
@@ -20427,12 +20391,6 @@
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
-            "DZH318Z0DCQ4/Paid IO ZRS/Paid IO ZRS IO Rate Operations": {
-              "id": "DZH318Z0DCQ4",
-              "name": "Az DB for MySQL Flexible Server Storage",
-              "sku_name": "Paid IO ZRS",
-              "meter_name": "Paid IO ZRS IO Rate Operations"
-            },
             "DZH318Z0DCQ6/1 vCore/vCore": {
               "id": "DZH318Z0DCQ6",
               "name": "Azure Database for MySQL Flexible Server Business Critical Ev3 Series Compute",
@@ -20990,6 +20948,12 @@
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
               "sku_name": "Standard_B20ms",
               "meter_name": "B20MS"
+            },
+            "DZH318Z0DCQ4/Paid IO ZRS/Paid IO ZRS IO Rate Operations": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Az DB for MySQL Flexible Server Storage",
+              "sku_name": "Paid IO ZRS",
+              "meter_name": "Paid IO ZRS IO Rate Operations"
             },
             "DZH318Z0DCS0/Standard_D4as/vCore": {
               "id": "DZH318Z0DCS0",
@@ -22835,6 +22799,12 @@
               "sku_name": "Data Archive",
               "meter_name": "Data Archive"
             },
+            "DZH318Z0BQLB/Auxiliary Logs/Auxiliary Logs Data Ingestion": {
+              "id": "DZH318Z0BQLB",
+              "name": "Azure Monitor",
+              "sku_name": "Auxiliary Logs",
+              "meter_name": "Auxiliary Logs Data Ingestion"
+            },
             "DZH318Z0BQLB/SMS Country Code 86/SMS Country Code 86 Notification": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
@@ -23653,6 +23623,12 @@
             "DZH318Z0G8XJ/Stored/Stored Data stored": {
               "id": "DZH318Z0G8XJ",
               "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0TFF6/Stored/Stored Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
               "sku_name": "Stored",
               "meter_name": "Stored Data stored"
             }
@@ -25327,6 +25303,12 @@
               "sku_name": "Account Encrypted ZRS",
               "meter_name": "Account Encrypted Delete Operations"
             },
+            "DZH318Z0BP88/Confidential Compute Encryption ZRS/Confidential Compute Encryption ZRS Provisioned Capacity": {
+              "id": "DZH318Z0BP88",
+              "name": "Standard SSD Managed Disks",
+              "sku_name": "Confidential Compute Encryption ZRS",
+              "meter_name": "Confidential Compute Encryption ZRS Provisioned Capacity"
+            },
             "DZH318Z0BJRM/Hot LRS/Hot Read Operations": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -26070,6 +26052,12 @@
               "name": "Premium ADLS Gen2 Hierarchical Namespace",
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS Iterative Write Operations"
+            },
+            "DZH318Z0BP88/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
+              "id": "DZH318Z0BP88",
+              "name": "Standard SSD Managed Disks",
+              "sku_name": "Confidential Compute Encryption LRS",
+              "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
             },
             "DZH318Z0BP09/Standard ZRS/Delete Operations": {
               "id": "DZH318Z0BP09",
