@@ -67,23 +67,29 @@
               "sku_name": "Commitment Tier Connected 1M",
               "meter_name": "Commitment Tier Connected 1M CT Overage Transactions"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Inp glbl/gpt 4.5 0227 Batch Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Inp glbl",
-              "meter_name": "gpt 4.5 0227 Batch Inp glbl Tokens"
-            },
             "DZH318Z0BZ3Q/P1/Face Storage": {
               "id": "DZH318Z0BZ3Q",
               "name": "Face",
               "sku_name": "P1",
               "meter_name": "Face Storage"
             },
+            "DZH318Z0T9WD/GPT 5 Nano cchd Inpt Glbl/GPT 5 Nano cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano cchd Inpt Glbl",
+              "meter_name": "GPT 5 Nano cchd Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0BQL9/Commitment Tier Summarization Azure 3M/Commitment Tier Summarization Azure 3M CT Overage Transactions": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
               "sku_name": "Commitment Tier Summarization Azure 3M",
               "meter_name": "Commitment Tier Summarization Azure 3M CT Overage Transactions"
+            },
+            "DZH318Z0T9WD/GPT 5 Chat Inpt Glbl/GPT 5 Chat Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat Inpt Glbl",
+              "meter_name": "GPT 5 Chat Inpt Glbl 1M Tokens"
             },
             "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
               "id": "DZH318Z0BQLH",
@@ -181,11 +187,11 @@
               "sku_name": "Commitment Tier Connected 1000M",
               "meter_name": "Commitment Tier Connected 1000M Unit"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 400M/Commitment Tier Neural Text to Speech Connected 400M Neural Text To Speech CT Overage Characters": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 400M/Commit Tier Neural TTS Connected 400M Neural Text To Speech CT Overage Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 400M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 400M Neural Text To Speech CT Overage Characters"
+              "sku_name": "Commit Tier Neural TTS Connected 400M",
+              "meter_name": "Commit Tier Neural TTS Connected 400M Neural Text To Speech CT Overage Characters"
             },
             "DZH318Z0HHG7/gpt-4o-aud-0603-txt Inp glbl/gpt-4o-aud-0603-txt Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -211,11 +217,23 @@
               "sku_name": "Standard",
               "meter_name": "Standard Faces"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng outpt Glbl/GPT 5 Rsng outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng outpt Glbl",
+              "meter_name": "GPT 5 Rsng outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/file-search-tool-calls-glbl/file-search-tool-calls-glbl Calls": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "file-search-tool-calls-glbl",
               "meter_name": "file-search-tool-calls-glbl Calls"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt cchd Glbl/GPT 5 Rsng Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Rsng Batch Inpt cchd Glbl 1M Tokens"
             },
             "DZH318Z0TDSR/o4-mini-ft output global/o4-mini-ft output global Tokens": {
               "id": "DZH318Z0TDSR",
@@ -247,12 +265,6 @@
               "sku_name": "S1",
               "meter_name": "S1 Custom Speech Model Hosting Unit"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Outp glbl/gpt 4.5 0227 Batch Outp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Outp glbl",
-              "meter_name": "gpt 4.5 0227 Batch Outp glbl Tokens"
-            },
             "DZH318Z0T879/Grok-3 Mini Outp glbl/Grok-3 Mini Outp glbl Tokens": {
               "id": "DZH318Z0T879",
               "name": "Grok model family",
@@ -282,12 +294,6 @@
               "name": "Speech",
               "sku_name": "Commitment Tier Custom Speech to Text Azure 50K",
               "meter_name": "Commitment Tier Custom Speech to Text Azure 50K Unit"
-            },
-            "DZH318Z0HHG7/gpt-4-turbo-Vision-128K Input-regional/gpt-4-turbo-Vision-128K Input-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-Vision-128K Input-regional",
-              "meter_name": "gpt-4-turbo-Vision-128K Input-regional Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-nano-dev-ft inpt glbl/gpt-4.1-nano-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -384,12 +390,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-rt-aud-1217 cchd Inp glbl",
               "meter_name": "gpt-4o-rt-aud-1217 cchd Inp glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-4o-64k-outp-alpha-0730-Outp-glbl/gpt-4o-64k-outp-alpha-0730-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4o-64k-outp-alpha-0730-Outp-glbl",
-              "meter_name": "gpt-4o-64k-outp-alpha-0730-Outp-glbl Tokens"
             },
             "DZH318Z0BQL9/Commitment Tier CLU Connected Cont 1M/Commitment Tier CLU Connected Cont 1M CT Overage Transactions": {
               "id": "DZH318Z0BQL9",
@@ -547,6 +547,12 @@
               "sku_name": "Provisioned Throughput - Overage",
               "meter_name": "Provisioned Throughput - Overage Unit"
             },
+            "DZH318Z0T9WD/GPT 5 Chat outpt Glbl/GPT 5 Chat outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat outpt Glbl",
+              "meter_name": "GPT 5 Chat outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt4omini-rt-txt1217 Outp glbl/gpt4omini-rt-txt1217 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -619,11 +625,11 @@
               "sku_name": "Commitment Tier Speech to Text Connected 100K",
               "meter_name": "Commitment Tier Speech to Text Connected 100K Unit"
             },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 100K/Commitment Tier Custom Speech to Text Connected 100K Unit": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 100K/Commit Tier Custom STT Connected 100K Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 100K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 100K Unit"
+              "sku_name": "Commit Tier Custom STT Connected 100K",
+              "meter_name": "Commit Tier Custom STT Connected 100K Unit"
             },
             "DZH318Z0BP4S/Standard Streaming/Standard Streaming Minute": {
               "id": "DZH318Z0BP4S",
@@ -673,12 +679,6 @@
               "sku_name": "Standard",
               "meter_name": "Standard Summarization Text Records"
             },
-            "DZH318Z0HHG7/gpt-35-turbo-16K-1106 Input-regional/gpt-35-turbo-16K-1106 Input-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo-16K-1106 Input-regional",
-              "meter_name": "gpt-35-turbo-16K-1106 Input-regional Tokens"
-            },
             "DZH318Z0HHG7/gpt 4.1 mini cached Inp glbl/gpt 4.1 mini cached Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -715,11 +715,11 @@
               "sku_name": "Commitment Tier Summarization Azure 10M",
               "meter_name": "Commitment Tier Summarization Azure 10M Unit"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 4000M/Commitment Tier Neural Text to Speech Connected 4000M Unit": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 4000M/Commit Tier Neural TTS Connected 4000M Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 4000M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 4000M Unit"
+              "sku_name": "Commit Tier Neural TTS Connected 4000M",
+              "meter_name": "Commit Tier Neural TTS Connected 4000M Unit"
             },
             "DZH318Z0V4HX/Flux 1.1 Pro glbl/Flux 1.1 Pro glbl Images": {
               "id": "DZH318Z0V4HX",
@@ -733,17 +733,23 @@
               "sku_name": "Commitment Tier Neural Text to Speech Azure 400M",
               "meter_name": "Commitment Tier Neural Text to Speech Azure 400M Unit"
             },
+            "DZH318Z0T9WD/GPT 5 Nano Inpt Glbl/GPT 5 Nano Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Inpt Glbl",
+              "meter_name": "GPT 5 Nano Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt4omini-rt-aud1217 Outp glbl/gpt4omini-rt-aud1217 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt4omini-rt-aud1217 Outp glbl",
               "meter_name": "gpt4omini-rt-aud1217 Outp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-4-turbo-Vision-128K Output-regional/gpt-4-turbo-Vision-128K Output-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-Vision-128K Output-regional",
-              "meter_name": "gpt-4-turbo-Vision-128K Output-regional Tokens"
+            "DZH318Z0T9WD/GPT 5 Rsng Batch outpt Glbl/GPT 5 Rsng Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch outpt Glbl",
+              "meter_name": "GPT 5 Rsng Batch outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4-32K-Output-regional/gpt-4-32K-Output-regional Tokens": {
               "id": "DZH318Z0HHG7",
@@ -780,6 +786,12 @@
               "name": "Speech",
               "sku_name": "S1",
               "meter_name": "S1 Custom Text To Speech Characters"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt Glbl/GPT 5 Nano Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt Glbl",
+              "meter_name": "GPT 5 Nano Batch Inpt Glbl 1M Tokens"
             },
             "DZH318Z0BQT0/Commitment Tier Connected 1M/Commitment Tier Connected 1M Unit": {
               "id": "DZH318Z0BQT0",
@@ -865,12 +877,6 @@
               "sku_name": "o3-deep research 0626-inp-glbl",
               "meter_name": "o3-deep research 0626-inp-glbl 1M Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-1106 Inp-glbl/gpt-35-turbo16K-1106 Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-1106 Inp-glbl",
-              "meter_name": "gpt-35-turbo16K-1106 Inp-glbl Tokens"
-            },
             "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 2K/Commitment Tier Speech to Text Connected 2K Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -942,12 +948,6 @@
               "name": "Computer Vision",
               "sku_name": "P6",
               "meter_name": "P6 Overage Transactions"
-            },
-            "DZH318Z0HHG7/computer-use-batch-inpt-glbl/computer-use-batch-inpt-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-inpt-glbl",
-              "meter_name": "computer-use-batch-inpt-glbl Tokens"
             },
             "DZH318Z0BQL9/Standard/Standard Custom Hosting Unit": {
               "id": "DZH318Z0BQL9",
@@ -1021,23 +1021,23 @@
               "sku_name": "gpt-4o-aud-1217-txt Inp glbl",
               "meter_name": "gpt-4o-aud-1217-txt Inp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-4o-64k-outp-alpha-0730-Inp-glbl/gpt-4o-64k-outp-alpha-0730-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4o-64k-outp-alpha-0730-Inp-glbl",
-              "meter_name": "gpt-4o-64k-outp-alpha-0730-Inp-glbl Tokens"
-            },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 50K/Commitment Tier Custom Speech to Text Connected 50K Unit": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 50K/Commit Tier Custom STT Connected 50K Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 50K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 50K Unit"
+              "sku_name": "Commit Tier Custom STT Connected 50K",
+              "meter_name": "Commit Tier Custom STT Connected 50K Unit"
             },
             "DZH318Z0HHG7/gpt-4o-mini-0718-Inp-glbl/gpt-4o-mini-0718-Inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-mini-0718-Inp-glbl",
               "meter_name": "gpt-4o-mini-0718-Inp-glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch outpt Glbl/GPT 5 Nano Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch outpt Glbl",
+              "meter_name": "GPT 5 Nano Batch outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-image-1-inp-cached-img-glbl/gpt-image-1-inp-cached-img-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1135,6 +1135,12 @@
               "sku_name": "Free",
               "meter_name": "Free Transactions"
             },
+            "DZH318Z0T9WD/GPT 5 Chat cchd Inpt Glbl/GPT 5 Chat cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat cchd Inpt Glbl",
+              "meter_name": "GPT 5 Chat cchd Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0BZ3Q/P1/P1 Unit": {
               "id": "DZH318Z0BZ3Q",
               "name": "Face",
@@ -1201,18 +1207,6 @@
               "sku_name": "Standard",
               "meter_name": "Standard Text Records"
             },
-            "DZH318Z0HHG7/gpt-4-turbo-128K Input-regional/gpt-4-turbo-128K Input-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-128K Input-regional",
-              "meter_name": "gpt-4-turbo-128K Input-regional Tokens"
-            },
-            "DZH318Z0HHG7/computer-use-batch-outp-glbl/computer-use-batch-outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-outp-glbl",
-              "meter_name": "computer-use-batch-outp-glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt-4o-rt-txt-0603 cchd Inp glbl/gpt-4o-rt-txt-0603 cchd Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1248,6 +1242,12 @@
               "name": "Speech",
               "sku_name": "Commitment Tier STT AddOn Azure 50K",
               "meter_name": "Commitment Tier STT AddOn Azure 50K Speech To Text CT Overage"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt cchd Glbl/GPT 5 Mini Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Mini Batch Inpt cchd Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/o1 mini Batch Inp glbl/o1 mini Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1291,11 +1291,11 @@
               "sku_name": "Commitment Tier STT AddOn Connected 100K",
               "meter_name": "Commitment Tier STT AddOn Connected 100K Speech To Text CT Overage"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 2000M/Commitment Tier Neural Text to Speech Connected 2000M Neural Text To Speech CT Overage Characters": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 2000M/Commit Tier Neural TTS Connected 2000M Neural Text To Speech CT Overage Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 2000M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 2000M Neural Text To Speech CT Overage Characters"
+              "sku_name": "Commit Tier Neural TTS Connected 2000M",
+              "meter_name": "Commit Tier Neural TTS Connected 2000M Neural Text To Speech CT Overage Characters"
             },
             "DZH318Z0TDSR/o3-deep research 0626-out-glbl/o3-deep research 0626-out-glbl 1M Tokens": {
               "id": "DZH318Z0TDSR",
@@ -1309,11 +1309,11 @@
               "sku_name": "Commitment Tier Connected 16000K",
               "meter_name": "Commitment Tier Connected 16000K CT Overage Transactions"
             },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 50K/Commitment Tier Custom Speech to Text Connected 50K Custom Speech To Text CT Overage": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 50K/Commit Tier Custom STT Connected 50K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 50K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 50K Custom Speech To Text CT Overage"
+              "sku_name": "Commit Tier Custom STT Connected 50K",
+              "meter_name": "Commit Tier Custom STT Connected 50K Custom Speech To Text CT Overage"
             },
             "DZH318Z0BQL9/Commitment Tier Connected 10M/Commitment Tier Connected 10M CT Overage Transactions": {
               "id": "DZH318Z0BQL9",
@@ -1332,12 +1332,6 @@
               "name": "Language",
               "sku_name": "Commitment Tier Summarization Connected 10M",
               "meter_name": "Commitment Tier Summarization Connected 10M Unit"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo16K-Inp-glbl/gpt-35-turbo16K-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-Inp-glbl",
-              "meter_name": "gpt-35-turbo16K-Inp-glbl Tokens"
             },
             "DZH318Z0TPCM/Codestral Inp glbl/Codestral Inp glbl Tokens": {
               "id": "DZH318Z0TPCM",
@@ -1380,6 +1374,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o 1120 Outp glbl",
               "meter_name": "gpt 4o 1120 Outp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng Inpt Glbl/GPT 5 Rsng Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Inpt Glbl",
+              "meter_name": "GPT 5 Rsng Inpt Glbl 1M Tokens"
             },
             "DZH318Z0BQL9/Standard/Standard QA Text Records": {
               "id": "DZH318Z0BQL9",
@@ -1447,11 +1447,17 @@
               "sku_name": "codex mini out glbl",
               "meter_name": "codex mini out glbl Tokens"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 80M/Commitment Tier Neural Text to Speech Connected 80M Unit": {
+            "DZH318Z0T9WD/GPT 5 Mini Inpt Glbl/GPT 5 Mini Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Inpt Glbl",
+              "meter_name": "GPT 5 Mini Inpt Glbl 1M Tokens"
+            },
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 80M/Commit Tier Neural TTS Connected 80M Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 80M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 80M Unit"
+              "sku_name": "Commit Tier Neural TTS Connected 80M",
+              "meter_name": "Commit Tier Neural TTS Connected 80M Unit"
             },
             "DZH318Z0HHG7/gpt 4.1 Batch Inp glbl/gpt 4.1 Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1519,12 +1525,6 @@
               "sku_name": "gpt-4o-aud-1217-txt Outp glbl",
               "meter_name": "gpt-4o-aud-1217-txt Outp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-4-32K-Outp-glbl/gpt-4-32K-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-32K-Outp-glbl",
-              "meter_name": "gpt-4-32K-Outp-glbl Tokens"
-            },
             "DZH318Z0C12M/Free/Free Multivariate data points": {
               "id": "DZH318Z0C12M",
               "name": "Anomaly Detector",
@@ -1536,18 +1536,6 @@
               "name": "Computer Vision",
               "sku_name": "Commitment Tier Azure 8000K",
               "meter_name": "Commitment Tier Azure 8000K CT Overage Transactions"
-            },
-            "DZH318Z0HHG7/gpt-4-turbo-Vision-128K Inp-glbl/gpt-4-turbo-Vision-128K Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-Vision-128K Inp-glbl",
-              "meter_name": "gpt-4-turbo-Vision-128K Inp-glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo4K-Outp-glbl/gpt-35-turbo4K-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-Outp-glbl",
-              "meter_name": "gpt-35-turbo4K-Outp-glbl Tokens"
             },
             "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Azure 2000M/Commitment Tier Neural Text to Speech Azure 2000M Unit": {
               "id": "DZH318Z0BP4S",
@@ -1591,11 +1579,11 @@
               "sku_name": "S2",
               "meter_name": "S2 Overage Transactions"
             },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 10K/Commitment Tier Custom Speech to Text Connected 10K Custom Speech To Text CT Overage": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 10K/Commit Tier Custom STT Connected 10K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 10K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 10K Custom Speech To Text CT Overage"
+              "sku_name": "Commit Tier Custom STT Connected 10K",
+              "meter_name": "Commit Tier Custom STT Connected 10K Custom Speech To Text CT Overage"
             },
             "DZH318Z0C12M/Standard/Standard Multivariate training hour": {
               "id": "DZH318Z0C12M",
@@ -1609,12 +1597,6 @@
               "sku_name": "gpt 4.1 nano Batch Inp glbl",
               "meter_name": "gpt 4.1 nano Batch Inp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo-4k-Output-regional/gpt-35-turbo-4k-Output-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo-4k-Output-regional",
-              "meter_name": "gpt-35-turbo-4k-Output-regional Tokens"
-            },
             "DZH318Z0BQL9/Commitment Tier CLU Azure 1M/Commitment Tier CLU Azure 1M Unit": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
@@ -1626,6 +1608,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-0806-Outp-glbl",
               "meter_name": "gpt-4o-0806-Outp-glbl Tokens"
+            },
+            "DZH318Z0VXNR/gpt-oss-120B Outp glbl/gpt-oss-120B Outp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Outp glbl",
+              "meter_name": "gpt-oss-120B Outp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-mini-0718-Outp-glbl/gpt-4o-mini-0718-Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1663,11 +1651,11 @@
               "sku_name": "Grok-3 Mini Inp glbl",
               "meter_name": "Grok-3 Mini Inp glbl Tokens"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 4000M/Commitment Tier Neural Text to Speech Connected 4000M Neural Text To Speech CT Overage Characters": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 4000M/Commit Tier Neural TTS Connected 4000M Neural Text To Speech CT Overage Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 4000M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 4000M Neural Text To Speech CT Overage Characters"
+              "sku_name": "Commit Tier Neural TTS Connected 4000M",
+              "meter_name": "Commit Tier Neural TTS Connected 4000M Neural Text To Speech CT Overage Characters"
             },
             "DZH318Z0HHG7/gpt-4o-mini-0718-Batch-Inp-glbl/gpt-4o-mini-0718-Batch-Inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1681,11 +1669,23 @@
               "sku_name": "Commitment Tier STT AddOn Connected 10K",
               "meter_name": "Commitment Tier STT AddOn Connected 10K Unit"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 400M/Commitment Tier Neural Text to Speech Connected 400M Unit": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 400M/Commit Tier Neural TTS Connected 400M Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 400M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 400M Unit"
+              "sku_name": "Commit Tier Neural TTS Connected 400M",
+              "meter_name": "Commit Tier Neural TTS Connected 400M Unit"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini cchd Inpt Glbl/GPT 5 Mini cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini cchd Inpt Glbl",
+              "meter_name": "GPT 5 Mini cchd Inpt Glbl 1M Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Batch outpt Glbl/GPT 5 Mini Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch outpt Glbl",
+              "meter_name": "GPT 5 Mini Batch outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/o3-pro Batch Inp glbl/o3-pro Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1813,12 +1813,6 @@
               "sku_name": "o4-mini-ft input global",
               "meter_name": "o4-mini-ft input global Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo4K-Inp-glbl/gpt-35-turbo4K-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-Inp-glbl",
-              "meter_name": "gpt-35-turbo4K-Inp-glbl Tokens"
-            },
             "DZH318Z0BQL9/Standard/Standard Custom Text Records": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
@@ -1855,11 +1849,11 @@
               "sku_name": "Commitment Tier Connected 2000K",
               "meter_name": "Commitment Tier Connected 2000K Unit"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 80M/Commitment Tier Neural Text to Speech Connected 80M Neural Text To Speech CT Overage Characters": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 80M/Commit Tier Neural TTS Connected 80M Neural Text To Speech CT Overage Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 80M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 80M Neural Text To Speech CT Overage Characters"
+              "sku_name": "Commit Tier Neural TTS Connected 80M",
+              "meter_name": "Commit Tier Neural TTS Connected 80M Neural Text To Speech CT Overage Characters"
             },
             "DZH318Z0BQT0/Commitment Tier Connected 1M/Commitment Tier Connected 1M CT Overage Transactions": {
               "id": "DZH318Z0BQT0",
@@ -1884,12 +1878,6 @@
               "name": "Speech",
               "sku_name": "Commitment Tier Neural Text to Speech Azure 400M",
               "meter_name": "Commitment Tier Neural Text to Speech Azure 400M Neural Text To Speech CT Overage Characters"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Outp glbl/gpt 4.5 0227 Outp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Outp glbl",
-              "meter_name": "gpt 4.5 0227 Outp glbl Tokens"
             },
             "DZH318Z09WSQ/Commitment Tier Standard 10M/Commitment Tier Standard 10M Unit": {
               "id": "DZH318Z09WSQ",
@@ -1945,12 +1933,6 @@
               "sku_name": "S2",
               "meter_name": "S2 Unit"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-1106 Outp-glbl/gpt-35-turbo16K-1106 Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-1106 Outp-glbl",
-              "meter_name": "gpt-35-turbo16K-1106 Outp-glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt4o realtime prvw text outp glbl/gpt4o realtime prvw text outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1999,11 +1981,11 @@
               "sku_name": "gpt 4.1 nano cached Inp glbl",
               "meter_name": "gpt 4.1 nano cached Inp glbl Tokens"
             },
-            "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Connected 2000M/Commitment Tier Neural Text to Speech Connected 2000M Unit": {
+            "DZH318Z0BP4S/Commit Tier Neural TTS Connected 2000M/Commit Tier Neural TTS Connected 2000M Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Neural Text to Speech Connected 2000M",
-              "meter_name": "Commitment Tier Neural Text to Speech Connected 2000M Unit"
+              "sku_name": "Commit Tier Neural TTS Connected 2000M",
+              "meter_name": "Commit Tier Neural TTS Connected 2000M Unit"
             },
             "DZH318Z0HHG7/gpt-4.1-nano-dev-ft opt glbl/gpt-4.1-nano-dev-ft opt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2047,18 +2029,6 @@
               "sku_name": "Provisioned Managed Global",
               "meter_name": "Provisioned Managed Global Unit"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 Inp glbl/gpt 4.5 0227 Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Inp glbl",
-              "meter_name": "gpt 4.5 0227 Inp glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 cached Inp glbl/gpt 4.5 0227 cached Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 cached Inp glbl",
-              "meter_name": "gpt 4.5 0227 cached Inp glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt-4.1-mini-ft input global/gpt-4.1-mini-ft input global Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -2100,6 +2070,12 @@
               "name": "Azure OpenAI",
               "sku_name": "o1-pro Inp glbl",
               "meter_name": "o1-pro Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini outpt Glbl/GPT 5 Mini outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini outpt Glbl",
+              "meter_name": "GPT 5 Mini outpt Glbl 1M Tokens"
             },
             "DZH318Z0BZ3Q/P2/Face Storage": {
               "id": "DZH318Z0BZ3Q",
@@ -2154,6 +2130,12 @@
               "name": "Language",
               "sku_name": "S0",
               "meter_name": "S0 Overage Transactions"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano outpt Glbl/GPT 5 Nano outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano outpt Glbl",
+              "meter_name": "GPT 5 Nano outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/o1 mini input glbl/o1 mini input glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2257,6 +2239,12 @@
               "sku_name": "Commitment Tier Summarization 3M",
               "meter_name": "Commitment Tier Summarization 3M Unit"
             },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt Glbl/GPT 5 Mini Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt Glbl",
+              "meter_name": "GPT 5 Mini Batch Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0BP4S/Free/Free Custom Speech Model Hosting Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -2292,12 +2280,6 @@
               "name": "Language",
               "sku_name": "Commitment Tier Azure 10M",
               "meter_name": "Commitment Tier Azure 10M CT Overage Transactions"
-            },
-            "DZH318Z0HHG7/gpt-4-turbo-128K Output-regional/gpt-4-turbo-128K Output-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-128K Output-regional",
-              "meter_name": "gpt-4-turbo-128K Output-regional Tokens"
             },
             "DZH318Z0HHG7/gpt4omini-rt-aud1217 Inp glbl/gpt4omini-rt-aud1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2371,23 +2353,17 @@
               "sku_name": "gpt-4.1-dev-ft opt glbl",
               "meter_name": "gpt-4.1-dev-ft opt glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-4-32K-Inp-glbl/gpt-4-32K-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-32K-Inp-glbl",
-              "meter_name": "gpt-4-32K-Inp-glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt-35-turbo-16k-Output-regional/gpt-35-turbo-16k-Output-regional Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt-35-turbo-16k-Output-regional",
               "meter_name": "gpt-35-turbo-16k-Output-regional Tokens"
             },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 100K/Commitment Tier Custom Speech to Text Connected 100K Custom Speech To Text CT Overage": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 100K/Commit Tier Custom STT Connected 100K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 100K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 100K Custom Speech To Text CT Overage"
+              "sku_name": "Commit Tier Custom STT Connected 100K",
+              "meter_name": "Commit Tier Custom STT Connected 100K Custom Speech To Text CT Overage"
             },
             "DZH318Z0HHG7/o3 mini 0131 input glbl/o3 mini 0131 input glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2412,12 +2388,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt4omini-rt-txt1217 cchd Inp glbl",
               "meter_name": "gpt4omini-rt-txt1217 cchd Inp glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-4-8K-Outp-glbl/gpt-4-8K-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-8K-Outp-glbl",
-              "meter_name": "gpt-4-8K-Outp-glbl Tokens"
             },
             "DZH318Z0BP4S/CNV Neural HD Synthesis/CNV Neural HD Synthesis Characters": {
               "id": "DZH318Z0BP4S",
@@ -2466,6 +2436,12 @@
               "name": "Azure OpenAI Reasoning",
               "sku_name": "o3-deep research 0626-inp-cchd-glbl",
               "meter_name": "o3-deep research 0626-inp-cchd-glbl 1M Tokens"
+            },
+            "DZH318Z0VXNR/gpt-oss-120B Inp glbl/gpt-oss-120B Inp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Inp glbl",
+              "meter_name": "gpt-oss-120B Inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-nano-ft input global/gpt-4.1-nano-ft input global Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2551,12 +2527,6 @@
               "sku_name": "Commitment Tier Azure 2000K",
               "meter_name": "Commitment Tier Azure 2000K CT Overage Transactions"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-Outp-glbl/gpt-35-turbo16K-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-Outp-glbl",
-              "meter_name": "gpt-35-turbo16K-Outp-glbl Tokens"
-            },
             "DZH318Z0BZ35/P2/P2 Overage Transactions": {
               "id": "DZH318Z0BZ35",
               "name": "Computer Vision",
@@ -2623,6 +2593,12 @@
               "sku_name": "Commitment Tier Azure 25M",
               "meter_name": "Commitment Tier Azure 25M Unit"
             },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt cchd Glbl/GPT 5 Nano Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Nano Batch Inpt cchd Glbl 1M Tokens"
+            },
             "DZH318Z0BQL9/Commitment Tier Connected 10M/Commitment Tier Connected 10M Unit": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
@@ -2671,17 +2647,17 @@
               "sku_name": "gpt-4o-mini-tts-txt-inp-glbl",
               "meter_name": "gpt-4o-mini-tts-txt-inp-glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng cchd Inpt Glbl/GPT 5 Rsng cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng cchd Inpt Glbl",
+              "meter_name": "GPT 5 Rsng cchd Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4o-aud-0603-txt Outp glbl/gpt-4o-aud-0603-txt Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-aud-0603-txt Outp glbl",
               "meter_name": "gpt-4o-aud-0603-txt Outp glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo-4k-Input-regional/gpt-35-turbo-4k-Input-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo-4k-Input-regional",
-              "meter_name": "gpt-35-turbo-4k-Input-regional Tokens"
             },
             "DZH318Z09WSD/Commitment Tier Disconnected 2000K/Commitment Tier Disconnected 2000K Unit": {
               "id": "DZH318Z09WSD",
@@ -2719,11 +2695,11 @@
               "sku_name": "Free",
               "meter_name": "Free Transactions"
             },
-            "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 10K/Commitment Tier Custom Speech to Text Connected 10K Unit": {
+            "DZH318Z0BP4S/Commit Tier Custom STT Connected 10K/Commit Tier Custom STT Connected 10K Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
-              "sku_name": "Commitment Tier Custom Speech to Text Connected 10K",
-              "meter_name": "Commitment Tier Custom Speech to Text Connected 10K Unit"
+              "sku_name": "Commit Tier Custom STT Connected 10K",
+              "meter_name": "Commit Tier Custom STT Connected 10K Unit"
             },
             "DZH318Z0HHG7/gpt 4.1 Batch Outp glbl/gpt 4.1 Batch Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2893,6 +2869,12 @@
               "sku_name": "P2",
               "meter_name": "Overage Transactions"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt Glbl/GPT 5 Rsng Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt Glbl",
+              "meter_name": "GPT 5 Rsng Batch Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0BP4S/Free/Free Text To Speech Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -2911,23 +2893,11 @@
               "sku_name": "Commitment Tier CLU Azure 25M",
               "meter_name": "Commitment Tier CLU Azure 25M Unit"
             },
-            "DZH318Z0HHG7/gpt-4-turbo-Vision-128K Outp-glbl/gpt-4-turbo-Vision-128K Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-turbo-Vision-128K Outp-glbl",
-              "meter_name": "gpt-4-turbo-Vision-128K Outp-glbl Tokens"
-            },
             "DZH318Z0BQL9/Commitment Tier Azure 1M/Commitment Tier Azure 1M Unit": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
               "sku_name": "Commitment Tier Azure 1M",
               "meter_name": "Commitment Tier Azure 1M Unit"
-            },
-            "DZH318Z0HHG7/gpt-4-8K-Inp-glbl/gpt-4-8K-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4-8K-Inp-glbl",
-              "meter_name": "gpt-4-8K-Inp-glbl Tokens"
             },
             "DZH318Z0HHG7/Code-Interpreter-global/Code-Interpreter-global Session": {
               "id": "DZH318Z0HHG7",
@@ -2940,12 +2910,6 @@
               "name": "Language",
               "sku_name": "Commitment Tier CLU Azure 10M",
               "meter_name": "Commitment Tier CLU Azure 10M CT Overage Transactions"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo-16K-1106 Output-regional/gpt-35-turbo-16K-1106 Output-regional Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo-16K-1106 Output-regional",
-              "meter_name": "gpt-35-turbo-16K-1106 Output-regional Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-nano-ft hosting global/gpt-4.1-nano-ft hosting global Unit": {
               "id": "DZH318Z0HHG7",
