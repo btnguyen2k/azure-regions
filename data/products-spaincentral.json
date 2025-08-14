@@ -7,6 +7,12 @@
           "id": "DZH31600VF1F",
           "name": "Cognitive Services",
           "products": {
+            "DZH318Z0T9WD/GPT 5 Rsng outpt Glbl/GPT 5 Rsng outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng outpt Glbl",
+              "meter_name": "GPT 5 Rsng outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4-8K-Inp-glbl/gpt-4-8K-Inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -73,12 +79,6 @@
               "sku_name": "gpt 4o mini0718 BatchOutp DataZone",
               "meter_name": "gpt 4o mini0718 BatchOutp DataZone Tokens"
             },
-            "DZH318Z0HHG7/computer-use-batch-inpt-datazone/computer-use-batch-inpt-datazone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-inpt-datazone",
-              "meter_name": "computer-use-batch-inpt-datazone Tokens"
-            },
             "DZH318Z0T9X1/Llama 3.3 70B Inp regnl/Llama 3.3 70B Inp regnl Tokens": {
               "id": "DZH318Z0T9X1",
               "name": "Llama models",
@@ -127,6 +127,18 @@
               "sku_name": "o4-mini 0416 cached Inp DataZone",
               "meter_name": "o4-mini 0416 cached Inp DataZone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano cchd Inpt Glbl/GPT 5 Nano cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano cchd Inpt Glbl",
+              "meter_name": "GPT 5 Nano cchd Inpt Glbl 1M Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt cchd Dzone/GPT 5 Mini Batch Inpt cchd Dzone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt cchd Dzone",
+              "meter_name": "GPT 5 Mini Batch Inpt cchd Dzone 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4-turbo-Vision-128K Outp-glbl/gpt-4-turbo-Vision-128K Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -144,12 +156,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-rt-aud-1217 Inp DZone",
               "meter_name": "gpt-4o-rt-aud-1217 Inp DZone Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo16K-FT-Trng-glbl tkn/gpt-35-turbo16K-FT-Trng-glbl tkn Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-FT-Trng-glbl tkn",
-              "meter_name": "gpt-35-turbo16K-FT-Trng-glbl tkn Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-transcribe-txt-inp-glbl/gpt-4o-transcribe-txt-inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -187,12 +193,6 @@
               "sku_name": "o1 1217 cached Inp glbl",
               "meter_name": "o1 1217 cached Inp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo4K-FT-Trng-glbl/gpt-35-turbo4K-FT-Trng-glbl Unit": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-FT-Trng-glbl",
-              "meter_name": "gpt-35-turbo4K-FT-Trng-glbl Unit"
-            },
             "DZH318Z0HHG7/gpt-image-1-inp-cached-img-dzone/gpt-image-1-inp-cached-img-dzone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -216,6 +216,12 @@
               "name": "Azure OpenAI",
               "sku_name": "o3-pro Outp Data Zone",
               "meter_name": "o3-pro Outp Data Zone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt DZone/GPT 5 Rsng Batch Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt DZone",
+              "meter_name": "GPT 5 Rsng Batch Inpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-aud-0603-txt Inp glbl/gpt-4o-aud-0603-txt Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -289,12 +295,6 @@
               "sku_name": "Flux 1.1 Pro glbl",
               "meter_name": "Flux 1.1 Pro glbl Images"
             },
-            "DZH318Z0HHG7/gpt-4o-64k-outp-alpha-0730-Outp-glbl/gpt-4o-64k-outp-alpha-0730-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4o-64k-outp-alpha-0730-Outp-glbl",
-              "meter_name": "gpt-4o-64k-outp-alpha-0730-Outp-glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt 4o 1120 Batch Outp glbl/gpt 4o 1120 Batch Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -367,6 +367,12 @@
               "sku_name": "o3-deep research 0626-inp-dzone",
               "meter_name": "o3-deep research 0626-inp-dzone 1M Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt cchd Dzone/GPT 5 Rsng Batch Inpt cchd Dzone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt cchd Dzone",
+              "meter_name": "GPT 5 Rsng Batch Inpt cchd Dzone 1M Tokens"
+            },
             "DZH318Z0HHG7/davinci-002-FT-Trng-glbl tkn/davinci-002-FT-Trng-glbl tkn Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -415,11 +421,23 @@
               "sku_name": "gpt 4.1 mini Inp Data Zone",
               "meter_name": "gpt 4.1 mini Inp Data Zone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Chat Inpt Glbl/GPT 5 Chat Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat Inpt Glbl",
+              "meter_name": "GPT 5 Chat Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/o1 1217 Outp Data Zone/o1 1217 Outp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "o1 1217 Outp Data Zone",
               "meter_name": "o1 1217 Outp Data Zone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt DZone/GPT 5 Nano Batch Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt DZone",
+              "meter_name": "GPT 5 Nano Batch Inpt DZone 1M Tokens"
             },
             "DZH318Z0TPCM/Codestral Inp glbl/Codestral Inp glbl Tokens": {
               "id": "DZH318Z0TPCM",
@@ -444,6 +462,12 @@
               "name": "Azure OpenAI",
               "sku_name": "file-search-tool-calls-glbl",
               "meter_name": "file-search-tool-calls-glbl Calls"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch outpt DZone/GPT 5 Nano Batch outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch outpt DZone",
+              "meter_name": "GPT 5 Nano Batch outpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-rt-txt-0603 Outp DZone/gpt-4o-rt-txt-0603 Outp DZone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -523,6 +547,12 @@
               "sku_name": "o3 mini 0131 input Data Zone",
               "meter_name": "o3 mini 0131 input Data Zone Tokens"
             },
+            "DZH318Z0VXNR/gpt-oss-120B Outp glbl/gpt-oss-120B Outp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Outp glbl",
+              "meter_name": "gpt-oss-120B Outp glbl Tokens"
+            },
             "DZH318Z0HHG7/gpt-4.1-nano-ft output global/gpt-4.1-nano-ft output global Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -577,17 +607,17 @@
               "sku_name": "gpt 4.1 nano Batch Inp glbl",
               "meter_name": "gpt 4.1 nano Batch Inp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 cached Inp glbl/gpt 4.5 0227 cached Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 cached Inp glbl",
-              "meter_name": "gpt 4.5 0227 cached Inp glbl Tokens"
-            },
             "DZH318Z0TDSR/o4-mini-ft model grader output/o4-mini-ft model grader output Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
               "sku_name": "o4-mini-ft model grader output",
               "meter_name": "o4-mini-ft model grader output Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt cchd Glbl/GPT 5 Rsng Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Rsng Batch Inpt cchd Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-transcribe-txt-out-glbl/gpt-4o-transcribe-txt-out-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -667,6 +697,12 @@
               "sku_name": "V3 Outp DZone",
               "meter_name": "V3 Outp DZone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt cchd Glbl/GPT 5 Mini Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Mini Batch Inpt cchd Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/o3 0416 Inp glbl/o3 0416 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -721,12 +757,6 @@
               "sku_name": "gpt 4o 1120 Outp glbl",
               "meter_name": "gpt 4o 1120 Outp glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-FT-Outp-glbl/gpt-35-turbo16K-FT-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-FT-Outp-glbl",
-              "meter_name": "gpt-35-turbo16K-FT-Outp-glbl Tokens"
-            },
             "DZH318Z0HHG7/computer-use-inpt-glbl/computer-use-inpt-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -738,6 +768,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o 0806 Batch Outp Data Zone",
               "meter_name": "gpt 4o 0806 Batch Outp Data Zone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng cchd Inpt Glbl/GPT 5 Rsng cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng cchd Inpt Glbl",
+              "meter_name": "GPT 5 Rsng cchd Inpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/o3 0416 cached Inp Data Zone/o3 0416 cached Inp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -763,17 +799,17 @@
               "sku_name": "gpt-35-turbo16K-Outp-glbl",
               "meter_name": "gpt-35-turbo16K-Outp-glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-4o-64k-outp-alpha-0730-Inp-glbl/gpt-4o-64k-outp-alpha-0730-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-4o-64k-outp-alpha-0730-Inp-glbl",
-              "meter_name": "gpt-4o-64k-outp-alpha-0730-Inp-glbl Tokens"
-            },
             "DZH318Z0T7L1/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
               "id": "DZH318Z0T7L1",
               "name": "Deepseek model family",
               "sku_name": "Provisioned Managed Data Zone",
               "meter_name": "Provisioned Managed Data Zone Unit"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini cchd Inpt Glbl/GPT 5 Mini cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini cchd Inpt Glbl",
+              "meter_name": "GPT 5 Mini cchd Inpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-rt-aud-1217 Inp glbl/gpt-4o-rt-aud-1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -810,6 +846,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt4o realtime prvw text outp glbl",
               "meter_name": "gpt4o realtime prvw text outp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng Inpt Glbl/GPT 5 Rsng Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Inpt Glbl",
+              "meter_name": "GPT 5 Rsng Inpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-mini-dev-ft inpt glbl/gpt-4.1-mini-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -859,12 +901,6 @@
               "sku_name": "gpt-4o-rt-aud-0603 Inp glbl",
               "meter_name": "gpt-4o-rt-aud-0603 Inp glbl Tokens"
             },
-            "DZH318Z0HHG7/computer-use-batch-outp-datazone/computer-use-batch-outp-datazone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-outp-datazone",
-              "meter_name": "computer-use-batch-outp-datazone Tokens"
-            },
             "DZH318Z0HHG7/gpt-4o-mini-transcribe-txt-inp-glbl/gpt-4o-mini-transcribe-txt-inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -876,6 +912,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4-8K-Outp-glbl",
               "meter_name": "gpt-4-8K-Outp-glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Batch outpt DZone/GPT 5 Mini Batch outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch outpt DZone",
+              "meter_name": "GPT 5 Mini Batch outpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-rt-aud-0603 Outp DZone/gpt-4o-rt-aud-0603 Outp DZone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -907,6 +949,12 @@
               "sku_name": "o1 Batch Outp glbl",
               "meter_name": "o1 Batch Outp glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano cchd Inpt DZone/GPT 5 Nano cchd Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano cchd Inpt DZone",
+              "meter_name": "GPT 5 Nano cchd Inpt DZone 1M Tokens"
+            },
             "DZH318Z0HHG7/babbage-002-base-glbl/babbage-002-base-glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -937,6 +985,12 @@
               "sku_name": "Doc AI regnl 2505",
               "meter_name": "Doc AI regnl 2505 Pages"
             },
+            "DZH318Z0T9WD/GPT 5 Mini outpt DZone/GPT 5 Mini outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini outpt DZone",
+              "meter_name": "GPT 5 Mini outpt DZone 1M Tokens"
+            },
             "DZH318Z0V4HX/Flux 1.1 Pro Dzone/Flux 1.1 Pro Dzone Images": {
               "id": "DZH318Z0V4HX",
               "name": "BFL Flux Models",
@@ -966,12 +1020,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-transcribe-aud-inp-dz",
               "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Outp glbl/gpt 4.5 0227 Batch Outp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Outp glbl",
-              "meter_name": "gpt 4.5 0227 Batch Outp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt 4o 0806 cached Inp glbl/gpt 4o 0806 cached Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1015,17 +1063,17 @@
               "sku_name": "Grok-4 Outp glbl",
               "meter_name": "Grok-4 Outp glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano Batch outpt Glbl/GPT 5 Nano Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch outpt Glbl",
+              "meter_name": "GPT 5 Nano Batch outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/Assistants-File Search-glbl/Assistants-File Search-glbl GB": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "Assistants-File Search-glbl",
               "meter_name": "Assistants-File Search-glbl GB"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Inp DZone/gpt 4.5 0227 Batch Inp DZone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Inp DZone",
-              "meter_name": "gpt 4.5 0227 Batch Inp DZone Tokens"
             },
             "DZH318Z0V4HX/Kontext Pro glbl/Kontext Pro glbl Images": {
               "id": "DZH318Z0V4HX",
@@ -1045,12 +1093,6 @@
               "sku_name": "o1 1217 Batch Outp Data Zone",
               "meter_name": "o1 1217 Batch Outp Data Zone Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-FT-Inp-glbl/gpt-35-turbo16K-FT-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-FT-Inp-glbl",
-              "meter_name": "gpt-35-turbo16K-FT-Inp-glbl Tokens"
-            },
             "DZH318Z0HHG7/o1 1217 Batch Inp Data Zone/o1 1217 Batch Inp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1062,12 +1104,6 @@
               "name": "Grok model family",
               "sku_name": "Provisioned Managed Data Zone",
               "meter_name": "Provisioned Managed Data Zone Unit"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Inp DZone/gpt 4.5 0227 Inp DZone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Inp DZone",
-              "meter_name": "gpt 4.5 0227 Inp DZone Tokens"
             },
             "DZH318Z0HHG7/gpt4omini-aud1217-txt Inp DZone/gpt4omini-aud1217-txt Inp DZone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1123,17 +1159,11 @@
               "sku_name": "o1 mini Batch Outp Data Zone",
               "meter_name": "o1 mini Batch Outp Data Zone Tokens"
             },
-            "DZH318Z0HHG7/gpt 4o 1120 Batch Outp Data Zone/gpt 4o 1120 Batch Outp Data Zone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4o 1120 Batch Outp Data Zone",
-              "meter_name": "gpt 4o 1120 Batch Outp Data Zone Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Inp glbl/gpt 4.5 0227 Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Inp glbl",
-              "meter_name": "gpt 4.5 0227 Inp glbl Tokens"
+            "DZH318Z0T9WD/GPT 5 Rsng Batch outpt DZone/GPT 5 Rsng Batch outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch outpt DZone",
+              "meter_name": "GPT 5 Rsng Batch outpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-transcribe-txt-out-dz/gpt-4o-transcribe-txt-out-dz Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1147,23 +1177,17 @@
               "sku_name": "o4-mini RFT Training global",
               "meter_name": "o4-mini RFT Training global Unit"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 cached Inp DZone/gpt 4.5 0227 cached Inp DZone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 cached Inp DZone",
-              "meter_name": "gpt 4.5 0227 cached Inp DZone Tokens"
+            "DZH318Z0T9WD/GPT 5 Chat cchd Inpt Glbl/GPT 5 Chat cchd Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat cchd Inpt Glbl",
+              "meter_name": "GPT 5 Chat cchd Inpt Glbl 1M Tokens"
             },
             "DZH318Z0TDSR/codex mini out glbl/codex mini out glbl Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
               "sku_name": "codex mini out glbl",
               "meter_name": "codex mini out glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo4K-FT-Trng-glbl tkn/gpt-35-turbo4K-FT-Trng-glbl tkn Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-FT-Trng-glbl tkn",
-              "meter_name": "gpt-35-turbo4K-FT-Trng-glbl tkn Tokens"
             },
             "DZH318Z0HHG7/gpt-35-turbo16K-1106 Outp-glbl/gpt-35-turbo16K-1106 Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1206,12 +1230,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4.1 Batch Inp glbl",
               "meter_name": "gpt 4.1 Batch Inp glbl Tokens"
-            },
-            "DZH318Z0HHG7/computer-use-batch-outp-glbl/computer-use-batch-outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-outp-glbl",
-              "meter_name": "computer-use-batch-outp-glbl Tokens"
             },
             "DZH318Z0T9X1/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0T9X1",
@@ -1285,11 +1303,11 @@
               "sku_name": "gpt 4o 1120 Inp Data Zone",
               "meter_name": "gpt 4o 1120 Inp Data Zone Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo4K-FT-Inp-glbl/gpt-35-turbo4K-FT-Inp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-FT-Inp-glbl",
-              "meter_name": "gpt-35-turbo4K-FT-Inp-glbl Tokens"
+            "DZH318Z0T9WD/GPT 5 Mini Batch outpt Glbl/GPT 5 Mini Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch outpt Glbl",
+              "meter_name": "GPT 5 Mini Batch outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-image-1-inp-img-glbl/gpt-image-1-inp-img-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1302,6 +1320,12 @@
               "name": "Azure OpenAI",
               "sku_name": "o1-pro Batch Inp Data Zone",
               "meter_name": "o1-pro Batch Inp Data Zone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt cchd Glbl/GPT 5 Nano Batch Inpt cchd Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt cchd Glbl",
+              "meter_name": "GPT 5 Nano Batch Inpt cchd Glbl 1M Tokens"
             },
             "DZH318Z0TDSR/o4-mini-ft cached input global/o4-mini-ft cached input global Tokens": {
               "id": "DZH318Z0TDSR",
@@ -1357,6 +1381,12 @@
               "sku_name": "gpt-4o-0806-Outp-glbl",
               "meter_name": "gpt-4o-0806-Outp-glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano outpt DZone/GPT 5 Nano outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano outpt DZone",
+              "meter_name": "GPT 5 Nano outpt DZone 1M Tokens"
+            },
             "DZH318Z0HHG7/o1-pro Inp Data Zone/o1-pro Inp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1369,23 +1399,11 @@
               "sku_name": "gpt-35-turbo4K-Outp-glbl",
               "meter_name": "gpt-35-turbo4K-Outp-glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt 4.5 0227 Outp glbl/gpt 4.5 0227 Outp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Outp glbl",
-              "meter_name": "gpt 4.5 0227 Outp glbl Tokens"
-            },
             "DZH318Z0TPCM/OCR glbl/OCR glbl Pages": {
               "id": "DZH318Z0TPCM",
               "name": "Mistral Models",
               "sku_name": "OCR glbl",
               "meter_name": "OCR glbl Pages"
-            },
-            "DZH318Z0HHG7/gpt 4o 1120 Batch Inp Data Zone/gpt 4o 1120 Batch Inp Data Zone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4o 1120 Batch Inp Data Zone",
-              "meter_name": "gpt 4o 1120 Batch Inp Data Zone Tokens"
             },
             "DZH318Z0HHG7/babbage-002-FT-Trng-glbl/babbage-002-FT-Trng-glbl Unit": {
               "id": "DZH318Z0HHG7",
@@ -1440,6 +1458,12 @@
               "name": "Azure OpenAI",
               "sku_name": "davinci-002-FT-Outp-glbl",
               "meter_name": "davinci-002-FT-Outp-glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Inpt DZone/GPT 5 Nano Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Inpt DZone",
+              "meter_name": "GPT 5 Nano Inpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-transcribe-txt-inp-dz/gpt-4o-transcribe-txt-inp-dz Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1524,12 +1548,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-aud-1217-txt Outp glbl",
               "meter_name": "gpt-4o-aud-1217-txt Outp glbl Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo4K-FT-Outp-glbl/gpt-35-turbo4K-FT-Outp-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-FT-Outp-glbl",
-              "meter_name": "gpt-35-turbo4K-FT-Outp-glbl Tokens"
             },
             "DZH318Z0HHG7/text-embedding-3-large-grader/text-embedding-3-large-grader Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1639,12 +1657,6 @@
               "sku_name": "Provisioned Managed Data Zone",
               "meter_name": "Provisioned Managed Data Zone Unit"
             },
-            "DZH318Z0HHG7/computer-use-batch-inpt-glbl/computer-use-batch-inpt-glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "computer-use-batch-inpt-glbl",
-              "meter_name": "computer-use-batch-inpt-glbl Tokens"
-            },
             "DZH318Z0HHG7/gpt-4o-aud-1217 Inp glbl/gpt-4o-aud-1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1693,11 +1705,23 @@
               "sku_name": "gpt-4.1-ft mdl grdr cchd inpt",
               "meter_name": "gpt-4.1-ft mdl grdr cchd inpt Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano Inpt Glbl/GPT 5 Nano Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Inpt Glbl",
+              "meter_name": "GPT 5 Nano Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt4omini-rt-aud1217 Outp DZone/gpt4omini-rt-aud1217 Outp DZone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt4omini-rt-aud1217 Outp DZone",
               "meter_name": "gpt4omini-rt-aud1217 Outp DZone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano outpt Glbl/GPT 5 Nano outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano outpt Glbl",
+              "meter_name": "GPT 5 Nano outpt Glbl 1M Tokens"
             },
             "DZH318Z0T7L1/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
               "id": "DZH318Z0T7L1",
@@ -1789,12 +1813,6 @@
               "sku_name": "davinci-002-FT-Inp-glbl",
               "meter_name": "davinci-002-FT-Inp-glbl Tokens"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-FT-Trng-glbl/gpt-35-turbo16K-FT-Trng-glbl Unit": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-FT-Trng-glbl",
-              "meter_name": "gpt-35-turbo16K-FT-Trng-glbl Unit"
-            },
             "DZH318Z0HHG7/gpt-4.1-mini-ft mdl grdr opt/gpt-4.1-mini-ft mdl grdr opt Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1849,6 +1867,12 @@
               "sku_name": "Kontext Pro regnl",
               "meter_name": "Kontext Pro regnl Images"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng cchd Inpt DZone/GPT 5 Rsng cchd Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng cchd Inpt DZone",
+              "meter_name": "GPT 5 Rsng cchd Inpt DZone 1M Tokens"
+            },
             "DZH318Z0T9X1/Llama 4 Maverick 17B Outp regnl/Llama 4 Maverick 17B Outp regnl Tokens": {
               "id": "DZH318Z0T9X1",
               "name": "Llama models",
@@ -1879,6 +1903,18 @@
               "sku_name": "davinci-002-FT-Trng-glbl",
               "meter_name": "davinci-002-FT-Trng-glbl Unit"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch Inpt Glbl/GPT 5 Rsng Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch Inpt Glbl",
+              "meter_name": "GPT 5 Rsng Batch Inpt Glbl 1M Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Rsng outpt DZone/GPT 5 Rsng outpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng outpt DZone",
+              "meter_name": "GPT 5 Rsng outpt DZone 1M Tokens"
+            },
             "DZH318Z0HHG7/o3 mini 0131 output glbl/o3 mini 0131 output glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1891,17 +1927,17 @@
               "sku_name": "o4-mini 0416 Batch Inp Data Zone",
               "meter_name": "o4-mini 0416 Batch Inp Data Zone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Chat outpt Glbl/GPT 5 Chat outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Chat outpt Glbl",
+              "meter_name": "GPT 5 Chat outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4o-aud-1217 Inp DZone/gpt-4o-aud-1217 Inp DZone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-aud-1217 Inp DZone",
               "meter_name": "gpt-4o-aud-1217 Inp DZone Tokens"
-            },
-            "DZH318Z0HHG7/gpt-35-turbo4K-FT-Hstng-glbl/gpt-35-turbo4K-FT-Hstng-glbl Unit": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo4K-FT-Hstng-glbl",
-              "meter_name": "gpt-35-turbo4K-FT-Hstng-glbl Unit"
             },
             "DZH318Z0HHG7/gpt 4.1 Batch Outp glbl/gpt 4.1 Batch Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1963,6 +1999,12 @@
               "sku_name": "o3 mini 0131 Batch Outp Data Zone",
               "meter_name": "o3 mini 0131 Batch Outp Data Zone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt cchd Dzone/GPT 5 Nano Batch Inpt cchd Dzone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt cchd Dzone",
+              "meter_name": "GPT 5 Nano Batch Inpt cchd Dzone 1M Tokens"
+            },
             "DZH318Z0TDSR/codex mini inp glbl/codex mini inp glbl Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
@@ -1980,12 +2022,6 @@
               "name": "Azure OpenAI",
               "sku_name": "o3 0416 Inp Data Zone",
               "meter_name": "o3 0416 Inp Data Zone Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Inp glbl/gpt 4.5 0227 Batch Inp glbl Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Inp glbl",
-              "meter_name": "gpt 4.5 0227 Batch Inp glbl Tokens"
             },
             "DZH318Z0T879/Grok-4 Inp glbl/Grok-4 Inp glbl Tokens": {
               "id": "DZH318Z0T879",
@@ -2028,6 +2064,12 @@
               "name": "Llama models",
               "sku_name": "Llama 3.3 70B Inp glbl",
               "meter_name": "Llama 3.3 70B Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt DZone/GPT 5 Mini Batch Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt DZone",
+              "meter_name": "GPT 5 Mini Batch Inpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/o1 1217 Outp glbl/o1 1217 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2089,6 +2131,12 @@
               "sku_name": "gpt 4o 0513 Batch Inp Data Zone",
               "meter_name": "gpt 4o 0513 Batch Inp Data Zone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Mini Batch Inpt Glbl/GPT 5 Mini Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Batch Inpt Glbl",
+              "meter_name": "GPT 5 Mini Batch Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4o-aud-1217 Outp glbl/gpt-4o-aud-1217 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -2124,12 +2172,6 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o mini 0718 Inp Data Zone",
               "meter_name": "gpt 4o mini 0718 Inp Data Zone Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Outp DZone/gpt 4.5 0227 Outp DZone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Outp DZone",
-              "meter_name": "gpt 4.5 0227 Outp DZone Tokens"
             },
             "DZH318Z0HHG7/gpt4omini-rt-txt1217 cchd Inp glbl/gpt4omini-rt-txt1217 cchd Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2209,12 +2251,6 @@
               "sku_name": "Provisioned Managed Data Zone",
               "meter_name": "Provisioned Managed Data Zone Unit"
             },
-            "DZH318Z0HHG7/gpt-35-turbo16K-FT-Hstng-glbl/gpt-35-turbo16K-FT-Hstng-glbl Unit": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt-35-turbo16K-FT-Hstng-glbl",
-              "meter_name": "gpt-35-turbo16K-FT-Hstng-glbl Unit"
-            },
             "DZH318Z0HHG7/gpt-4.1-mini-ft mdl grdr inpt/gpt-4.1-mini-ft mdl grdr inpt Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -2238,6 +2274,12 @@
               "name": "Mistral Models",
               "sku_name": "Codestral Outp DZone",
               "meter_name": "Codestral Outp DZone Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini outpt Glbl/GPT 5 Mini outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini outpt Glbl",
+              "meter_name": "GPT 5 Mini outpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/Image-Dall-E-3 HD HighRes-glbl/Image-Dall-E-3 HD HighRes-glbl Images": {
               "id": "DZH318Z0HHG7",
@@ -2287,6 +2329,12 @@
               "sku_name": "gpt 4o 1120 cached Inp glbl",
               "meter_name": "gpt 4o 1120 cached Inp glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Mini Inpt Glbl/GPT 5 Mini Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Inpt Glbl",
+              "meter_name": "GPT 5 Mini Inpt Glbl 1M Tokens"
+            },
             "DZH318Z0TDSR/o3-deep research 0626-out-glbl/o3-deep research 0626-out-glbl 1M Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
@@ -2311,11 +2359,23 @@
               "sku_name": "gpt 4.1 nano Batch Outp glbl",
               "meter_name": "gpt 4.1 nano Batch Outp glbl Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng Batch outpt Glbl/GPT 5 Rsng Batch outpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Batch outpt Glbl",
+              "meter_name": "GPT 5 Rsng Batch outpt Glbl 1M Tokens"
+            },
             "DZH318Z0HHG7/o1 Batch Inp glbl/o1 Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "o1 Batch Inp glbl",
               "meter_name": "o1 Batch Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Nano Batch Inpt Glbl/GPT 5 Nano Batch Inpt Glbl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Nano Batch Inpt Glbl",
+              "meter_name": "GPT 5 Nano Batch Inpt Glbl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-rt-txt-1217 Inp DZone/gpt-4o-rt-txt-1217 Inp DZone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2346,6 +2406,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4.1 mini Inp glbl",
               "meter_name": "gpt 4.1 mini Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/GPT 5 Mini Inpt DZone/GPT 5 Mini Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini Inpt DZone",
+              "meter_name": "GPT 5 Mini Inpt DZone 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-mini FT Training global/gpt-4.1-mini FT Training global Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2419,6 +2485,12 @@
               "sku_name": "gpt 4o mini 0718 Batch Inp Data Zone",
               "meter_name": "gpt 4o mini 0718 Batch Inp Data Zone Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Rsng Inpt DZone/GPT 5 Rsng Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Rsng Inpt DZone",
+              "meter_name": "GPT 5 Rsng Inpt DZone 1M Tokens"
+            },
             "DZH318Z0TDSR/codex mini out dzone/codex mini out dzone Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
@@ -2485,17 +2557,17 @@
               "sku_name": "gpt-4o-mini-tts-aud-out-dz",
               "meter_name": "gpt-4o-mini-tts-aud-out-dz Tokens"
             },
+            "DZH318Z0T9WD/GPT 5 Mini cchd Inpt DZone/GPT 5 Mini cchd Inpt DZone 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "GPT 5 Mini cchd Inpt DZone",
+              "meter_name": "GPT 5 Mini cchd Inpt DZone 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt 4o 0806 Batch Inp Data Zone/gpt 4o 0806 Batch Inp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o 0806 Batch Inp Data Zone",
               "meter_name": "gpt 4o 0806 Batch Inp Data Zone Tokens"
-            },
-            "DZH318Z0HHG7/gpt 4.5 0227 Batch Outp DZone/gpt 4.5 0227 Batch Outp DZone Tokens": {
-              "id": "DZH318Z0HHG7",
-              "name": "Azure OpenAI",
-              "sku_name": "gpt 4.5 0227 Batch Outp DZone",
-              "meter_name": "gpt 4.5 0227 Batch Outp DZone Tokens"
             },
             "DZH318Z0HHG7/o3-pro Batch Outp Data Zone/o3-pro Batch Outp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2550,6 +2622,12 @@
               "name": "Azure OpenAI",
               "sku_name": "Image-Dall-E-3 HD LowRes-glbl",
               "meter_name": "Image-Dall-E-3 HD LowRes-glbl Images"
+            },
+            "DZH318Z0VXNR/gpt-oss-120B Inp glbl/gpt-oss-120B Inp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Inp glbl",
+              "meter_name": "gpt-oss-120B Inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt4omini-rt-txt1217 Inp glbl/gpt4omini-rt-txt1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
