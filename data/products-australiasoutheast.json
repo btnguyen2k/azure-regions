@@ -147,28 +147,16 @@
             }
           }
         },
-        "DZH318G91TCQ": {
-          "id": "DZH318G91TCQ",
-          "name": "Microsoft Genomics",
-          "products": {
-            "DZH318Z0BQV8/Alignment and Variant Calling/Alignment and Variant Calling Incremental Gigabase": {
-              "id": "DZH318Z0BQV8",
-              "name": "Microsoft Genomics",
-              "sku_name": "Alignment and Variant Calling",
-              "meter_name": "Alignment and Variant Calling Incremental Gigabase"
-            },
-            "DZH318Z0BQV8/Alignment and Variant Calling/Alignment and Variant Calling Genome": {
-              "id": "DZH318Z0BQV8",
-              "name": "Microsoft Genomics",
-              "sku_name": "Alignment and Variant Calling",
-              "meter_name": "Alignment and Variant Calling Genome"
-            }
-          }
-        },
         "DZH31600VF1F": {
           "id": "DZH31600VF1F",
           "name": "Cognitive Services",
           "products": {
+            "DZH318Z0VXNR/gpt-oss-120B Inp glbl/gpt-oss-120B Inp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Inp glbl",
+              "meter_name": "gpt-oss-120B Inp glbl Tokens"
+            },
             "DZH318Z0TPCM/Doc AI glbl 2505/Doc AI glbl 2505 Pages": {
               "id": "DZH318Z0TPCM",
               "name": "Mistral Models",
@@ -205,6 +193,12 @@
               "sku_name": "Commitment Tier Connected 1000M",
               "meter_name": "Commitment Tier Connected 1000M CT Overage Characters"
             },
+            "DZH318Z0VXNR/gpt-oss-120B Outp glbl/gpt-oss-120B Outp glbl Tokens": {
+              "id": "DZH318Z0VXNR",
+              "name": "Azure OpenAI OSS models",
+              "sku_name": "gpt-oss-120B Outp glbl",
+              "meter_name": "gpt-oss-120B Outp glbl Tokens"
+            },
             "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
               "id": "DZH318Z09WST",
               "name": "Translator Text - disconnected",
@@ -216,6 +210,24 @@
               "name": "Translator Text",
               "sku_name": "Commitment Tier Connected 250M",
               "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
+            }
+          }
+        },
+        "DZH318G91TCQ": {
+          "id": "DZH318G91TCQ",
+          "name": "Microsoft Genomics",
+          "products": {
+            "DZH318Z0BQV8/Alignment and Variant Calling/Alignment and Variant Calling Incremental Gigabase": {
+              "id": "DZH318Z0BQV8",
+              "name": "Microsoft Genomics",
+              "sku_name": "Alignment and Variant Calling",
+              "meter_name": "Alignment and Variant Calling Incremental Gigabase"
+            },
+            "DZH318Z0BQV8/Alignment and Variant Calling/Alignment and Variant Calling Genome": {
+              "id": "DZH318Z0BQV8",
+              "name": "Microsoft Genomics",
+              "sku_name": "Alignment and Variant Calling",
+              "meter_name": "Alignment and Variant Calling Genome"
             }
           }
         },
