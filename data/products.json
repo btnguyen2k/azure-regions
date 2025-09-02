@@ -6816,6 +6816,30 @@
             "sku_name": "Voice Live API Plus - LLM Text Input",
             "meter_name": "Voice Live API Plus - LLM Text Input Tokens"
           },
+          "DZH318Z0BP4S/Live Interpreter Custom Audio/Live Interpreter Custom Audio Audio": {
+            "id": "DZH318Z0BP4S",
+            "name": "Speech",
+            "sku_name": "Live Interpreter Custom Audio",
+            "meter_name": "Live Interpreter Custom Audio Audio"
+          },
+          "DZH318Z0BP4S/Live Interpreter Input/Live Interpreter Input Audio": {
+            "id": "DZH318Z0BP4S",
+            "name": "Speech",
+            "sku_name": "Live Interpreter Input",
+            "meter_name": "Live Interpreter Input Audio"
+          },
+          "DZH318Z0BP4S/Live Interpreter Std Audio Output/Live Interpreter Std Audio Output Audio": {
+            "id": "DZH318Z0BP4S",
+            "name": "Speech",
+            "sku_name": "Live Interpreter Std Audio Output",
+            "meter_name": "Live Interpreter Std Audio Output Audio"
+          },
+          "DZH318Z0BP4S/Live Interpreter Text Output/Live Interpreter Text Output Characters": {
+            "id": "DZH318Z0BP4S",
+            "name": "Speech",
+            "sku_name": "Live Interpreter Text Output",
+            "meter_name": "Live Interpreter Text Output Characters"
+          },
           "DZH318Z0BQL9/Commitment Tier TA4H 10M/Commitment Tier TA4H 10M CT Overage Transactions": {
             "id": "DZH318Z0BQL9",
             "name": "Language",
@@ -7014,18 +7038,6 @@
             "sku_name": "Image-Dall-E-3 HD LowRes-glbl",
             "meter_name": "Image-Dall-E-3 HD LowRes-glbl Images"
           },
-          "DZH318Z0BP4S/Live Interpreter Text Output/Live Interpreter Text Output Characters": {
-            "id": "DZH318Z0BP4S",
-            "name": "Speech",
-            "sku_name": "Live Interpreter Text Output",
-            "meter_name": "Live Interpreter Text Output Characters"
-          },
-          "DZH318Z0BP4S/Live Interpreter Custom Audio/Live Interpreter Custom Audio Audio": {
-            "id": "DZH318Z0BP4S",
-            "name": "Speech",
-            "sku_name": "Live Interpreter Custom Audio",
-            "meter_name": "Live Interpreter Custom Audio Audio"
-          },
           "DZH318Z0HHG7/gpt-4-8K-FT-Hstng-glbl/gpt-4-8K-FT-Hstng-glbl Unit": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
@@ -7038,23 +7050,11 @@
             "sku_name": "davinci-002-base-regional",
             "meter_name": "davinci-002-base-regional Tokens"
           },
-          "DZH318Z0BP4S/Live Interpreter Input/Live Interpreter Input Audio": {
-            "id": "DZH318Z0BP4S",
-            "name": "Speech",
-            "sku_name": "Live Interpreter Input",
-            "meter_name": "Live Interpreter Input Audio"
-          },
           "DZH318Z0HHG7/babbage-002-base-regional/babbage-002-base-regional Tokens": {
             "id": "DZH318Z0HHG7",
             "name": "Azure OpenAI",
             "sku_name": "babbage-002-base-regional",
             "meter_name": "babbage-002-base-regional Tokens"
-          },
-          "DZH318Z0BP4S/Live Interpreter Std Audio Output/Live Interpreter Std Audio Output Audio": {
-            "id": "DZH318Z0BP4S",
-            "name": "Speech",
-            "sku_name": "Live Interpreter Std Audio Output",
-            "meter_name": "Live Interpreter Std Audio Output Audio"
           },
           "DZH318Z0HHG7/gpt-35-turbo4K-FT-Hstng-glbl/gpt-35-turbo4K-FT-Hstng-glbl Unit": {
             "id": "DZH318Z0HHG7",
@@ -87026,11 +87026,17 @@
             "sku_name": "Agentic Grounding",
             "meter_name": "Agentic Grounding Tokens"
           },
-          "DZH318Z0BQKZ/Standard S1 CC/Standard S1 CC Unit": {
+          "DZH318Z0BQKZ/Storage Optimized L1 CC/Storage Optimized L1 CC Unit": {
             "id": "DZH318Z0BQKZ",
             "name": "Azure AI Search",
-            "sku_name": "Standard S1 CC",
-            "meter_name": "Standard S1 CC Unit"
+            "sku_name": "Storage Optimized L1 CC",
+            "meter_name": "Storage Optimized L1 CC Unit"
+          },
+          "DZH318Z0BQKZ/Storage Optimized L2 CC/Storage Optimized L2 CC Unit": {
+            "id": "DZH318Z0BQKZ",
+            "name": "Azure AI Search",
+            "sku_name": "Storage Optimized L2 CC",
+            "meter_name": "Storage Optimized L2 CC Unit"
           },
           "DZH318Z0BQKZ/Basic CC/Basic CC Unit": {
             "id": "DZH318Z0BQKZ",
@@ -87038,29 +87044,23 @@
             "sku_name": "Basic CC",
             "meter_name": "Basic CC Unit"
           },
+          "DZH318Z0BQKZ/Standard S1 CC/Standard S1 CC Unit": {
+            "id": "DZH318Z0BQKZ",
+            "name": "Azure AI Search",
+            "sku_name": "Standard S1 CC",
+            "meter_name": "Standard S1 CC Unit"
+          },
           "DZH318Z0BQKZ/Standard S3 CC/Standard S3 CC Unit": {
             "id": "DZH318Z0BQKZ",
             "name": "Azure AI Search",
             "sku_name": "Standard S3 CC",
             "meter_name": "Standard S3 CC Unit"
           },
-          "DZH318Z0BQKZ/Storage Optimized L1 CC/Storage Optimized L1 CC Unit": {
-            "id": "DZH318Z0BQKZ",
-            "name": "Azure AI Search",
-            "sku_name": "Storage Optimized L1 CC",
-            "meter_name": "Storage Optimized L1 CC Unit"
-          },
           "DZH318Z0BQKZ/Standard S2 CC/Standard S2 CC Unit": {
             "id": "DZH318Z0BQKZ",
             "name": "Azure AI Search",
             "sku_name": "Standard S2 CC",
             "meter_name": "Standard S2 CC Unit"
-          },
-          "DZH318Z0BQKZ/Storage Optimized L2 CC/Storage Optimized L2 CC Unit": {
-            "id": "DZH318Z0BQKZ",
-            "name": "Azure AI Search",
-            "sku_name": "Storage Optimized L2 CC",
-            "meter_name": "Storage Optimized L2 CC Unit"
           }
         }
       }
