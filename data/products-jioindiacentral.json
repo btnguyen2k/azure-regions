@@ -2530,6 +2530,12 @@
               "sku_name": "D32lds v6",
               "meter_name": "D32lds v6"
             },
+            "DZH318Z0F5F0/Type 1/Type 1": {
+              "id": "DZH318Z0F5F0",
+              "name": "Easv6 Series Dedicated Host",
+              "sku_name": "Type 1",
+              "meter_name": "Type 1"
+            },
             "DZH318Z0F5F3/E64as v6/E64as v6": {
               "id": "DZH318Z0F5F3",
               "name": "Virtual Machines Easv6 Series Windows",
@@ -8127,6 +8133,12 @@
               "name": "Virtual Machines Basv2 Series",
               "sku_name": "B2als v2",
               "meter_name": "B2als v2"
+            },
+            "DZH318Z0DX5M/Type 1/Type 1": {
+              "id": "DZH318Z0DX5M",
+              "name": "Dasv6 Series Dedicated Host",
+              "sku_name": "Type 1",
+              "meter_name": "Type 1"
             },
             "DZH318Z0BQNH/B1s/B1s": {
               "id": "DZH318Z0BQNH",
@@ -19964,6 +19976,23 @@
       }
     },
     {
+      "name": "Microsoft 365 Copilot",
+      "services": {
+        "DZH31522F4P0": {
+          "id": "DZH31522F4P0",
+          "name": "Microsoft Copilot Studio",
+          "products": {
+            "DZH318Z0MH0G/Pay As You Go/Pay As You Go Copilot Credit": {
+              "id": "DZH318Z0MH0G",
+              "name": "Microsoft Copilot Studio",
+              "sku_name": "Pay As You Go",
+              "meter_name": "Pay As You Go Copilot Credit"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Microsoft Syntex",
       "services": {
         "DZH3172B613C": {
@@ -23890,6 +23919,12 @@
               "name": "Premium SSD Managed Disks",
               "sku_name": "P15 LRS",
               "meter_name": "P15 LRS Disk Mount"
+            },
+            "DZH318Z09V07/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
+              "id": "DZH318Z09V07",
+              "name": "Azure Premium SSD v2",
+              "sku_name": "Confidential Compute Encryption LRS",
+              "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
             },
             "DZH318Z0BJRM/Cold LRS/Cold LRS Read Operations": {
               "id": "DZH318Z0BJRM",
