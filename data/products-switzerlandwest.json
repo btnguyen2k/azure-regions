@@ -7,6 +7,12 @@
           "id": "DZH31600VF1F",
           "name": "Cognitive Services",
           "products": {
+            "DZH318Z0F15W/Standard/Standard Images": {
+              "id": "DZH318Z0F15W",
+              "name": "Azure AI Content Safety",
+              "sku_name": "Standard",
+              "meter_name": "Standard Images"
+            },
             "DZH318Z0BP4S/Standard Streaming/Standard Streaming Minute": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -210,6 +216,12 @@
               "name": "Face",
               "sku_name": "Standard",
               "meter_name": "Standard Transactions"
+            },
+            "DZH318Z0V4HX/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
+              "id": "DZH318Z0V4HX",
+              "name": "BFL Flux Models",
+              "sku_name": "Provisioned Managed Regional",
+              "meter_name": "Provisioned Managed Regional Unit"
             },
             "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
               "id": "DZH318Z0BQLH",
@@ -583,6 +595,12 @@
               "sku_name": "Commitment Tier Summarization Azure 10M",
               "meter_name": "Commitment Tier Summarization Azure 10M Unit"
             },
+            "DZH318Z0F15W/Free/Free Text Records": {
+              "id": "DZH318Z0F15W",
+              "name": "Azure AI Content Safety",
+              "sku_name": "Free",
+              "meter_name": "Free Text Records"
+            },
             "DZH318Z0BQL9/Free/Free Text Records": {
               "id": "DZH318Z0BQL9",
               "name": "Language",
@@ -613,6 +631,12 @@
               "sku_name": "Vectorize Image",
               "meter_name": "Vectorize Image Transactions"
             },
+            "DZH318Z0F15W/Standard/Standard Text Records": {
+              "id": "DZH318Z0F15W",
+              "name": "Azure AI Content Safety",
+              "sku_name": "Standard",
+              "meter_name": "Standard Text Records"
+            },
             "DZH318Z0BP4S/Commitment Tier STT AddOn Azure 10K/Commitment Tier STT AddOn Azure 10K Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -631,11 +655,23 @@
               "sku_name": "Standard",
               "meter_name": "Face Storage"
             },
+            "DZH318Z0TPCM/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
+              "id": "DZH318Z0TPCM",
+              "name": "Mistral Models",
+              "sku_name": "Provisioned Managed Regional",
+              "meter_name": "Provisioned Managed Regional Unit"
+            },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 2K/Commitment Tier Custom Speech to Text Connected 2K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
               "sku_name": "Commitment Tier Custom Speech to Text Connected 2K",
               "meter_name": "Commitment Tier Custom Speech to Text Connected 2K Custom Speech To Text CT Overage"
+            },
+            "DZH318Z0T879/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Provisioned Managed Regional",
+              "meter_name": "Provisioned Managed Regional Unit"
             },
             "DZH318Z0BQL9/Commitment Tier Connected 25M/Commitment Tier Connected 25M Unit": {
               "id": "DZH318Z0BQL9",
@@ -828,6 +864,12 @@
               "name": "Azure OpenAI",
               "sku_name": "davinci-002-FT-Hstng-regnl",
               "meter_name": "davinci-002-FT-Hstng-regnl Unit"
+            },
+            "DZH318Z0F15W/Free/Free Images": {
+              "id": "DZH318Z0F15W",
+              "name": "Azure AI Content Safety",
+              "sku_name": "Free",
+              "meter_name": "Free Images"
             },
             "DZH318Z0BQL9/Commitment Tier Connected 3M/Commitment Tier Connected 3M Unit": {
               "id": "DZH318Z0BQL9",
@@ -1110,6 +1152,12 @@
               "name": "Speech",
               "sku_name": "Commit Tier Custom STT Connected 50K",
               "meter_name": "Commit Tier Custom STT Connected 50K Unit"
+            },
+            "DZH318Z0T9X1/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
+              "id": "DZH318Z0T9X1",
+              "name": "Llama models",
+              "sku_name": "Provisioned Managed Regional",
+              "meter_name": "Provisioned Managed Regional Unit"
             },
             "DZH318Z0V4HX/Flux 1.1 Pro glbl/Flux 1.1 Pro glbl Images": {
               "id": "DZH318Z0V4HX",
@@ -4137,6 +4185,12 @@
               "sku_name": "E8as v4",
               "meter_name": "E8as v4"
             },
+            "DZH318Z0FG7C/DC96adsv6/DC96adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC96adsv6",
+              "meter_name": "DC96adsv6"
+            },
             "DZH318Z0F5DQ/D32alds v6 Spot/D32alds v6 Spot": {
               "id": "DZH318Z0F5DQ",
               "name": "Virtual Machines Daldsv6 Series",
@@ -4190,6 +4244,12 @@
               "name": "Virtual Machines Edsv6 Series",
               "sku_name": "E32-8ds v6",
               "meter_name": "E32-8ds v6"
+            },
+            "DZH318Z0F6ZS/EC4adsv6 Spot/EC4adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC4adsv6 Spot",
+              "meter_name": "EC4adsv6 Spot"
             },
             "DZH318Z096SN/E104ids v5 Spot/E104ids v5 Spot": {
               "id": "DZH318Z096SN",
@@ -4496,6 +4556,12 @@
               "name": "Virtual Machines Esv4 Series",
               "sku_name": "E80is v4 Low Priority",
               "meter_name": "E80is v4 Low Priority"
+            },
+            "DZH318Z0F6ZT/EC96adsv6 Spot/EC96adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC96adsv6 Spot",
+              "meter_name": "EC96adsv6 Spot"
             },
             "DZH318Z0BQ4K/D8 v3 Spot/D8 v3/D8s v3 Spot": {
               "id": "DZH318Z0BQ4K",
@@ -4893,6 +4959,12 @@
               "sku_name": "Standard_E4bs_v5",
               "meter_name": "E4bs v5"
             },
+            "DZH318Z0F6ZT/EC16adsv6 Spot/EC16adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC16adsv6 Spot",
+              "meter_name": "EC16adsv6 Spot"
+            },
             "DZH318Z0D1L6/D32d v4/D32d v4": {
               "id": "DZH318Z0D1L6",
               "name": "Virtual Machines Ddv4 Series Windows",
@@ -5247,6 +5319,12 @@
               "sku_name": "Standard_D48s_v5 Spot",
               "meter_name": "D48s v5 Spot"
             },
+            "DZH318Z0FG7F/DC48asv6/DC48asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC48asv6",
+              "meter_name": "DC48asv6"
+            },
             "DZH318Z0GNGZ/D4ls v6 Spot/D4ls v6 Spot": {
               "id": "DZH318Z0GNGZ",
               "name": "Virtual Machines Dlsv6 Series Windows",
@@ -5487,6 +5565,12 @@
               "sku_name": "E64s v5 Spot",
               "meter_name": "E64s v5 Spot"
             },
+            "DZH318Z0FG79/DC16adsv6/DC16adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC16adsv6",
+              "meter_name": "DC16adsv6"
+            },
             "DZH318Z093WZ/E96ias v5 Low Priority/E96ias v5 Low Priority": {
               "id": "DZH318Z093WZ",
               "name": "Virtual Machines Easv5 Series",
@@ -5577,6 +5661,12 @@
               "sku_name": "Standard_L32as_v3",
               "meter_name": "L32as v3"
             },
+            "DZH318Z0F6ZS/EC48adsv6/EC48adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC48adsv6",
+              "meter_name": "EC48adsv6"
+            },
             "DZH318Z0F5DX/E32-8ads v6/E32-8ads v6": {
               "id": "DZH318Z0F5DX",
               "name": "Virtual Machines Eadsv6 Series",
@@ -5649,6 +5739,12 @@
               "sku_name": "F64s v2",
               "meter_name": "F64s v2"
             },
+            "DZH318Z0F6ZS/EC2adsv6/EC2adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC2adsv6",
+              "meter_name": "EC2adsv6"
+            },
             "DZH318Z08M9R/Standard_E64d_v5 Spot/E64d v5 Spot": {
               "id": "DZH318Z08M9R",
               "name": "Virtual Machines Edv5 Series",
@@ -5678,6 +5774,12 @@
               "name": "Virtual Machines Edsv4 Series Windows",
               "sku_name": "E64ds v4 Spot",
               "meter_name": "E64ds v4 Spot"
+            },
+            "DZH318Z0F6ZF/EC8asv6 Spot/EC8asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC8asv6 Spot",
+              "meter_name": "EC8asv6 Spot"
             },
             "DZH318Z0K9JD/B2as v2/B2as v2": {
               "id": "DZH318Z0K9JD",
@@ -5997,11 +6099,23 @@
               "sku_name": "D2ds v4",
               "meter_name": "D2ds v4"
             },
+            "DZH318Z0FG7F/DC8asv6/DC8asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC8asv6",
+              "meter_name": "DC8asv6"
+            },
             "DZH318Z0F5DS/D8alds v6 Spot/D8alds v6 Spot": {
               "id": "DZH318Z0F5DS",
               "name": "Virtual Machines Daldsv6 Series Windows",
               "sku_name": "D8alds v6 Spot",
               "meter_name": "D8alds v6 Spot"
+            },
+            "DZH318Z0FG79/DC4adsv6/DC4adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC4adsv6",
+              "meter_name": "DC4adsv6"
             },
             "DZH318Z0GNH7/E64-16s v6/E64-16s v6": {
               "id": "DZH318Z0GNH7",
@@ -6153,6 +6267,12 @@
               "sku_name": "EC64asv6 Low Priority",
               "meter_name": "EC64asv6 Low Priority"
             },
+            "DZH318Z0F6ZS/EC16adsv6/EC16adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC16adsv6",
+              "meter_name": "EC16adsv6"
+            },
             "DZH318Z08MC6/Standard_D8ds_v5/D8ds v5": {
               "id": "DZH318Z08MC6",
               "name": "Virtual Machines Ddsv5 Series",
@@ -6171,6 +6291,12 @@
               "sku_name": "Standard_E4bs_v5 Low Priority",
               "meter_name": "E4bs v5 Low Priority"
             },
+            "DZH318Z0F6ZF/EC48asv6/EC48asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC48asv6",
+              "meter_name": "EC48asv6"
+            },
             "DZH318Z0CM2C/D64as v4 Low Priority/D64as v4 Low Priority": {
               "id": "DZH318Z0CM2C",
               "name": "Virtual Machines Dasv4 Series",
@@ -6188,6 +6314,12 @@
               "name": "Virtual Machines MdSv2 Series Windows",
               "sku_name": "M64ds_v2 Spot",
               "meter_name": "M64ds_v2 Spot"
+            },
+            "DZH318Z0F6ZT/EC32adsv6/EC32adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC32adsv6",
+              "meter_name": "EC32adsv6"
             },
             "DZH318Z0F5DZ/E16-8ads v6 Spot/E16-8ads v6 Spot": {
               "id": "DZH318Z0F5DZ",
@@ -6218,6 +6350,12 @@
               "name": "Virtual Machines Dlsv5 Series Windows",
               "sku_name": "D64ls v5",
               "meter_name": "D64ls v5"
+            },
+            "DZH318Z0FG7F/DC32asv6/DC32asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC32asv6",
+              "meter_name": "DC32asv6"
             },
             "DZH318Z08W0T/Standard_D2as_v5 Low Priority/D2as v5 Low Priority": {
               "id": "DZH318Z08W0T",
@@ -6489,6 +6627,12 @@
               "sku_name": "E64ds v5 Low Priority",
               "meter_name": "E64ds v5 Low Priority"
             },
+            "DZH318Z0F6ZD/EC64asv6 Spot/EC64asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC64asv6 Spot",
+              "meter_name": "EC64asv6 Spot"
+            },
             "DZH318Z0D1L4/D4 v4/D4 v4": {
               "id": "DZH318Z0D1L4",
               "name": "Virtual Machines Dv4 Series",
@@ -6579,6 +6723,12 @@
               "sku_name": "D4s v4 Spot",
               "meter_name": "D4s v4 Spot"
             },
+            "DZH318Z0FG7F/DC64asv6 Spot/DC64asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC64asv6 Spot",
+              "meter_name": "DC64asv6 Spot"
+            },
             "DZH318Z08M9K/D8ls v5/D8ls v5": {
               "id": "DZH318Z08M9K",
               "name": "Virtual Machines Dlsv5 Series Windows",
@@ -6639,6 +6789,12 @@
               "sku_name": "D4as v4 Low Priority",
               "meter_name": "D4as v4 Low Priority"
             },
+            "DZH318Z0F6ZF/EC48asv6 Spot/EC48asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC48asv6 Spot",
+              "meter_name": "EC48asv6 Spot"
+            },
             "DZH318Z08M9T/Standard_D48s_v5/D48s v5": {
               "id": "DZH318Z08M9T",
               "name": "Virtual Machines Dsv5 Series Windows",
@@ -6663,6 +6819,12 @@
               "sku_name": "D16ds v6 Spot",
               "meter_name": "D16ds v6 Spot"
             },
+            "DZH318Z0FG7C/DC8adsv6 Spot/DC8adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC8adsv6 Spot",
+              "meter_name": "DC8adsv6 Spot"
+            },
             "DZH318Z0BQ4X/F2s v2/F2s v2": {
               "id": "DZH318Z0BQ4X",
               "name": "Virtual Machines FSv2 Series",
@@ -6686,6 +6848,12 @@
               "name": "Virtual Machines Dasv5 Series",
               "sku_name": "Standard_D4as_v5 Spot",
               "meter_name": "D4as v5 Spot"
+            },
+            "DZH318Z0FG7D/DC96asv6/DC96asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC96asv6",
+              "meter_name": "DC96asv6"
             },
             "DZH318Z0BQ4W/M128-64ms Low Priority/M128-64ms Low Priority": {
               "id": "DZH318Z0BQ4W",
@@ -7233,6 +7401,18 @@
               "sku_name": "E64-16ads v5 Spot",
               "meter_name": "E64-16ads v5 Spot"
             },
+            "DZH318Z0FG7F/DC8asv6 Spot/DC8asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC8asv6 Spot",
+              "meter_name": "DC8asv6 Spot"
+            },
+            "DZH318Z0F6ZS/EC2adsv6 Spot/EC2adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC2adsv6 Spot",
+              "meter_name": "EC2adsv6 Spot"
+            },
             "DZH318Z0BQ4W/M16-4ms Spot/M16-4ms Spot": {
               "id": "DZH318Z0BQ4W",
               "name": "Virtual Machines MS Series",
@@ -7353,6 +7533,12 @@
               "sku_name": "F64ams v6",
               "meter_name": "F64ams v6"
             },
+            "DZH318Z0FG7C/DC2adsv6/DC2adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC2adsv6",
+              "meter_name": "DC2adsv6"
+            },
             "DZH318Z0CSHC/E8-4s v4 Low Priority/E8-4s v4 Low Priority": {
               "id": "DZH318Z0CSHC",
               "name": "Virtual Machines Esv4 Series Windows",
@@ -7382,6 +7568,12 @@
               "name": "Virtual Machines Edsv5 Series",
               "sku_name": "E96-24ds v5 Low Priority",
               "meter_name": "E96-24ds v5 Low Priority"
+            },
+            "DZH318Z0FG7C/DC4adsv6/DC4adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC4adsv6",
+              "meter_name": "DC4adsv6"
             },
             "DZH318Z0GNHM/E32-8ds v6 Spot/E32-8ds v6 Spot": {
               "id": "DZH318Z0GNHM",
@@ -7436,6 +7628,12 @@
               "name": "Virtual Machines Dasv5 Promo Series",
               "sku_name": "Standard_D4as_v5_Promo Spot",
               "meter_name": "D4as v5 Promo Spot"
+            },
+            "DZH318Z0F6ZS/EC8adsv6/EC8adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC8adsv6",
+              "meter_name": "EC8adsv6"
             },
             "DZH318Z09LQN/Standard_E16bds_v5 Spot/E16bds v5 Spot": {
               "id": "DZH318Z09LQN",
@@ -7689,6 +7887,12 @@
               "sku_name": "D2als v6 Low Priority",
               "meter_name": "D2als v6 Low Priority"
             },
+            "DZH318Z0FG79/DC2adsv6 Spot/DC2adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC2adsv6 Spot",
+              "meter_name": "DC2adsv6 Spot"
+            },
             "DZH318Z096SL/E48ds v5/E48ds v5": {
               "id": "DZH318Z096SL",
               "name": "Virtual Machines Edsv5 Series Windows",
@@ -7874,6 +8078,12 @@
               "name": "Virtual Machines MSv2 Series",
               "sku_name": "M416s_9_v2",
               "meter_name": "M416s_9_v2"
+            },
+            "DZH318Z0FG7F/DC4asv6/DC4asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC4asv6",
+              "meter_name": "DC4asv6"
             },
             "DZH318Z0F5F1/E16as v6 Spot/E16as v6 Spot": {
               "id": "DZH318Z0F5F1",
@@ -8061,6 +8271,12 @@
               "sku_name": "Standard_E16_v5",
               "meter_name": "E16 v5"
             },
+            "DZH318Z0F6ZS/EC96adsv6/EC96adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC96adsv6",
+              "meter_name": "EC96adsv6"
+            },
             "DZH318Z0CM93/D4as v4/D4as v4": {
               "id": "DZH318Z0CM93",
               "name": "Virtual Machines Dasv4 Series Windows",
@@ -8163,6 +8379,12 @@
               "sku_name": "E48s v4 Spot",
               "meter_name": "E48s v4 Spot"
             },
+            "DZH318Z0F6ZT/EC4adsv6/EC4adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC4adsv6",
+              "meter_name": "EC4adsv6"
+            },
             "DZH318Z0CM92/E8-4as_v4 Spot/E8-4as_v4 Spot": {
               "id": "DZH318Z0CM92",
               "name": "Virtual Machines Easv4 Series Windows",
@@ -8259,6 +8481,12 @@
               "sku_name": "Standard_D48_v5 Spot",
               "meter_name": "D48 v5 Spot"
             },
+            "DZH318Z0FG7D/DC64asv6/DC64asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC64asv6",
+              "meter_name": "DC64asv6"
+            },
             "DZH318Z08M9F/Standard_D4d_v5/D4d v5": {
               "id": "DZH318Z08M9F",
               "name": "Virtual Machines Ddv5 Series Windows",
@@ -8288,6 +8516,12 @@
               "name": "Virtual Machines Dlsv5 Series Windows",
               "sku_name": "D4ls v5 Low Priority",
               "meter_name": "D4ls v5 Low Priority"
+            },
+            "DZH318Z0F6ZF/EC64asv6/EC64asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC64asv6",
+              "meter_name": "EC64asv6"
             },
             "DZH318Z0BPW5/M64ls Spot/M64ls Spot": {
               "id": "DZH318Z0BPW5",
@@ -8493,11 +8727,23 @@
               "sku_name": "Standard_D16d_v5 Spot",
               "meter_name": "D16d v5 Spot"
             },
+            "DZH318Z0FG7F/DC64asv6/DC64asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC64asv6",
+              "meter_name": "DC64asv6"
+            },
             "DZH318Z08M9T/Standard_D64s_v5/D64s v5": {
               "id": "DZH318Z08M9T",
               "name": "Virtual Machines Dsv5 Series Windows",
               "sku_name": "Standard_D64s_v5",
               "meter_name": "D64s v5"
+            },
+            "DZH318Z0FG7D/DC32asv6/DC32asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC32asv6",
+              "meter_name": "DC32asv6"
             },
             "DZH318Z0BPWJ/F48s v2 Low Priority/F48s v2 Low Priority": {
               "id": "DZH318Z0BPWJ",
@@ -8630,6 +8876,12 @@
               "name": "Virtual Machines Dv4 Series",
               "sku_name": "D4 v4 Low Priority",
               "meter_name": "D4 v4 Low Priority"
+            },
+            "DZH318Z0FG79/DC96adsv6/DC96adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC96adsv6",
+              "meter_name": "DC96adsv6"
             },
             "DZH318Z0BPW5/M64-16ms Low Priority/M64-16ms Low Priority": {
               "id": "DZH318Z0BPW5",
@@ -9321,6 +9573,12 @@
               "sku_name": "D16ads v6",
               "meter_name": "D16ads v6"
             },
+            "DZH318Z0FG7F/DC16asv6 Spot/DC16asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC16asv6 Spot",
+              "meter_name": "DC16asv6 Spot"
+            },
             "DZH318Z0GNH1/D32ls v6 Spot/D32ls v6 Spot": {
               "id": "DZH318Z0GNH1",
               "name": "Virtual Machines Dlsv6 Series",
@@ -9459,6 +9717,12 @@
               "sku_name": "E64-32ads v5",
               "meter_name": "E64-32ads v5"
             },
+            "DZH318Z0FG7F/DC16asv6/DC16asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC16asv6",
+              "meter_name": "DC16asv6"
+            },
             "DZH318Z0CSHL/E8-4s v4 Spot/E8-4s v4 Spot": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -9470,6 +9734,12 @@
               "name": "Virtual Machines F Series Windows",
               "sku_name": "F2 Spot",
               "meter_name": "F2/F2s Spot"
+            },
+            "DZH318Z0F6ZD/EC8asv6 Spot/EC8asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC8asv6 Spot",
+              "meter_name": "EC8asv6 Spot"
             },
             "DZH318Z0F5F4/D16als v6/D16als v6": {
               "id": "DZH318Z0F5F4",
@@ -9866,6 +10136,12 @@
               "name": "Virtual Machines MS Series Windows",
               "sku_name": "M16s",
               "meter_name": "M16s"
+            },
+            "DZH318Z0FG7C/DC32adsv6 Spot/DC32adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC32adsv6 Spot",
+              "meter_name": "DC32adsv6 Spot"
             },
             "DZH318Z0BX5L/M416s v2/M416s v2": {
               "id": "DZH318Z0BX5L",
@@ -10275,6 +10551,12 @@
               "sku_name": "M16-8ms Spot",
               "meter_name": "M16-8ms Spot"
             },
+            "DZH318Z0F6ZS/EC8adsv6 Spot/EC8adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC8adsv6 Spot",
+              "meter_name": "EC8adsv6 Spot"
+            },
             "DZH318Z096T1/E8s v5/E8s v5": {
               "id": "DZH318Z096T1",
               "name": "Virtual Machines Esv5 Series Windows",
@@ -10382,6 +10664,12 @@
               "name": "Virtual Machines Dsv6 Series Windows",
               "sku_name": "D96s v6",
               "meter_name": "D96s v6"
+            },
+            "DZH318Z0F6ZF/EC4asv6 Spot/EC4asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC4asv6 Spot",
+              "meter_name": "EC4asv6 Spot"
             },
             "DZH318Z0BPVT/F16/F16/F16s": {
               "id": "DZH318Z0BPVT",
@@ -10659,6 +10947,12 @@
               "sku_name": "E8-4s v3 Low Priority",
               "meter_name": "E8-4s v3 Low Priority"
             },
+            "DZH318Z0F6ZS/EC16adsv6 Spot/EC16adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC16adsv6 Spot",
+              "meter_name": "EC16adsv6 Spot"
+            },
             "DZH318Z0FG7F/DC8asv6 Low Priority/DC8asv6 Low Priority": {
               "id": "DZH318Z0FG7F",
               "name": "Virtual Machines DCasv6 series",
@@ -10754,6 +11048,12 @@
               "name": "Virtual Machines Easv5 Series Windows",
               "sku_name": "E4as v5 Spot",
               "meter_name": "E4as v5 Spot"
+            },
+            "DZH318Z0F6ZT/EC48adsv6/EC48adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC48adsv6",
+              "meter_name": "EC48adsv6"
             },
             "DZH318Z092QW/E64-16as v5 Low Priority/E64-16as v5 Low Priority": {
               "id": "DZH318Z092QW",
@@ -11066,6 +11366,12 @@
               "name": "Virtual Machines MS Series Windows",
               "sku_name": "M64s Spot",
               "meter_name": "M64s Spot"
+            },
+            "DZH318Z0DX5M/Type 1/Type 1": {
+              "id": "DZH318Z0DX5M",
+              "name": "Dasv6 Series Dedicated Host",
+              "sku_name": "Type 1",
+              "meter_name": "Type 1"
             },
             "DZH318Z093WX/E96-48ads v5 Low Priority/E96-48ads v5 Low Priority": {
               "id": "DZH318Z093WX",
@@ -11409,6 +11715,12 @@
               "sku_name": "E16a v4 Spot",
               "meter_name": "E16a v4/E16as v4 Spot"
             },
+            "DZH318Z0FG7C/DC8adsv6/DC8adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC8adsv6",
+              "meter_name": "DC8adsv6"
+            },
             "DZH318Z0CSHL/E4-2s v4/E4-2s v4": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -11595,6 +11907,12 @@
               "sku_name": "DC48adsv6 Low Priority",
               "meter_name": "DC48adsv6 Low Priority"
             },
+            "DZH318Z0FG79/DC96adsv6 Spot/DC96adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC96adsv6 Spot",
+              "meter_name": "DC96adsv6 Spot"
+            },
             "DZH318Z093X0/E112iads v5/E112iads v5": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -11606,6 +11924,12 @@
               "name": "Virtual Machines Edsv4 Series",
               "sku_name": "E16ds v4 Low Priority",
               "meter_name": "E16ds v4 Low Priority"
+            },
+            "DZH318Z0F6ZD/EC96asv6/EC96asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC96asv6",
+              "meter_name": "EC96asv6"
             },
             "DZH318Z0GNH4/D8lds v6/D8lds v6": {
               "id": "DZH318Z0GNH4",
@@ -11787,6 +12111,12 @@
               "sku_name": "E64-16s v4",
               "meter_name": "E64-16s v4"
             },
+            "DZH318Z0F6ZD/EC8asv6/EC8asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC8asv6",
+              "meter_name": "EC8asv6"
+            },
             "DZH318Z093WX/E96iads v5 Spot/E96iads v5 Spot": {
               "id": "DZH318Z093WX",
               "name": "Virtual Machines Eadsv5 Series Windows",
@@ -11967,6 +12297,12 @@
               "sku_name": "E4-2as v5 Spot",
               "meter_name": "E4-2as v5 Spot"
             },
+            "DZH318Z0FG7C/DC32adsv6/DC32adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC32adsv6",
+              "meter_name": "DC32adsv6"
+            },
             "DZH318Z0GNHC/Type 1/Type 1": {
               "id": "DZH318Z0GNHC",
               "name": "Dsv6 Series Dedicated Host",
@@ -12128,6 +12464,12 @@
               "name": "Basv2 Series Cloud Services",
               "sku_name": "B4as v2",
               "meter_name": "B4as v2"
+            },
+            "DZH318Z0F6ZF/EC64asv6 Spot/EC64asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC64asv6 Spot",
+              "meter_name": "EC64asv6 Spot"
             },
             "DZH318Z0CM92/E16-8as_v4 Low Priority/E16-8as_v4 Low Priority": {
               "id": "DZH318Z0CM92",
@@ -12489,6 +12831,12 @@
               "sku_name": "M128-64ms Spot",
               "meter_name": "M128-64ms Spot"
             },
+            "DZH318Z0FG7D/DC16asv6 Spot/DC16asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC16asv6 Spot",
+              "meter_name": "DC16asv6 Spot"
+            },
             "DZH318Z0K9KC/B16ls v2/B16ls v2": {
               "id": "DZH318Z0K9KC",
               "name": "Bsv2 Series Cloud Services",
@@ -12548,6 +12896,12 @@
               "name": "Virtual Machines Dldsv6 Series Windows",
               "sku_name": "D32lds v6 Spot",
               "meter_name": "D32lds v6 Spot"
+            },
+            "DZH318Z0F6ZD/EC4asv6 Spot/EC4asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC4asv6 Spot",
+              "meter_name": "EC4asv6 Spot"
             },
             "DZH318Z0BPVL/D48 v3/D48 v3/D48s v3": {
               "id": "DZH318Z0BPVL",
@@ -12975,6 +13329,12 @@
               "sku_name": "Standard_E4d_v5 Spot",
               "meter_name": "E4d v5 Spot"
             },
+            "DZH318Z0FG7C/DC48adsv6 Spot/DC48adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC48adsv6 Spot",
+              "meter_name": "DC48adsv6 Spot"
+            },
             "DZH318Z0F5F1/E4as v6/E4as v6": {
               "id": "DZH318Z0F5F1",
               "name": "Virtual Machines Easv6 Series",
@@ -13323,6 +13683,12 @@
               "sku_name": "E20ads v5",
               "meter_name": "E20ads v5"
             },
+            "DZH318Z0FG7C/DC16adsv6/DC16adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC16adsv6",
+              "meter_name": "DC16adsv6"
+            },
             "DZH318Z0D1L7/E48 v4 Low Priority/E48 v4 Low Priority": {
               "id": "DZH318Z0D1L7",
               "name": "Virtual Machines Ev4 Series",
@@ -13334,6 +13700,12 @@
               "name": "Virtual Machines Edv4 Series",
               "sku_name": "E4d v4",
               "meter_name": "E4d v4"
+            },
+            "DZH318Z0FG7D/DC16asv6/DC16asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC16asv6",
+              "meter_name": "DC16asv6"
             },
             "DZH318Z093XK/E8-4as v5/E8-4as v5": {
               "id": "DZH318Z093XK",
@@ -13641,6 +14013,12 @@
               "sku_name": "D2lds v6 Spot",
               "meter_name": "D2lds v6 Spot"
             },
+            "DZH318Z0FG79/DC48adsv6 Spot/DC48adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC48adsv6 Spot",
+              "meter_name": "DC48adsv6 Spot"
+            },
             "DZH318Z0DWTB/D64as v6 Low Priority/D64as v6 Low Priority": {
               "id": "DZH318Z0DWTB",
               "name": "Virtual Machines Dasv6 Series",
@@ -13683,6 +14061,12 @@
               "sku_name": "E16d v4",
               "meter_name": "E16d v4"
             },
+            "DZH318Z0F6ZT/EC2adsv6/EC2adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC2adsv6",
+              "meter_name": "EC2adsv6"
+            },
             "DZH318Z0GNH6/E20s v6/E20s v6": {
               "id": "DZH318Z0GNH6",
               "name": "Virtual Machines Esv6 Series",
@@ -13718,6 +14102,12 @@
               "name": "Virtual Machines Edsv4 Series",
               "sku_name": "E8-2ds v4 Low Priority",
               "meter_name": "E8-2ds v4 Low Priority"
+            },
+            "DZH318Z0FG7C/DC64adsv6/DC64adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC64adsv6",
+              "meter_name": "DC64adsv6"
             },
             "DZH318Z08W0Q/Standard_D96as_v5/D96as v5": {
               "id": "DZH318Z08W0Q",
@@ -14181,6 +14571,12 @@
               "sku_name": "Standard_L16as_v3 Low Priority",
               "meter_name": "L16as v3 Low Priority"
             },
+            "DZH318Z0F6ZT/EC8adsv6/EC8adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC8adsv6",
+              "meter_name": "EC8adsv6"
+            },
             "DZH318Z0CSHL/E32-16s v4 Low Priority/E32-16s v4 Low Priority": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -14613,6 +15009,12 @@
               "sku_name": "M64ms Spot",
               "meter_name": "M64ms Spot"
             },
+            "DZH318Z0FG7D/DC4asv6 Spot/DC4asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC4asv6 Spot",
+              "meter_name": "DC4asv6 Spot"
+            },
             "DZH318Z0CSHB/E80ids v4 Spot/E80ids v4 Spot": {
               "id": "DZH318Z0CSHB",
               "name": "Virtual Machines Edsv4 Series Windows",
@@ -14624,6 +15026,12 @@
               "name": "Virtual Machines MS Series",
               "sku_name": "M128ms",
               "meter_name": "M128ms"
+            },
+            "DZH318Z0FG7C/DC4adsv6 Spot/DC4adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC4adsv6 Spot",
+              "meter_name": "DC4adsv6 Spot"
             },
             "DZH318Z0BQ35/B16ms/B16ms": {
               "id": "DZH318Z0BQ35",
@@ -14997,6 +15405,12 @@
               "sku_name": "E16s v3 Spot",
               "meter_name": "E16s v3 Spot"
             },
+            "DZH318Z0F6ZD/EC32asv6 Spot/EC32asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC32asv6 Spot",
+              "meter_name": "EC32asv6 Spot"
+            },
             "DZH318Z08W2R/Standard_D2ads_v5 Spot/D2ads v5 Spot": {
               "id": "DZH318Z08W2R",
               "name": "Virtual Machines Dadsv5 Series",
@@ -15357,6 +15771,12 @@
               "sku_name": "D32alds v6",
               "meter_name": "D32alds v6"
             },
+            "DZH318Z0F6ZD/EC96asv6 Spot/EC96asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC96asv6 Spot",
+              "meter_name": "EC96asv6 Spot"
+            },
             "DZH318Z08MC5/Standard_D64ds_v5/D64ds v5": {
               "id": "DZH318Z08MC5",
               "name": "Virtual Machines Ddsv5 Series Windows",
@@ -15507,6 +15927,12 @@
               "sku_name": "D48 v4",
               "meter_name": "D48 v4"
             },
+            "DZH318Z0F6ZT/EC32adsv6 Spot/EC32adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC32adsv6 Spot",
+              "meter_name": "EC32adsv6 Spot"
+            },
             "DZH318Z0FXZ1/F1as v6/F1as v6": {
               "id": "DZH318Z0FXZ1",
               "name": "Virtual Machines Fasv6 Series Windows",
@@ -15620,6 +16046,12 @@
               "name": "Virtual Machines Dasv5 Series",
               "sku_name": "Standard_D48as_v5",
               "meter_name": "D48as v5"
+            },
+            "DZH318Z0FG79/DC2adsv6/DC2adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC2adsv6",
+              "meter_name": "DC2adsv6"
             },
             "DZH318Z092QW/E8-2as v5 Low Priority/E8-2as v5 Low Priority": {
               "id": "DZH318Z092QW",
@@ -15771,6 +16203,12 @@
               "sku_name": "DC64adsv6 Low Priority",
               "meter_name": "DC64adsv6 Low Priority"
             },
+            "DZH318Z0FG79/DC4adsv6 Spot/DC4adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC4adsv6 Spot",
+              "meter_name": "DC4adsv6 Spot"
+            },
             "DZH318Z0GNH1/D4ls v6 Spot/D4ls v6 Spot": {
               "id": "DZH318Z0GNH1",
               "name": "Virtual Machines Dlsv6 Series",
@@ -15831,6 +16269,12 @@
               "sku_name": "E8as v4 Spot",
               "meter_name": "E8as v4 Spot"
             },
+            "DZH318Z0F6ZF/EC96asv6/EC96asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC96asv6",
+              "meter_name": "EC96asv6"
+            },
             "DZH318Z096T1/E32s v5/E32s v5": {
               "id": "DZH318Z096T1",
               "name": "Virtual Machines Esv5 Series Windows",
@@ -15849,6 +16293,12 @@
               "sku_name": "E48 v3 Low Priority",
               "meter_name": "E48 v3/E48s v3 Low Priority"
             },
+            "DZH318Z0FG79/DC8adsv6/DC8adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC8adsv6",
+              "meter_name": "DC8adsv6"
+            },
             "DZH318Z0CM92/E8-4as_v4 Low Priority/E8-4as_v4 Low Priority": {
               "id": "DZH318Z0CM92",
               "name": "Virtual Machines Easv4 Series Windows",
@@ -15860,6 +16310,12 @@
               "name": "Virtual Machines Esv6 Series Windows",
               "sku_name": "E32-8s v6 Spot",
               "meter_name": "E32-8s v6 Spot"
+            },
+            "DZH318Z0F6ZF/EC2asv6/EC2asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC2asv6",
+              "meter_name": "EC2asv6"
             },
             "DZH318Z0K9KD/B8s v2 Low Priority/B8s v2 Low Priority": {
               "id": "DZH318Z0K9KD",
@@ -15921,6 +16377,12 @@
               "sku_name": "D8lds v6",
               "meter_name": "D8lds v6"
             },
+            "DZH318Z0F6ZF/EC16asv6 Spot/EC16asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC16asv6 Spot",
+              "meter_name": "EC16asv6 Spot"
+            },
             "DZH318Z0D1L5/E64d v4 Spot/E64d v4 Spot": {
               "id": "DZH318Z0D1L5",
               "name": "Virtual Machines Edv4 Series",
@@ -15932,6 +16394,12 @@
               "name": "Virtual Machines Eadsv6 Series",
               "sku_name": "E64-16ads v6",
               "meter_name": "E64-16ads v6"
+            },
+            "DZH318Z0F6ZD/EC4asv6/EC4asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC4asv6",
+              "meter_name": "EC4asv6"
             },
             "DZH318Z0CSHC/E32-8s v4 Spot/E32-8s v4 Spot": {
               "id": "DZH318Z0CSHC",
@@ -16034,6 +16502,12 @@
               "name": "Virtual Machines Edsv6 Series",
               "sku_name": "E16ds v6 Spot",
               "meter_name": "E16ds v6 Spot"
+            },
+            "DZH318Z0F6ZT/EC48adsv6 Spot/EC48adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC48adsv6 Spot",
+              "meter_name": "EC48adsv6 Spot"
             },
             "DZH318Z0K9KD/B32s v2/B32s v2": {
               "id": "DZH318Z0K9KD",
@@ -16322,6 +16796,12 @@
               "name": "Virtual Machines Ddsv4 Series",
               "sku_name": "D16ds v4 Low Priority",
               "meter_name": "D16ds v4 Low Priority"
+            },
+            "DZH318Z0FG79/DC64adsv6/DC64adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC64adsv6",
+              "meter_name": "DC64adsv6"
             },
             "DZH318Z0D1MV/D2 v4 Spot/D2 v4 Spot": {
               "id": "DZH318Z0D1MV",
@@ -16653,6 +17133,12 @@
               "sku_name": "D16lds v6",
               "meter_name": "D16lds v6"
             },
+            "DZH318Z0F6ZF/EC16asv6/EC16asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC16asv6",
+              "meter_name": "EC16asv6"
+            },
             "DZH318Z0GNH2/D16lds v6 Spot/D16lds v6 Spot": {
               "id": "DZH318Z0GNH2",
               "name": "Virtual Machines Dldsv6 Series",
@@ -16676,6 +17162,12 @@
               "name": "Virtual Machines ECasv6 series Windows",
               "sku_name": "EC32asv6 Low Priority",
               "meter_name": "EC32asv6 Low Priority"
+            },
+            "DZH318Z0F6ZF/EC32asv6 Spot/EC32asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC32asv6 Spot",
+              "meter_name": "EC32asv6 Spot"
             },
             "DZH318Z08W2P/Standard_D2ads_v5 Low Priority/D2ads v5 Low Priority": {
               "id": "DZH318Z08W2P",
@@ -16712,6 +17204,12 @@
               "name": "Virtual Machines Edsv6 Series Windows",
               "sku_name": "E96-48ds v6",
               "meter_name": "E96-48ds v6"
+            },
+            "DZH318Z0F6ZD/EC2asv6 Spot/EC2asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC2asv6 Spot",
+              "meter_name": "EC2asv6 Spot"
             },
             "DZH318Z0D1L5/E16d v4/E16d v4": {
               "id": "DZH318Z0D1L5",
@@ -16983,6 +17481,12 @@
               "sku_name": "E16as v4",
               "meter_name": "E16as v4"
             },
+            "DZH318Z0FG7D/DC8asv6 Spot/DC8asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC8asv6 Spot",
+              "meter_name": "DC8asv6 Spot"
+            },
             "DZH318Z0BPVN/E8s v3/E8s v3": {
               "id": "DZH318Z0BPVN",
               "name": "Virtual Machines ESv3 Series Windows",
@@ -17000,6 +17504,12 @@
               "name": "Virtual Machines Lsv3 Series",
               "sku_name": "Standard_L64s_v3 Low Priority",
               "meter_name": "L64s v3 Low Priority"
+            },
+            "DZH318Z0FG79/DC64adsv6 Spot/DC64adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC64adsv6 Spot",
+              "meter_name": "DC64adsv6 Spot"
             },
             "DZH318Z0K9K9/B2ts v2/B2ts v2": {
               "id": "DZH318Z0K9K9",
@@ -17241,11 +17751,23 @@
               "sku_name": "E8-2s v3 Low Priority",
               "meter_name": "E8-2s v3 Low Priority"
             },
+            "DZH318Z0F6ZS/EC4adsv6/EC4adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC4adsv6",
+              "meter_name": "EC4adsv6"
+            },
             "DZH318Z0CSHK/E8-4ds v4 Spot/E8-4ds v4 Spot": {
               "id": "DZH318Z0CSHK",
               "name": "Virtual Machines Edsv4 Series",
               "sku_name": "E8-4ds v4 Spot",
               "meter_name": "E8-4ds v4 Spot"
+            },
+            "DZH318Z0FG7D/DC64asv6 Spot/DC64asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC64asv6 Spot",
+              "meter_name": "DC64asv6 Spot"
             },
             "DZH318Z092R4/E32ads v5 Low Priority/E32ads v5 Low Priority": {
               "id": "DZH318Z092R4",
@@ -17294,6 +17816,12 @@
               "name": "Virtual Machines MS Series Windows",
               "sku_name": "M64ls Low Priority",
               "meter_name": "M64ls Low Priority"
+            },
+            "DZH318Z0FG7F/DC2asv6 Spot/DC2asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC2asv6 Spot",
+              "meter_name": "DC2asv6 Spot"
             },
             "DZH318Z0GNH4/D16lds v6 Spot/D16lds v6 Spot": {
               "id": "DZH318Z0GNH4",
@@ -17619,6 +18147,12 @@
               "sku_name": "E8-4ds v4 Spot",
               "meter_name": "E8-4ds v4 Spot"
             },
+            "DZH318Z0F6ZD/EC32asv6/EC32asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC32asv6",
+              "meter_name": "EC32asv6"
+            },
             "DZH318Z08W0T/Standard_D2as_v5/D2as v5": {
               "id": "DZH318Z08W0T",
               "name": "Virtual Machines Dasv5 Series",
@@ -17738,6 +18272,12 @@
               "name": "Virtual Machines Dsv4 Series",
               "sku_name": "D8s v4 Spot",
               "meter_name": "D8s v4 Spot"
+            },
+            "DZH318Z0FG7D/DC48asv6/DC48asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC48asv6",
+              "meter_name": "DC48asv6"
             },
             "DZH318Z0D1L7/E20 v4/E20 v4": {
               "id": "DZH318Z0D1L7",
@@ -18441,6 +18981,12 @@
               "sku_name": "E96s v5",
               "meter_name": "E96s v5"
             },
+            "DZH318Z0F6ZD/EC64asv6/EC64asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC64asv6",
+              "meter_name": "EC64asv6"
+            },
             "DZH318Z093WZ/E4as v5 Low Priority/E4as v5 Low Priority": {
               "id": "DZH318Z093WZ",
               "name": "Virtual Machines Easv5 Series",
@@ -18512,6 +19058,12 @@
               "name": "Virtual Machines MS Series Windows",
               "sku_name": "M16-8ms Low Priority",
               "meter_name": "M16-8ms Low Priority"
+            },
+            "DZH318Z0FG7C/DC64adsv6 Spot/DC64adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC64adsv6 Spot",
+              "meter_name": "DC64adsv6 Spot"
             },
             "DZH318Z0K9JD/B32als v2/B32als v2": {
               "id": "DZH318Z0K9JD",
@@ -18903,6 +19455,12 @@
               "sku_name": "E48s v5 Low Priority",
               "meter_name": "E48s v5 Low Priority"
             },
+            "DZH318Z0F6ZT/EC16adsv6/EC16adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC16adsv6",
+              "meter_name": "EC16adsv6"
+            },
             "DZH318Z093X0/E16-4ads v5 Spot/E16-4ads v5 Spot": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -19023,6 +19581,12 @@
               "sku_name": "D64ls v6 Spot",
               "meter_name": "D64ls v6 Spot"
             },
+            "DZH318Z0F6ZF/EC2asv6 Spot/EC2asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC2asv6 Spot",
+              "meter_name": "EC2asv6 Spot"
+            },
             "DZH318Z093X0/E2ads v5 Low Priority/E2ads v5 Low Priority": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -19107,6 +19671,12 @@
               "sku_name": "B2s v2",
               "meter_name": "B2s v2"
             },
+            "DZH318Z0FG7D/DC48asv6 Spot/DC48asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC48asv6 Spot",
+              "meter_name": "DC48asv6 Spot"
+            },
             "DZH318Z0BPWJ/F4s v2 Low Priority/F4s v2 Low Priority": {
               "id": "DZH318Z0BPWJ",
               "name": "Virtual Machines FSv2 Series Windows",
@@ -19173,6 +19743,18 @@
               "sku_name": "D32as v6",
               "meter_name": "D32as v6"
             },
+            "DZH318Z0FG7D/DC4asv6/DC4asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC4asv6",
+              "meter_name": "DC4asv6"
+            },
+            "DZH318Z0FG79/DC32adsv6/DC32adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC32adsv6",
+              "meter_name": "DC32adsv6"
+            },
             "DZH318Z0BPVT/F16 Spot/F16/F16s Spot": {
               "id": "DZH318Z0BPVT",
               "name": "Virtual Machines F Series Windows",
@@ -19190,6 +19772,12 @@
               "name": "Virtual Machines Easv6 Series Windows",
               "sku_name": "E16-8as v6",
               "meter_name": "E16-8as v6"
+            },
+            "DZH318Z0F6ZS/EC32adsv6/EC32adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC32adsv6",
+              "meter_name": "EC32adsv6"
             },
             "DZH318Z0BX5L/M416-208ms_v2/M416-208ms_v2": {
               "id": "DZH318Z0BX5L",
@@ -19437,6 +20025,12 @@
               "sku_name": "D32lds v5",
               "meter_name": "D32lds v5"
             },
+            "DZH318Z0F6ZD/EC16asv6 Spot/EC16asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC16asv6 Spot",
+              "meter_name": "EC16asv6 Spot"
+            },
             "DZH318Z0BPRJ/A2 v2/A2 v2": {
               "id": "DZH318Z0BPRJ",
               "name": "Virtual Machines Av2 Series",
@@ -19466,6 +20060,12 @@
               "name": "Virtual Machines Dasv5 Series Windows",
               "sku_name": "Standard_D4as_v5 Spot",
               "meter_name": "D4as v5 Spot"
+            },
+            "DZH318Z0FG7F/DC96asv6/DC96asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC96asv6",
+              "meter_name": "DC96asv6"
             },
             "DZH318Z0CSHK/E64-32ds v4/E64-32ds v4": {
               "id": "DZH318Z0CSHK",
@@ -19586,6 +20186,12 @@
               "name": "Virtual Machines Edsv6 Series Windows",
               "sku_name": "E8-4ds v6 Spot",
               "meter_name": "E8-4ds v6 Spot"
+            },
+            "DZH318Z0F6ZT/EC64adsv6 Spot/EC64adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC64adsv6 Spot",
+              "meter_name": "EC64adsv6 Spot"
             },
             "DZH318Z096T1/E104is v5/E104is v5": {
               "id": "DZH318Z096T1",
@@ -19742,6 +20348,12 @@
               "name": "Virtual Machines Dv4 Series",
               "sku_name": "D48 v4 Low Priority",
               "meter_name": "D48 v4 Low Priority"
+            },
+            "DZH318Z0FG7F/DC4asv6 Spot/DC4asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC4asv6 Spot",
+              "meter_name": "DC4asv6 Spot"
             },
             "DZH318Z0K9JD/B2as v2 Low Priority/B2as v2 Low Priority": {
               "id": "DZH318Z0K9JD",
@@ -19983,6 +20595,12 @@
               "sku_name": "E48s v6 Spot",
               "meter_name": "E48s v6 Spot"
             },
+            "DZH318Z0F6ZT/EC64adsv6/EC64adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC64adsv6",
+              "meter_name": "EC64adsv6"
+            },
             "DZH318Z08W2P/Standard_D2ads_v5 Spot/D2ads v5 Spot": {
               "id": "DZH318Z08W2P",
               "name": "Virtual Machines Dadsv5 Series Windows",
@@ -20096,6 +20714,12 @@
               "name": "Virtual Machines Esv4 Series",
               "sku_name": "E4s v4",
               "meter_name": "E4s v4"
+            },
+            "DZH318Z0F6ZF/EC32asv6/EC32asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC32asv6",
+              "meter_name": "EC32asv6"
             },
             "DZH318Z0BPVT/F2/F2/F2s": {
               "id": "DZH318Z0BPVT",
@@ -20433,6 +21057,12 @@
               "sku_name": "F2s Low Priority",
               "meter_name": "F2s Low Priority"
             },
+            "DZH318Z0F6ZT/EC4adsv6 Spot/EC4adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC4adsv6 Spot",
+              "meter_name": "EC4adsv6 Spot"
+            },
             "DZH318Z0FZ0B/F48als v6/F48als v6": {
               "id": "DZH318Z0FZ0B",
               "name": "Virtual Machines Falsv6 Series",
@@ -20450,6 +21080,12 @@
               "name": "Virtual Machines FSv2 Series",
               "sku_name": "F4s v2",
               "meter_name": "F4s v2"
+            },
+            "DZH318Z0F6ZD/EC16asv6/EC16asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC16asv6",
+              "meter_name": "EC16asv6"
             },
             "DZH318Z0F5DS/D64alds v6 Low Priority/D64alds v6 Low Priority": {
               "id": "DZH318Z0F5DS",
@@ -20631,6 +21267,12 @@
               "sku_name": "Standard_E48_v5 Spot",
               "meter_name": "E48 v5 Spot"
             },
+            "DZH318Z0F6ZF/EC4asv6/EC4asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC4asv6",
+              "meter_name": "EC4asv6"
+            },
             "DZH318Z0BPWH/E4 v3 Spot/E4 v3/E4s v3 Spot": {
               "id": "DZH318Z0BPWH",
               "name": "Virtual Machines Ev3 Series Windows",
@@ -20744,6 +21386,12 @@
               "name": "Virtual Machines Dsv6 Series",
               "sku_name": "D192s v6",
               "meter_name": "D192s v6"
+            },
+            "DZH318Z0F6ZS/EC48adsv6 Spot/EC48adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC48adsv6 Spot",
+              "meter_name": "EC48adsv6 Spot"
             },
             "DZH318Z0K9K9/B16ls v2/B16ls v2": {
               "id": "DZH318Z0K9K9",
@@ -21027,6 +21675,12 @@
               "sku_name": "D8ads v6 Low Priority",
               "meter_name": "D8ads v6 Low Priority"
             },
+            "DZH318Z0F6ZT/EC8adsv6 Spot/EC8adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC8adsv6 Spot",
+              "meter_name": "EC8adsv6 Spot"
+            },
             "DZH318Z08W0R/Standard_D8as_v5/D8as v5": {
               "id": "DZH318Z08W0R",
               "name": "Dasv5 Series Cloud Services",
@@ -21308,6 +21962,12 @@
               "name": "Virtual Machines MS Series",
               "sku_name": "M128m Low Priority",
               "meter_name": "M128m Low Priority"
+            },
+            "DZH318Z0F6ZD/EC48asv6/EC48asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC48asv6",
+              "meter_name": "EC48asv6"
             },
             "DZH318Z092QW/E8as v5/E8as v5": {
               "id": "DZH318Z092QW",
@@ -21825,6 +22485,12 @@
               "sku_name": "E16-8ads v5",
               "meter_name": "E16-8ads v5"
             },
+            "DZH318Z0FG7F/DC32asv6 Spot/DC32asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC32asv6 Spot",
+              "meter_name": "DC32asv6 Spot"
+            },
             "DZH318Z0BPVL/D64 v3/D64 v3/D64s v3": {
               "id": "DZH318Z0BPVL",
               "name": "Virtual Machines Dv3 Series Windows",
@@ -22185,6 +22851,12 @@
               "sku_name": "Standard_D64as_v5 Low Priority",
               "meter_name": "D64as v5 Low Priority"
             },
+            "DZH318Z0F6ZD/EC48asv6 Spot/EC48asv6 Spot": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC48asv6 Spot",
+              "meter_name": "EC48asv6 Spot"
+            },
             "DZH318Z0BPRJ/A2m v2/A2m v2": {
               "id": "DZH318Z0BPRJ",
               "name": "Virtual Machines Av2 Series",
@@ -22286,6 +22958,12 @@
               "name": "Virtual Machines Falsv6 Series Windows",
               "sku_name": "F32als v6",
               "meter_name": "F32als v6"
+            },
+            "DZH318Z0FG7F/DC2asv6/DC2asv6": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC2asv6",
+              "meter_name": "DC2asv6"
             },
             "DZH318Z0CSHL/E80is v4/E80is v4": {
               "id": "DZH318Z0CSHL",
@@ -22581,6 +23259,12 @@
               "sku_name": "E48as v5",
               "meter_name": "E48as v5"
             },
+            "DZH318Z0F6ZD/EC2asv6/EC2asv6": {
+              "id": "DZH318Z0F6ZD",
+              "name": "Virtual Machines ECasv6 series Windows",
+              "sku_name": "EC2asv6",
+              "meter_name": "EC2asv6"
+            },
             "DZH318Z08NR7/Standard_L48s_v3/L48s v3": {
               "id": "DZH318Z08NR7",
               "name": "Virtual Machines Lsv3 Series",
@@ -22797,6 +23481,12 @@
               "sku_name": "Standard_L48as_v3 Spot",
               "meter_name": "L48as v3 Spot"
             },
+            "DZH318Z0FG7D/DC96asv6 Spot/DC96asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC96asv6 Spot",
+              "meter_name": "DC96asv6 Spot"
+            },
             "DZH318Z08M9V/Standard_D2_v5/D2 v5": {
               "id": "DZH318Z08M9V",
               "name": "Virtual Machines Dv5 Series Windows",
@@ -22940,6 +23630,18 @@
               "name": "Virtual Machines Easv4 Series Windows",
               "sku_name": "E32-8as_v4 Low Priority",
               "meter_name": "E32-8as_v4 Low Priority"
+            },
+            "DZH318Z0F6ZS/EC96adsv6 Spot/EC96adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC96adsv6 Spot",
+              "meter_name": "EC96adsv6 Spot"
+            },
+            "DZH318Z0FG7F/DC48asv6 Spot/DC48asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC48asv6 Spot",
+              "meter_name": "DC48asv6 Spot"
             },
             "DZH318Z0CSHK/E16ds v4 Spot/E16ds v4 Spot": {
               "id": "DZH318Z0CSHK",
@@ -23157,6 +23859,12 @@
               "sku_name": "Standard_D4ads_v5 Spot",
               "meter_name": "D4ads v5 Spot"
             },
+            "DZH318Z0F6ZF/EC96asv6 Spot/EC96asv6 Spot": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC96asv6 Spot",
+              "meter_name": "EC96asv6 Spot"
+            },
             "DZH318Z093X0/E4-2ads v5 Spot/E4-2ads v5 Spot": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -23330,6 +24038,12 @@
               "name": "Virtual Machines Edsv4 Series Windows",
               "sku_name": "E16-4ds v4",
               "meter_name": "E16-4ds v4"
+            },
+            "DZH318Z0F6ZT/EC2adsv6 Spot/EC2adsv6 Spot": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC2adsv6 Spot",
+              "meter_name": "EC2adsv6 Spot"
             },
             "DZH318Z0F5F1/E48as v6/E48as v6": {
               "id": "DZH318Z0F5F1",
@@ -23673,11 +24387,23 @@
               "sku_name": "E2as v4 Low Priority",
               "meter_name": "E2as v4 Low Priority"
             },
+            "DZH318Z0FG79/DC48adsv6/DC48adsv6": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC48adsv6",
+              "meter_name": "DC48adsv6"
+            },
             "DZH318Z0F6ZD/EC4asv6 Low Priority/EC4asv6 Low Priority": {
               "id": "DZH318Z0F6ZD",
               "name": "Virtual Machines ECasv6 series Windows",
               "sku_name": "EC4asv6 Low Priority",
               "meter_name": "EC4asv6 Low Priority"
+            },
+            "DZH318Z0F6ZT/EC96adsv6/EC96adsv6": {
+              "id": "DZH318Z0F6ZT",
+              "name": "Virtual Machines ECadsv6 series Windows",
+              "sku_name": "EC96adsv6",
+              "meter_name": "EC96adsv6"
             },
             "DZH318Z08M9Q/Standard_E16d_v5/E16d v5": {
               "id": "DZH318Z08M9Q",
@@ -23895,11 +24621,23 @@
               "sku_name": "B32als v2",
               "meter_name": "B32als v2"
             },
+            "DZH318Z0FG79/DC8adsv6 Spot/DC8adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC8adsv6 Spot",
+              "meter_name": "DC8adsv6 Spot"
+            },
             "DZH318Z0FG7B/Type 1/Type 1": {
               "id": "DZH318Z0FG7B",
               "name": "DCadsv6 Series Dedicated Host",
               "sku_name": "Type 1",
               "meter_name": "Type 1"
+            },
+            "DZH318Z0FG7C/DC48adsv6/DC48adsv6": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC48adsv6",
+              "meter_name": "DC48adsv6"
             },
             "DZH318Z0BX63/M416s v2 Spot/M416s v2 Spot": {
               "id": "DZH318Z0BX63",
@@ -24693,6 +25431,12 @@
               "sku_name": "M416-208s_v2",
               "meter_name": "M416-208s_v2"
             },
+            "DZH318Z0FG79/DC16adsv6 Spot/DC16adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC16adsv6 Spot",
+              "meter_name": "DC16adsv6 Spot"
+            },
             "DZH318Z0FXXM/F16ams v6 Spot/F16ams v6 Spot": {
               "id": "DZH318Z0FXXM",
               "name": "Virtual Machines Famsv6 Series",
@@ -24945,6 +25689,12 @@
               "sku_name": "D2s v4 Low Priority",
               "meter_name": "D2s v4 Low Priority"
             },
+            "DZH318Z0FG7D/DC2asv6/DC2asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC2asv6",
+              "meter_name": "DC2asv6"
+            },
             "DZH318Z0K9JH/B16as v2/B16as v2": {
               "id": "DZH318Z0K9JH",
               "name": "Virtual Machines Basv2 Series",
@@ -25179,6 +25929,12 @@
               "sku_name": "E8-2s v4",
               "meter_name": "E8-2s v4"
             },
+            "DZH318Z0FG7D/DC32asv6 Spot/DC32asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC32asv6 Spot",
+              "meter_name": "DC32asv6 Spot"
+            },
             "DZH318Z0CSHL/E16-4s v4 Low Priority/E16-4s v4 Low Priority": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -25269,6 +26025,12 @@
               "sku_name": "D128ds v6",
               "meter_name": "D128ds v6"
             },
+            "DZH318Z0F6ZS/EC64adsv6/EC64adsv6": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC64adsv6",
+              "meter_name": "EC64adsv6"
+            },
             "DZH318Z0GNH7/E128-64s v6/E128-64s v6": {
               "id": "DZH318Z0GNH7",
               "name": "Virtual Machines Esv6 Series Windows",
@@ -25286,6 +26048,12 @@
               "name": "Virtual Machines Dv3 Series",
               "sku_name": "D4 v3",
               "meter_name": "D4 v3/D4s v3"
+            },
+            "DZH318Z0F6ZS/EC32adsv6 Spot/EC32adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC32adsv6 Spot",
+              "meter_name": "EC32adsv6 Spot"
             },
             "DZH318Z08NR8/Standard_L48as_v3 Low Priority/L48as v3 Low Priority": {
               "id": "DZH318Z08NR8",
@@ -25400,6 +26168,12 @@
               "name": "Virtual Machines Easv4 Series",
               "sku_name": "E64-16as_v4 Spot",
               "meter_name": "E64-16as_v4 Spot"
+            },
+            "DZH318Z0FG7C/DC16adsv6 Spot/DC16adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC16adsv6 Spot",
+              "meter_name": "DC16adsv6 Spot"
             },
             "DZH318Z08M9T/Standard_D48s_v5 Low Priority/D48s v5 Low Priority": {
               "id": "DZH318Z08M9T",
@@ -25617,11 +26391,23 @@
               "sku_name": "D128ls v6 Spot",
               "meter_name": "D128ls v6 Spot"
             },
+            "DZH318Z0F6ZF/EC8asv6/EC8asv6": {
+              "id": "DZH318Z0F6ZF",
+              "name": "Virtual Machines ECasv6 series",
+              "sku_name": "EC8asv6",
+              "meter_name": "EC8asv6"
+            },
             "DZH318Z08M9V/Standard_D4_v5/D4 v5": {
               "id": "DZH318Z08M9V",
               "name": "Virtual Machines Dv5 Series Windows",
               "sku_name": "Standard_D4_v5",
               "meter_name": "D4 v5"
+            },
+            "DZH318Z0FG7C/DC2adsv6 Spot/DC2adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC2adsv6 Spot",
+              "meter_name": "DC2adsv6 Spot"
             },
             "DZH318Z0BPVN/E32s v3/E32s v3": {
               "id": "DZH318Z0BPVN",
@@ -25838,6 +26624,12 @@
               "name": "Virtual Machines Dlsv6 Series Windows",
               "sku_name": "D32ls v6 Spot",
               "meter_name": "D32ls v6 Spot"
+            },
+            "DZH318Z0FG7F/DC96asv6 Spot/DC96asv6 Spot": {
+              "id": "DZH318Z0FG7F",
+              "name": "Virtual Machines DCasv6 series",
+              "sku_name": "DC96asv6 Spot",
+              "meter_name": "DC96asv6 Spot"
             },
             "DZH318Z093X0/E32-8ads v5 Low Priority/E32-8ads v5 Low Priority": {
               "id": "DZH318Z093X0",
@@ -26073,6 +26865,12 @@
               "sku_name": "F32ams v6",
               "meter_name": "F32ams v6"
             },
+            "DZH318Z0FG79/DC32adsv6 Spot/DC32adsv6 Spot": {
+              "id": "DZH318Z0FG79",
+              "name": "Virtual Machines DCadsv6 series Windows",
+              "sku_name": "DC32adsv6 Spot",
+              "meter_name": "DC32adsv6 Spot"
+            },
             "DZH318Z093WX/E8ads v5/E8ads v5": {
               "id": "DZH318Z093WX",
               "name": "Virtual Machines Eadsv5 Series Windows",
@@ -26138,6 +26936,12 @@
               "name": "Virtual Machines MSv2 Series",
               "sku_name": "M208-104ms_v2 Spot",
               "meter_name": "M208-104ms_v2 Spot"
+            },
+            "DZH318Z0F6ZS/EC64adsv6 Spot/EC64adsv6 Spot": {
+              "id": "DZH318Z0F6ZS",
+              "name": "Virtual Machines ECadsv6 series Linux",
+              "sku_name": "EC64adsv6 Spot",
+              "meter_name": "EC64adsv6 Spot"
             },
             "DZH318Z0BX5L/M208-104s_v2/M208-104s_v2": {
               "id": "DZH318Z0BX5L",
@@ -26619,6 +27423,12 @@
               "sku_name": "Standard_D96as_v5_Promo",
               "meter_name": "D96as v5 Promo"
             },
+            "DZH318Z0FG7C/DC96adsv6 Spot/DC96adsv6 Spot": {
+              "id": "DZH318Z0FG7C",
+              "name": "Virtual Machines DCadsv6 series",
+              "sku_name": "DC96adsv6 Spot",
+              "meter_name": "DC96adsv6 Spot"
+            },
             "DZH318Z093X0/E8-4ads v5 Low Priority/E8-4ads v5 Low Priority": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -26630,6 +27440,12 @@
               "name": "Virtual Machines Falsv6 Series",
               "sku_name": "F1als v6",
               "meter_name": "F1als v6"
+            },
+            "DZH318Z0FG7D/DC2asv6 Spot/DC2asv6 Spot": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC2asv6 Spot",
+              "meter_name": "DC2asv6 Spot"
             },
             "DZH318Z0CM92/E96-24as_v4/E96-24as_v4": {
               "id": "DZH318Z0CM92",
@@ -26690,6 +27506,18 @@
               "name": "Virtual Machines Eav4 Series",
               "sku_name": "E32a v4",
               "meter_name": "E32a v4/E32as v4"
+            },
+            "DZH318Z0F5F0/Type 1/Type 1": {
+              "id": "DZH318Z0F5F0",
+              "name": "Easv6 Series Dedicated Host",
+              "sku_name": "Type 1",
+              "meter_name": "Type 1"
+            },
+            "DZH318Z0FG7D/DC8asv6/DC8asv6": {
+              "id": "DZH318Z0FG7D",
+              "name": "Virtual Machines DCasv6 series Windows",
+              "sku_name": "DC8asv6",
+              "meter_name": "DC8asv6"
             },
             "DZH318Z0CM29/E2a v4 Spot/E2a v4/E2as v4 Spot": {
               "id": "DZH318Z0CM29",
@@ -28458,6 +29286,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/SSIS in Fabric Capacity Usage/SSIS in Fabric Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "SSIS in Fabric Capacity Usage",
+              "meter_name": "SSIS in Fabric Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Data Movement Capacity Usage/Data Movement Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34374,6 +35208,12 @@
               "name": "Microsoft Copilot Studio",
               "sku_name": "Pay As You Go",
               "meter_name": "Pay As You Go Message"
+            },
+            "DZH318Z0MH0G/Pay As You Go/Pay As You Go Copilot Credit": {
+              "id": "DZH318Z0MH0G",
+              "name": "Microsoft Copilot Studio",
+              "sku_name": "Pay As You Go",
+              "meter_name": "Pay As You Go Copilot Credit"
             }
           }
         }
@@ -35798,6 +36638,42 @@
               "name": "Microsoft Defender for Servers",
               "sku_name": "Standard P1 Trial",
               "meter_name": "Standard P1 Trial Node"
+            }
+          }
+        },
+        "DZH317BMX2F1": {
+          "id": "DZH317BMX2F1",
+          "name": "Microsoft Graph Services",
+          "products": {
+            "DZH318Z0K45Q/M365 APIs Extended Usage/Requests": {
+              "id": "DZH318Z0K45Q",
+              "name": "Microsoft 365 APIs Extended Usage",
+              "sku_name": "M365 APIs Extended Usage",
+              "meter_name": "Requests"
+            },
+            "DZH318Z0K45Q/Outlook Ext Use/Requests": {
+              "id": "DZH318Z0K45Q",
+              "name": "Microsoft 365 APIs Extended Usage",
+              "sku_name": "Outlook Ext Use",
+              "meter_name": "Requests"
+            },
+            "DZH318Z0K45Q/Teams Presence Ext Use/Requests": {
+              "id": "DZH318Z0K45Q",
+              "name": "Microsoft 365 APIs Extended Usage",
+              "sku_name": "Teams Presence Ext Use",
+              "meter_name": "Requests"
+            },
+            "DZH318Z0K45Q/Teams Msg Ext Use/Requests": {
+              "id": "DZH318Z0K45Q",
+              "name": "Microsoft 365 APIs Extended Usage",
+              "sku_name": "Teams Msg Ext Use",
+              "meter_name": "Requests"
+            },
+            "DZH318Z0K45Q/Teams Calling Ext Use/Requests": {
+              "id": "DZH318Z0K45Q",
+              "name": "Microsoft 365 APIs Extended Usage",
+              "sku_name": "Teams Calling Ext Use",
+              "meter_name": "Requests"
             }
           }
         }
