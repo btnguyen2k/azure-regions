@@ -361,6 +361,12 @@
               "sku_name": "gpt-4.1-mini FT Training global",
               "meter_name": "gpt-4.1-mini FT Training global Tokens"
             },
+            "DZH318Z0BP4D/S0/S0 Transactions": {
+              "id": "DZH318Z0BP4D",
+              "name": "Custom Vision",
+              "sku_name": "S0",
+              "meter_name": "S0 Transactions"
+            },
             "DZH318Z0HHG7/gpt-4o-rt-aud-1217 cchd Inp glbl/gpt-4o-rt-aud-1217 cchd Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -570,6 +576,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-mini-0718-Batch-Outp-glbl",
               "meter_name": "gpt-4o-mini-0718-Batch-Outp-glbl Tokens"
+            },
+            "DZH318Z0T879/Grok4 Fast Inp glbl/Grok4 Fast Inp glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Grok4 Fast Inp glbl",
+              "meter_name": "Grok4 Fast Inp glbl Tokens"
             },
             "DZH318Z0V4PL/gpt rt aud 0828 Inp glbl/gpt rt aud 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
@@ -1231,6 +1243,12 @@
               "sku_name": "gpt4omini-rt-aud1217 cchd Inp glbl",
               "meter_name": "gpt4omini-rt-aud1217 cchd Inp glbl Tokens"
             },
+            "DZH318Z0BP4D/Free/Free Transactions": {
+              "id": "DZH318Z0BP4D",
+              "name": "Custom Vision",
+              "sku_name": "Free",
+              "meter_name": "Free Transactions"
+            },
             "DZH318Z0HHG7/o3 0416 Batch Inp glbl/o3 0416 Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1441,11 +1459,23 @@
               "sku_name": "o1 mini output glbl",
               "meter_name": "o1 mini output glbl Tokens"
             },
+            "DZH318Z0BP4D/S0/S0 Image Storage": {
+              "id": "DZH318Z0BP4D",
+              "name": "Custom Vision",
+              "sku_name": "S0",
+              "meter_name": "S0 Image Storage"
+            },
             "DZH318Z0V4PL/gpt rt txt 0828 Inp glbl/gpt rt txt 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Audio Image Video",
               "sku_name": "gpt rt txt 0828 Inp glbl",
               "meter_name": "gpt rt txt 0828 Inp glbl Tokens"
+            },
+            "DZH318Z0T879/Grok4 Fast Outp glbl/Grok4 Fast Outp glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Grok model family",
+              "sku_name": "Grok4 Fast Outp glbl",
+              "meter_name": "Grok4 Fast Outp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-mini-0718-Outp-glbl/gpt-4o-mini-0718-Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1632,6 +1662,12 @@
               "name": "Azure OpenAI",
               "sku_name": "o3 mini 0131 output glbl",
               "meter_name": "o3 mini 0131 output glbl Tokens"
+            },
+            "DZH318Z0BP4D/S0/S0 Training": {
+              "id": "DZH318Z0BP4D",
+              "name": "Custom Vision",
+              "sku_name": "S0",
+              "meter_name": "S0 Training"
             },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Azure 50K/Commitment Tier Custom Speech to Text Azure 50K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
@@ -4398,6 +4434,12 @@
           "id": "DZH319BFCV72",
           "name": "SignalR",
           "products": {
+            "DZH318Z0BP4V/Standard/Standard Message": {
+              "id": "DZH318Z0BP4V",
+              "name": "SignalR",
+              "sku_name": "Standard",
+              "meter_name": "Standard Message"
+            },
             "DZH318Z0BP4V/Premium/Premium Message": {
               "id": "DZH318Z0BP4V",
               "name": "SignalR",
@@ -4409,6 +4451,18 @@
               "name": "SignalR",
               "sku_name": "Premium",
               "meter_name": "Premium Unit"
+            },
+            "DZH318Z0BP4V/Standard/Standard Unit": {
+              "id": "DZH318Z0BP4V",
+              "name": "SignalR",
+              "sku_name": "Standard",
+              "meter_name": "Standard Unit"
+            },
+            "DZH318Z0BP4V/Standard/Standard Unit - Free": {
+              "id": "DZH318Z0BP4V",
+              "name": "SignalR",
+              "sku_name": "Standard",
+              "meter_name": "Standard Unit - Free"
             }
           }
         },
@@ -5666,12 +5720,6 @@
               "name": "Virtual Machines ECadsccv5 Series",
               "sku_name": "Standard_EC32ads_cc_v5 Spot",
               "meter_name": "EC32adscc v5 Spot"
-            },
-            "DZH318Z0BPVT/F8/F8/F8s": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F8",
-              "meter_name": "F8/F8s"
             },
             "DZH318Z0CM92/E32-16as_v4 Spot/E32-16as_v4 Spot": {
               "id": "DZH318Z0CM92",
@@ -9363,12 +9411,6 @@
               "sku_name": "B16s v2 Low Priority",
               "meter_name": "B16s v2 Low Priority"
             },
-            "DZH318Z0BPVT/F4/F4/F4s": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F4",
-              "meter_name": "F4/F4s"
-            },
             "DZH318Z0CSHL/E8-4s v4 Low Priority/E8-4s v4 Low Priority": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -9818,12 +9860,6 @@
               "name": "Virtual Machines Easv5 Series",
               "sku_name": "E16-4as v5",
               "meter_name": "E16-4as v5"
-            },
-            "DZH318Z0BPVT/F1 Low Priority/F1/F1s Low Priority": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F1 Low Priority",
-              "meter_name": "F1/F1s Low Priority"
             },
             "DZH318Z0DF49/NC4as T4 v3/NC4as T4 v3": {
               "id": "DZH318Z0DF49",
@@ -11234,12 +11270,6 @@
               "name": "DCdsv3 Series Windows",
               "sku_name": "standard_DC4ds_v3 Low Priority",
               "meter_name": "DC4ds_v3 Low Priority"
-            },
-            "DZH318Z0BPVT/F1 Spot/F1/F1s Spot": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F1 Spot",
-              "meter_name": "F1/F1s Spot"
             },
             "DZH318Z0BQ4W/M8-2ms Spot/M8-2ms Spot": {
               "id": "DZH318Z0BQ4W",
@@ -16215,12 +16245,6 @@
               "sku_name": "EC32adsv6 Low Priority",
               "meter_name": "EC32adsv6 Low Priority"
             },
-            "DZH318Z0BPVT/F2 Low Priority/F2/F2s Low Priority": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F2 Low Priority",
-              "meter_name": "F2/F2s Low Priority"
-            },
             "DZH318Z0CSHL/E8s v4 Low Priority/E8s v4 Low Priority": {
               "id": "DZH318Z0CSHL",
               "name": "Virtual Machines Esv4 Series",
@@ -19275,12 +19299,6 @@
               "sku_name": "DC32adsv6 Low Priority",
               "meter_name": "DC32adsv6 Low Priority"
             },
-            "DZH318Z0BPVT/F16/F16/F16s": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F16",
-              "meter_name": "F16/F16s"
-            },
             "DZH318Z0BPW5/M64-16ms Spot/M64-16ms Spot": {
               "id": "DZH318Z0BPW5",
               "name": "Virtual Machines MS Series Windows",
@@ -19592,12 +19610,6 @@
               "name": "Virtual Machines Mdsv3 Medium Memory Series Linux",
               "sku_name": "Standard_M96ds_1_v3 Low Priority",
               "meter_name": "Standard_M96ds_1_v3 Low Priority"
-            },
-            "DZH318Z0BPVT/F2/F2/F2s": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F2",
-              "meter_name": "F2/F2s"
             },
             "DZH318Z0BPW5/M64-32ms Spot/M64-32ms Spot": {
               "id": "DZH318Z0BPW5",
@@ -25353,12 +25365,6 @@
               "sku_name": "E32d v4 Spot",
               "meter_name": "E32d v4 Spot"
             },
-            "DZH318Z0BPVT/F8 Low Priority/F8/F8s Low Priority": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F8 Low Priority",
-              "meter_name": "F8/F8s Low Priority"
-            },
             "DZH318Z0CM92/E8-2as_v4 Low Priority/E8-2as_v4 Low Priority": {
               "id": "DZH318Z0CM92",
               "name": "Virtual Machines Easv4 Series Windows",
@@ -27404,12 +27410,6 @@
               "name": "Basv2 Series Cloud Services",
               "sku_name": "B4als v2 Low Priority",
               "meter_name": "B4als v2 Low Priority"
-            },
-            "DZH318Z0BPVT/F16 Spot/F16/F16s Spot": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F16 Spot",
-              "meter_name": "F16/F16s Spot"
             },
             "DZH318Z0FG7D/DC48asv6/DC48asv6": {
               "id": "DZH318Z0FG7D",
@@ -30099,12 +30099,6 @@
               "sku_name": "M192ids_v2",
               "meter_name": "M192ids_v2"
             },
-            "DZH318Z0BPVT/F8 Spot/F8/F8s Spot": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F8 Spot",
-              "meter_name": "F8/F8s Spot"
-            },
             "DZH318Z096T1/E16-4s v5 Low Priority/E16-4s v5 Low Priority": {
               "id": "DZH318Z096T1",
               "name": "Virtual Machines Esv5 Series Windows",
@@ -30152,12 +30146,6 @@
               "name": "Virtual Machines Esv5 Series Windows",
               "sku_name": "E4-2s v5 Spot",
               "meter_name": "E4-2s v5 Spot"
-            },
-            "DZH318Z0BPVT/F2 Spot/F2/F2s Spot": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F2 Spot",
-              "meter_name": "F2/F2s Spot"
             },
             "DZH318Z0FXXJ/F4as v6 Spot/F4as v6 Spot": {
               "id": "DZH318Z0FXXJ",
@@ -31029,12 +31017,6 @@
               "sku_name": "M128ms Low Priority",
               "meter_name": "M128ms Low Priority"
             },
-            "DZH318Z0BPVT/F4 Low Priority/F4/F4s Low Priority": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F4 Low Priority",
-              "meter_name": "F4/F4s Low Priority"
-            },
             "DZH318Z093X0/E96-24ads v5 Spot/E96-24ads v5 Spot": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -31322,12 +31304,6 @@
               "name": "Virtual Machines Dasv6 Series",
               "sku_name": "D4as v6",
               "meter_name": "D4as v6"
-            },
-            "DZH318Z0BPVT/F1/F1/F1s": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F1",
-              "meter_name": "F1/F1s"
             },
             "DZH318Z0GNGZ/D128ls v6/D128ls v6": {
               "id": "DZH318Z0GNGZ",
@@ -33057,12 +33033,6 @@
               "sku_name": "E96ias v5 Spot",
               "meter_name": "E96ias v5 Spot"
             },
-            "DZH318Z0BPVT/F16 Low Priority/F16/F16s Low Priority": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F16 Low Priority",
-              "meter_name": "F16/F16s Low Priority"
-            },
             "DZH318Z08M9R/Standard_E2d_v5 Low Priority/E2d v5 Low Priority": {
               "id": "DZH318Z08M9R",
               "name": "Virtual Machines Edv5 Series",
@@ -33152,12 +33122,6 @@
               "name": "Virtual Machines Edsv4 Series Windows",
               "sku_name": "E64ds v4 Spot",
               "meter_name": "E64ds v4 Spot"
-            },
-            "DZH318Z0BPVT/F4 Spot/F4/F4s Spot": {
-              "id": "DZH318Z0BPVT",
-              "name": "Virtual Machines F Series Windows",
-              "sku_name": "F4 Spot",
-              "meter_name": "F4/F4s Spot"
             },
             "DZH318Z08M9R/Standard_E2d_v5/E2d v5": {
               "id": "DZH318Z08M9R",
@@ -34825,6 +34789,12 @@
               "sku_name": "VNet Data Gateway Capacity Usage",
               "meter_name": "VNet Data Gateway Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Operations Agents Compute Capacity Usage/Operations Agents Compute Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Operations Agents Compute Capacity Usage",
+              "meter_name": "Operations Agents Compute Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34861,6 +34831,12 @@
               "sku_name": "BCDR Storage",
               "meter_name": "BCDR Storage Data Stored"
             },
+            "DZH318Z0KCZ7/Anomaly Detector Queries Capacity Usage/Anomaly Detector Queries Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Anomaly Detector Queries Capacity Usage",
+              "meter_name": "Anomaly Detector Queries Capacity Usage CU"
+            },
             "DZH318Z0F28J/Cosmos DB storage/Cosmos DB storage Data Stored": {
               "id": "DZH318Z0F28J",
               "name": "OneLake",
@@ -34873,6 +34849,12 @@
               "sku_name": "Dataflows Standard Compute Capacity Usage",
               "meter_name": "Dataflows Standard Compute Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake diagnostics Capacity Usage/OneLake diagnostics Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake diagnostics Capacity Usage",
+              "meter_name": "OneLake diagnostics Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/ML Model Endpoint Capacity Usage/ML Model Endpoint Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34884,6 +34866,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Read Operations via proxy Capacity Usage",
               "meter_name": "OneLake Iterative Read Operations via proxy Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Graph data management Capacity Usage/Graph data management Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Graph data management Capacity Usage",
+              "meter_name": "Graph data management Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Capacity Usage/OneLake BCDR Iterative Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34926,6 +34914,12 @@
               "name": "OneLake",
               "sku_name": "Storage Mirroring",
               "meter_name": "Storage Mirroring Data Stored"
+            },
+            "DZH318Z0KCZ7/Fabric Meter 23 Capacity Usage/Fabric Meter 23 Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Meter 23 Capacity Usage",
+              "meter_name": "Fabric Meter 23 Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Compute Pool Capacity Usage/Compute Pool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35053,6 +35047,12 @@
               "sku_name": "Cosmos DB backup storage",
               "meter_name": "Cosmos DB backup storage Data Stored"
             },
+            "DZH318Z0KCZ7/Graph data science Capacity Usage/Graph data science Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Graph data science Capacity Usage",
+              "meter_name": "Graph data science Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Real-Time Intelligence - Event Operations Capacity Usage/Real-Time Intelligence - Event Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -35142,6 +35142,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Operations Agents Autonomous Reasoning Capacity Usage/Operations Agents Autonomous Reasoning Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Operations Agents Autonomous Reasoning Capacity Usage",
+              "meter_name": "Operations Agents Autonomous Reasoning Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Other Operations Capacity Usage/OneLake Other Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -41936,6 +41942,12 @@
               "sku_name": "10000 GB Commitment Tier",
               "meter_name": "10000 GB Commitment Tier Capacity Reservation"
             },
+            "DZH318Z0CF6H/50 GB Commitment Tier/50 GB Commitment Tier Capacity Reservation": {
+              "id": "DZH318Z0CF6H",
+              "name": "Sentinel",
+              "sku_name": "50 GB Commitment Tier",
+              "meter_name": "50 GB Commitment Tier Capacity Reservation"
+            },
             "DZH318Z0CF6H/5000 GB Commitment Tier/5000 GB Commitment Tier Capacity Reservation": {
               "id": "DZH318Z0CF6H",
               "name": "Sentinel",
@@ -42419,6 +42431,12 @@
               "sku_name": "Medium",
               "meter_name": "Medium Gateway"
             },
+            "DZH318Z0VL2F/Standard/Standard Capacity Units": {
+              "id": "DZH318Z0VL2F",
+              "name": "Application Gateway WAF v2 - Discounted",
+              "sku_name": "Standard",
+              "meter_name": "Standard Capacity Units"
+            },
             "DZH318Z0BNVT/Large/Large Gateway": {
               "id": "DZH318Z0BNVT",
               "name": "WAF Application Gateway",
@@ -42430,6 +42448,12 @@
               "name": "Basic Application Gateway",
               "sku_name": "Small",
               "meter_name": "Small Data Processed"
+            },
+            "DZH318Z0VL2F/Standard/Standard Fixed Cost": {
+              "id": "DZH318Z0VL2F",
+              "name": "Application Gateway WAF v2 - Discounted",
+              "sku_name": "Standard",
+              "meter_name": "Standard Fixed Cost"
             }
           }
         },
@@ -42785,6 +42809,18 @@
               "sku_name": "Standard Secure Virtual Hub",
               "meter_name": "Standard Secure Virtual Hub Data Processed"
             },
+            "DZH318Z0BZ06/Premium/Premium Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium",
+              "meter_name": "Premium Capacity Unit"
+            },
+            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard Secure Virtual Hub",
+              "meter_name": "Standard Secure Virtual Hub Capacity Unit"
+            },
             "DZH318Z0BZ06/Basic/Basic Data Processed": {
               "id": "DZH318Z0BZ06",
               "name": "Azure Firewall",
@@ -42815,6 +42851,12 @@
               "sku_name": "Basic Secured Virtual Hub",
               "meter_name": "Basic Secured Virtual Hub Deployment"
             },
+            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Secured Virtual Hub",
+              "meter_name": "Premium Secured Virtual Hub Capacity Unit"
+            },
             "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Deployment": {
               "id": "DZH318Z0BZ06",
               "name": "Azure Firewall",
@@ -42838,6 +42880,12 @@
               "name": "Azure Firewall",
               "sku_name": "Premium",
               "meter_name": "Premium Data Processed"
+            },
+            "DZH318Z0BZ06/Standard/Standard Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard",
+              "meter_name": "Standard Capacity Unit"
             },
             "DZH318Z0BZ06/Basic/Basic Deployment": {
               "id": "DZH318Z0BZ06",
@@ -44060,6 +44108,12 @@
               "sku_name": "Hot GRS",
               "meter_name": "Hot Read Operations"
             },
+            "DZH318Z0CBTJ/Data Geo Priority Replication GRS/Data Geo Priority Replication GRS Data Replicated": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Data Geo Priority Replication GRS",
+              "meter_name": "Data Geo Priority Replication GRS Data Replicated"
+            },
             "DZH318Z0BP88/E4 LRS/E4 LRS Disk": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -44816,6 +44870,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Data Retrieval"
             },
+            "DZH318Z09V07/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
+              "id": "DZH318Z09V07",
+              "name": "Azure Premium SSD v2",
+              "sku_name": "Confidential Compute Encryption LRS",
+              "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
+            },
             "DZH318Z0BNZH/Standard GRS/All Other Operations": {
               "id": "DZH318Z0BNZH",
               "name": "General Block Blob",
@@ -45542,6 +45602,12 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot GRS Write Operations"
             },
+            "DZH318Z0CBTJ/Priority Object Replication RA-GRS/Priority Object Replication RA-GRS Data Replicated": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Priority Object Replication RA-GRS",
+              "meter_name": "Priority Object Replication RA-GRS Data Replicated"
+            },
             "DZH318Z0BNZF/Standard GRS/Read Additional IO": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -45763,6 +45829,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Data Stored"
+            },
+            "DZH318Z0CBTJ/Data Geo Priority Replication RA-GRS/Data Geo Priority Replication RA-GRS Data Replicated": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Data Geo Priority Replication RA-GRS",
+              "meter_name": "Data Geo Priority Replication RA-GRS Data Replicated"
             },
             "DZH318Z0BJRM/Cool LRS/Cool Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -46201,6 +46273,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Read Operations"
+            },
+            "DZH318Z0CBTJ/Priority Object Replication GRS/Priority Object Replication GRS Data Replicated": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Priority Object Replication GRS",
+              "meter_name": "Priority Object Replication GRS Data Replicated"
             },
             "DZH318Z0C120/Cold RA-GRS/Cold RA-GRS Data Retrieval": {
               "id": "DZH318Z0C120",
@@ -47461,6 +47539,12 @@
               "name": "Tables",
               "sku_name": "Account Encrypted LRS",
               "meter_name": "Account Encrypted Scan Operations"
+            },
+            "DZH318Z0CBTJ/Priority Object Replication LRS/Priority Object Replication LRS Data Replicated": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Priority Object Replication LRS",
+              "meter_name": "Priority Object Replication LRS Data Replicated"
             },
             "DZH318Z0BP04/P40 LRS/P40 LRS Disk": {
               "id": "DZH318Z0BP04",
