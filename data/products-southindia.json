@@ -117,7 +117,7 @@
             },
             "DZH318Z0V4PL/gpt rt aud 0828 Outp glbl/gpt rt aud 0828 Outp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt aud 0828 Outp glbl",
               "meter_name": "gpt rt aud 0828 Outp glbl Tokens"
             },
@@ -163,6 +163,12 @@
               "sku_name": "gpt-35-turbo-16K-0125 Input-regional",
               "meter_name": "gpt-35-turbo-16K-0125 Input-regional Tokens"
             },
+            "DZH318Z0T9WD/gpt 5 pro batch out glbl/gpt 5 pro batch out glbl Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt 5 pro batch out glbl",
+              "meter_name": "gpt 5 pro batch out glbl Tokens"
+            },
             "DZH318Z0HHG7/o1 1217 cached Inp glbl/o1 1217 cached Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -192,6 +198,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-rt-aud-1217 Inp glbl",
               "meter_name": "gpt-4o-rt-aud-1217 Inp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt img 1 mini inp cchd txt glbl/gpt img 1 mini inp cchd txt glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt img 1 mini inp cchd txt glbl",
+              "meter_name": "gpt img 1 mini inp cchd txt glbl Tokens"
             },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Azure 100K/Commitment Tier Custom Speech to Text Azure 100K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
@@ -252,6 +264,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4.1 nano cached Inp glbl",
               "meter_name": "gpt 4.1 nano cached Inp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt aud mini txt Outp glbl/gpt aud mini txt Outp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt aud mini txt Outp glbl",
+              "meter_name": "gpt aud mini txt Outp glbl Tokens"
             },
             "DZH318Z0BP4S/Commit Tier Custom STT Connected 10K/Commit Tier Custom STT Connected 10K Unit": {
               "id": "DZH318Z0BP4S",
@@ -385,11 +403,23 @@
               "sku_name": "Provisioned Managed Regional",
               "meter_name": "Provisioned Managed Regional Unit"
             },
+            "DZH318Z0V4PL/gpt rt aud mini Inp glbl/gpt rt aud mini Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt aud mini Inp glbl",
+              "meter_name": "gpt rt aud mini Inp glbl Tokens"
+            },
             "DZH318Z0T9WD/GPT 5 Nano Batch outpt Glbl/GPT 5 Nano Batch outpt Glbl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
               "sku_name": "GPT 5 Nano Batch outpt Glbl",
               "meter_name": "GPT 5 Nano Batch outpt Glbl 1M Tokens"
+            },
+            "DZH318Z0V4PL/gpt rt txt mini cchd Inp glbl/gpt rt txt mini cchd Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt txt mini cchd Inp glbl",
+              "meter_name": "gpt rt txt mini cchd Inp glbl Tokens"
             },
             "DZH318Z0BP4S/Commitment Tier STT AddOn Azure 10K/Commitment Tier STT AddOn Azure 10K Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
@@ -411,7 +441,7 @@
             },
             "DZH318Z0V4PL/gpt rt img 0828 Inp glbl/gpt rt img 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt img 0828 Inp glbl",
               "meter_name": "gpt rt img 0828 Inp glbl Tokens"
             },
@@ -475,11 +505,29 @@
               "sku_name": "o1-pro Batch Outp glbl",
               "meter_name": "o1-pro Batch Outp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt img 1 mini out img glbl/gpt img 1 mini out img glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt img 1 mini out img glbl",
+              "meter_name": "gpt img 1 mini out img glbl Tokens"
+            },
             "DZH318Z0T7L1/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0T7L1",
               "name": "Deepseek model family",
               "sku_name": "Provisioned Managed Global",
               "meter_name": "Provisioned Managed Global Unit"
+            },
+            "DZH318Z0V4PL/gpt rt txt mini Outp glbl/gpt rt txt mini Outp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt txt mini Outp glbl",
+              "meter_name": "gpt rt txt mini Outp glbl Tokens"
+            },
+            "DZH318Z0V4PL/Sora 2 pro glbl/Sora 2 pro glbl Second": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "Sora 2 pro glbl",
+              "meter_name": "Sora 2 pro glbl Second"
             },
             "DZH318Z0HHG7/gpt-4.1-dev-ft cchd inpt glbl/gpt-4.1-dev-ft cchd inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -507,7 +555,7 @@
             },
             "DZH318Z0V4PL/gpt rt img 0828 cchd Inp glbl/gpt rt img 0828 cchd Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt img 0828 cchd Inp glbl",
               "meter_name": "gpt rt img 0828 cchd Inp glbl Tokens"
             },
@@ -559,6 +607,12 @@
               "sku_name": "codex mini inp glbl",
               "meter_name": "codex mini inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt img 1 mini inp img glbl/gpt img 1 mini inp img glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt img 1 mini inp img glbl",
+              "meter_name": "gpt img 1 mini inp img glbl Tokens"
+            },
             "DZH318Z0HHG7/o3 mini 0131 input glbl/o3 mini 0131 input glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -583,9 +637,15 @@
               "sku_name": "Grok4 Fast Inp glbl",
               "meter_name": "Grok4 Fast Inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt aud mini Inp glbl/gpt aud mini Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt aud mini Inp glbl",
+              "meter_name": "gpt aud mini Inp glbl Tokens"
+            },
             "DZH318Z0V4PL/gpt rt aud 0828 Inp glbl/gpt rt aud 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt aud 0828 Inp glbl",
               "meter_name": "gpt rt aud 0828 Inp glbl Tokens"
             },
@@ -795,7 +855,7 @@
             },
             "DZH318Z0V4PL/gpt aud 0828 Outp glbl/gpt aud 0828 Outp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 0828 Outp glbl",
               "meter_name": "gpt aud 0828 Outp glbl Tokens"
             },
@@ -846,6 +906,12 @@
               "name": "Mistral Models",
               "sku_name": "Codestral Outp glbl",
               "meter_name": "Codestral Outp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt rt img mini cchd Inp glbl/gpt rt img mini cchd Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt img mini cchd Inp glbl",
+              "meter_name": "gpt rt img mini cchd Inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt4o realtime prvw text inp glbl/gpt4o realtime prvw text inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -901,6 +967,12 @@
               "sku_name": "Assistants-File Search-regnl",
               "meter_name": "Assistants-File Search-regnl GB"
             },
+            "DZH318Z0V4PL/gpt img 1 mini inp cchd img glbl/gpt img 1 mini inp cchd img glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt img 1 mini inp cchd img glbl",
+              "meter_name": "gpt img 1 mini inp cchd img glbl Tokens"
+            },
             "DZH318Z0HHG7/gpt-4.1-mini-dev-ft inpt glbl/gpt-4.1-mini-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -943,6 +1015,12 @@
               "sku_name": "o1 1217 Batch Inp glbl",
               "meter_name": "o1 1217 Batch Inp glbl Tokens"
             },
+            "DZH318Z0T9WD/gpt 5 pro inp glbl/gpt 5 pro inp glbl Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt 5 pro inp glbl",
+              "meter_name": "gpt 5 pro inp glbl Tokens"
+            },
             "DZH318Z0T7L1/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
               "id": "DZH318Z0T7L1",
               "name": "Deepseek model family",
@@ -966,6 +1044,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-transcribe-txt-inp-glbl",
               "meter_name": "gpt-4o-transcribe-txt-inp-glbl Tokens"
+            },
+            "DZH318Z0T9WD/gpt 5 pro out glbl/gpt 5 pro out glbl Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt 5 pro out glbl",
+              "meter_name": "gpt 5 pro out glbl Tokens"
             },
             "DZH318Z0HHG7/Speech-to-Text-Batch-Whisper-glbl/Speech-to-Text-Batch-Whisper-glbl Unit": {
               "id": "DZH318Z0HHG7",
@@ -1099,6 +1183,12 @@
               "sku_name": "gpt-4o-rt-txt-0603 cchd Inp glbl",
               "meter_name": "gpt-4o-rt-txt-0603 cchd Inp glbl Tokens"
             },
+            "DZH318Z0V4PL/Sora 2 pro high res glbl/Sora 2 pro high res glbl Second": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "Sora 2 pro high res glbl",
+              "meter_name": "Sora 2 pro high res glbl Second"
+            },
             "DZH318Z0HHG7/o1 1217 Inp glbl/o1 1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1116,6 +1206,12 @@
               "name": "Azure OpenAI",
               "sku_name": "file-search-tool-calls-glbl",
               "meter_name": "file-search-tool-calls-glbl Calls"
+            },
+            "DZH318Z0V4PL/gpt aud mini Outp glbl/gpt aud mini Outp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt aud mini Outp glbl",
+              "meter_name": "gpt aud mini Outp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt 4o mini 0718 cached Inp glbl/gpt 4o mini 0718 cached Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1279,6 +1375,12 @@
               "sku_name": "Code-Interpreter-global",
               "meter_name": "Code-Interpreter-global Session"
             },
+            "DZH318Z0V4PL/gpt rt aud mini cchd Inp glbl/gpt rt aud mini cchd Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt aud mini cchd Inp glbl",
+              "meter_name": "gpt rt aud mini cchd Inp glbl Tokens"
+            },
             "DZH318Z0HHG7/gpt-35-turbo-16K-1106 Output-regional/gpt-35-turbo-16K-1106 Output-regional Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1303,6 +1405,12 @@
               "sku_name": "gpt-4.1-nano-ft input global",
               "meter_name": "gpt-4.1-nano-ft input global Tokens"
             },
+            "DZH318Z0T9WD/gpt 5 pro batch inp glbl/gpt 5 pro batch inp glbl Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt 5 pro batch inp glbl",
+              "meter_name": "gpt 5 pro batch inp glbl Tokens"
+            },
             "DZH318Z0HHG7/gpt-35-turbo-16K-0125 Output-regional/gpt-35-turbo-16K-0125 Output-regional Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1317,7 +1425,7 @@
             },
             "DZH318Z0V4PL/gpt rt txt 0828 Outp glbl/gpt rt txt 0828 Outp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt txt 0828 Outp glbl",
               "meter_name": "gpt rt txt 0828 Outp glbl Tokens"
             },
@@ -1353,7 +1461,7 @@
             },
             "DZH318Z0V4PL/gpt rt txt 0828 cchd Inp glbl/gpt rt txt 0828 cchd Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt txt 0828 cchd Inp glbl",
               "meter_name": "gpt rt txt 0828 cchd Inp glbl Tokens"
             },
@@ -1365,7 +1473,7 @@
             },
             "DZH318Z0V4PL/gpt aud 0828 Inp glbl/gpt aud 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 0828 Inp glbl",
               "meter_name": "gpt aud 0828 Inp glbl Tokens"
             },
@@ -1404,6 +1512,12 @@
               "name": "Speech",
               "sku_name": "Commitment Tier STT AddOn Azure 100K",
               "meter_name": "Commitment Tier STT AddOn Azure 100K Speech To Text CT Overage"
+            },
+            "DZH318Z0V4PL/gpt img 1 mini inp txt glbl/gpt img 1 mini inp txt glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt img 1 mini inp txt glbl",
+              "meter_name": "gpt img 1 mini inp txt glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-rt-txt-1217 Inp glbl/gpt-4o-rt-txt-1217 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1453,6 +1567,12 @@
               "sku_name": "gpt-4o-aud-1217 Outp glbl",
               "meter_name": "gpt-4o-aud-1217 Outp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt rt txt mini Inp glbl/gpt rt txt mini Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt txt mini Inp glbl",
+              "meter_name": "gpt rt txt mini Inp glbl Tokens"
+            },
             "DZH318Z0HHG7/o1 mini output glbl/o1 mini output glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -1467,7 +1587,7 @@
             },
             "DZH318Z0V4PL/gpt rt txt 0828 Inp glbl/gpt rt txt 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt txt 0828 Inp glbl",
               "meter_name": "gpt rt txt 0828 Inp glbl Tokens"
             },
@@ -1513,6 +1633,12 @@
               "sku_name": "Commitment Tier STT AddOn Connected 10K",
               "meter_name": "Commitment Tier STT AddOn Connected 10K Speech To Text CT Overage"
             },
+            "DZH318Z0V4PL/gpt rt img mini Inp glbl/gpt rt img mini Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt img mini Inp glbl",
+              "meter_name": "gpt rt img mini Inp glbl Tokens"
+            },
             "DZH318Z0T879/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0T879",
               "name": "Grok model family",
@@ -1545,7 +1671,7 @@
             },
             "DZH318Z0V4PL/gpt aud 0828 txt Inp glbl/gpt aud 0828 txt Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 0828 txt Inp glbl",
               "meter_name": "gpt aud 0828 txt Inp glbl Tokens"
             },
@@ -1554,6 +1680,12 @@
               "name": "Speech",
               "sku_name": "Commitment Tier STT AddOn Connected 100K",
               "meter_name": "Commitment Tier STT AddOn Connected 100K Unit"
+            },
+            "DZH318Z0V4PL/gpt rt aud mini Outp glbl/gpt rt aud mini Outp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt rt aud mini Outp glbl",
+              "meter_name": "gpt rt aud mini Outp glbl Tokens"
             },
             "DZH318Z0TPCM/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0TPCM",
@@ -1581,7 +1713,7 @@
             },
             "DZH318Z0V4PL/gpt rt aud 0828 cchd Inp glbl/gpt rt aud 0828 cchd Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt rt aud 0828 cchd Inp glbl",
               "meter_name": "gpt rt aud 0828 cchd Inp glbl Tokens"
             },
@@ -1609,6 +1741,12 @@
               "sku_name": "gpt-4-8K-Input-regional",
               "meter_name": "gpt-4-8K-Input-regional Tokens"
             },
+            "DZH318Z0V4PL/gpt aud mini txt Inp glbl/gpt aud mini txt Inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt aud mini txt Inp glbl",
+              "meter_name": "gpt aud mini txt Inp glbl Tokens"
+            },
             "DZH318Z0T9X1/Llama 4 Maverick 17B Outp glbl/Llama 4 Maverick 17B Outp glbl Tokens": {
               "id": "DZH318Z0T9X1",
               "name": "Llama models",
@@ -1623,7 +1761,7 @@
             },
             "DZH318Z0V4PL/gpt aud 0828 txt Outp glbl/gpt aud 0828 txt Outp glbl Tokens": {
               "id": "DZH318Z0V4PL",
-              "name": "Azure OpenAI Audio Image Video",
+              "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 0828 txt Outp glbl",
               "meter_name": "gpt aud 0828 txt Outp glbl Tokens"
             },
@@ -1752,6 +1890,12 @@
               "name": "Azure OpenAI",
               "sku_name": "Provisioned Managed Global",
               "meter_name": "Provisioned Managed Global Unit"
+            },
+            "DZH318Z0V4PL/Sora 2 glbl/Sora 2 glbl Second": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "Sora 2 glbl",
+              "meter_name": "Sora 2 glbl Second"
             },
             "DZH318Z0HHG7/gpt 4.1 nano Batch Inp glbl/gpt 4.1 nano Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -37352,7 +37496,7 @@
             },
             "DZH318Z0V10S/1 vCore/1 vCore": {
               "id": "DZH318Z0V10S",
-              "name": "Azure Database for MySQL Flexible Server Memory Optimized Dsv6 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Dsv6 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
@@ -37418,7 +37562,7 @@
             },
             "DZH318Z0VFFC/1 vCore/1 vCore": {
               "id": "DZH318Z0VFFC",
-              "name": "Azure Database for MySQL Flexible Server Memory Optimized Ddsv6 Series Compute",
+              "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv6 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
