@@ -2035,6 +2035,12 @@
               "sku_name": "o1 Batch Outp glbl",
               "meter_name": "o1 Batch Outp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt 4o tcrb d txt out glbl/gpt 4o tcrb d txt out glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt 4o tcrb d txt out glbl",
+              "meter_name": "gpt 4o tcrb d txt out glbl Tokens"
+            },
             "DZH318Z09WSV/Commitment Tier Disconnected 25M/Commitment Tier Disconnected 25M Unit": {
               "id": "DZH318Z09WSV",
               "name": "Language Understanding - disconnected",
@@ -2238,6 +2244,12 @@
               "name": "Face",
               "sku_name": "P1",
               "meter_name": "Face Storage"
+            },
+            "DZH318Z0V4PL/gpt 4o tcrb d txt inp glbl/gpt 4o tcrb d txt inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt 4o tcrb d txt inp glbl",
+              "meter_name": "gpt 4o tcrb d txt inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1 FT Training global/gpt-4.1 FT Training global Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2634,6 +2646,12 @@
               "name": "Deepseek model family",
               "sku_name": "MAI-DS-R1 Outp glbl",
               "meter_name": "MAI-DS-R1 Outp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt 4o tcrb d aud inp glbl/gpt 4o tcrb d aud inp glbl Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt 4o tcrb d aud inp glbl",
+              "meter_name": "gpt 4o tcrb d aud inp glbl Tokens"
             },
             "DZH318Z0BP4S/Commitment Tier STT AddOn Connected 2K/Commitment Tier STT AddOn Connected 2K Unit": {
               "id": "DZH318Z0BP4S",
@@ -38867,16 +38885,28 @@
             }
           }
         },
+        "DZH319PSD84L": {
+          "id": "DZH319PSD84L",
+          "name": "HPC Cache",
+          "products": {
+            "DZH318Z0CM28/Standard/Standard Cache": {
+              "id": "DZH318Z0CM28",
+              "name": "File System Caching Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Cache"
+            },
+            "DZH318Z0CM28/Standard/Standard Cache Disk": {
+              "id": "DZH318Z0CM28",
+              "name": "File System Caching Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Cache Disk"
+            }
+          }
+        },
         "DZH316MBDNZN": {
           "id": "DZH316MBDNZN",
           "name": "Specialized Compute",
           "products": {
-            "DZH318Z0D45Q/AV64/AV64 Node": {
-              "id": "DZH318Z0D45Q",
-              "name": "Specialized Compute Azure VMware Solution",
-              "sku_name": "AV64",
-              "meter_name": "AV64 Node"
-            },
             "DZH318Z0D45Q/AV64 Trial Node/AV64 Trial Node": {
               "id": "DZH318Z0D45Q",
               "name": "Specialized Compute Azure VMware Solution",
@@ -38895,35 +38925,11 @@
               "sku_name": "AV48 VCF BYOL",
               "meter_name": "AV48 VCF BYOL Node"
             },
-            "DZH318Z0D45Q/AV48/AV48 Node": {
-              "id": "DZH318Z0D45Q",
-              "name": "Specialized Compute Azure VMware Solution",
-              "sku_name": "AV48",
-              "meter_name": "AV48 Node"
-            },
             "DZH318Z0D45Q/AV48 Trial/AV48 Trial Node": {
               "id": "DZH318Z0D45Q",
               "name": "Specialized Compute Azure VMware Solution",
               "sku_name": "AV48 Trial",
               "meter_name": "AV48 Trial Node"
-            }
-          }
-        },
-        "DZH319PSD84L": {
-          "id": "DZH319PSD84L",
-          "name": "HPC Cache",
-          "products": {
-            "DZH318Z0CM28/Standard/Standard Cache": {
-              "id": "DZH318Z0CM28",
-              "name": "File System Caching Service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Cache"
-            },
-            "DZH318Z0CM28/Standard/Standard Cache Disk": {
-              "id": "DZH318Z0CM28",
-              "name": "File System Caching Service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Cache Disk"
             }
           }
         },
