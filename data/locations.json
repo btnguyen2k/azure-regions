@@ -108,24 +108,6 @@
     "type": "Region"
   },
   {
-    "displayName": "UK South",
-    "metadata": {
-      "geography": "United Kingdom",
-      "geographyGroup": "Europe",
-      "latitude": "50.941",
-      "longitude": "-0.799",
-      "pairedRegion": [
-        "ukwest"
-      ],
-      "physicalLocation": "London",
-      "regionCategory": "Recommended",
-      "regionType": "Physical"
-    },
-    "name": "uksouth",
-    "regionalDisplayName": "(Europe) UK South",
-    "type": "Region"
-  },
-  {
     "displayName": "West Europe",
     "metadata": {
       "geography": "Europe",
@@ -141,6 +123,24 @@
     },
     "name": "westeurope",
     "regionalDisplayName": "(Europe) West Europe",
+    "type": "Region"
+  },
+  {
+    "displayName": "UK South",
+    "metadata": {
+      "geography": "United Kingdom",
+      "geographyGroup": "UK",
+      "latitude": "50.941",
+      "longitude": "-0.799",
+      "pairedRegion": [
+        "ukwest"
+      ],
+      "physicalLocation": "London",
+      "regionCategory": "Recommended",
+      "regionType": "Physical"
+    },
+    "name": "uksouth",
+    "regionalDisplayName": "(UK) UK South",
     "type": "Region"
   },
   {
@@ -340,8 +340,8 @@
     "metadata": {
       "geography": "Austria",
       "geographyGroup": "Europe",
-      "latitude": "16.214834",
-      "longitude": "48.2201153",
+      "latitude": "48.2092056",
+      "longitude": "16.3727779",
       "pairedRegion": [],
       "physicalLocation": "Vienna",
       "regionCategory": "Recommended",
@@ -349,6 +349,22 @@
     },
     "name": "austriaeast",
     "regionalDisplayName": "(Europe) Austria East",
+    "type": "Region"
+  },
+  {
+    "displayName": "Belgium Central",
+    "metadata": {
+      "geography": "Belgium",
+      "geographyGroup": "Europe",
+      "latitude": "50.84553528",
+      "longitude": "4.355707169",
+      "pairedRegion": [],
+      "physicalLocation": "Brussels",
+      "regionCategory": "Recommended",
+      "regionType": "Physical"
+    },
+    "name": "belgiumcentral",
+    "regionalDisplayName": "(Europe) Belgium Central",
     "type": "Region"
   },
   {
@@ -1644,24 +1660,6 @@
     "type": "Region"
   },
   {
-    "displayName": "UK West",
-    "metadata": {
-      "geography": "United Kingdom",
-      "geographyGroup": "Europe",
-      "latitude": "53.427",
-      "longitude": "-3.084",
-      "pairedRegion": [
-        "uksouth"
-      ],
-      "physicalLocation": "Cardiff",
-      "regionCategory": "Other",
-      "regionType": "Physical"
-    },
-    "name": "ukwest",
-    "regionalDisplayName": "(Europe) UK West",
-    "type": "Region"
-  },
-  {
     "displayName": "UAE Central",
     "metadata": {
       "geography": "UAE",
@@ -1695,6 +1693,24 @@
     },
     "name": "brazilsoutheast",
     "regionalDisplayName": "(South America) Brazil Southeast",
+    "type": "Region"
+  },
+  {
+    "displayName": "UK West",
+    "metadata": {
+      "geography": "United Kingdom",
+      "geographyGroup": "UK",
+      "latitude": "53.427",
+      "longitude": "-3.084",
+      "pairedRegion": [
+        "uksouth"
+      ],
+      "physicalLocation": "Cardiff",
+      "regionCategory": "Other",
+      "regionType": "Physical"
+    },
+    "name": "ukwest",
+    "regionalDisplayName": "(UK) UK West",
     "type": "Region"
   }
 ]
