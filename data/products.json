@@ -8640,23 +8640,11 @@
             "sku_name": "Llama-4-Scout-17B-16E-Out",
             "meter_name": "Llama-4-Scout-17B-16E-Out Tokens"
           },
-          "DZH318Z0BZ0X/Safety Evaluations Output Tokens/Safety Evaluations Output Tokens": {
-            "id": "DZH318Z0BZ0X",
-            "name": "Machine Learning service",
-            "sku_name": "Safety Evaluations Output Tokens",
-            "meter_name": "Safety Evaluations Output Tokens"
-          },
           "DZH318Z0H8J3/Llama-4-Mvrck-17B-128E-FP8-Out/Llama-4-Mvrck-17B-128E-FP8-Out Tokens": {
             "id": "DZH318Z0H8J3",
             "name": "Managed Model Hosting Service",
             "sku_name": "Llama-4-Mvrck-17B-128E-FP8-Out",
             "meter_name": "Llama-4-Mvrck-17B-128E-FP8-Out Tokens"
-          },
-          "DZH318Z0BZ0X/Safety Evaluations Input tokens/Safety Evaluations Input tokens Tokens": {
-            "id": "DZH318Z0BZ0X",
-            "name": "Machine Learning service",
-            "sku_name": "Safety Evaluations Input tokens",
-            "meter_name": "Safety Evaluations Input tokens Tokens"
           }
         }
       },
@@ -60874,6 +60862,30 @@
             "name": "OneLake",
             "sku_name": "Cosmos DB backup storage",
             "meter_name": "Cosmos DB backup storage Data Stored"
+          },
+          "DZH318Z0KCZ7/Capacity Overage Capacity Usage/Capacity Overage Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Capacity Overage Capacity Usage",
+            "meter_name": "Capacity Overage Capacity Usage CU"
+          },
+          "DZH318Z0F28J/Cosmos DB Data Restore/Cosmos DB Data Restore Data Stored": {
+            "id": "DZH318Z0F28J",
+            "name": "OneLake",
+            "sku_name": "Cosmos DB Data Restore",
+            "meter_name": "Cosmos DB Data Restore Data Stored"
+          },
+          "DZH318Z0F28J/Cosmos DB Backup Storage/Cosmos DB Backup Storage Data Stored": {
+            "id": "DZH318Z0F28J",
+            "name": "OneLake",
+            "sku_name": "Cosmos DB Backup Storage",
+            "meter_name": "Cosmos DB Backup Storage Data Stored"
+          },
+          "DZH318Z0F28J/Cosmos DB Storage/Cosmos DB Storage Data Stored": {
+            "id": "DZH318Z0F28J",
+            "name": "OneLake",
+            "sku_name": "Cosmos DB Storage",
+            "meter_name": "Cosmos DB Storage Data Stored"
           }
         }
       },
@@ -69192,12 +69204,6 @@
             "name": "Notification Hubs",
             "sku_name": "Standard",
             "meter_name": "Standard Unit"
-          },
-          "DZH318Z0BQBH/Free/Free Unit": {
-            "id": "DZH318Z0BQBH",
-            "name": "Notification Hubs",
-            "sku_name": "Free",
-            "meter_name": "Free Unit"
           }
         }
       },
