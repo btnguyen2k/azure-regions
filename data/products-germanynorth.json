@@ -259,6 +259,12 @@
               "sku_name": "Commitment Tier STT AddOn Connected 10K",
               "meter_name": "Commitment Tier STT AddOn Connected 10K Unit"
             },
+            "DZH318Z0BZ35/Commitment Tier Azure 16000K/Commitment Tier Azure 16000K CT Overage Transactions": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Commitment Tier Azure 16000K",
+              "meter_name": "Commitment Tier Azure 16000K CT Overage Transactions"
+            },
             "DZH318Z0TPCM/Codestral Inp glbl/Codestral Inp glbl Tokens": {
               "id": "DZH318Z0TPCM",
               "name": "Mistral Models",
@@ -295,6 +301,12 @@
               "sku_name": "Provisioned Managed Global",
               "meter_name": "Provisioned Managed Global Unit"
             },
+            "DZH318Z0BZ35/Commitment Tier Connected 16000K/Commitment Tier Connected 16000K CT Overage Transactions": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Commitment Tier Connected 16000K",
+              "meter_name": "Commitment Tier Connected 16000K CT Overage Transactions"
+            },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Connected 2K/Commitment Tier Custom Speech to Text Connected 2K Custom Speech To Text CT Overage": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
@@ -318,6 +330,12 @@
               "name": "Speech",
               "sku_name": "Commit Tier Neural TTS Connected 4000M",
               "meter_name": "Commit Tier Neural TTS Connected 4000M Unit"
+            },
+            "DZH318Z0BZ35/Commitment Tier Azure 16000K/Commitment Tier Azure 16000K Unit": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Commitment Tier Azure 16000K",
+              "meter_name": "Commitment Tier Azure 16000K Unit"
             },
             "DZH318Z0T7L1/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
               "id": "DZH318Z0T7L1",
@@ -403,6 +421,12 @@
               "sku_name": "Provisioned Managed Regional",
               "meter_name": "Provisioned Managed Regional Unit"
             },
+            "DZH318Z0BZ35/Liveness/Liveness Transactions": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Liveness",
+              "meter_name": "Liveness Transactions"
+            },
             "DZH318Z0T9X1/Llama 4 Maverick 17B Outp glbl/Llama 4 Maverick 17B Outp glbl Tokens": {
               "id": "DZH318Z0T9X1",
               "name": "Llama models",
@@ -439,11 +463,23 @@
               "sku_name": "Commitment Tier Custom Speech to Text Azure 100K",
               "meter_name": "Commitment Tier Custom Speech to Text Azure 100K Unit"
             },
+            "DZH318Z0BZ35/Liveness and Verification/Liveness and Verification Transactions": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Liveness and Verification",
+              "meter_name": "Liveness and Verification Transactions"
+            },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Azure 50K/Commitment Tier Custom Speech to Text Azure 50K Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Speech",
               "sku_name": "Commitment Tier Custom Speech to Text Azure 50K",
               "meter_name": "Commitment Tier Custom Speech to Text Azure 50K Unit"
+            },
+            "DZH318Z0BZ35/Commitment Tier Connected 16000K/Commitment Tier Connected 16000K Unit": {
+              "id": "DZH318Z0BZ35",
+              "name": "Computer Vision",
+              "sku_name": "Commitment Tier Connected 16000K",
+              "meter_name": "Commitment Tier Connected 16000K Unit"
             },
             "DZH318Z09WSW/Commitment Tier STT AddOn 10K/Commitment Tier STT AddOn 10K Unit": {
               "id": "DZH318Z09WSW",
@@ -29113,11 +29149,11 @@
               "sku_name": "Csms DB in MS Fabric Capacity Usage",
               "meter_name": "Csms DB in MS Fabric Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Fabric Meter 23 Capacity Usage/Fabric Meter 23 Capacity Usage CU": {
+            "DZH318Z0KCZ7/Capacity Overage Capacity Usage/Capacity Overage Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Fabric Meter 23 Capacity Usage",
-              "meter_name": "Fabric Meter 23 Capacity Usage CU"
+              "sku_name": "Capacity Overage Capacity Usage",
+              "meter_name": "Capacity Overage Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Eventhouse Capacity Usage/Eventhouse Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -33848,30 +33884,6 @@
               "name": "Azure Maps",
               "sku_name": "Azure Maps Creator",
               "meter_name": "Azure Maps Creator Map Provisioning"
-            }
-          }
-        },
-        "DZH319G7C25L": {
-          "id": "DZH319G7C25L",
-          "name": "Notification Hubs",
-          "products": {
-            "DZH318Z0BQBH/Availability Zones SKU/Availability Zones Unit": {
-              "id": "DZH318Z0BQBH",
-              "name": "Notification Hubs",
-              "sku_name": "Availability Zones SKU",
-              "meter_name": "Availability Zones Unit"
-            },
-            "DZH318Z0BQBH/1P Direct Send/1P Direct Send Pushes": {
-              "id": "DZH318Z0BQBH",
-              "name": "Notification Hubs",
-              "sku_name": "1P Direct Send",
-              "meter_name": "1P Direct Send Pushes"
-            },
-            "DZH318Z0BQBH/Private Link/Private Link Unit": {
-              "id": "DZH318Z0BQBH",
-              "name": "Notification Hubs",
-              "sku_name": "Private Link",
-              "meter_name": "Private Link Unit"
             }
           }
         },

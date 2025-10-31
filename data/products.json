@@ -7254,11 +7254,29 @@
             "sku_name": "babbage-002-FT-Trng-regnl",
             "meter_name": "babbage-002-FT-Trng-regnl Unit"
           },
+          "DZH318Z0BZ35/Video Retrieval - Summary/Video Retrieval - Summary Vision": {
+            "id": "DZH318Z0BZ35",
+            "name": "Computer Vision",
+            "sku_name": "Video Retrieval - Summary",
+            "meter_name": "Video Retrieval - Summary Vision"
+          },
           "DZH318Z0BP4S/Video Translation Edit Text to Video/Video Translation Edit Text to Video Speech": {
             "id": "DZH318Z0BP4S",
             "name": "Speech",
             "sku_name": "Video Translation Edit Text to Video",
             "meter_name": "Video Translation Edit Text to Video Speech"
+          },
+          "DZH318Z0BZ35/Shelf Image Composition/Shelf Image Composition Transactions": {
+            "id": "DZH318Z0BZ35",
+            "name": "Computer Vision",
+            "sku_name": "Shelf Image Composition",
+            "meter_name": "Shelf Image Composition Transactions"
+          },
+          "DZH318Z0BZ35/Shelf Product Recognition - Custom/Shelf Product Recognition - Custom Objects": {
+            "id": "DZH318Z0BZ35",
+            "name": "Computer Vision",
+            "sku_name": "Shelf Product Recognition - Custom",
+            "meter_name": "Shelf Product Recognition - Custom Objects"
           },
           "DZH318Z0HHG7/Image-DALL-E-2-regnl/Image-DALL-E-2-regnl Images": {
             "id": "DZH318Z0HHG7",
@@ -7277,6 +7295,12 @@
             "name": "Speech",
             "sku_name": "Video Translation AddOn PersonalVoice",
             "meter_name": "Video Translation AddOn PersonalVoice Speech"
+          },
+          "DZH318Z0BZ35/Shelf Planogram Compliance/Shelf Planogram Compliance Transactions": {
+            "id": "DZH318Z0BZ35",
+            "name": "Computer Vision",
+            "sku_name": "Shelf Planogram Compliance",
+            "meter_name": "Shelf Planogram Compliance Transactions"
           },
           "DZH318Z0HHG7/gpt-35-turbo-Instruct-Output-regional/gpt-35-turbo-Instruct-Output-regional Tokens": {
             "id": "DZH318Z0HHG7",
@@ -7506,35 +7530,11 @@
             "sku_name": "Commitment Tier TA4H Connected 1M",
             "meter_name": "Commitment Tier TA4H Connected 1M CT Overage Transactions"
           },
-          "DZH318Z0BZ35/Shelf Product Recognition - Custom/Shelf Product Recognition - Custom Objects": {
-            "id": "DZH318Z0BZ35",
-            "name": "Computer Vision",
-            "sku_name": "Shelf Product Recognition - Custom",
-            "meter_name": "Shelf Product Recognition - Custom Objects"
-          },
-          "DZH318Z0BZ35/Video Retrieval - Summary/Video Retrieval - Summary Vision": {
-            "id": "DZH318Z0BZ35",
-            "name": "Computer Vision",
-            "sku_name": "Video Retrieval - Summary",
-            "meter_name": "Video Retrieval - Summary Vision"
-          },
-          "DZH318Z0BZ35/Shelf Image Composition/Shelf Image Composition Transactions": {
-            "id": "DZH318Z0BZ35",
-            "name": "Computer Vision",
-            "sku_name": "Shelf Image Composition",
-            "meter_name": "Shelf Image Composition Transactions"
-          },
           "DZH318Z0BQT0/Free/Free Authoring Transactions": {
             "id": "DZH318Z0BQT0",
             "name": "Language Understanding",
             "sku_name": "Free",
             "meter_name": "Free Authoring Transactions"
-          },
-          "DZH318Z0BZ35/Shelf Planogram Compliance/Shelf Planogram Compliance Transactions": {
-            "id": "DZH318Z0BZ35",
-            "name": "Computer Vision",
-            "sku_name": "Shelf Planogram Compliance",
-            "meter_name": "Shelf Planogram Compliance Transactions"
           },
           "DZH318Z0HHG7/gpt-4-8K-FT-Hstng-glbl/gpt-4-8K-FT-Hstng-glbl Unit": {
             "id": "DZH318Z0HHG7",
@@ -60863,6 +60863,12 @@
             "sku_name": "Cosmos DB Backup Storage",
             "meter_name": "Cosmos DB Backup Storage Data Stored"
           },
+          "DZH318Z0F28J/Cosmos DB storage/Cosmos DB storage Data Stored": {
+            "id": "DZH318Z0F28J",
+            "name": "OneLake",
+            "sku_name": "Cosmos DB storage",
+            "meter_name": "Cosmos DB storage Data Stored"
+          },
           "DZH318Z0F28J/Cosmos DB data restore/Cosmos DB data restore Data Stored": {
             "id": "DZH318Z0F28J",
             "name": "OneLake",
@@ -60874,12 +60880,6 @@
             "name": "OneLake",
             "sku_name": "Cosmos DB backup storage",
             "meter_name": "Cosmos DB backup storage Data Stored"
-          },
-          "DZH318Z0F28J/Cosmos DB storage/Cosmos DB storage Data Stored": {
-            "id": "DZH318Z0F28J",
-            "name": "OneLake",
-            "sku_name": "Cosmos DB storage",
-            "meter_name": "Cosmos DB storage Data Stored"
           }
         }
       },
@@ -69210,30 +69210,6 @@
             "name": "IoT Central",
             "sku_name": "Standard",
             "meter_name": "Standard Overage Messages ST0"
-          }
-        }
-      },
-      "DZH319G7C25L": {
-        "id": "DZH319G7C25L",
-        "name": "Notification Hubs",
-        "products": {
-          "DZH318Z0BQBH/Availability Zones SKU/Availability Zones Unit": {
-            "id": "DZH318Z0BQBH",
-            "name": "Notification Hubs",
-            "sku_name": "Availability Zones SKU",
-            "meter_name": "Availability Zones Unit"
-          },
-          "DZH318Z0BQBH/1P Direct Send/1P Direct Send Pushes": {
-            "id": "DZH318Z0BQBH",
-            "name": "Notification Hubs",
-            "sku_name": "1P Direct Send",
-            "meter_name": "1P Direct Send Pushes"
-          },
-          "DZH318Z0BQBH/Private Link/Private Link Unit": {
-            "id": "DZH318Z0BQBH",
-            "name": "Notification Hubs",
-            "sku_name": "Private Link",
-            "meter_name": "Private Link Unit"
           }
         }
       }
