@@ -25660,6 +25660,66 @@
             }
           }
         },
+        "DZH315HTQSK6": {
+          "id": "DZH315HTQSK6",
+          "name": "Azure Kubernetes Service",
+          "products": {
+            "DZH318Z0RCC3/Automatic/Automatic Storage Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Storage Optimized"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic High Performance Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic High Performance Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Hosted Control Plane": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Hosted Control Plane"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic GPU Accelerated": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic GPU Accelerated"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic General Purpose": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic General Purpose"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Memory Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Memory Optimized"
+            },
+            "DZH318Z0CQSH/Standard/Standard Long Term Support": {
+              "id": "DZH318Z0CQSH",
+              "name": "Azure Kubernetes Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Long Term Support"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Confidential Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Confidential Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Compute Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Compute Optimized"
+            }
+          }
+        },
         "DZH319F70F09": {
           "id": "DZH319F70F09",
           "name": "Azure Container Apps",
@@ -25759,18 +25819,6 @@
               "name": "Service Fabric Mesh - Volume Disks",
               "sku_name": "Standard",
               "meter_name": "Standard 32 GiB Disk"
-            }
-          }
-        },
-        "DZH315HTQSK6": {
-          "id": "DZH315HTQSK6",
-          "name": "Azure Kubernetes Service",
-          "products": {
-            "DZH318Z0CQSH/Standard/Standard Long Term Support": {
-              "id": "DZH318Z0CQSH",
-              "name": "Azure Kubernetes Service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Long Term Support"
             }
           }
         }
@@ -25986,6 +26034,12 @@
               "sku_name": "Activator - Event Analytics Capacity Usage",
               "meter_name": "Activator - Event Analytics Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/dbt job Capacity Usage/dbt job Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "dbt job Capacity Usage",
+              "meter_name": "dbt job Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/VNet Data Gateway Capacity Usage/VNet Data Gateway Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26022,11 +26076,11 @@
               "sku_name": "OneLake BCDR Other Operations via proxy Capacity Usage",
               "meter_name": "OneLake BCDR Other Operations via proxy Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Csms DB in MS Fabric Capacity Usage/Csms DB in MS Fabric Capacity Usage CU": {
+            "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric Capacity Usage/Cosmos Database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Csms DB in MS Fabric Capacity Usage",
-              "meter_name": "Csms DB in MS Fabric Capacity Usage CU"
+              "sku_name": "Cosmos Database in Microsoft Fabric Capacity Usage",
+              "meter_name": "Cosmos Database in Microsoft Fabric Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Write Operations Capacity Usage/OneLake Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26052,11 +26106,11 @@
               "sku_name": "Storage Mirroring Free",
               "meter_name": "Storage Mirroring Free Data Stored"
             },
-            "DZH318Z0KCZ7/Fabric Meter 23 Capacity Usage/Fabric Meter 23 Capacity Usage CU": {
+            "DZH318Z0KCZ7/Capacity Overage Capacity Usage/Capacity Overage Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Fabric Meter 23 Capacity Usage",
-              "meter_name": "Fabric Meter 23 Capacity Usage CU"
+              "sku_name": "Capacity Overage Capacity Usage",
+              "meter_name": "Capacity Overage Capacity Usage CU"
             },
             "DZH318Z0F28J/BCDR Storage/BCDR Storage Data Stored": {
               "id": "DZH318Z0F28J",
@@ -26123,6 +26177,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Data Warehouse Capacity Usage",
               "meter_name": "Data Warehouse Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Map services Capacity Usage/Map services Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Map services Capacity Usage",
+              "meter_name": "Map services Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Eventstream Flat Capacity Usage/Eventstream Flat Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26244,6 +26304,12 @@
               "sku_name": "Compute Pool Capacity Usage",
               "meter_name": "Compute Pool Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Map processing Capacity Usage/Map processing Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Map processing Capacity Usage",
+              "meter_name": "Map processing Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/OneLake Security Capacity Usage/OneLake Security Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26299,6 +26365,678 @@
     {
       "name": "Databases",
       "services": {
+        "DZH3199QPQTD": {
+          "id": "DZH3199QPQTD",
+          "name": "Azure Database for PostgreSQL",
+          "products": {
+            "DZH318Z0MH59/OrionDB storage/OrionDB storage Data Stored": {
+              "id": "DZH318Z0MH59",
+              "name": "Azure Database for PostgreSQL OrionDB storage",
+              "sku_name": "OrionDB storage",
+              "meter_name": "OrionDB storage Data Stored"
+            },
+            "DZH318Z0KDVH/1 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KF1X/96 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRZ/16 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/16 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/8 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/64 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B16ms/B16ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B16ms",
+              "meter_name": "B16ms vCore"
+            },
+            "DZH318Z0BQJ3/2 vCore/2 vCore": {
+              "id": "DZH318Z0BQJ3",
+              "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen5",
+              "sku_name": "2 vCore",
+              "meter_name": "2 vCore"
+            },
+            "DZH318Z0F294/M128dms_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M128dms_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0F294/M192idms_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M192idms_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRW/Backup Storage LRS/Backup Storage LRS Data Stored": {
+              "id": "DZH318Z0DCRW",
+              "name": "Azure Database for PostgreSQL Flexible Server Backup Storage",
+              "sku_name": "Backup Storage LRS",
+              "meter_name": "Backup Storage LRS Data Stored"
+            },
+            "DZH318Z0T5NC/vCore/vCore": {
+              "id": "DZH318Z0T5NC",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/32 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0R90J/Extended Support/Extended Support vCore": {
+              "id": "DZH318Z0R90J",
+              "name": "Azure Database for PostgreSQL Extended Support",
+              "sku_name": "Extended Support",
+              "meter_name": "Extended Support vCore"
+            },
+            "DZH318Z0KDX1/8 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/Ultra Disk Storage/Ultra Disk Storage Data Stored": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "Ultra Disk Storage",
+              "meter_name": "Ultra Disk Storage Data Stored"
+            },
+            "DZH318Z0KF1X/4 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B1MS/B1MS": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B1MS",
+              "meter_name": "B1MS"
+            },
+            "DZH318Z0KDZJ/16 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TL6J/1 vCore/1 vCore": {
+              "id": "DZH318Z0TL6J",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z09SM2/1 vCore/vCore": {
+              "id": "DZH318Z09SM2",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv4 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z09SM2/vCore/vCore": {
+              "id": "DZH318Z09SM2",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv4 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/PMD V2 IOPS/PMD V2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "PMD V2 IOPS",
+              "meter_name": "PMD V2 IOPS Provisioned IOPS"
+            },
+            "DZH318Z0BQFD/Backup GRS/Backup GRS Data Stored": {
+              "id": "DZH318Z0BQFD",
+              "name": "Azure Database for PostgreSQL Single Server - Backup Storage",
+              "sku_name": "Backup GRS",
+              "meter_name": "Backup GRS Data Stored"
+            },
+            "DZH318Z0C1XP/Free/vCore": {
+              "id": "DZH318Z0C1XP",
+              "name": "Azure Cosmos DB for PostgreSQL Compute- Worker Node",
+              "sku_name": "Free",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/48 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "48 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/1 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/96 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TKXL/vCore/vCore": {
+              "id": "DZH318Z0TKXL",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/IOPS Scaling/IOPS Scaling Provisioned IOPS": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "IOPS Scaling",
+              "meter_name": "IOPS Scaling Provisioned IOPS"
+            },
+            "DZH318Z0TL6J/vCore/vCore": {
+              "id": "DZH318Z0TL6J",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KF1X/vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/64 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/32 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TKXL/1 vCore/1 vCore": {
+              "id": "DZH318Z0TKXL",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0KF1X/8 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0F294/M64dms_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M64dms_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0T3WG/1 vCore/1 vCore": {
+              "id": "DZH318Z0T3WG",
+              "name": "Azure Database for PostgreSQL OrionDB Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0DCRL/B20ms/B20ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B20ms",
+              "meter_name": "B20ms vCore"
+            },
+            "DZH318Z0KDX1/vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/32 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCS1/vCore/vCore": {
+              "id": "DZH318Z0DCS1",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv3 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0T5NC/1 vCore/1 vCore": {
+              "id": "DZH318Z0T5NC",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0DCRZ/2 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0T669/1 vCore/1 vCore": {
+              "id": "DZH318Z0T669",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z09SM1/1 vCore/vCore": {
+              "id": "DZH318Z09SM1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0F294/M64ds_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M64ds_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/Premium Managed Disk V2/Premium Managed Disk V2 Data Stored": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "Premium Managed Disk V2",
+              "meter_name": "Premium Managed Disk V2 Data Stored"
+            },
+            "DZH318Z0KDX1/104 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "104 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/2 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KF1X/2 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/20 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "20 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/8 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0MH5L/OrionDB backup storage/OrionDB backup storage Data Stored": {
+              "id": "DZH318Z0MH5L",
+              "name": "Azure Database for PostgreSQL OrionDB backup storage",
+              "sku_name": "OrionDB backup storage",
+              "meter_name": "OrionDB backup storage Data Stored"
+            },
+            "DZH318Z0KF1X/64 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0T669/vCore/vCore": {
+              "id": "DZH318Z0T669",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCS1/1 vCore/vCore": {
+              "id": "DZH318Z0DCS1",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv3 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRZ/32 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQFD/Backup LRS/Backup LRS Data Stored": {
+              "id": "DZH318Z0BQFD",
+              "name": "Azure Database for PostgreSQL Single Server - Backup Storage",
+              "sku_name": "Backup LRS",
+              "meter_name": "Backup LRS Data Stored"
+            },
+            "DZH318Z0BQF2/General Purpose/General Purpose Data Stored": {
+              "id": "DZH318Z0BQF2",
+              "name": "Azure Database for PostgreSQL Single Server General Purpose - Storage",
+              "sku_name": "General Purpose",
+              "meter_name": "General Purpose Data Stored"
+            },
+            "DZH318Z0KDVH/20 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "20 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQJ1/1 vCore/vCore": {
+              "id": "DZH318Z0BQJ1",
+              "name": "Azure Database for PostgreSQL Single Server General Purpose - Compute Gen5",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/4 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQJ3/1 vCore/vCore": {
+              "id": "DZH318Z0BQJ3",
+              "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen5",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z09SM1/vCore/vCore": {
+              "id": "DZH318Z09SM1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B2ms/B2ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B2ms",
+              "meter_name": "B2ms vCore"
+            },
+            "DZH318Z0KF1X/16 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/104 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "104 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/4 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/96 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/2 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B8ms/B8ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B8ms",
+              "meter_name": "B8ms vCore"
+            },
+            "DZH318Z0DCRZ/1 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KF1X/32 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TLN8/1 vCore/1 vCore": {
+              "id": "DZH318Z0TLN8",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0DCRX/Ultra Disk IOPS/Ultra Disk IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "Ultra Disk IOPS",
+              "meter_name": "Ultra Disk IOPS Provisioned IOPS"
+            },
+            "DZH318Z0DCRZ/64 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0F294/M128ds_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M128ds_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQKK/1 vCore/vCore": {
+              "id": "DZH318Z0BQKK",
+              "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B4ms/B4ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B4ms",
+              "meter_name": "B4ms vCore"
+            },
+            "DZH318Z0DCRL/B12ms/B12ms vCore": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B12ms",
+              "meter_name": "B12ms vCore"
+            },
+            "DZH318Z0C1XN/Free/vCore": {
+              "id": "DZH318Z0C1XN",
+              "name": "Azure Cosmos DB for PostgreSQL Compute- Coordinator Node",
+              "sku_name": "Free",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0F294/M32dms_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M32dms_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TLQD/1 vCore/1 vCore": {
+              "id": "DZH318Z0TLQD",
+              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318Z0F294/M192ids_v2/vCore": {
+              "id": "DZH318Z0F294",
+              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
+              "sku_name": "M192ids_v2",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDVH/48 vCore/vCore": {
+              "id": "DZH318Z0KDVH",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
+              "sku_name": "48 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDX1/1 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQF3/Basic/Basic Data Stored": {
+              "id": "DZH318Z0BQF3",
+              "name": "Azure Database for PostgreSQL Single Server Basic - Storage",
+              "sku_name": "Basic",
+              "meter_name": "Basic Data Stored"
+            },
+            "DZH318Z0KF1X/48 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "48 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRZ/vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRZ/48 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "48 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BQKK/vCore/vCore": {
+              "id": "DZH318Z0BQKK",
+              "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/PMD V2 Throughput/PMD V2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "PMD V2 Throughput",
+              "meter_name": "PMD V2 Throughput Prov Throughput (MBps)"
+            },
+            "DZH318Z0BQJ1/vCore/vCore": {
+              "id": "DZH318Z0BQJ1",
+              "name": "Azure Database for PostgreSQL Single Server General Purpose - Compute Gen5",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/2 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRX/Ultra Disk Throughput/Ultra Disk Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "Ultra Disk Throughput",
+              "meter_name": "Ultra Disk Throughput Prov Throughput (MBps)"
+            },
+            "DZH318Z0KDX1/16 vCore/vCore": {
+              "id": "DZH318Z0KDX1",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
+              "sku_name": "16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KF1X/1 vCore/vCore": {
+              "id": "DZH318Z0KF1X",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/96 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/48 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "48 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0N0VV/Compute - Free/Compute - Free vCore": {
+              "id": "DZH318Z0N0VV",
+              "name": "Azure Database for PostgreSQL Flexible Server Compute",
+              "sku_name": "Compute - Free",
+              "meter_name": "Compute - Free vCore"
+            },
+            "DZH318Z0DCRX/Storage/Storage Data Stored": {
+              "id": "DZH318Z0DCRX",
+              "name": "Az DB for PostgreSQL Flexible Server Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data Stored"
+            },
+            "DZH318Z0KDZJ/64 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRZ/4 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DCRL/B2S/B2S": {
+              "id": "DZH318Z0DCRL",
+              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
+              "sku_name": "B2S",
+              "meter_name": "B2S"
+            },
+            "DZH318Z0DCRZ/8 vCore/vCore": {
+              "id": "DZH318Z0DCRZ",
+              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "sku_name": "8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0KDZJ/4 vCore/vCore": {
+              "id": "DZH318Z0KDZJ",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "sku_name": "4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0LC91/Auto Tune/Auto Tune vCore": {
+              "id": "DZH318Z0LC91",
+              "name": "Azure Database for PostgreSQL Flexible Server Autonomous Database Tuning Service",
+              "sku_name": "Auto Tune",
+              "meter_name": "Auto Tune vCore"
+            }
+          }
+        },
         "DZH3180HX10K": {
           "id": "DZH3180HX10K",
           "name": "SQL Database",
@@ -28757,6 +29495,12 @@
               "sku_name": "Standard_B16ms",
               "meter_name": "B16MS"
             },
+            "DZH318Z0R90R/Extended Support/Extended Support vCore": {
+              "id": "DZH318Z0R90R",
+              "name": "Azure Database for MySQL Extended Support",
+              "sku_name": "Extended Support",
+              "meter_name": "Extended Support vCore"
+            },
             "DZH318Z0BQF9/Backup LRS/Backup LRS Data Stored": {
               "id": "DZH318Z0BQF9",
               "name": "Azure Database for MySQL Single Server - Backup Storage",
@@ -28846,654 +29590,6 @@
               "name": "Azure Database for MySQL General Purpose - Large-Scale Storage",
               "sku_name": "General Purpose",
               "meter_name": "General Purpose Data Stored"
-            }
-          }
-        },
-        "DZH3199QPQTD": {
-          "id": "DZH3199QPQTD",
-          "name": "Azure Database for PostgreSQL",
-          "products": {
-            "DZH318Z0KDVH/1 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/96 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRZ/16 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/16 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/8 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/64 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B16ms/B16ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B16ms",
-              "meter_name": "B16ms vCore"
-            },
-            "DZH318Z0BQJ3/2 vCore/2 vCore": {
-              "id": "DZH318Z0BQJ3",
-              "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen5",
-              "sku_name": "2 vCore",
-              "meter_name": "2 vCore"
-            },
-            "DZH318Z0F294/M128dms_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M128dms_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0F294/M192idms_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M192idms_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRW/Backup Storage LRS/Backup Storage LRS Data Stored": {
-              "id": "DZH318Z0DCRW",
-              "name": "Azure Database for PostgreSQL Flexible Server Backup Storage",
-              "sku_name": "Backup Storage LRS",
-              "meter_name": "Backup Storage LRS Data Stored"
-            },
-            "DZH318Z0T5NC/vCore/vCore": {
-              "id": "DZH318Z0T5NC",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/32 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/8 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/Ultra Disk Storage/Ultra Disk Storage Data Stored": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Ultra Disk Storage",
-              "meter_name": "Ultra Disk Storage Data Stored"
-            },
-            "DZH318Z0KF1X/4 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B1MS/B1MS": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B1MS",
-              "meter_name": "B1MS"
-            },
-            "DZH318Z0KDZJ/16 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0TL6J/1 vCore/1 vCore": {
-              "id": "DZH318Z0TL6J",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z09SM2/1 vCore/vCore": {
-              "id": "DZH318Z09SM2",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv4 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z09SM2/vCore/vCore": {
-              "id": "DZH318Z09SM2",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv4 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/PMD V2 IOPS/PMD V2 IOPS Provisioned IOPS": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "PMD V2 IOPS",
-              "meter_name": "PMD V2 IOPS Provisioned IOPS"
-            },
-            "DZH318Z0BQFD/Backup GRS/Backup GRS Data Stored": {
-              "id": "DZH318Z0BQFD",
-              "name": "Azure Database for PostgreSQL Single Server - Backup Storage",
-              "sku_name": "Backup GRS",
-              "meter_name": "Backup GRS Data Stored"
-            },
-            "DZH318Z0C1XP/Free/vCore": {
-              "id": "DZH318Z0C1XP",
-              "name": "Azure Cosmos DB for PostgreSQL Compute- Worker Node",
-              "sku_name": "Free",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/48 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "48 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/1 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/96 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0TKXL/vCore/vCore": {
-              "id": "DZH318Z0TKXL",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/IOPS Scaling/IOPS Scaling Provisioned IOPS": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "IOPS Scaling",
-              "meter_name": "IOPS Scaling Provisioned IOPS"
-            },
-            "DZH318Z0TL6J/vCore/vCore": {
-              "id": "DZH318Z0TL6J",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv6 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/64 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/32 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0TKXL/1 vCore/1 vCore": {
-              "id": "DZH318Z0TKXL",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z0KF1X/8 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0F294/M64dms_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M64dms_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B20ms/B20ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B20ms",
-              "meter_name": "B20ms vCore"
-            },
-            "DZH318Z0KDX1/vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/32 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCS1/vCore/vCore": {
-              "id": "DZH318Z0DCS1",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv3 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0T5NC/1 vCore/1 vCore": {
-              "id": "DZH318Z0T5NC",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z0DCRZ/2 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0T669/1 vCore/1 vCore": {
-              "id": "DZH318Z0T669",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z09SM1/1 vCore/vCore": {
-              "id": "DZH318Z09SM1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0F294/M64ds_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M64ds_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/Premium Managed Disk V2/Premium Managed Disk V2 Data Stored": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Premium Managed Disk V2",
-              "meter_name": "Premium Managed Disk V2 Data Stored"
-            },
-            "DZH318Z0KDX1/104 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "104 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/2 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/2 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/20 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "20 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/8 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/64 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0T669/vCore/vCore": {
-              "id": "DZH318Z0T669",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCS1/1 vCore/vCore": {
-              "id": "DZH318Z0DCS1",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv3 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRZ/32 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQFD/Backup LRS/Backup LRS Data Stored": {
-              "id": "DZH318Z0BQFD",
-              "name": "Azure Database for PostgreSQL Single Server - Backup Storage",
-              "sku_name": "Backup LRS",
-              "meter_name": "Backup LRS Data Stored"
-            },
-            "DZH318Z0BQF2/General Purpose/General Purpose Data Stored": {
-              "id": "DZH318Z0BQF2",
-              "name": "Azure Database for PostgreSQL Single Server General Purpose - Storage",
-              "sku_name": "General Purpose",
-              "meter_name": "General Purpose Data Stored"
-            },
-            "DZH318Z0KDVH/20 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "20 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQJ1/1 vCore/vCore": {
-              "id": "DZH318Z0BQJ1",
-              "name": "Azure Database for PostgreSQL Single Server General Purpose - Compute Gen5",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/4 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQJ3/1 vCore/vCore": {
-              "id": "DZH318Z0BQJ3",
-              "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen5",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z09SM1/vCore/vCore": {
-              "id": "DZH318Z09SM1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv4 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B2ms/B2ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B2ms",
-              "meter_name": "B2ms vCore"
-            },
-            "DZH318Z0KF1X/16 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/104 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "104 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/4 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/96 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/2 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B8ms/B8ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B8ms",
-              "meter_name": "B8ms vCore"
-            },
-            "DZH318Z0DCRZ/1 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/32 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0TLN8/1 vCore/1 vCore": {
-              "id": "DZH318Z0TLN8",
-              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCadsv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z0DCRX/Ultra Disk IOPS/Ultra Disk IOPS Provisioned IOPS": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Ultra Disk IOPS",
-              "meter_name": "Ultra Disk IOPS Provisioned IOPS"
-            },
-            "DZH318Z0DCRZ/64 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0F294/M128ds_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M128ds_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQKK/1 vCore/vCore": {
-              "id": "DZH318Z0BQKK",
-              "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B4ms/B4ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B4ms",
-              "meter_name": "B4ms vCore"
-            },
-            "DZH318Z0DCRL/B12ms/B12ms vCore": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B12ms",
-              "meter_name": "B12ms vCore"
-            },
-            "DZH318Z0C1XN/Free/vCore": {
-              "id": "DZH318Z0C1XN",
-              "name": "Azure Cosmos DB for PostgreSQL Compute- Coordinator Node",
-              "sku_name": "Free",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0F294/M32dms_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M32dms_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0TLQD/1 vCore/1 vCore": {
-              "id": "DZH318Z0TLQD",
-              "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECadsv6 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "1 vCore"
-            },
-            "DZH318Z0F294/M192ids_v2/vCore": {
-              "id": "DZH318Z0F294",
-              "name": "Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute",
-              "sku_name": "M192ids_v2",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDVH/48 vCore/vCore": {
-              "id": "DZH318Z0KDVH",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv5 Series Compute",
-              "sku_name": "48 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDX1/1 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQF3/Basic/Basic Data Stored": {
-              "id": "DZH318Z0BQF3",
-              "name": "Azure Database for PostgreSQL Single Server Basic - Storage",
-              "sku_name": "Basic",
-              "meter_name": "Basic Data Stored"
-            },
-            "DZH318Z0KF1X/48 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "48 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRZ/vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRZ/48 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "48 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BQKK/vCore/vCore": {
-              "id": "DZH318Z0BQKK",
-              "name": "Azure Database for PostgreSQL Single Server Memory Optimized - Compute Gen5",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/PMD V2 Throughput/PMD V2 Throughput Prov Throughput (MBps)": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "PMD V2 Throughput",
-              "meter_name": "PMD V2 Throughput Prov Throughput (MBps)"
-            },
-            "DZH318Z0BQJ1/vCore/vCore": {
-              "id": "DZH318Z0BQJ1",
-              "name": "Azure Database for PostgreSQL Single Server General Purpose - Compute Gen5",
-              "sku_name": "vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/2 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRX/Ultra Disk Throughput/Ultra Disk Throughput Prov Throughput (MBps)": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Ultra Disk Throughput",
-              "meter_name": "Ultra Disk Throughput Prov Throughput (MBps)"
-            },
-            "DZH318Z0KDX1/16 vCore/vCore": {
-              "id": "DZH318Z0KDX1",
-              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KF1X/1 vCore/vCore": {
-              "id": "DZH318Z0KF1X",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
-              "sku_name": "1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/96 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/48 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "48 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0N0VV/Compute - Free/Compute - Free vCore": {
-              "id": "DZH318Z0N0VV",
-              "name": "Azure Database for PostgreSQL Flexible Server Compute",
-              "sku_name": "Compute - Free",
-              "meter_name": "Compute - Free vCore"
-            },
-            "DZH318Z0DCRX/Storage/Storage Data Stored": {
-              "id": "DZH318Z0DCRX",
-              "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Storage",
-              "meter_name": "Storage Data Stored"
-            },
-            "DZH318Z0KDZJ/64 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRZ/4 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DCRL/B2S/B2S": {
-              "id": "DZH318Z0DCRL",
-              "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
-              "sku_name": "B2S",
-              "meter_name": "B2S"
-            },
-            "DZH318Z0DCRZ/8 vCore/vCore": {
-              "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
-              "sku_name": "8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0KDZJ/4 vCore/vCore": {
-              "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
-              "sku_name": "4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0LC91/Auto Tune/Auto Tune vCore": {
-              "id": "DZH318Z0LC91",
-              "name": "Azure Database for PostgreSQL Flexible Server Autonomous Database Tuning Service",
-              "sku_name": "Auto Tune",
-              "meter_name": "Auto Tune vCore"
             }
           }
         },
@@ -30238,6 +30334,12 @@
               "name": "SQL Managed Instance Business Critical - Premium Series Compute",
               "sku_name": "80 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0BQCS/General Purpose Zone Redundancy/General Purpose Zone Redundancy Data Stored": {
+              "id": "DZH318Z0BQCS",
+              "name": "SQL Managed Instance General Purpose - Storage",
+              "sku_name": "General Purpose Zone Redundancy",
+              "meter_name": "General Purpose Zone Redundancy Data Stored"
             },
             "DZH318Z0B172/24 vCore Zone Redundancy/Zone Redundancy vCore": {
               "id": "DZH318Z0B172",
@@ -32629,6 +32731,12 @@
               "sku_name": "Voice Calls",
               "meter_name": "Voice Calls Voice Call Country Code 372"
             },
+            "DZH318Z0BQLB/Logs Emitted From Cloud Pipeline/Logs Emitted From Cloud Pipeline Data Emitted": {
+              "id": "DZH318Z0BQLB",
+              "name": "Azure Monitor",
+              "sku_name": "Logs Emitted From Cloud Pipeline",
+              "meter_name": "Logs Emitted From Cloud Pipeline Data Emitted"
+            },
             "DZH318Z0BQLB/1000 GB Commitment Tier/1000 GB Commitment Tier Capacity Reservation": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
@@ -32944,6 +33052,12 @@
               "name": "Optical Character Recognition",
               "sku_name": "Optical Character Recognition",
               "meter_name": "Optical Character Recognition Transaction"
+            },
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 Additional Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
             },
             "DZH318Z0JSSJ/Syntex Summarization/Syntex Summarization Transaction": {
               "id": "DZH318Z0JSSJ",
@@ -33399,6 +33513,12 @@
               "name": "WAF Application Gateway",
               "sku_name": "Medium",
               "meter_name": "Medium Gateway"
+            },
+            "DZH318Z0BSD0/Standard/Standard Captcha Sessions": {
+              "id": "DZH318Z0BSD0",
+              "name": "Application Gateway WAF v2",
+              "sku_name": "Standard",
+              "meter_name": "Standard Captcha Sessions"
             },
             "DZH318Z0BNXC/Small/Small Data Processed": {
               "id": "DZH318Z0BNXC",
@@ -34969,6 +35089,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Read Operations"
             },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BNZ3/Standard RA-GRS/RA-GRS Data Stored": {
               "id": "DZH318Z0BNZ3",
               "name": "Queues",
@@ -35161,6 +35287,12 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool GRS Write Operations"
             },
+            "DZH318Z0BNWT/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
+            },
             "DZH318Z0BJRM/Cool RA-GRS/Cool Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -35220,6 +35352,12 @@
               "name": "General Block Blob",
               "sku_name": "Standard RA-GRS",
               "meter_name": "Read Operations"
+            },
+            "DZH318Z0BNZF/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0C120/Cold LRS/Cold LRS Data Retrieval": {
               "id": "DZH318Z0C120",
@@ -35629,6 +35767,12 @@
               "sku_name": "Hot GRS",
               "meter_name": "Hot Read Operations"
             },
+            "DZH318Z0BNZ5/Standard ZRS/ZRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Data Stored"
+            },
             "DZH318Z0BJRM/Cold GRS/Cold GRS Data Returned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -35683,11 +35827,23 @@
               "sku_name": "Hot LRS",
               "meter_name": "Delete Operations"
             },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BPH7/Cool LRS/Cool Data Retrieval": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
               "sku_name": "Cool LRS",
               "meter_name": "Cool Data Retrieval"
+            },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BP0L/S60 LRS/S60 LRS Disk": {
               "id": "DZH318Z0BP0L",
@@ -35766,6 +35922,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
               "meter_name": "Hot Other Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BP09/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BP09",
@@ -35953,11 +36115,23 @@
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Provisioned Base Unit"
             },
+            "DZH318Z0BNZF/Standard GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BP0B/Standard GRS/Delete Operations": {
               "id": "DZH318Z0BP0B",
               "name": "Files",
               "sku_name": "Standard GRS",
               "meter_name": "Delete Operations"
+            },
+            "DZH318Z0BNWT/Standard GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BNZJ/Cool GRS/GRS Index Tags": {
               "id": "DZH318Z0BNZJ",
@@ -36187,6 +36361,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Data Stored"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
+            },
             "DZH318Z0C120/Cold RA-GRS/Cold RA-GRS Data Stored": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -36204,6 +36384,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool LRS",
               "meter_name": "Cool Write Operations"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Batch Write Operations"
             },
             "DZH318Z0BNZH/Standard RA-GRS/RA-GRS List and Create Container Operations": {
               "id": "DZH318Z0BNZH",
@@ -36613,6 +36799,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "All Other Operations"
             },
+            "DZH318Z0BNWT/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BNZF/Standard RA-GRS/Disk Read Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -36678,6 +36870,12 @@
               "name": "Tables",
               "sku_name": "Account Encrypted RA-GRS",
               "meter_name": "Account Encrypted GRS Batch Write Operations"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Read Operations"
             },
             "DZH318Z0BJRM/Hot RA-GRS/Delete Operations": {
               "id": "DZH318Z0BJRM",
@@ -36786,6 +36984,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive Priority Data Retrieval"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0BNWT/Standard LRS/Disk Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -37069,6 +37273,12 @@
               "sku_name": "Burst Transactions LRS",
               "meter_name": "LRS Burst Transactions"
             },
+            "DZH318Z0BNZF/Standard GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Write Additional IO"
+            },
             "DZH318Z0C120/Hot GRS/Hot GRS Blob Inventory": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -37146,6 +37356,12 @@
               "name": "Files v2",
               "sku_name": "Hot LRS",
               "meter_name": "Hot LRS Data Stored"
+            },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0BNZJ/Cold GRS/Cold GRS Data Retrieval": {
               "id": "DZH318Z0BNZJ",
@@ -37597,6 +37813,12 @@
               "sku_name": "Archive GRS",
               "meter_name": "Archive GRS Early Delete"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BP88/E60 LRS/E60 LRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -37698,6 +37920,12 @@
               "name": "Standard Page Blob",
               "sku_name": "Standard GRS",
               "meter_name": "Read Additional IO"
+            },
+            "DZH318Z0BNWT/Standard GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0BZ18/Premium LRS/Premium LRS List and Create Container Operations": {
               "id": "DZH318Z0BZ18",
@@ -37813,6 +38041,12 @@
               "sku_name": "P40 LRS",
               "meter_name": "P40 LRS Disk"
             },
+            "DZH318Z0BNZ5/Standard ZRS/Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Delete Operations"
+            },
             "DZH318Z0BP04/P1 LRS/P1 LRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -37854,6 +38088,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Read Operations"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/List Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "List Operations"
             },
             "DZH318Z0BP88/E4 LRS/E4 LRS Disk": {
               "id": "DZH318Z0BP88",
@@ -37950,6 +38190,12 @@
               "name": "Blob Storage",
               "sku_name": "Archive LRS",
               "meter_name": "Archive Data Retrieval"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Scan Operations"
             },
             "DZH318Z0BJRM/Hot LRS/Hot LRS Data Stored": {
               "id": "DZH318Z0BJRM",
@@ -38100,6 +38346,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E20 LRS",
               "meter_name": "E20 LRS Disk Operations"
+            },
+            "DZH318Z0BNWT/Standard GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0C120/Archive RA-GRS/Archive Priority Data Retrieval": {
               "id": "DZH318Z0C120",
@@ -38424,6 +38676,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Early Delete"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Write Operations"
             },
             "DZH318Z0CPS6/Premium LRS/LRS Early Premium To Hot Tier Down": {
               "id": "DZH318Z0CPS6",
@@ -38881,6 +39139,12 @@
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Write"
             },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0C120/Cold LRS/Cold LRS Early Delete": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -39234,6 +39498,12 @@
               "name": "Blob Storage",
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Read Operations"
+            },
+            "DZH318Z0BNZF/Standard GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BNZJ/Hot RA-GRS/Hot GRS Write Operations": {
               "id": "DZH318Z0BNZJ",

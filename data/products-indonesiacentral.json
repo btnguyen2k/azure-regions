@@ -20392,12 +20392,6 @@
               "sku_name": "Shared",
               "meter_name": "Shared App"
             },
-            "DZH318Z08W5K/Dedicated/Dedicated Azure Front Door Add-on": {
-              "id": "DZH318Z08W5K",
-              "name": "Static Web Apps",
-              "sku_name": "Dedicated",
-              "meter_name": "Dedicated Azure Front Door Add-on"
-            },
             "DZH318Z0BQJM/F1/F1 App": {
               "id": "DZH318Z0BQJM",
               "name": "Azure App Service Free Plan",
@@ -20541,12 +20535,6 @@
               "name": "Azure App Service Isolated v2 Plan - Linux",
               "sku_name": "ASIP",
               "meter_name": "ASIP"
-            },
-            "DZH318Z08W5K/Dedicated/Dedicated App": {
-              "id": "DZH318Z08W5K",
-              "name": "Static Web Apps",
-              "sku_name": "Dedicated",
-              "meter_name": "Dedicated App"
             },
             "DZH318Z0BXW9/B2/B2": {
               "id": "DZH318Z0BXW9",
@@ -20715,12 +20703,6 @@
               "name": "Azure App Service Premium v4 Plan",
               "sku_name": "P2v4",
               "meter_name": "P2v4"
-            },
-            "DZH318Z08W5K/Dedicated/Dedicated Bandwidth Usage": {
-              "id": "DZH318Z08W5K",
-              "name": "Static Web Apps",
-              "sku_name": "Dedicated",
-              "meter_name": "Dedicated Bandwidth Usage"
             },
             "DZH318Z0DCR5/I6 v2/I6 v2 App": {
               "id": "DZH318Z0DCR5",
@@ -21298,17 +21280,65 @@
           "id": "DZH315HTQSK6",
           "name": "Azure Kubernetes Service",
           "products": {
+            "DZH318Z0RCC3/Automatic/Automatic Storage Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Storage Optimized"
+            },
             "DZH318Z0CQSH/Standard/Standard Long Term Support": {
               "id": "DZH318Z0CQSH",
               "name": "Azure Kubernetes Service",
               "sku_name": "Standard",
               "meter_name": "Standard Long Term Support"
             },
+            "DZH318Z0RCC3/Automatic/Automatic High Performance Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic High Performance Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Hosted Control Plane": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Hosted Control Plane"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic GPU Accelerated": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic GPU Accelerated"
+            },
             "DZH318Z0CQSH/Standard/Standard Uptime SLA": {
               "id": "DZH318Z0CQSH",
               "name": "Azure Kubernetes Service",
               "sku_name": "Standard",
               "meter_name": "Standard Uptime SLA"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Memory Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Memory Optimized"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic General Purpose": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic General Purpose"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Confidential Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Confidential Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Compute Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Compute Optimized"
             }
           }
         },
@@ -21434,6 +21464,12 @@
               "name": "Container Registry",
               "sku_name": "Premium",
               "meter_name": "Task vCPU Duration"
+            },
+            "DZH318Z0BQV5/Premium/Premium Connected registry": {
+              "id": "DZH318Z0BQV5",
+              "name": "Container Registry",
+              "sku_name": "Premium",
+              "meter_name": "Premium Connected registry"
             },
             "DZH318Z0BQV5/Basic/Basic Registry Unit": {
               "id": "DZH318Z0BQV5",
@@ -30628,6 +30664,12 @@
               "sku_name": "Snapshots ZRS",
               "meter_name": "Snapshots ZRS Snapshots"
             },
+            "DZH318Z0BNWT/Standard ZRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BJRN/Hot LRS/Hot Iterative Read Operations": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -30807,6 +30849,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E20 ZRS",
               "meter_name": "E20 ZRS Disk"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BPH7/Archive LRS/Archive LRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -31161,6 +31209,12 @@
               "name": "Premium Block Blob",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Write Operations"
+            },
+            "DZH318Z0BNWT/Standard ZRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BP88/E60 ZRS/E60 ZRS Disk Operations": {
               "id": "DZH318Z0BP88",
@@ -32134,6 +32188,12 @@
               "sku_name": "S80 LRS",
               "meter_name": "S80 LRS Disk Operations"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0CPS4/Premium ZRS/Premium ZRS Read Operations": {
               "id": "DZH318Z0CPS4",
               "name": "Premium Block Blob v2 Hierarchical Namespace",
@@ -32199,6 +32259,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Hot LRS",
               "meter_name": "Hot Iterative Write Operations"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BP88/E20 LRS/E20 LRS Disk Operations": {
               "id": "DZH318Z0BP88",
@@ -32385,6 +32451,12 @@
               "name": "Tables",
               "sku_name": "Standard ZRS",
               "meter_name": "Scan Operations"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0C120/Cold ZRS/Cold ZRS Write Operations": {
               "id": "DZH318Z0C120",
@@ -32788,6 +32860,12 @@
               "sku_name": "Standard ZRS",
               "meter_name": "ZRS Data Stored"
             },
+            "DZH318Z0BNWT/Standard ZRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BP88/E50 ZRS/E50 ZRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -32914,6 +32992,12 @@
               "sku_name": "E60 ZRS",
               "meter_name": "E60 ZRS Disk"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BNZF/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -33033,6 +33117,12 @@
               "name": "Premium ADLS Gen2 Hierarchical Namespace",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Iterative Read Operations"
+            },
+            "DZH318Z0BNZF/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0C120/Cool LRS/Cool Read Operations": {
               "id": "DZH318Z0C120",
