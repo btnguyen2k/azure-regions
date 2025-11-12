@@ -27105,11 +27105,59 @@
               "sku_name": "Standard",
               "meter_name": "Standard Uptime SLA"
             },
+            "DZH318Z0RCC3/Automatic/Automatic Memory Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Memory Optimized"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Confidential Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Confidential Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Storage Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Storage Optimized"
+            },
             "DZH318Z0CQSH/Standard/Standard Long Term Support": {
               "id": "DZH318Z0CQSH",
               "name": "Azure Kubernetes Service",
               "sku_name": "Standard",
               "meter_name": "Standard Long Term Support"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic High Performance Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic High Performance Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Compute Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Compute Optimized"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic GPU Accelerated": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic GPU Accelerated"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic General Purpose": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic General Purpose"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Hosted Control Plane": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Hosted Control Plane"
             }
           }
         },
@@ -27487,17 +27535,23 @@
               "sku_name": "Eventstream Flat Capacity Usage",
               "meter_name": "Eventstream Flat Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/dbt job Capacity Usage/dbt job Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "dbt job Capacity Usage",
+              "meter_name": "dbt job Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/autoscale for Spark Capacity Usage/autoscale for Spark Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "autoscale for Spark Capacity Usage",
               "meter_name": "autoscale for Spark Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Csms DB in MS Fabric Capacity Usage/Csms DB in MS Fabric Capacity Usage CU": {
+            "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric Capacity Usage/Cosmos Database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Csms DB in MS Fabric Capacity Usage",
-              "meter_name": "Csms DB in MS Fabric Capacity Usage CU"
+              "sku_name": "Cosmos Database in Microsoft Fabric Capacity Usage",
+              "meter_name": "Cosmos Database in Microsoft Fabric Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations via proxy Capacity Usage/OneLake BCDR Iterative Write Operations via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -27552,6 +27606,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Anomaly Detector Queries Capacity Usage",
               "meter_name": "Anomaly Detector Queries Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Map services Capacity Usage/Map services Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Map services Capacity Usage",
+              "meter_name": "Map services Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Security Capacity Usage/OneLake Security Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -27618,6 +27678,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations via proxy Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations via proxy Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Map processing Capacity Usage/Map processing Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Map processing Capacity Usage",
+              "meter_name": "Map processing Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operation via proxy Capacity Usage/OneLake BCDR Iterative Read Operation via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -29562,6 +29628,12 @@
               "sku_name": "Storage GP Accelerated Logs",
               "meter_name": "Storage GP Accelerated Logs"
             },
+            "DZH318Z0R90R/Extended Support/Extended Support vCore": {
+              "id": "DZH318Z0R90R",
+              "name": "Azure Database for MySQL Extended Support",
+              "sku_name": "Extended Support",
+              "meter_name": "Extended Support vCore"
+            },
             "DZH318Z0TS9H/vCore/vCore": {
               "id": "DZH318Z0TS9H",
               "name": "Azure Database for MySQL Flexible Server Memory Optimized Eadsv6 Series Compute",
@@ -29759,6 +29831,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
               "sku_name": "4 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0MH59/OrionDB storage/OrionDB storage Data Stored": {
+              "id": "DZH318Z0MH59",
+              "name": "Azure Database for PostgreSQL OrionDB storage",
+              "sku_name": "OrionDB storage",
+              "meter_name": "OrionDB storage Data Stored"
             },
             "DZH318Z0DCRL/B4ms/B4ms vCore": {
               "id": "DZH318Z0DCRL",
@@ -30042,6 +30120,12 @@
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0R90J/Extended Support/Extended Support vCore": {
+              "id": "DZH318Z0R90J",
+              "name": "Azure Database for PostgreSQL Extended Support",
+              "sku_name": "Extended Support",
+              "meter_name": "Extended Support vCore"
+            },
             "DZH318Z0KDZJ/4 vCore/vCore": {
               "id": "DZH318Z0KDZJ",
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
@@ -30276,6 +30360,12 @@
               "sku_name": "IOPS Scaling",
               "meter_name": "IOPS Scaling Provisioned IOPS"
             },
+            "DZH318Z0T3WG/1 vCore/1 vCore": {
+              "id": "DZH318Z0T3WG",
+              "name": "Azure Database for PostgreSQL OrionDB Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0DCRZ/1 vCore/vCore": {
               "id": "DZH318Z0DCRZ",
               "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
@@ -30329,6 +30419,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "2 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0MH5L/OrionDB backup storage/OrionDB backup storage Data Stored": {
+              "id": "DZH318Z0MH5L",
+              "name": "Azure Database for PostgreSQL OrionDB backup storage",
+              "sku_name": "OrionDB backup storage",
+              "meter_name": "OrionDB backup storage Data Stored"
             },
             "DZH318Z0KDVH/vCore/vCore": {
               "id": "DZH318Z0KDVH",
@@ -30965,6 +31061,12 @@
               "name": "SQL Managed Instance PITR Backup Storage",
               "sku_name": "Backup ZRS",
               "meter_name": "ZRS Data Stored"
+            },
+            "DZH318Z0BQCS/General Purpose Zone Redundancy/General Purpose Zone Redundancy Data Stored": {
+              "id": "DZH318Z0BQCS",
+              "name": "SQL Managed Instance General Purpose - Storage",
+              "sku_name": "General Purpose Zone Redundancy",
+              "meter_name": "General Purpose Zone Redundancy Data Stored"
             },
             "DZH318Z0B172/16 vCore/vCore": {
               "id": "DZH318Z0B172",
@@ -31610,6 +31712,594 @@
             }
           }
         },
+        "DZH317DL9CC7": {
+          "id": "DZH317DL9CC7",
+          "name": "Azure Cosmos DB",
+          "products": {
+            "DZH318Z0TF33/Premium SSD Managed Disk/Premium SSD Managed Disk": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Premium SSD Managed Disk",
+              "meter_name": "Premium SSD Managed Disk"
+            },
+            "DZH318Z0DX1T/MVBuilder D8s/MVBuilder D8s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D8s",
+              "meter_name": "MVBuilder D8s vCore"
+            },
+            "DZH318Z0B07D/D32s/D32s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D32s",
+              "meter_name": "D32s"
+            },
+            "DZH318Z0CCGK/D2s/D2s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D2s",
+              "meter_name": "D2s"
+            },
+            "DZH318Z0CCGL/E16s/E16s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E16s",
+              "meter_name": "E16s"
+            },
+            "DZH318Z0BPJH/Free Tier/100 RU/s": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "Free Tier",
+              "meter_name": "100 RU/s"
+            },
+            "DZH318Z0J95H/Coordinator Node 16 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0J95H/Coordinator Node 1 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCH1/Periodic Backup - ZRS/Periodic Backup - ZRS Data Stored": {
+              "id": "DZH318Z0CCH1",
+              "name": "Azure Cosmos DB Snapshot",
+              "sku_name": "Periodic Backup - ZRS",
+              "meter_name": "Periodic Backup - ZRS Data Stored"
+            },
+            "DZH318Z0J95H/B8MS/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "B8MS",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CDGF/Standard/Standard Write Operations": {
+              "id": "DZH318Z0CDGF",
+              "name": "Azure Cosmos DB Analytics Storage",
+              "sku_name": "Standard",
+              "meter_name": "Standard Write Operations"
+            },
+            "DZH318Z0CGSV/AP2/AP2 Entry Price": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP2",
+              "meter_name": "AP2 Entry Price"
+            },
+            "DZH318Z0BX2J/Cont 7D Bkup/Cont 7D Bkup Continuous Backup": {
+              "id": "DZH318Z0BX2J",
+              "name": "Azure Cosmos DB - PITR",
+              "sku_name": "Cont 7D Bkup",
+              "meter_name": "Cont 7D Bkup Continuous Backup"
+            },
+            "DZH318Z0CGSV/AP1/AP1 Entry Price": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP1",
+              "meter_name": "AP1 Entry Price"
+            },
+            "DZH318Z0BPJH/Free Tier/Data Stored": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "Free Tier",
+              "meter_name": "Data Stored"
+            },
+            "DZH318Z0J95H/Worker Node 8 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCGK/D4s/D4s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D4s",
+              "meter_name": "D4s"
+            },
+            "DZH318Z0CGSV/AP1/AP1 100 RUs": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP1",
+              "meter_name": "AP1 100 RUs"
+            },
+            "DZH318Z0J95H/Coordinator Node 32 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0J95H/Worker Node 16 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 16 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCH1/Standard/Backup Data Stored": {
+              "id": "DZH318Z0CCH1",
+              "name": "Azure Cosmos DB Snapshot",
+              "sku_name": "Standard",
+              "meter_name": "Backup Data Stored"
+            },
+            "DZH318Z0J95H/Coordinator Node 64 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BPJH/S1/S1": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "S1",
+              "meter_name": "S1"
+            },
+            "DZH318Z0CGSV/AP2/AP2 100 RUs": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP2",
+              "meter_name": "AP2 100 RUs"
+            },
+            "DZH318Z0BPJH/Free/Free 100 Multi-master RU/s": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "Free",
+              "meter_name": "Free 100 Multi-master RU/s"
+            },
+            "DZH318Z0TF33/General Purpose/General Purpose vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "General Purpose",
+              "meter_name": "General Purpose vCore"
+            },
+            "DZH318Z0J95H/B2S/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "B2S",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0J95H/Burstable 1 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Burstable 1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCGL/E2s/E2s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E2s",
+              "meter_name": "E2s"
+            },
+            "DZH318Z0DX1T/MVBuilder D1s/MVBuilder D1s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D1s",
+              "meter_name": "MVBuilder D1s vCore"
+            },
+            "DZH318Z0CCH1/Periodic Backup - RA-GRS/Periodic Backup - RA-GRS Data Stored": {
+              "id": "DZH318Z0CCH1",
+              "name": "Azure Cosmos DB Snapshot",
+              "sku_name": "Periodic Backup - RA-GRS",
+              "meter_name": "Periodic Backup - RA-GRS Data Stored"
+            },
+            "DZH318Z0J95H/Worker Node 32 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 32 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DX1T/MVBuilder D32s/MVBuilder D32s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D32s",
+              "meter_name": "MVBuilder D32s vCore"
+            },
+            "DZH318Z0CGSV/AP4/AP4 Entry Price": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP4",
+              "meter_name": "AP4 Entry Price"
+            },
+            "DZH318Z0B07D/D16s/D16s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D16s",
+              "meter_name": "D16s"
+            },
+            "DZH318Z0CCGK/D32s/D32s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D32s",
+              "meter_name": "D32s"
+            },
+            "DZH318Z0J95H/Worker Node 96 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BX2J/Backup/Cont 30D Bckp Continuous Backup": {
+              "id": "DZH318Z0BX2J",
+              "name": "Azure Cosmos DB - PITR",
+              "sku_name": "Backup",
+              "meter_name": "Cont 30D Bckp Continuous Backup"
+            },
+            "DZH318Z0B07D/D8s/D8s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D8s",
+              "meter_name": "D8s"
+            },
+            "DZH318Z0J95H/Worker Node 2 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0TF33/Memory Optimized/Memory Optimized vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Memory Optimized",
+              "meter_name": "Memory Optimized vCore"
+            },
+            "DZH318Z0J95H/B1MS/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "B1MS",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0BPJH/RUs/100 RU/s": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "RUs",
+              "meter_name": "100 RU/s"
+            },
+            "DZH318Z0J95H/1 vCore - autoscale/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "1 vCore - autoscale",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCGL/E64s/E64s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E64s",
+              "meter_name": "E64s"
+            },
+            "DZH318Z0BX2J/Backup/Cont 30D Bckp Data Restore": {
+              "id": "DZH318Z0BX2J",
+              "name": "Azure Cosmos DB - PITR",
+              "sku_name": "Backup",
+              "meter_name": "Cont 30D Bckp Data Restore"
+            },
+            "DZH318Z0CCGK/D8s/D8s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D8s",
+              "meter_name": "D8s"
+            },
+            "DZH318Z0BPJH/mRUs/Data Stored": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "mRUs",
+              "meter_name": "Data Stored"
+            },
+            "DZH318Z0J95H/General Purpose Storage/General Purpose Storage Data Stored": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "General Purpose Storage",
+              "meter_name": "General Purpose Storage Data Stored"
+            },
+            "DZH318Z0BPJH/RUs/Data Stored": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "RUs",
+              "meter_name": "Data Stored"
+            },
+            "DZH318Z0BPJH/RUm/Data Stored": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "RUm",
+              "meter_name": "Data Stored"
+            },
+            "DZH318Z0J95H/Coordinator Node 96 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 96 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CDGF/Standard/Standard Read Operations": {
+              "id": "DZH318Z0CDGF",
+              "name": "Azure Cosmos DB Analytics Storage",
+              "sku_name": "Standard",
+              "meter_name": "Standard Read Operations"
+            },
+            "DZH318Z0BPJH/mRUs/100 Multi-master RU/s": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "mRUs",
+              "meter_name": "100 Multi-master RU/s"
+            },
+            "DZH318Z0BX2J/Backup/Cont 30D Bckp On Demand Backup": {
+              "id": "DZH318Z0BX2J",
+              "name": "Azure Cosmos DB - PITR",
+              "sku_name": "Backup",
+              "meter_name": "Cont 30D Bckp On Demand Backup"
+            },
+            "DZH318Z0BPJH/RUm/1000 RU/m": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "RUm",
+              "meter_name": "1000 RU/m"
+            },
+            "DZH318Z0J95H/B2MS/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "B2MS",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CGSV/AP3/AP3 Entry Price": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP3",
+              "meter_name": "AP3 Entry Price"
+            },
+            "DZH318Z0TF33/Compute Optimized/Compute Optimized vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Compute Optimized",
+              "meter_name": "Compute Optimized vCore"
+            },
+            "DZH318Z0B07D/D2s/D2s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D2s",
+              "meter_name": "D2s"
+            },
+            "DZH318Z0DX1T/MVBuilder D64s/MVBuilder D64s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D64s",
+              "meter_name": "MVBuilder D64s vCore"
+            },
+            "DZH318Z0CDGF/Standard/Standard Data Stored": {
+              "id": "DZH318Z0CDGF",
+              "name": "Azure Cosmos DB Analytics Storage",
+              "sku_name": "Standard",
+              "meter_name": "Standard Data Stored"
+            },
+            "DZH318Z0CCGK/D16s/D16s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D16s",
+              "meter_name": "D16s"
+            },
+            "DZH318Z0BPJH/Free Tier/100 Multi-master RU/s": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "Free Tier",
+              "meter_name": "100 Multi-master RU/s"
+            },
+            "DZH318Z0J95H/Backup Globally Redundant Storage/Backup GRS Data Stored": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Backup Globally Redundant Storage",
+              "meter_name": "Backup GRS Data Stored"
+            },
+            "DZH318Z0J95H/Burstable 2 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Burstable 2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CGSV/AP3/AP3 100 RUs": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP3",
+              "meter_name": "AP3 100 RUs"
+            },
+            "DZH318Z0CF60/256 GiB/256 GiB Disk": {
+              "id": "DZH318Z0CF60",
+              "name": "Cosmos DB Compute Attached SSD Disk",
+              "sku_name": "256 GiB",
+              "meter_name": "256 GiB Disk"
+            },
+            "DZH318Z0CCGL/E8s/E8s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E8s",
+              "meter_name": "E8s"
+            },
+            "DZH318Z0B07D/D4s/D4s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D4s",
+              "meter_name": "D4s"
+            },
+            "DZH318Z0B07F/E32s/E32s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E32s",
+              "meter_name": "E32s"
+            },
+            "DZH318Z0J95H/Coordinator Node 4 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0J95H/Worker Node 1 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 1 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DX1T/MVBuilder D2s/MVBuilder D2s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D2s",
+              "meter_name": "MVBuilder D2s vCore"
+            },
+            "DZH318Z0B07F/E2s/E2s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E2s",
+              "meter_name": "E2s"
+            },
+            "DZH318Z0CCGL/E32s/E32s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E32s",
+              "meter_name": "E32s"
+            },
+            "DZH318Z0J95H/Backup Locally Redundant Storage/Backup LRS Data Stored": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Backup Locally Redundant Storage",
+              "meter_name": "Backup LRS Data Stored"
+            },
+            "DZH318Z0J95H/Worker Node 4 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 4 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0J95H/B4MS/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "B4MS",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0B07F/E4s/E4s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E4s",
+              "meter_name": "E4s"
+            },
+            "DZH318Z0B07F/E16s/E16s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E16s",
+              "meter_name": "E16s"
+            },
+            "DZH318Z0DX1T/MVBuilderD16s/MVBuilderD16s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilderD16s",
+              "meter_name": "MVBuilderD16s vCore"
+            },
+            "DZH318Z0J95H/Coordinator Node 2 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 2 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCGK/D64s/D64s": {
+              "id": "DZH318Z0CCGK",
+              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
+              "sku_name": "D64s",
+              "meter_name": "D64s"
+            },
+            "DZH318Z0J95H/Worker Node 64 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 64 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0DX1T/MVBuilder D4s/MVBuilder D4s vCore": {
+              "id": "DZH318Z0DX1T",
+              "name": "Azure Cosmos DB Materialized Views",
+              "sku_name": "MVBuilder D4s",
+              "meter_name": "MVBuilder D4s vCore"
+            },
+            "DZH318Z0BPJH/S3/S3": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "S3",
+              "meter_name": "S3"
+            },
+            "DZH318Z0J95H/Coordinator Node 8 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Coordinator Node 8 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0CCGL/E4s/E4s": {
+              "id": "DZH318Z0CCGL",
+              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
+              "sku_name": "E4s",
+              "meter_name": "E4s"
+            },
+            "DZH318Z0J95H/Worker Node 104 vCore/vCore": {
+              "id": "DZH318Z0J95H",
+              "name": "Azure DocumentDB",
+              "sku_name": "Worker Node 104 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318Z0D20N/RUs/1M RUs": {
+              "id": "DZH318Z0D20N",
+              "name": "Azure Cosmos DB serverless",
+              "sku_name": "RUs",
+              "meter_name": "1M RUs"
+            },
+            "DZH318Z0CCH1/Periodic Backup - LRS/Periodic Backup - LRS Data Stored": {
+              "id": "DZH318Z0CCH1",
+              "name": "Azure Cosmos DB Snapshot",
+              "sku_name": "Periodic Backup - LRS",
+              "meter_name": "Periodic Backup - LRS Data Stored"
+            },
+            "DZH318Z0B07F/E8s/E8s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E8s",
+              "meter_name": "E8s"
+            },
+            "DZH318Z0B07F/E64s/E64s": {
+              "id": "DZH318Z0B07F",
+              "name": "Graph API - Memory Optimized Compute",
+              "sku_name": "E64s",
+              "meter_name": "E64s"
+            },
+            "DZH318Z0BPJH/S2/S2": {
+              "id": "DZH318Z0BPJH",
+              "name": "Azure Cosmos DB",
+              "sku_name": "S2",
+              "meter_name": "S2"
+            },
+            "DZH318Z0CGSV/AP4/AP4 100 RUs": {
+              "id": "DZH318Z0CGSV",
+              "name": "Azure Cosmos DB autoscale",
+              "sku_name": "AP4",
+              "meter_name": "AP4 100 RUs"
+            },
+            "DZH318Z0B07D/D64s/D64s": {
+              "id": "DZH318Z0B07D",
+              "name": "Graph API - General Purpose Compute",
+              "sku_name": "D64s",
+              "meter_name": "D64s"
+            }
+          }
+        },
         "DZH31974T4H6": {
           "id": "DZH31974T4H6",
           "name": "Azure Database for MariaDB",
@@ -31793,570 +32483,6 @@
               "name": "Azure Database for MariaDB Single Server Memory Optimized - Compute Gen5",
               "sku_name": "1 vCore",
               "meter_name": "vCore"
-            }
-          }
-        },
-        "DZH317DL9CC7": {
-          "id": "DZH317DL9CC7",
-          "name": "Azure Cosmos DB",
-          "products": {
-            "DZH318Z0DX1T/MVBuilder D8s/MVBuilder D8s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D8s",
-              "meter_name": "MVBuilder D8s vCore"
-            },
-            "DZH318Z0B07D/D32s/D32s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D32s",
-              "meter_name": "D32s"
-            },
-            "DZH318Z0CCGK/D2s/D2s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D2s",
-              "meter_name": "D2s"
-            },
-            "DZH318Z0CCGL/E16s/E16s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E16s",
-              "meter_name": "E16s"
-            },
-            "DZH318Z0BPJH/Free Tier/100 RU/s": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "Free Tier",
-              "meter_name": "100 RU/s"
-            },
-            "DZH318Z0J95H/Coordinator Node 16 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/Coordinator Node 1 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCH1/Periodic Backup - ZRS/Periodic Backup - ZRS Data Stored": {
-              "id": "DZH318Z0CCH1",
-              "name": "Azure Cosmos DB Snapshot",
-              "sku_name": "Periodic Backup - ZRS",
-              "meter_name": "Periodic Backup - ZRS Data Stored"
-            },
-            "DZH318Z0J95H/B8MS/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "B8MS",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CDGF/Standard/Standard Write Operations": {
-              "id": "DZH318Z0CDGF",
-              "name": "Azure Cosmos DB Analytics Storage",
-              "sku_name": "Standard",
-              "meter_name": "Standard Write Operations"
-            },
-            "DZH318Z0CGSV/AP2/AP2 Entry Price": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP2",
-              "meter_name": "AP2 Entry Price"
-            },
-            "DZH318Z0BX2J/Cont 7D Bkup/Cont 7D Bkup Continuous Backup": {
-              "id": "DZH318Z0BX2J",
-              "name": "Azure Cosmos DB - PITR",
-              "sku_name": "Cont 7D Bkup",
-              "meter_name": "Cont 7D Bkup Continuous Backup"
-            },
-            "DZH318Z0CGSV/AP1/AP1 Entry Price": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP1",
-              "meter_name": "AP1 Entry Price"
-            },
-            "DZH318Z0BPJH/Free Tier/Data Stored": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "Free Tier",
-              "meter_name": "Data Stored"
-            },
-            "DZH318Z0J95H/Worker Node 8 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCGK/D4s/D4s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D4s",
-              "meter_name": "D4s"
-            },
-            "DZH318Z0CGSV/AP1/AP1 100 RUs": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP1",
-              "meter_name": "AP1 100 RUs"
-            },
-            "DZH318Z0J95H/Coordinator Node 32 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/Worker Node 16 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 16 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCH1/Standard/Backup Data Stored": {
-              "id": "DZH318Z0CCH1",
-              "name": "Azure Cosmos DB Snapshot",
-              "sku_name": "Standard",
-              "meter_name": "Backup Data Stored"
-            },
-            "DZH318Z0J95H/Coordinator Node 64 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BPJH/S1/S1": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "S1",
-              "meter_name": "S1"
-            },
-            "DZH318Z0CGSV/AP2/AP2 100 RUs": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP2",
-              "meter_name": "AP2 100 RUs"
-            },
-            "DZH318Z0BPJH/Free/Free 100 Multi-master RU/s": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "Free",
-              "meter_name": "Free 100 Multi-master RU/s"
-            },
-            "DZH318Z0J95H/B2S/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "B2S",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/Burstable 1 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Burstable 1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCGL/E2s/E2s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E2s",
-              "meter_name": "E2s"
-            },
-            "DZH318Z0DX1T/MVBuilder D1s/MVBuilder D1s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D1s",
-              "meter_name": "MVBuilder D1s vCore"
-            },
-            "DZH318Z0CCH1/Periodic Backup - RA-GRS/Periodic Backup - RA-GRS Data Stored": {
-              "id": "DZH318Z0CCH1",
-              "name": "Azure Cosmos DB Snapshot",
-              "sku_name": "Periodic Backup - RA-GRS",
-              "meter_name": "Periodic Backup - RA-GRS Data Stored"
-            },
-            "DZH318Z0J95H/Worker Node 32 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 32 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DX1T/MVBuilder D32s/MVBuilder D32s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D32s",
-              "meter_name": "MVBuilder D32s vCore"
-            },
-            "DZH318Z0CGSV/AP4/AP4 Entry Price": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP4",
-              "meter_name": "AP4 Entry Price"
-            },
-            "DZH318Z0B07D/D16s/D16s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D16s",
-              "meter_name": "D16s"
-            },
-            "DZH318Z0CCGK/D32s/D32s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D32s",
-              "meter_name": "D32s"
-            },
-            "DZH318Z0J95H/Worker Node 96 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BX2J/Backup/Cont 30D Bckp Continuous Backup": {
-              "id": "DZH318Z0BX2J",
-              "name": "Azure Cosmos DB - PITR",
-              "sku_name": "Backup",
-              "meter_name": "Cont 30D Bckp Continuous Backup"
-            },
-            "DZH318Z0B07D/D8s/D8s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D8s",
-              "meter_name": "D8s"
-            },
-            "DZH318Z0J95H/Worker Node 2 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/B1MS/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "B1MS",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0BPJH/RUs/100 RU/s": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "RUs",
-              "meter_name": "100 RU/s"
-            },
-            "DZH318Z0J95H/1 vCore - autoscale/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "1 vCore - autoscale",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCGL/E64s/E64s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E64s",
-              "meter_name": "E64s"
-            },
-            "DZH318Z0BX2J/Backup/Cont 30D Bckp Data Restore": {
-              "id": "DZH318Z0BX2J",
-              "name": "Azure Cosmos DB - PITR",
-              "sku_name": "Backup",
-              "meter_name": "Cont 30D Bckp Data Restore"
-            },
-            "DZH318Z0CCGK/D8s/D8s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D8s",
-              "meter_name": "D8s"
-            },
-            "DZH318Z0BPJH/mRUs/Data Stored": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "mRUs",
-              "meter_name": "Data Stored"
-            },
-            "DZH318Z0J95H/General Purpose Storage/General Purpose Storage Data Stored": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "General Purpose Storage",
-              "meter_name": "General Purpose Storage Data Stored"
-            },
-            "DZH318Z0BPJH/RUs/Data Stored": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "RUs",
-              "meter_name": "Data Stored"
-            },
-            "DZH318Z0BPJH/RUm/Data Stored": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "RUm",
-              "meter_name": "Data Stored"
-            },
-            "DZH318Z0J95H/Coordinator Node 96 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 96 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CDGF/Standard/Standard Read Operations": {
-              "id": "DZH318Z0CDGF",
-              "name": "Azure Cosmos DB Analytics Storage",
-              "sku_name": "Standard",
-              "meter_name": "Standard Read Operations"
-            },
-            "DZH318Z0BPJH/mRUs/100 Multi-master RU/s": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "mRUs",
-              "meter_name": "100 Multi-master RU/s"
-            },
-            "DZH318Z0BX2J/Backup/Cont 30D Bckp On Demand Backup": {
-              "id": "DZH318Z0BX2J",
-              "name": "Azure Cosmos DB - PITR",
-              "sku_name": "Backup",
-              "meter_name": "Cont 30D Bckp On Demand Backup"
-            },
-            "DZH318Z0BPJH/RUm/1000 RU/m": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "RUm",
-              "meter_name": "1000 RU/m"
-            },
-            "DZH318Z0J95H/B2MS/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "B2MS",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CGSV/AP3/AP3 Entry Price": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP3",
-              "meter_name": "AP3 Entry Price"
-            },
-            "DZH318Z0B07D/D2s/D2s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D2s",
-              "meter_name": "D2s"
-            },
-            "DZH318Z0DX1T/MVBuilder D64s/MVBuilder D64s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D64s",
-              "meter_name": "MVBuilder D64s vCore"
-            },
-            "DZH318Z0CDGF/Standard/Standard Data Stored": {
-              "id": "DZH318Z0CDGF",
-              "name": "Azure Cosmos DB Analytics Storage",
-              "sku_name": "Standard",
-              "meter_name": "Standard Data Stored"
-            },
-            "DZH318Z0CCGK/D16s/D16s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D16s",
-              "meter_name": "D16s"
-            },
-            "DZH318Z0BPJH/Free Tier/100 Multi-master RU/s": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "Free Tier",
-              "meter_name": "100 Multi-master RU/s"
-            },
-            "DZH318Z0J95H/Backup Globally Redundant Storage/Backup GRS Data Stored": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Backup Globally Redundant Storage",
-              "meter_name": "Backup GRS Data Stored"
-            },
-            "DZH318Z0J95H/Burstable 2 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Burstable 2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CGSV/AP3/AP3 100 RUs": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP3",
-              "meter_name": "AP3 100 RUs"
-            },
-            "DZH318Z0CF60/256 GiB/256 GiB Disk": {
-              "id": "DZH318Z0CF60",
-              "name": "Cosmos DB Compute Attached SSD Disk",
-              "sku_name": "256 GiB",
-              "meter_name": "256 GiB Disk"
-            },
-            "DZH318Z0CCGL/E8s/E8s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E8s",
-              "meter_name": "E8s"
-            },
-            "DZH318Z0B07D/D4s/D4s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D4s",
-              "meter_name": "D4s"
-            },
-            "DZH318Z0B07F/E32s/E32s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E32s",
-              "meter_name": "E32s"
-            },
-            "DZH318Z0J95H/Coordinator Node 4 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/Worker Node 1 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 1 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DX1T/MVBuilder D2s/MVBuilder D2s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D2s",
-              "meter_name": "MVBuilder D2s vCore"
-            },
-            "DZH318Z0B07F/E2s/E2s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E2s",
-              "meter_name": "E2s"
-            },
-            "DZH318Z0CCGL/E32s/E32s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E32s",
-              "meter_name": "E32s"
-            },
-            "DZH318Z0J95H/Backup Locally Redundant Storage/Backup LRS Data Stored": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Backup Locally Redundant Storage",
-              "meter_name": "Backup LRS Data Stored"
-            },
-            "DZH318Z0J95H/Worker Node 4 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 4 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0J95H/B4MS/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "B4MS",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0B07F/E4s/E4s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E4s",
-              "meter_name": "E4s"
-            },
-            "DZH318Z0B07F/E16s/E16s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E16s",
-              "meter_name": "E16s"
-            },
-            "DZH318Z0DX1T/MVBuilderD16s/MVBuilderD16s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilderD16s",
-              "meter_name": "MVBuilderD16s vCore"
-            },
-            "DZH318Z0J95H/Coordinator Node 2 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 2 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCGK/D64s/D64s": {
-              "id": "DZH318Z0CCGK",
-              "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
-              "sku_name": "D64s",
-              "meter_name": "D64s"
-            },
-            "DZH318Z0J95H/Worker Node 64 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 64 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0DX1T/MVBuilder D4s/MVBuilder D4s vCore": {
-              "id": "DZH318Z0DX1T",
-              "name": "Azure Cosmos DB Materialized Views",
-              "sku_name": "MVBuilder D4s",
-              "meter_name": "MVBuilder D4s vCore"
-            },
-            "DZH318Z0BPJH/S3/S3": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "S3",
-              "meter_name": "S3"
-            },
-            "DZH318Z0J95H/Coordinator Node 8 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Coordinator Node 8 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0CCGL/E4s/E4s": {
-              "id": "DZH318Z0CCGL",
-              "name": "Azure Cosmos DB Dedicated Gateway - Memory Optimized",
-              "sku_name": "E4s",
-              "meter_name": "E4s"
-            },
-            "DZH318Z0J95H/Worker Node 104 vCore/vCore": {
-              "id": "DZH318Z0J95H",
-              "name": "Azure Cosmos DB for MongoDB vCore",
-              "sku_name": "Worker Node 104 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z0D20N/RUs/1M RUs": {
-              "id": "DZH318Z0D20N",
-              "name": "Azure Cosmos DB serverless",
-              "sku_name": "RUs",
-              "meter_name": "1M RUs"
-            },
-            "DZH318Z0CCH1/Periodic Backup - LRS/Periodic Backup - LRS Data Stored": {
-              "id": "DZH318Z0CCH1",
-              "name": "Azure Cosmos DB Snapshot",
-              "sku_name": "Periodic Backup - LRS",
-              "meter_name": "Periodic Backup - LRS Data Stored"
-            },
-            "DZH318Z0B07F/E8s/E8s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E8s",
-              "meter_name": "E8s"
-            },
-            "DZH318Z0B07F/E64s/E64s": {
-              "id": "DZH318Z0B07F",
-              "name": "Graph API - Memory Optimized Compute",
-              "sku_name": "E64s",
-              "meter_name": "E64s"
-            },
-            "DZH318Z0BPJH/S2/S2": {
-              "id": "DZH318Z0BPJH",
-              "name": "Azure Cosmos DB",
-              "sku_name": "S2",
-              "meter_name": "S2"
-            },
-            "DZH318Z0CGSV/AP4/AP4 100 RUs": {
-              "id": "DZH318Z0CGSV",
-              "name": "Azure Cosmos DB autoscale",
-              "sku_name": "AP4",
-              "meter_name": "AP4 100 RUs"
-            },
-            "DZH318Z0B07D/D64s/D64s": {
-              "id": "DZH318Z0B07D",
-              "name": "Graph API - General Purpose Compute",
-              "sku_name": "D64s",
-              "meter_name": "D64s"
             }
           }
         },
@@ -33341,6 +33467,30 @@
             }
           }
         },
+        "DZH319G7C25L": {
+          "id": "DZH319G7C25L",
+          "name": "Notification Hubs",
+          "products": {
+            "DZH318Z0BQBH/1P Direct Send/1P Direct Send Pushes": {
+              "id": "DZH318Z0BQBH",
+              "name": "Notification Hubs",
+              "sku_name": "1P Direct Send",
+              "meter_name": "1P Direct Send Pushes"
+            },
+            "DZH318Z0BQBH/Private Link/Private Link Unit": {
+              "id": "DZH318Z0BQBH",
+              "name": "Notification Hubs",
+              "sku_name": "Private Link",
+              "meter_name": "Private Link Unit"
+            },
+            "DZH318Z0BQBH/Availability Zones SKU/Availability Zones Unit": {
+              "id": "DZH318Z0BQBH",
+              "name": "Notification Hubs",
+              "sku_name": "Availability Zones SKU",
+              "meter_name": "Availability Zones Unit"
+            }
+          }
+        },
         "DZH315NX4WLD": {
           "id": "DZH315NX4WLD",
           "name": "Event Grid",
@@ -34178,6 +34328,12 @@
               "sku_name": "Data Restore",
               "meter_name": "Data Restore"
             },
+            "DZH318Z0BQLB/Logs Emitted From Cloud Pipeline/Logs Emitted From Cloud Pipeline Data Emitted": {
+              "id": "DZH318Z0BQLB",
+              "name": "Azure Monitor",
+              "sku_name": "Logs Emitted From Cloud Pipeline",
+              "meter_name": "Logs Emitted From Cloud Pipeline Data Emitted"
+            },
             "DZH318Z0BQLB/SMS Country Code 86/SMS Country Code 86 Notification": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
@@ -34606,6 +34762,12 @@
               "name": "Application Gateway Standard v2",
               "sku_name": "Standard",
               "meter_name": "Standard Capacity Units"
+            },
+            "DZH318Z0BSD0/Standard/Standard Captcha Sessions": {
+              "id": "DZH318Z0BSD0",
+              "name": "Application Gateway WAF v2",
+              "sku_name": "Standard",
+              "meter_name": "Standard Captcha Sessions"
             },
             "DZH318Z0BNXC/Small/Small Gateway": {
               "id": "DZH318Z0BNXC",
@@ -36074,6 +36236,12 @@
               "sku_name": "S6 LRS",
               "meter_name": "S6 LRS Disk"
             },
+            "DZH318Z0BNZ5/Standard ZRS/Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Read Operations"
+            },
             "DZH318Z0BP04/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -36146,6 +36314,12 @@
               "sku_name": "Archive GRS",
               "meter_name": "Archive GRS Data Stored"
             },
+            "DZH318Z0BNZ5/Standard ZRS/Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Delete Operations"
+            },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive Priority Data Retrieval": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -36170,6 +36344,12 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "GRS Class 2 Additional IO"
             },
+            "DZH318Z0BNWT/Standard GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Write Additional IO"
+            },
             "DZH318Z0BP88/Disk Transactions LRS/Disk Transactions LRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -36193,6 +36373,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive RA-GRS Data Stored"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0BNZJ/Archive LRS/Archive LRS Write Operations": {
               "id": "DZH318Z0BNZJ",
@@ -36674,6 +36860,12 @@
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive RA-GRS Early Delete"
             },
+            "DZH318Z0BNZ5/Standard ZRS/ZRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Data Stored"
+            },
             "DZH318Z0BZ0C/Standard/Standard 1 Million Blob Rules": {
               "id": "DZH318Z0BZ0C",
               "name": "Blob Lifecycle Management",
@@ -37070,6 +37262,12 @@
               "sku_name": "Priority Object Replication GRS",
               "meter_name": "Priority Object Replication GRS Data Replicated"
             },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Write Additional IO"
+            },
             "DZH318Z0BPH7/Cool GRS/Cool GRS Early Delete": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -37274,6 +37472,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Delete Operations"
             },
+            "DZH318Z0BNZ5/Standard ZRS/Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Write Operations"
+            },
             "DZH318Z0BJRM/Hot GRS/Delete Operations": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -37429,6 +37633,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive GRS",
               "meter_name": "Archive Priority Data Retrieval"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Data Retrieval": {
               "id": "DZH318Z0BPH7",
@@ -37597,6 +37807,12 @@
               "name": "Standard HDD Managed Disks",
               "sku_name": "S70 LRS",
               "meter_name": "S70 LRS Disk Operations"
+            },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive Data Write": {
               "id": "DZH318Z0BNZJ",
@@ -38024,6 +38240,12 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot RA-GRS Data Stored"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BP0W/P10 LRS/P10 LRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -38198,6 +38420,12 @@
               "sku_name": "Standard GRS",
               "meter_name": "List Operations"
             },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BNZF/Standard GRS/Disk Delete Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -38360,6 +38588,12 @@
               "sku_name": "Standard GRS",
               "meter_name": "GRS List and Create Container Operations"
             },
+            "DZH318Z0BNZ5/Standard ZRS/Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Batch Write Operations"
+            },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive GRS Write Operations": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -38419,6 +38653,12 @@
               "name": "General Block Blob",
               "sku_name": "Standard RA-GRS",
               "meter_name": "RA-GRS Write Operations"
+            },
+            "DZH318Z0BNZF/Standard GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BNZ5/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNZ5",
@@ -38503,6 +38743,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool RA-GZRS",
               "meter_name": "Cool ZRS Read Operations"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BJRM/Cool GRS/Cool GRS Data Stored": {
               "id": "DZH318Z0BJRM",
@@ -38689,6 +38935,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool RA-GRS Data Stored"
+            },
+            "DZH318Z0BNZF/Standard LRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BP09/Hot LRS/LRS Metadata": {
               "id": "DZH318Z0BP09",
@@ -39452,6 +39704,12 @@
               "sku_name": "Archive GRS",
               "meter_name": "Priority Data Retrieval"
             },
+            "DZH318Z0BNZ5/Standard ZRS/List Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "List Operations"
+            },
             "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted GRS Batch Write Operations": {
               "id": "DZH318Z0BNZ5",
               "name": "Tables",
@@ -39589,6 +39847,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Stored"
+            },
+            "DZH318Z0BNWT/Standard GRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0CPS6/Premium LRS/Premium LRS All Other Operations": {
               "id": "DZH318Z0CPS6",
@@ -39757,6 +40021,12 @@
               "name": "Premium Block Blob",
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Archive Tier Down"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0BP04/P30 LRS/P30 LRS Disk": {
               "id": "DZH318Z0BP04",
@@ -40136,6 +40406,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "Protocol Operations"
             },
+            "DZH318Z0BNZF/Standard GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BNZJ/Cool RA-GRS/Cool GRS Write Operations": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -40292,6 +40568,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Write Operations"
             },
+            "DZH318Z0BNWT/Standard GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS": {
               "id": "DZH318Z0H96B",
               "name": "Azure Files Provisioned v2",
@@ -40381,6 +40663,12 @@
               "name": "Azure Files Provisioned v2",
               "sku_name": "HDD LRS",
               "meter_name": "HDD LRS Provisioned Storage"
+            },
+            "DZH318Z0BNZ5/Standard ZRS/Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Scan Operations"
             },
             "DZH318Z0BP04/P1 LRS/P1 LRS Disk": {
               "id": "DZH318Z0BP04",
@@ -40483,6 +40771,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Archive GRS",
               "meter_name": "Archive Priority Read Operations"
+            },
+            "DZH318Z0BNWT/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
             },
             "DZH318Z0BJRN/Cold LRS/Cold LRS Data Write": {
               "id": "DZH318Z0BJRN",
@@ -40742,6 +41036,12 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool RA-GRS Data Stored"
             },
+            "DZH318Z0BNZF/Standard RA-GRS/Disk Read Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Read Additional IO"
+            },
             "DZH318Z0BPH7/Archive RA-GRS/Archive Priority Read Operations": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -40844,6 +41144,12 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "GRS Disk Write Operations"
             },
+            "DZH318Z0BNZF/Standard LRS/Disk Data Stored": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard LRS",
+              "meter_name": "Disk Data Stored"
+            },
             "DZH318Z0BNZF/Standard LRS/Disk Write Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -40897,6 +41203,12 @@
               "name": "Standard Page Blob",
               "sku_name": "Standard LRS",
               "meter_name": "List Operations"
+            },
+            "DZH318Z0BNZF/Standard GRS/Disk Write Additional IO": {
+              "id": "DZH318Z0BNZF",
+              "name": "Standard Page Blob",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Write Additional IO"
             },
             "DZH318Z0C120/Archive GRS/Archive Data Retrieval": {
               "id": "DZH318Z0C120",
