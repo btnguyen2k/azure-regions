@@ -10109,6 +10109,12 @@
             "sku_name": "Premium - Free Trial Jobs Compute",
             "meter_name": "Premium - Free Trial Jobs Compute DBU"
           },
+          "DZH318Z0HS2D/POC Non-Billable Database Serverless Compute/POC Non-Billable Database Serverless Compute DBU": {
+            "id": "DZH318Z0HS2D",
+            "name": "Azure Databricks Regional",
+            "sku_name": "POC Non-Billable Database Serverless Compute",
+            "meter_name": "POC Non-Billable Database Serverless Compute DBU"
+          },
           "DZH318Z0HS2D/Premium - Free Trial Serverless SQL/Premium - Free Trial Serverless SQL DBU": {
             "id": "DZH318Z0HS2D",
             "name": "Azure Databricks Regional",
@@ -10168,6 +10174,12 @@
             "name": "Azure Databricks",
             "sku_name": "Standard - Free Trial Jobs Compute",
             "meter_name": "Standard - Free Trial Jobs Compute DBU"
+          },
+          "DZH318Z0HS2D/POC Non-Billable Serverless SQL/POC Non-Billable Serverless SQL DBU": {
+            "id": "DZH318Z0HS2D",
+            "name": "Azure Databricks Regional",
+            "sku_name": "POC Non-Billable Serverless SQL",
+            "meter_name": "POC Non-Billable Serverless SQL DBU"
           },
           "DZH318Z0HS2D/Premium SQL Compute Pro/Premium SQL Compute Pro DBU": {
             "id": "DZH318Z0HS2D",
@@ -10240,18 +10252,6 @@
             "name": "Azure Databricks",
             "sku_name": "Premium Clean Rooms Collaborator",
             "meter_name": "Premium Clean Rooms Collaborator Collaborator"
-          },
-          "DZH318Z0HS2D/POC Non-Billable Database Serverless Compute/POC Non-Billable Database Serverless Compute DBU": {
-            "id": "DZH318Z0HS2D",
-            "name": "Azure Databricks Regional",
-            "sku_name": "POC Non-Billable Database Serverless Compute",
-            "meter_name": "POC Non-Billable Database Serverless Compute DBU"
-          },
-          "DZH318Z0HS2D/POC Non-Billable Serverless SQL/POC Non-Billable Serverless SQL DBU": {
-            "id": "DZH318Z0HS2D",
-            "name": "Azure Databricks Regional",
-            "sku_name": "POC Non-Billable Serverless SQL",
-            "meter_name": "POC Non-Billable Serverless SQL DBU"
           },
           "DZH318Z0HS2D/Premium Model Training/Premium Model Training DBU": {
             "id": "DZH318Z0HS2D",
@@ -63701,6 +63701,12 @@
             "sku_name": "OneLake BCDR Other Operations Capacity Usage",
             "meter_name": "OneLake BCDR Other Operations Capacity Usage CU"
           },
+          "DZH318Z0KCZ7/Ontology Compute Capacity Usage/Ontology Compute Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Ontology Compute Capacity Usage",
+            "meter_name": "Ontology Compute Capacity Usage CU"
+          },
           "DZH318Z0F28J/OneLake Cache/OneLake Cache Data Stored": {
             "id": "DZH318Z0F28J",
             "name": "OneLake",
@@ -63850,12 +63856,6 @@
             "name": "OneLake",
             "sku_name": "Cosmos DB Backup Storage",
             "meter_name": "Cosmos DB Backup Storage Data Stored"
-          },
-          "DZH318Z0KCZ7/Ontology Compute Capacity Usage/Ontology Compute Capacity Usage CU": {
-            "id": "DZH318Z0KCZ7",
-            "name": "Fabric Capacity",
-            "sku_name": "Ontology Compute Capacity Usage",
-            "meter_name": "Ontology Compute Capacity Usage CU"
           },
           "DZH318Z0KCZ7/Data Movement - Incremental copy Capacity Usage/Data Movement - Incremental copy Capacity Usage CU": {
             "id": "DZH318Z0KCZ7",
@@ -67528,11 +67528,23 @@
             "sku_name": "2m vCore",
             "meter_name": "vCore"
           },
+          "DZH318Z0S6SN/1 vCore/1 vCore": {
+            "id": "DZH318Z0S6SN",
+            "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv6 Series Compute",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
+          },
           "DZH318Z0JX31/1 vCore/vCore": {
             "id": "DZH318Z0JX31",
             "name": "Azure Cosmos DB for PostgreSQL Compute- Burstable",
             "sku_name": "1 vCore",
             "meter_name": "vCore"
+          },
+          "DZH318Z0S6T2/1 vCore/1 vCore": {
+            "id": "DZH318Z0S6T2",
+            "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+            "sku_name": "1 vCore",
+            "meter_name": "1 vCore"
           },
           "DZH318Z0DCRL/Basic/Basic": {
             "id": "DZH318Z0DCRL",
@@ -67599,12 +67611,6 @@
             "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
             "sku_name": "32 vCore",
             "meter_name": "vCore"
-          },
-          "DZH318Z0S6SN/1 vCore/1 vCore": {
-            "id": "DZH318Z0S6SN",
-            "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv6 Series Compute",
-            "sku_name": "1 vCore",
-            "meter_name": "1 vCore"
           },
           "DZH318Z0F294/M32dms_v2/vCore": {
             "id": "DZH318Z0F294",
@@ -67798,12 +67804,6 @@
             "sku_name": "20 vCore",
             "meter_name": "vCore"
           },
-          "DZH318Z0S6T2/1 vCore/1 vCore": {
-            "id": "DZH318Z0S6T2",
-            "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv6 Series Compute",
-            "sku_name": "1 vCore",
-            "meter_name": "1 vCore"
-          },
           "DZH318Z0KDZJ/32 vCore/vCore": {
             "id": "DZH318Z0KDZJ",
             "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
@@ -67924,11 +67924,11 @@
             "sku_name": "96 vCores",
             "meter_name": "vCore"
           },
-          "DZH318Z0DCRW/Backup - Free LRS/Backup - Free LRS Data Stored": {
-            "id": "DZH318Z0DCRW",
-            "name": "Azure Database for PostgreSQL Flexible Server Backup Storage",
-            "sku_name": "Backup - Free LRS",
-            "meter_name": "Backup - Free LRS Data Stored"
+          "DZH318Z0T63X/vCore/vCore": {
+            "id": "DZH318Z0T63X",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute ECasv5 Series Compute",
+            "sku_name": "vCore",
+            "meter_name": "vCore"
           },
           "DZH318Z0MBM2/1 vCore/1 vCore": {
             "id": "DZH318Z0MBM2",
@@ -67936,11 +67936,23 @@
             "sku_name": "1 vCore",
             "meter_name": "1 vCore"
           },
+          "DZH318Z0T6BM/vCore/vCore": {
+            "id": "DZH318Z0T6BM",
+            "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute DCasv5 Series Compute",
+            "sku_name": "vCore",
+            "meter_name": "vCore"
+          },
           "DZH318Z0MBPH/1 vCore/1 vCore": {
             "id": "DZH318Z0MBPH",
             "name": "Azure Database for PostgreSQL Flexible Server Confidential Compute - ECadsv5",
             "sku_name": "1 vCore",
             "meter_name": "1 vCore"
+          },
+          "DZH318Z0DCRW/Backup - Free LRS/Backup - Free LRS Data Stored": {
+            "id": "DZH318Z0DCRW",
+            "name": "Azure Database for PostgreSQL Flexible Server Backup Storage",
+            "sku_name": "Backup - Free LRS",
+            "meter_name": "Backup - Free LRS Data Stored"
           },
           "DZH318Z09SM2/8 vCore/vCore": {
             "id": "DZH318Z09SM2",
@@ -68824,6 +68836,12 @@
             "sku_name": "Addl Memory Zone Redundancy",
             "meter_name": "Addl Memory Additional Memory"
           },
+          "DZH318Z0B17K/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+            "id": "DZH318Z0B17K",
+            "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+            "sku_name": "vCore ZR Zone Redundancy",
+            "meter_name": "Zone Redundancy vCore"
+          },
           "DZH318Z0BQK3/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
             "id": "DZH318Z0BQK3",
             "name": "SQL Managed Instance Business Critical - Compute Gen5",
@@ -68836,9 +68854,21 @@
             "sku_name": "1 vCore Zone Redundancy",
             "meter_name": "Zone Redundancy vCore"
           },
+          "DZH318Z0BQKP/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+            "id": "DZH318Z0BQKP",
+            "name": "SQL Managed Instance General Purpose - Compute Gen5",
+            "sku_name": "vCore ZR Zone Redundancy",
+            "meter_name": "Zone Redundancy vCore"
+          },
           "DZH318Z0B173/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
             "id": "DZH318Z0B173",
             "name": "SQL Managed Instance Business Critical - Premium Series Memory Optimized Compute",
+            "sku_name": "vCore ZR Zone Redundancy",
+            "meter_name": "Zone Redundancy vCore"
+          },
+          "DZH318Z0B172/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+            "id": "DZH318Z0B172",
+            "name": "SQL Managed Instance General Purpose - Premium Series Memory Optimized Compute",
             "sku_name": "vCore ZR Zone Redundancy",
             "meter_name": "Zone Redundancy vCore"
           },
@@ -68852,24 +68882,6 @@
             "id": "DZH318Z0B17J",
             "name": "SQL Managed Instance Business Critical - Premium Series Compute",
             "sku_name": "1 vCore Zone Redundancy",
-            "meter_name": "Zone Redundancy vCore"
-          },
-          "DZH318Z0B17K/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
-            "id": "DZH318Z0B17K",
-            "name": "SQL Managed Instance General Purpose - Premium Series Compute",
-            "sku_name": "vCore ZR Zone Redundancy",
-            "meter_name": "Zone Redundancy vCore"
-          },
-          "DZH318Z0BQKP/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
-            "id": "DZH318Z0BQKP",
-            "name": "SQL Managed Instance General Purpose - Compute Gen5",
-            "sku_name": "vCore ZR Zone Redundancy",
-            "meter_name": "Zone Redundancy vCore"
-          },
-          "DZH318Z0B172/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
-            "id": "DZH318Z0B172",
-            "name": "SQL Managed Instance General Purpose - Premium Series Memory Optimized Compute",
-            "sku_name": "vCore ZR Zone Redundancy",
             "meter_name": "Zone Redundancy vCore"
           },
           "DZH318Z0B172/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
@@ -72408,6 +72420,12 @@
             "sku_name": "SMS Country Code 91",
             "meter_name": "SMS Country Code 91 Notification"
           },
+          "DZH318Z0BQLB/Dynamic Threshold Log Alerts/Dynamic Threshold Log Alerts": {
+            "id": "DZH318Z0BQLB",
+            "name": "Azure Monitor",
+            "sku_name": "Dynamic Threshold Log Alerts",
+            "meter_name": "Dynamic Threshold Log Alerts"
+          },
           "DZH318Z0BQLB/Platform Logs/Platform Logs Data Processed": {
             "id": "DZH318Z0BQLB",
             "name": "Azure Monitor",
@@ -73025,12 +73043,6 @@
             "name": "Azure Monitor",
             "sku_name": "Voice Calls",
             "meter_name": "Voice Calls Voice Call Country Code 48"
-          },
-          "DZH318Z0BQLB/Dynamic Threshold Log Alerts/Dynamic Threshold Log Alerts": {
-            "id": "DZH318Z0BQLB",
-            "name": "Azure Monitor",
-            "sku_name": "Dynamic Threshold Log Alerts",
-            "meter_name": "Dynamic Threshold Log Alerts"
           },
           "DZH318Z0BQLB/Metric Samples Ingested/Metric Samples Ingested Metric samples": {
             "id": "DZH318Z0BQLB",
@@ -74889,6 +74901,168 @@
   {
     "name": "Other",
     "services": {
+      "DZH319QRVZXR": {
+        "id": "DZH319QRVZXR",
+        "name": "Azure API for FHIR",
+        "products": {
+          "DZH318Z0S386/Classic Message/Classic Message": {
+            "id": "DZH318Z0S386",
+            "name": "MedImageInsight Premium",
+            "sku_name": "Classic Message",
+            "meter_name": "Classic Message"
+          },
+          "DZH318Z094ML/Blob Storage/Blob Storage": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Blob Storage",
+            "meter_name": "Blob Storage"
+          },
+          "DZH318Z094ML/Export Batch/Export Batch": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Export Batch",
+            "meter_name": "Export Batch"
+          },
+          "DZH318Z094ML/Free - Structured Storage/Free - Structured Storage": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Structured Storage",
+            "meter_name": "Free - Structured Storage"
+          },
+          "DZH318Z0CHLF/Standard/Standard Export Batch": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard Export Batch"
+          },
+          "DZH318Z0CHLF/Standard/Standard 100 Provisioned Throughput RU/s": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard 100 Provisioned Throughput RU/s"
+          },
+          "DZH318Z094ML/Transformations/Transformations": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Transformations",
+            "meter_name": "Transformations"
+          },
+          "DZH318Z094ML/API Requests/API Requests": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "API Requests",
+            "meter_name": "API Requests"
+          },
+          "DZH318Z094ML/Free - Blob Storage/Free - Blob Storage": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Blob Storage",
+            "meter_name": "Free - Blob Storage"
+          },
+          "DZH318Z094ML/Notifications/Notifications": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Notifications",
+            "meter_name": "Notifications"
+          },
+          "DZH318Z094ML/Free - API Requests/Free - API Requests": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - API Requests",
+            "meter_name": "Free - API Requests"
+          },
+          "DZH318Z094ML/Free - Transformations/Free - Transformations": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Transformations",
+            "meter_name": "Free - Transformations"
+          },
+          "DZH318Z0CHLF/Standard/Standard Transformations": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard Transformations"
+          },
+          "DZH318Z094ML/Free - Transcode DICOM/Free - Transcode DICOM": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Transcode DICOM",
+            "meter_name": "Free - Transcode DICOM"
+          },
+          "DZH318Z094ML/Export Streaming/Export Streaming": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Export Streaming",
+            "meter_name": "Export Streaming"
+          },
+          "DZH318Z094ML/Structured Storage/Structured Storage": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Structured Storage",
+            "meter_name": "Structured Storage"
+          },
+          "DZH318Z0CHLF/Standard/Standard Service Runtime": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard Service Runtime"
+          },
+          "DZH318Z094ML/Structured De-Identification/Structured De-Identification": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Structured De-Identification",
+            "meter_name": "Structured De-Identification"
+          },
+          "DZH318Z0CHLF/Standard/Standard Structured Storage": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard Structured Storage"
+          },
+          "DZH318Z094ML/Free - Structured De-Identification/Free - Structured De-Identification": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Structured De-Identification",
+            "meter_name": "Free - Structured De-Identification"
+          },
+          "DZH318Z094ML/Transcode DICOM/Transcode DICOM": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Transcode DICOM",
+            "meter_name": "Transcode DICOM"
+          },
+          "DZH318Z094ML/Free - Notifications/Free - Notifications": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "Free - Notifications",
+            "meter_name": "Free - Notifications"
+          },
+          "DZH318Z0CHLF/Standard/Standard Structured De Identification": {
+            "id": "DZH318Z0CHLF",
+            "name": "Azure Health Data APIs",
+            "sku_name": "Standard",
+            "meter_name": "Standard Structured De Identification"
+          },
+          "DZH318Z0RMCC/Action/Action": {
+            "id": "DZH318Z0RMCC",
+            "name": "Healthcare Agent Service",
+            "sku_name": "Action",
+            "meter_name": "Action"
+          },
+          "DZH318Z0RMCC/Free Action/Free Action": {
+            "id": "DZH318Z0RMCC",
+            "name": "Healthcare Agent Service",
+            "sku_name": "Free Action",
+            "meter_name": "Free Action"
+          },
+          "DZH318Z094ML/De-Id/De-Id": {
+            "id": "DZH318Z094ML",
+            "name": "Azure Health Data Services",
+            "sku_name": "De-Id",
+            "meter_name": "De-Id"
+          }
+        }
+      },
       "DZH314KKHZC9": {
         "id": "DZH314KKHZC9",
         "name": "Azure Spring Cloud",
@@ -75066,168 +75240,6 @@
             "name": "Azure Spring Apps",
             "sku_name": "1 App Instance Hour - Free",
             "meter_name": "1 App Instance Hour - Free"
-          }
-        }
-      },
-      "DZH319QRVZXR": {
-        "id": "DZH319QRVZXR",
-        "name": "Azure API for FHIR",
-        "products": {
-          "DZH318Z0S386/Classic Message/Classic Message": {
-            "id": "DZH318Z0S386",
-            "name": "MedImageInsight Premium",
-            "sku_name": "Classic Message",
-            "meter_name": "Classic Message"
-          },
-          "DZH318Z094ML/Blob Storage/Blob Storage": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Blob Storage",
-            "meter_name": "Blob Storage"
-          },
-          "DZH318Z094ML/Export Batch/Export Batch": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Export Batch",
-            "meter_name": "Export Batch"
-          },
-          "DZH318Z094ML/Free - Structured Storage/Free - Structured Storage": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Structured Storage",
-            "meter_name": "Free - Structured Storage"
-          },
-          "DZH318Z0CHLF/Standard/Standard Export Batch": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard Export Batch"
-          },
-          "DZH318Z0CHLF/Standard/Standard 100 Provisioned Throughput RU/s": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard 100 Provisioned Throughput RU/s"
-          },
-          "DZH318Z094ML/Transformations/Transformations": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Transformations",
-            "meter_name": "Transformations"
-          },
-          "DZH318Z094ML/API Requests/API Requests": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "API Requests",
-            "meter_name": "API Requests"
-          },
-          "DZH318Z094ML/Free - Blob Storage/Free - Blob Storage": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Blob Storage",
-            "meter_name": "Free - Blob Storage"
-          },
-          "DZH318Z094ML/Notifications/Notifications": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Notifications",
-            "meter_name": "Notifications"
-          },
-          "DZH318Z094ML/Free - API Requests/Free - API Requests": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - API Requests",
-            "meter_name": "Free - API Requests"
-          },
-          "DZH318Z094ML/Free - Transformations/Free - Transformations": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Transformations",
-            "meter_name": "Free - Transformations"
-          },
-          "DZH318Z0CHLF/Standard/Standard Transformations": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard Transformations"
-          },
-          "DZH318Z094ML/Free - Transcode DICOM/Free - Transcode DICOM": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Transcode DICOM",
-            "meter_name": "Free - Transcode DICOM"
-          },
-          "DZH318Z094ML/Export Streaming/Export Streaming": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Export Streaming",
-            "meter_name": "Export Streaming"
-          },
-          "DZH318Z094ML/Structured Storage/Structured Storage": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Structured Storage",
-            "meter_name": "Structured Storage"
-          },
-          "DZH318Z0CHLF/Standard/Standard Service Runtime": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard Service Runtime"
-          },
-          "DZH318Z094ML/Structured De-Identification/Structured De-Identification": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Structured De-Identification",
-            "meter_name": "Structured De-Identification"
-          },
-          "DZH318Z0CHLF/Standard/Standard Structured Storage": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard Structured Storage"
-          },
-          "DZH318Z094ML/Free - Structured De-Identification/Free - Structured De-Identification": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Structured De-Identification",
-            "meter_name": "Free - Structured De-Identification"
-          },
-          "DZH318Z094ML/Transcode DICOM/Transcode DICOM": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Transcode DICOM",
-            "meter_name": "Transcode DICOM"
-          },
-          "DZH318Z094ML/Free - Notifications/Free - Notifications": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "Free - Notifications",
-            "meter_name": "Free - Notifications"
-          },
-          "DZH318Z0CHLF/Standard/Standard Structured De Identification": {
-            "id": "DZH318Z0CHLF",
-            "name": "Azure Health Data APIs",
-            "sku_name": "Standard",
-            "meter_name": "Standard Structured De Identification"
-          },
-          "DZH318Z0RMCC/Action/Action": {
-            "id": "DZH318Z0RMCC",
-            "name": "Healthcare Agent Service",
-            "sku_name": "Action",
-            "meter_name": "Action"
-          },
-          "DZH318Z0RMCC/Free Action/Free Action": {
-            "id": "DZH318Z0RMCC",
-            "name": "Healthcare Agent Service",
-            "sku_name": "Free Action",
-            "meter_name": "Free Action"
-          },
-          "DZH318Z094ML/De-Id/De-Id": {
-            "id": "DZH318Z094ML",
-            "name": "Azure Health Data Services",
-            "sku_name": "De-Id",
-            "meter_name": "De-Id"
           }
         }
       },
@@ -87164,60 +87176,6 @@
             "name": "Azure Operator 5G Core",
             "sku_name": "Gateway Usage - Production",
             "meter_name": "Gateway Usage - Production Sessions"
-          },
-          "DZH318Z0JB6J/G1/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G1",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/G5/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G5",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/G20/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G20",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/Devices Overage/Devices": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "Devices Overage",
-            "meter_name": "Devices"
-          },
-          "DZH318Z0JB6J/RAN Overage/RAN": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "RAN Overage",
-            "meter_name": "RAN"
-          },
-          "DZH318Z0JB6J/G0/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G0",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/G10/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G10",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/G2/Resource": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "G2",
-            "meter_name": "Resource"
-          },
-          "DZH318Z0JB6J/Overage Throughput/Throughput upto 1 Gbps": {
-            "id": "DZH318Z0JB6J",
-            "name": "Private 5G Core",
-            "sku_name": "Overage Throughput",
-            "meter_name": "Throughput upto 1 Gbps"
           }
         }
       }
