@@ -1609,6 +1609,12 @@
               "sku_name": "POC Non-Billable Interactive Serverless Compute",
               "meter_name": "POC Non-Billable Interactive Serverless Compute DBU"
             },
+            "DZH318Z0HS2D/POC Non-Billable Serverless SQL/POC Non-Billable Serverless SQL DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "POC Non-Billable Serverless SQL",
+              "meter_name": "POC Non-Billable Serverless SQL DBU"
+            },
             "DZH318Z0BWQJ/Premium Jobs Light Compute/Premium Jobs Light Compute DBU": {
               "id": "DZH318Z0BWQJ",
               "name": "Azure Databricks",
@@ -1674,6 +1680,12 @@
               "name": "Azure Databricks",
               "sku_name": "Premium - Free Trial Jobs Compute",
               "meter_name": "Premium - Free Trial Jobs Compute DBU"
+            },
+            "DZH318Z0HS2D/POC Non-Billable Database Serverless Compute/POC Non-Billable Database Serverless Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "POC Non-Billable Database Serverless Compute",
+              "meter_name": "POC Non-Billable Database Serverless Compute DBU"
             },
             "DZH318Z0BWQJ/Premium Jobs Compute/Premium Jobs Compute DBU": {
               "id": "DZH318Z0BWQJ",
@@ -25964,6 +25976,12 @@
               "sku_name": "Eventstream Flat Capacity Usage",
               "meter_name": "Eventstream Flat Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Ontology Compute Capacity Usage/Ontology Compute Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Ontology Compute Capacity Usage",
+              "meter_name": "Ontology Compute Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/OneLake diagnostics Capacity Usage/OneLake diagnostics Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26000,6 +26018,12 @@
               "sku_name": "OneLake BCDR Read Operations Capacity Usage",
               "meter_name": "OneLake BCDR Read Operations Capacity Usage CU"
             },
+            "DZH318Z0F28J/Cosmos DB Backup Storage/Cosmos DB Backup Storage Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Cosmos DB Backup Storage",
+              "meter_name": "Cosmos DB Backup Storage Data Stored"
+            },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations Capacity Usage/OneLake Iterative Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26035,6 +26059,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Apache Airflow job Capacity Usage",
               "meter_name": "Apache Airflow job Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Cosmos DB Storage/Cosmos DB Storage Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Cosmos DB Storage",
+              "meter_name": "Cosmos DB Storage Data Stored"
             },
             "DZH318Z0KCZ7/Eventstream Connector Capacity Usage/Eventstream Connector Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26233,6 +26263,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Write Operations Capacity Usage",
               "meter_name": "OneLake Write Operations Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Cosmos DB Data Restore/Cosmos DB Data Restore Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Cosmos DB Data Restore",
+              "meter_name": "Cosmos DB Data Restore Data Stored"
             },
             "DZH318Z0KCZ7/Eventstream Processor Capacity Usage/Eventstream Processor Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26509,6 +26545,12 @@
               "sku_name": "104 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0S6T2/1 vCore/1 vCore": {
+              "id": "DZH318Z0S6T2",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Eadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0KF1X/vCore/vCore": {
               "id": "DZH318Z0KF1X",
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
@@ -26604,6 +26646,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
               "sku_name": "16 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0S6SN/1 vCore/1 vCore": {
+              "id": "DZH318Z0S6SN",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0KDX1/vCore/vCore": {
               "id": "DZH318Z0KDX1",
@@ -31629,6 +31677,12 @@
               "sku_name": "SMS Country Code 52",
               "meter_name": "SMS Country Code 52 Notification"
             },
+            "DZH318Z0BQLB/Dynamic Threshold Log Alerts/Dynamic Threshold Log Alerts": {
+              "id": "DZH318Z0BQLB",
+              "name": "Azure Monitor",
+              "sku_name": "Dynamic Threshold Log Alerts",
+              "meter_name": "Dynamic Threshold Log Alerts"
+            },
             "DZH318Z0BQLB/Alerts/Alerts Resource Monitored at 1 Minute Frequency": {
               "id": "DZH318Z0BQLB",
               "name": "Azure Monitor",
@@ -33078,6 +33132,23 @@
       }
     },
     {
+      "name": "Other",
+      "services": {
+        "DZH319QRVZXR": {
+          "id": "DZH319QRVZXR",
+          "name": "Azure API for FHIR",
+          "products": {
+            "DZH318Z0S386/Classic Message/Classic Message": {
+              "id": "DZH318Z0S386",
+              "name": "MedImageInsight Premium",
+              "sku_name": "Classic Message",
+              "meter_name": "Classic Message"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Security",
       "services": {
         "DZH319R3XQR9": {
@@ -33485,6 +33556,12 @@
               "sku_name": "P4 LRS",
               "meter_name": "P4 LRS Disk"
             },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted GRS Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted GRS Write Operations"
+            },
             "DZH318Z0BP88/E20 ZRS/E20 ZRS Disk": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -33557,6 +33634,12 @@
               "sku_name": "E80 LRS",
               "meter_name": "E80 LRS Disk"
             },
+            "DZH318Z0BNZ4/Standard RA-GRS/RA-GRS Data Stored": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "RA-GRS Data Stored"
+            },
             "DZH318Z0BJRN/Cool RA-GRS/Cool Read Operations": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -33616,6 +33699,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Retrieval"
+            },
+            "DZH318Z0BNWT/Standard GRS/GRS Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Write Additional IO"
             },
             "DZH318Z0CPS4/Premium LRS/Premium LRS Read Operations": {
               "id": "DZH318Z0CPS4",
@@ -33707,6 +33796,12 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool GRS Write Operations"
             },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Write Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Write Operations"
+            },
             "DZH318Z0BPH7/Cold ZRS/Cold ZRS Data Retrieval": {
               "id": "DZH318Z0BPH7",
               "name": "General Block Blob v2",
@@ -33767,6 +33862,12 @@
               "sku_name": "P30 ZRS",
               "meter_name": "P30 ZRS Disk"
             },
+            "DZH318Z0BNZ4/Standard RA-GRS/Class 2 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Class 2 Operations"
+            },
             "DZH318Z0BNZ5/Standard LRS/List Operations": {
               "id": "DZH318Z0BNZ5",
               "name": "Tables",
@@ -33779,11 +33880,23 @@
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Archive Tier Down"
             },
+            "DZH318Z0BNZ5/Standard RA-GRS/Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Delete Operations"
+            },
             "DZH318Z0BP88/E6 LRS/E6 LRS Disk Operations": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
               "sku_name": "E6 LRS",
               "meter_name": "E6 LRS Disk Operations"
+            },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Early Delete": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Early Delete"
             },
             "DZH318Z0BNWT/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -33808,6 +33921,12 @@
               "name": "Azure Premium SSD v2",
               "sku_name": "Confidential Compute Encryption LRS",
               "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
+            },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted Read Operations"
             },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Early Delete": {
               "id": "DZH318Z0BPH7",
@@ -33941,6 +34060,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "LRS Class 2 Additional IO"
             },
+            "DZH318Z0BNZ5/Standard GRS/GRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Data Stored"
+            },
             "DZH318Z0BJRN/Hot LRS/Hot Write Operations": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -33970,6 +34095,12 @@
               "name": "Blob Storage",
               "sku_name": "Cool GRS",
               "meter_name": "Cool Read Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Delete Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Delete Operations"
             },
             "DZH318Z0V8LK/Standard/Standard Objects Analyzed": {
               "id": "DZH318Z0V8LK",
@@ -34018,6 +34149,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Hot ZRS",
               "meter_name": "Index Tags"
+            },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Data Stored": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Data Stored"
             },
             "DZH318Z0C120/Cool ZRS/Cool ZRS Write Operations": {
               "id": "DZH318Z0C120",
@@ -34073,6 +34210,12 @@
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Write Operations"
             },
+            "DZH318Z0BNZ4/Standard RA-GRS/GRS Class 1 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Class 1 Additional IO"
+            },
             "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS": {
               "id": "DZH318Z0H96B",
               "name": "Azure Files Provisioned v2",
@@ -34102,6 +34245,12 @@
               "name": "Premium ADLS Gen2 Hierarchical Namespace",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS MetaData Storage"
+            },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/RA-GRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "RA-GRS Data Stored"
             },
             "DZH318Z0BP04/Burst Transactions LRS/LRS Burst Transactions": {
               "id": "DZH318Z0BP04",
@@ -34138,6 +34287,18 @@
               "name": "Blob Storage",
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool Data Retrieval"
+            },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Read Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Read Operations"
+            },
+            "DZH318Z0BNWT/Standard ZRS/Delete Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "Delete Operations"
             },
             "DZH318Z0BNZ5/Account Encrypted LRS/LRS Data Stored": {
               "id": "DZH318Z0BNZ5",
@@ -34199,6 +34360,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Write Operations"
             },
+            "DZH318Z0BNWT/Standard GRS/GRS Write Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Write Operations"
+            },
             "DZH318Z0BP0W/P15 LRS/P15 LRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -34222,6 +34389,12 @@
               "name": "Azure Files Provisioned v2",
               "sku_name": "HDD ZRS",
               "meter_name": "HDD ZRS Provisioned Storage"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Delete Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Delete Operations"
             },
             "DZH318Z0BP88/E1 LRS/E1 LRS Disk Mount": {
               "id": "DZH318Z0BP88",
@@ -34282,6 +34455,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS Early Delete"
+            },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted Read Operations"
             },
             "DZH318Z0BNZF/Standard RA-GRS/Disk Delete Operations": {
               "id": "DZH318Z0BNZF",
@@ -34367,6 +34546,12 @@
               "sku_name": "E50 LRS",
               "meter_name": "E50 LRS Disk Operations"
             },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Data Write": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Data Write"
+            },
             "DZH318Z0C120/Hot LRS/Hot Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -34378,6 +34563,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
               "meter_name": "Hot Write Operations"
+            },
+            "DZH318Z0BNZJ/Hot RA-GRS/GRS Index Tags": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot RA-GRS",
+              "meter_name": "GRS Index Tags"
             },
             "DZH318Z0BPH7/Cold ZRS/Cold ZRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -34474,6 +34665,12 @@
               "name": "Premium Page Blob",
               "sku_name": "P20 ZRS",
               "meter_name": "P20 ZRS Disk"
+            },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted Scan Operations"
             },
             "DZH318Z09V07/Premium LRS/Premium LRS Provisioned Capacity": {
               "id": "DZH318Z09V07",
@@ -34625,6 +34822,18 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Write Operations"
             },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Data Write": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Data Write"
+            },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Early Delete": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Early Delete"
+            },
             "DZH318Z0BP09/Hot ZRS/Hot ZRS Data Stored": {
               "id": "DZH318Z0BP09",
               "name": "Files v2",
@@ -34648,6 +34857,12 @@
               "name": "Premium SSD Managed Disks",
               "sku_name": "P3 ZRS",
               "meter_name": "P3 ZRS Disk Mount"
+            },
+            "DZH318Z0BNZJ/Hot RA-GRS/Hot Read Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot RA-GRS",
+              "meter_name": "Hot Read Operations"
             },
             "DZH318Z0BP88/E60 LRS/E60 LRS Disk Mount": {
               "id": "DZH318Z0BP88",
@@ -34817,6 +35032,18 @@
               "sku_name": "Snapshots ZRS",
               "meter_name": "Snapshots ZRS Snapshots"
             },
+            "DZH318Z0BNZJ/Hot GRS/GRS Index Tags": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot GRS",
+              "meter_name": "GRS Index Tags"
+            },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Data Retrieval": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Data Retrieval"
+            },
             "DZH318Z0BP88/E10 LRS/E10 LRS Disk Mount": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -34847,6 +35074,12 @@
               "sku_name": "E4 ZRS",
               "meter_name": "E4 ZRS Disk Operations"
             },
+            "DZH318Z0BNZ4/Standard RA-GRS/GRS Class 2 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Class 2 Additional IO"
+            },
             "DZH318Z0BNZF/Standard RA-GRS/Read Additional IO": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -34858,6 +35091,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool GRS",
               "meter_name": "Cool GRS Data Stored"
+            },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted Delete Operations"
             },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Read Operations": {
               "id": "DZH318Z0BPH7",
@@ -34888,6 +35127,12 @@
               "name": "Files v2",
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS Data Stored"
+            },
+            "DZH318Z0BNZJ/Hot RA-GRS/Hot RA-GRS Data Stored": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot RA-GRS",
+              "meter_name": "Hot RA-GRS Data Stored"
             },
             "DZH318Z0C120/Cold ZRS/Cold ZRS Read Operations": {
               "id": "DZH318Z0C120",
@@ -34937,11 +35182,29 @@
               "sku_name": "E15 ZRS",
               "meter_name": "E15 ZRS Disk"
             },
+            "DZH318Z0BNWT/Standard GRS/Delete Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Delete Operations"
+            },
             "DZH318Z0BP04/P3 ZRS/P3 ZRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
               "sku_name": "P3 ZRS",
               "meter_name": "P3 ZRS Disk"
+            },
+            "DZH318Z0BNWT/Standard ZRS/ZRS Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Data Stored"
+            },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted GRS Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted GRS Write Operations"
             },
             "DZH318Z0BJRM/Cool LRS/Cool Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
@@ -34954,6 +35217,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Cool GRS",
               "meter_name": "Cool Data Returned for Query Acceleration"
+            },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted List Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted List Operations"
             },
             "DZH318Z0BPH7/Hot LRS/All Other Operations": {
               "id": "DZH318Z0BPH7",
@@ -35002,6 +35271,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool GRS Write Operations"
+            },
+            "DZH318Z0BNZJ/Hot GRS/Hot Read Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot GRS",
+              "meter_name": "Hot Read Operations"
             },
             "DZH318Z0BP09/Cool GRS/Cool GRS Write Operations": {
               "id": "DZH318Z0BP09",
@@ -35117,6 +35392,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Write Operations"
             },
+            "DZH318Z0BNZ5/Standard RA-GRS/Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Read Operations"
+            },
             "DZH318Z0BP0L/S30 LRS/S30 LRS Disk": {
               "id": "DZH318Z0BP0L",
               "name": "Standard HDD Managed Disks",
@@ -35189,11 +35470,23 @@
               "sku_name": "E10 LRS",
               "meter_name": "E10 LRS Disk Operations"
             },
+            "DZH318Z0BNWT/Standard GRS/GRS Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Data Stored"
+            },
             "DZH318Z0BP04/P2 ZRS/P2 ZRS Disk Mount": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
               "sku_name": "P2 ZRS",
               "meter_name": "P2 ZRS Disk Mount"
+            },
+            "DZH318Z0BNWT/Standard GRS/GRS Disk Write Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Disk Write Operations"
             },
             "DZH318Z0BJRM/Cool RA-GRS/Cool Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -35231,6 +35524,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "Disk Read Additional IO"
             },
+            "DZH318Z0BNZ4/Standard GRS/GRS Class 2 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Class 2 Additional IO"
+            },
             "DZH318Z0C120/Cold ZRS/Cold ZRS Index Tags": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -35261,6 +35560,12 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS All Other Operations"
             },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted List Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted List Operations"
+            },
             "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Storage": {
               "id": "DZH318Z0H96B",
               "name": "Azure Files Provisioned v2",
@@ -35272,6 +35577,12 @@
               "name": "Standard Page Blob",
               "sku_name": "Standard LRS",
               "meter_name": "Disk Data Stored"
+            },
+            "DZH318Z0BNZ5/Standard GRS/GRS Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Write Operations"
             },
             "DZH318Z0BNZJ/Cool RA-GRS/Cool GRS Data Write": {
               "id": "DZH318Z0BNZJ",
@@ -35296,6 +35607,18 @@
               "name": "Files",
               "sku_name": "Standard LRS",
               "meter_name": "Protocol Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Disk Read Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Disk Read Operations"
+            },
+            "DZH318Z0BNZ4/Standard GRS/GRS Data Stored": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Data Stored"
             },
             "DZH318Z0BP04/P80 LRS/P80 LRS Disk Mount": {
               "id": "DZH318Z0BP04",
@@ -35363,6 +35686,18 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Read Operations"
             },
+            "DZH318Z0BNWT/Standard ZRS/ZRS Write Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Write Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Read Additional IO"
+            },
             "DZH318Z0BNZV/Standard/Standard Server - Free": {
               "id": "DZH318Z0BNZV",
               "name": "File Sync",
@@ -35392,6 +35727,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Data Stored"
+            },
+            "DZH318Z0BNZ4/Standard RA-GRS/GRS Class 1 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Class 1 Operations"
             },
             "DZH318Z0BP0L/S60 LRS/S60 LRS Disk": {
               "id": "DZH318Z0BP0L",
@@ -35459,6 +35800,12 @@
               "sku_name": "E50 ZRS",
               "meter_name": "E50 ZRS Disk Operations"
             },
+            "DZH318Z0BNZ4/Standard ZRS/ZRS Data Stored": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Data Stored"
+            },
             "DZH318Z0CPS8/Premium LRS/Premium LRS Data Stored": {
               "id": "DZH318Z0CPS8",
               "name": "Premium ADLS Gen2 Flat Namespace",
@@ -35482,6 +35829,12 @@
               "name": "Standard HDD Managed Disks",
               "sku_name": "S10 LRS",
               "meter_name": "S10 LRS Disk Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/RA-GRS Data Stored": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "RA-GRS Data Stored"
             },
             "DZH318Z0BNZF/Standard GRS/Read Operations": {
               "id": "DZH318Z0BNZF",
@@ -35524,6 +35877,12 @@
               "name": "Storage Actions",
               "sku_name": "Azure Storage Tasks",
               "meter_name": "Azure Storage Tasks Task Execution"
+            },
+            "DZH318Z0BNWT/Standard GRS/Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Read Additional IO"
             },
             "DZH318Z0BNZH/Standard ZRS/Read Operations": {
               "id": "DZH318Z0BNZH",
@@ -35657,6 +36016,12 @@
               "sku_name": "E80 LRS",
               "meter_name": "E80 LRS Disk Mount"
             },
+            "DZH318Z0BNZ4/Standard GRS/Class 2 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Class 2 Operations"
+            },
             "DZH318Z0BP0L/S20 LRS/S20 LRS Disk Operations": {
               "id": "DZH318Z0BP0L",
               "name": "Standard HDD Managed Disks",
@@ -35669,6 +36034,12 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS Iterative Read Operations"
             },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted Scan Operations"
+            },
             "DZH318Z0CBTJ/Priority Object Replication ZRS/Priority Object Replication ZRS Data Replicated": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
@@ -35680,6 +36051,18 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E70 ZRS",
               "meter_name": "E70 ZRS Disk Operations"
+            },
+            "DZH318Z0BNWT/Standard ZRS/ZRS Read Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Read Operations"
+            },
+            "DZH318Z0BNZJ/Hot RA-GRS/All Other Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot RA-GRS",
+              "meter_name": "All Other Operations"
             },
             "DZH318Z0BP88/E15 LRS/E15 LRS Disk Operations": {
               "id": "DZH318Z0BP88",
@@ -35740,6 +36123,12 @@
               "name": "Premium Files",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Burst Transactions"
+            },
+            "DZH318Z0BNZ5/Standard GRS/Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "Scan Operations"
             },
             "DZH318Z0BP09/Cool ZRS/Cool ZRS List Operations": {
               "id": "DZH318Z0BP09",
@@ -35813,6 +36202,12 @@
               "sku_name": "Hot ZRS",
               "meter_name": "Hot ZRS Data Stored"
             },
+            "DZH318Z0BNZ4/Standard ZRS/ZRS Class 1 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Class 1 Operations"
+            },
             "DZH318Z0BJRN/Cool ZRS/Cool Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -35824,6 +36219,18 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cool GRS",
               "meter_name": "Cool GRS Write Operations"
+            },
+            "DZH318Z0BNZ4/Standard ZRS/ZRS Class 2 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Class 2 Additional IO"
+            },
+            "DZH318Z0BNZJ/Hot RA-GRS/Hot GRS Write Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot RA-GRS",
+              "meter_name": "Hot GRS Write Operations"
             },
             "DZH318Z0BP0B/Standard LRS/Read Operations": {
               "id": "DZH318Z0BP0B",
@@ -35921,6 +36328,12 @@
               "sku_name": "HDD GRS",
               "meter_name": "HDD GRS Provisioned Throughput MiBPS"
             },
+            "DZH318Z0BNZ5/Standard RA-GRS/RA-GRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "RA-GRS Data Stored"
+            },
             "DZH318Z0BJRN/Cool GRS/Cool GRS Early Delete": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -35932,6 +36345,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Read Operations"
+            },
+            "DZH318Z0BNZJ/Hot GRS/Hot GRS Write Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot GRS",
+              "meter_name": "Hot GRS Write Operations"
             },
             "DZH318Z0BP04/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
               "id": "DZH318Z0BP04",
@@ -35950,6 +36369,12 @@
               "name": "Azure Files Provisioned v2",
               "sku_name": "HDD LRS",
               "meter_name": "HDD LRS Overflow Snapshot Usage"
+            },
+            "DZH318Z0BNZJ/Cold GRS/Cold GRS Data Stored": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold GRS",
+              "meter_name": "Cold GRS Data Stored"
             },
             "DZH318Z0C120/Cold ZRS/Cold ZRS Data Retrieval": {
               "id": "DZH318Z0C120",
@@ -36052,6 +36477,12 @@
               "name": "Azure Files Provisioned v2",
               "sku_name": "SSD LRS",
               "meter_name": "SSD LRS Provisioned IOPS"
+            },
+            "DZH318Z0BNZ5/Standard RA-GRS/Scan Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Scan Operations"
             },
             "DZH318Z0BP0W/P10 LRS/P10 LRS Disk": {
               "id": "DZH318Z0BP0W",
@@ -36179,6 +36610,12 @@
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Data Write"
             },
+            "DZH318Z0BNZ5/Standard GRS/Read Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "Read Operations"
+            },
             "DZH318Z0BP0B/Standard LRS/LRS Data Stored": {
               "id": "DZH318Z0BP0B",
               "name": "Files",
@@ -36239,6 +36676,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Named Encryption Scopes"
             },
+            "DZH318Z0BNZJ/Hot GRS/Hot GRS Data Stored": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot GRS",
+              "meter_name": "Hot GRS Data Stored"
+            },
             "DZH318Z0BP04/P6 ZRS/P6 ZRS Disk Mount": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -36263,6 +36706,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool Data Returned for Query Acceleration"
             },
+            "DZH318Z0BNZ5/Account Encrypted GRS/GRS Data Stored": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "GRS Data Stored"
+            },
             "DZH318Z0BJRM/Hot LRS/Hot LRS Index": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -36280,6 +36729,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Data Write"
+            },
+            "DZH318Z0BNZ5/Standard GRS/GRS Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Batch Write Operations"
             },
             "DZH318Z0BJRM/Hot LRS/Hot Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
@@ -36419,6 +36874,12 @@
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS Data Stored"
             },
+            "DZH318Z0BNZ4/Standard GRS/GRS Class 1 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Class 1 Additional IO"
+            },
             "DZH318Z0BP04/P70 LRS/P70 LRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -36442,6 +36903,12 @@
               "name": "Premium Page Blob",
               "sku_name": "P50 ZRS",
               "meter_name": "P50 ZRS Disk"
+            },
+            "DZH318Z0BNZJ/Hot GRS/All Other Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Hot GRS",
+              "meter_name": "All Other Operations"
             },
             "DZH318Z0BPH7/Cool ZRS/Cool ZRS Data Retrieval": {
               "id": "DZH318Z0BPH7",
@@ -36520,6 +36987,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E40 LRS",
               "meter_name": "E40 LRS Disk Operations"
+            },
+            "DZH318Z0BNWT/Standard ZRS/ZRS Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Write Additional IO"
             },
             "DZH318Z0BNZ3/Standard LRS/LRS Class 1 Additional IO": {
               "id": "DZH318Z0BNZ3",
@@ -36617,6 +37090,12 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool Read Operations"
             },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Write Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Write Operations"
+            },
             "DZH318Z0C120/Cold ZRS/Cold ZRS Data Stored": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -36634,6 +37113,12 @@
               "name": "Premium SSD Managed Disks",
               "sku_name": "Snapshots ZRS",
               "meter_name": "ZRS Snapshots"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/GRS Write Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Write Additional IO"
             },
             "DZH318Z0CPS8/Premium ZRS/Premium ZRS Iterative Write Operations": {
               "id": "DZH318Z0CPS8",
@@ -36664,6 +37149,12 @@
               "name": "Premium Block Blob",
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS List and Create Container Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/GRS Disk Write Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Disk Write Operations"
             },
             "DZH318Z0BP88/E6 LRS/E6 LRS Disk": {
               "id": "DZH318Z0BP88",
@@ -36773,6 +37264,12 @@
               "sku_name": "P20 LRS",
               "meter_name": "P20 LRS Disk"
             },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Data Retrieval": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Data Retrieval"
+            },
             "DZH318Z0BJRM/Cold LRS/Cold LRS Read Operations": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -36784,6 +37281,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E1 ZRS",
               "meter_name": "E1 ZRS Disk"
+            },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted GRS Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted GRS Batch Write Operations"
             },
             "DZH318Z0CBTJ/SSH File Transfer Protocol GRS/Hour Enabled": {
               "id": "DZH318Z0CBTJ",
@@ -36832,6 +37335,12 @@
               "name": "Tables",
               "sku_name": "Standard ZRS",
               "meter_name": "Scan Operations"
+            },
+            "DZH318Z0BNWT/Standard ZRS/ZRS Read Additional IO": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Read Additional IO"
             },
             "DZH318Z0BJRM/Cool ZRS/Cool Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -36929,6 +37438,12 @@
               "sku_name": "E40 ZRS",
               "meter_name": "E40 ZRS Disk Operations"
             },
+            "DZH318Z0BNWT/Standard GRS/Disk Delete Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Delete Operations"
+            },
             "DZH318Z0BP04/P3 LRS/P3 LRS Disk Mount": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -37006,6 +37521,12 @@
               "name": "Files",
               "sku_name": "Standard LRS",
               "meter_name": "Delete Operations"
+            },
+            "DZH318Z0BNWT/Standard RA-GRS/Read Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "Read Operations"
             },
             "DZH318Z0CPS4/Premium LRS/Premium LRS Write Operations": {
               "id": "DZH318Z0CPS4",
@@ -37145,6 +37666,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "Delete Operations"
             },
+            "DZH318Z0BNZ4/Standard ZRS/ZRS Class 1 Additional IO": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Class 1 Additional IO"
+            },
             "DZH318Z0BJRM/Hot LRS/Hot LRS Data Stored": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -37162,6 +37689,12 @@
               "name": "Files v2",
               "sku_name": "Hot ZRS",
               "meter_name": "Hot Read Operations"
+            },
+            "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted GRS",
+              "meter_name": "Account Encrypted Delete Operations"
             },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -37199,6 +37732,12 @@
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Data Retrieval"
             },
+            "DZH318Z0BNZ5/Standard RA-GRS/GRS Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard RA-GRS",
+              "meter_name": "GRS Batch Write Operations"
+            },
             "DZH318Z0BP04/P2 ZRS/P2 ZRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -37217,6 +37756,12 @@
               "sku_name": "Azure Storage Tasks",
               "meter_name": "Azure Storage Tasks Operations Invoked"
             },
+            "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted GRS Batch Write Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Account Encrypted RA-GRS",
+              "meter_name": "Account Encrypted GRS Batch Write Operations"
+            },
             "DZH318Z0BNZ5/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNZ5",
               "name": "Tables",
@@ -37234,6 +37779,12 @@
               "name": "Premium SSD Managed Disks",
               "sku_name": "Snapshots LRS",
               "meter_name": "LRS Snapshots"
+            },
+            "DZH318Z0BNZ5/Standard GRS/Delete Operations": {
+              "id": "DZH318Z0BNZ5",
+              "name": "Tables",
+              "sku_name": "Standard GRS",
+              "meter_name": "Delete Operations"
             },
             "DZH318Z0BNZJ/Cool LRS/Cool LRS Data Write": {
               "id": "DZH318Z0BNZJ",
@@ -37439,6 +37990,12 @@
               "sku_name": "Standard ZRS",
               "meter_name": "Delete Operations"
             },
+            "DZH318Z0BNZ4/Standard ZRS/ZRS Class 2 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard ZRS",
+              "meter_name": "ZRS Class 2 Operations"
+            },
             "DZH318Z0BNZH/Standard ZRS/All Other Operations": {
               "id": "DZH318Z0BNZH",
               "name": "General Block Blob",
@@ -37493,6 +38050,12 @@
               "sku_name": "Account Encrypted ZRS",
               "meter_name": "Account Encrypted Write Operations"
             },
+            "DZH318Z0BNZJ/Cold RA-GRS/Cold RA-GRS Read Operations": {
+              "id": "DZH318Z0BNZJ",
+              "name": "Blob Storage",
+              "sku_name": "Cold RA-GRS",
+              "meter_name": "Cold RA-GRS Read Operations"
+            },
             "DZH318Z0BNZF/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNZF",
               "name": "Standard Page Blob",
@@ -37510,6 +38073,12 @@
               "name": "Files v2",
               "sku_name": "Standard LRS",
               "meter_name": "List Operations"
+            },
+            "DZH318Z0BNZ4/Standard GRS/GRS Class 1 Operations": {
+              "id": "DZH318Z0BNZ4",
+              "name": "Queues v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "GRS Class 1 Operations"
             },
             "DZH318Z0C120/Cool ZRS/Cool Read Operations": {
               "id": "DZH318Z0C120",
@@ -37583,6 +38152,12 @@
               "sku_name": "P70 LRS",
               "meter_name": "P70 LRS Disk Mount"
             },
+            "DZH318Z0BNWT/Standard GRS/Disk Read Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Disk Read Operations"
+            },
             "DZH318Z0BP04/P20 ZRS/P20 ZRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -37612,6 +38187,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold ZRS",
               "meter_name": "Cold ZRS Read Operations"
+            },
+            "DZH318Z0BNWT/Standard GRS/Read Operations": {
+              "id": "DZH318Z0BNWT",
+              "name": "Standard Page Blob v2",
+              "sku_name": "Standard GRS",
+              "meter_name": "Read Operations"
             },
             "DZH318Z0BP0L/S40 LRS/S40 LRS Disk": {
               "id": "DZH318Z0BP0L",
