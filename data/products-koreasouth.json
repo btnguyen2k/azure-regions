@@ -5,7 +5,7 @@
       "services": {
         "DZH319RLHTZC": {
           "id": "DZH319RLHTZC",
-          "name": "Azure Applied AI Services",
+          "name": "Foundry Tools",
           "products": {
             "DZH318Z09XF4/Advanced Video Indexing Analysis/Advanced Video Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -18,6 +18,12 @@
               "name": "Azure Video Indexer",
               "sku_name": "Basic Audio Indexing Analysis",
               "meter_name": "Basic Audio Indexing Analysis Input Content Minutes"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M Unit"
             },
             "DZH318Z09XF4/Standard Audio Indexing Analysis/Standard Audio Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -37,11 +43,23 @@
               "sku_name": "Video Modification",
               "meter_name": "Video Modification Input Content Minutes"
             },
+            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 250M",
+              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
+            },
             "DZH318Z09XF4/Standard Audio Analysis/Standard Audio Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
               "name": "Azure Video Indexer",
               "sku_name": "Standard Audio Analysis",
               "meter_name": "Standard Audio Analysis Input Content Minutes"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
             },
             "DZH318Z09XF4/Basic Audio Analysis/Basic Audio Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -55,36 +73,6 @@
               "sku_name": "Advanced Audio Indexing Analysis",
               "meter_name": "Advanced Audio Indexing Analysis Input Content Minutes"
             },
-            "DZH318Z09XF4/Standard Video Analysis/Standard Video Analysis Input Content Minutes": {
-              "id": "DZH318Z09XF4",
-              "name": "Azure Video Indexer",
-              "sku_name": "Standard Video Analysis",
-              "meter_name": "Standard Video Analysis Input Content Minutes"
-            }
-          }
-        },
-        "DZH31600VF1F": {
-          "id": "DZH31600VF1F",
-          "name": "Cognitive Services",
-          "products": {
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M Unit"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 250M",
-              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
-            },
             "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M CT Overage Characters": {
               "id": "DZH318Z0BQLH",
               "name": "Translator Text",
@@ -93,13 +81,13 @@
             },
             "DZH318Z09WST/Commitment Tier Disconnected 4000M/Commitment Tier Disconnected 4000M Unit": {
               "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
+              "name": "Azure Translator - Disconnected",
               "sku_name": "Commitment Tier Disconnected 4000M",
               "meter_name": "Commitment Tier Disconnected 4000M Unit"
             },
             "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
               "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
+              "name": "Azure Translator - Disconnected",
               "sku_name": "Commitment Tier Disconnected 10000M",
               "meter_name": "Commitment Tier Disconnected 10000M Unit"
             },
@@ -108,6 +96,12 @@
               "name": "Translator Text",
               "sku_name": "Commitment Tier Connected 1000M",
               "meter_name": "Commitment Tier Connected 1000M Unit"
+            },
+            "DZH318Z09XF4/Standard Video Analysis/Standard Video Analysis Input Content Minutes": {
+              "id": "DZH318Z09XF4",
+              "name": "Azure Video Indexer",
+              "sku_name": "Standard Video Analysis",
+              "meter_name": "Standard Video Analysis Input Content Minutes"
             }
           }
         },
@@ -27673,11 +27667,11 @@
               "sku_name": "Real-Time Intelligence - Event Operations Capacity Usage",
               "meter_name": "Real-Time Intelligence - Event Operations Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU": {
+            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener and Alert Capacity Usage/Real-Time Intelligence - Event Listener and Alert Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage",
-              "meter_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU"
+              "sku_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage",
+              "meter_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations via proxy Capacity Usage/OneLake Iterative Write Operations via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
