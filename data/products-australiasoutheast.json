@@ -5,7 +5,7 @@
       "services": {
         "DZH31600VF1F": {
           "id": "DZH31600VF1F",
-          "name": "Cognitive Services",
+          "name": "Foundry Models",
           "products": {
             "DZH318Z0SLDG/Command A Outp Glbl/Command A Outp Glbl Tokens": {
               "id": "DZH318Z0SLDG",
@@ -33,13 +33,13 @@
             },
             "DZH318Z0VXNR/gpt-oss-120B Inp glbl/gpt-oss-120B Inp glbl Tokens": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "gpt-oss-120B Inp glbl",
               "meter_name": "gpt-oss-120B Inp glbl Tokens"
             },
             "DZH318Z0TPCM/Ministral 3B Model In-FT/Ministral 3B Model In-FT Tokens": {
               "id": "DZH318Z0TPCM",
-              "name": "Mistral Models",
+              "name": "Azure Mistral Models",
               "sku_name": "Ministral 3B Model In-FT",
               "meter_name": "Ministral 3B Model In-FT Tokens"
             },
@@ -57,13 +57,13 @@
             },
             "DZH318Z0TPCM/Doc AI glbl 2505/Doc AI glbl 2505 Pages": {
               "id": "DZH318Z0TPCM",
-              "name": "Mistral Models",
+              "name": "Azure Mistral Models",
               "sku_name": "Doc AI glbl 2505",
               "meter_name": "Doc AI glbl 2505 Pages"
             },
             "DZH318Z0VXNR/GPT-OSS-20b-IN-FT/GPT-OSS-20b-IN-FT Tokens": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "GPT-OSS-20b-IN-FT",
               "meter_name": "GPT-OSS-20b-IN-FT Tokens"
             },
@@ -72,24 +72,6 @@
               "name": "Cohere Models",
               "sku_name": "Command A Inp Glbl",
               "meter_name": "Command A Inp Glbl Tokens"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
-            },
-            "DZH318Z09WST/Commitment Tier Disconnected 4000M/Commitment Tier Disconnected 4000M Unit": {
-              "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
-              "sku_name": "Commitment Tier Disconnected 4000M",
-              "meter_name": "Commitment Tier Disconnected 4000M Unit"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M Unit": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 1000M",
-              "meter_name": "Commitment Tier Connected 1000M Unit"
             },
             "DZH318Z0SDFC/Qwen3 32B-Out-FT/Qwen3 32B-Out-FT Tokens": {
               "id": "DZH318Z0SDFC",
@@ -103,69 +85,45 @@
               "sku_name": "Embed v4 Img Glbl",
               "meter_name": "Embed v4 Img Glbl Tokens"
             },
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M Unit"
-            },
             "DZH318Z0VXNR/OSS-20b FT/OSS-20b FT Deployment Hosting Unit": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "OSS-20b FT",
               "meter_name": "OSS-20b FT Deployment Hosting Unit"
             },
             "DZH318Z0TPCM/Mnstrl 3B FT/Mnstrl 3B FT Tokens": {
               "id": "DZH318Z0TPCM",
-              "name": "Mistral Models",
+              "name": "Azure Mistral Models",
               "sku_name": "Mnstrl 3B FT",
               "meter_name": "Mnstrl 3B FT Tokens"
             },
-            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 1000M",
-              "meter_name": "Commitment Tier Connected 1000M CT Overage Characters"
-            },
             "DZH318Z0TPCM/Ministral 3B Model Out-FT/Ministral 3B Model Out-FT Tokens": {
               "id": "DZH318Z0TPCM",
-              "name": "Mistral Models",
+              "name": "Azure Mistral Models",
               "sku_name": "Ministral 3B Model Out-FT",
               "meter_name": "Ministral 3B Model Out-FT Tokens"
             },
             "DZH318Z0VXNR/gpt-oss-120B Outp glbl/gpt-oss-120B Outp glbl Tokens": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "gpt-oss-120B Outp glbl",
               "meter_name": "gpt-oss-120B Outp glbl Tokens"
             },
             "DZH318Z0VXNR/GPT-OSS-20b-Out-FT/GPT-OSS-20b-Out-FT Tokens": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "GPT-OSS-20b-Out-FT",
               "meter_name": "GPT-OSS-20b-Out-FT Tokens"
             },
             "DZH318Z0VXNR/OSS-20b FT/OSS-20b FT Tokens": {
               "id": "DZH318Z0VXNR",
-              "name": "Azure OpenAI OSS models",
+              "name": "Azure OpenAI OSS Models",
               "sku_name": "OSS-20b FT",
               "meter_name": "OSS-20b FT Tokens"
             },
-            "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
-              "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
-              "sku_name": "Commitment Tier Disconnected 10000M",
-              "meter_name": "Commitment Tier Disconnected 10000M Unit"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 250M",
-              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
-            },
             "DZH318Z0TPCM/Mnstrl 3B FT/Mnstrl 3B FT Deployment Hosting Unit": {
               "id": "DZH318Z0TPCM",
-              "name": "Mistral Models",
+              "name": "Azure Mistral Models",
               "sku_name": "Mnstrl 3B FT",
               "meter_name": "Mnstrl 3B FT Deployment Hosting Unit"
             },
@@ -215,7 +173,7 @@
         },
         "DZH319RLHTZC": {
           "id": "DZH319RLHTZC",
-          "name": "Azure Applied AI Services",
+          "name": "Foundry Tools",
           "products": {
             "DZH318Z09XF4/Standard Video Indexing Analysis/Standard Video Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -247,6 +205,30 @@
               "sku_name": "Advanced Video Indexing Analysis",
               "meter_name": "Advanced Video Indexing Analysis Input Content Minutes"
             },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
+            },
+            "DZH318Z09WST/Commitment Tier Disconnected 4000M/Commitment Tier Disconnected 4000M Unit": {
+              "id": "DZH318Z09WST",
+              "name": "Azure Translator - Disconnected",
+              "sku_name": "Commitment Tier Disconnected 4000M",
+              "meter_name": "Commitment Tier Disconnected 4000M Unit"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M Unit": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 1000M",
+              "meter_name": "Commitment Tier Connected 1000M Unit"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M Unit"
+            },
             "DZH318Z09XF4/Advanced Audio Indexing Analysis/Advanced Audio Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
               "name": "Azure Video Indexer",
@@ -258,6 +240,12 @@
               "name": "Azure Video Indexer",
               "sku_name": "Basic Audio Analysis",
               "meter_name": "Basic Audio Analysis Input Content Minutes"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 1000M",
+              "meter_name": "Commitment Tier Connected 1000M CT Overage Characters"
             },
             "DZH318Z09XF4/Basic Audio Indexing Analysis/Basic Audio Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -276,6 +264,18 @@
               "name": "Azure Video Indexer",
               "sku_name": "Standard Audio Indexing Analysis",
               "meter_name": "Standard Audio Indexing Analysis Input Content Minutes"
+            },
+            "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
+              "id": "DZH318Z09WST",
+              "name": "Azure Translator - Disconnected",
+              "sku_name": "Commitment Tier Disconnected 10000M",
+              "meter_name": "Commitment Tier Disconnected 10000M Unit"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 250M",
+              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
             }
           }
         },
@@ -32328,11 +32328,11 @@
               "sku_name": "Apache Airflow job Capacity Usage",
               "meter_name": "Apache Airflow job Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU": {
+            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener and Alert Capacity Usage/Real-Time Intelligence - Event Listener and Alert Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage",
-              "meter_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU"
+              "sku_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage",
+              "meter_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Dataflows Standard Compute Capacity Usage/Dataflows Standard Compute Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
