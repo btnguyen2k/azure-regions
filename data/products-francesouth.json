@@ -5,7 +5,7 @@
       "services": {
         "DZH319RLHTZC": {
           "id": "DZH319RLHTZC",
-          "name": "Azure Applied AI Services",
+          "name": "Foundry Tools",
           "products": {
             "DZH318Z09XF4/Video Modification/Video Modification Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -25,6 +25,12 @@
               "sku_name": "Standard Audio Indexing Analysis",
               "meter_name": "Standard Audio Indexing Analysis Input Content Minutes"
             },
+            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 1000M",
+              "meter_name": "Commitment Tier Connected 1000M CT Overage Characters"
+            },
             "DZH318Z09XF4/Standard Video Indexing Analysis/Standard Video Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
               "name": "Azure Video Indexer",
@@ -43,11 +49,41 @@
               "sku_name": "Basic Audio Analysis",
               "meter_name": "Basic Audio Analysis Input Content Minutes"
             },
+            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 250M",
+              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
+            },
             "DZH318Z09XF4/Advanced Video Indexing Analysis/Advanced Video Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
               "name": "Azure Video Indexer",
               "sku_name": "Advanced Video Indexing Analysis",
               "meter_name": "Advanced Video Indexing Analysis Input Content Minutes"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M Unit"
+            },
+            "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
+              "id": "DZH318Z09WST",
+              "name": "Azure Translator - Disconnected",
+              "sku_name": "Commitment Tier Disconnected 10000M",
+              "meter_name": "Commitment Tier Disconnected 10000M Unit"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 4000M",
+              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
+            },
+            "DZH318Z09WST/Commitment Tier Disconnected 4000M/Commitment Tier Disconnected 4000M Unit": {
+              "id": "DZH318Z09WST",
+              "name": "Azure Translator - Disconnected",
+              "sku_name": "Commitment Tier Disconnected 4000M",
+              "meter_name": "Commitment Tier Disconnected 4000M Unit"
             },
             "DZH318Z09XF4/Basic Audio Indexing Analysis/Basic Audio Indexing Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -60,6 +96,12 @@
               "name": "Azure Video Indexer",
               "sku_name": "Standard Audio Analysis",
               "meter_name": "Standard Audio Analysis Input Content Minutes"
+            },
+            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M Unit": {
+              "id": "DZH318Z0BQLH",
+              "name": "Translator Text",
+              "sku_name": "Commitment Tier Connected 1000M",
+              "meter_name": "Commitment Tier Connected 1000M Unit"
             },
             "DZH318Z09XF4/Standard Video Analysis/Standard Video Analysis Input Content Minutes": {
               "id": "DZH318Z09XF4",
@@ -96,54 +138,6 @@
               "name": "Intelligent Recommendations",
               "sku_name": "Modelling",
               "meter_name": "Modelling Token"
-            }
-          }
-        },
-        "DZH31600VF1F": {
-          "id": "DZH31600VF1F",
-          "name": "Cognitive Services",
-          "products": {
-            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 1000M",
-              "meter_name": "Commitment Tier Connected 1000M CT Overage Characters"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 250M/Commitment Tier Connected 250M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 250M",
-              "meter_name": "Commitment Tier Connected 250M CT Overage Characters"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M Unit": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M Unit"
-            },
-            "DZH318Z09WST/Commitment Tier Disconnected 10000M/Commitment Tier Disconnected 10000M Unit": {
-              "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
-              "sku_name": "Commitment Tier Disconnected 10000M",
-              "meter_name": "Commitment Tier Disconnected 10000M Unit"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 4000M/Commitment Tier Connected 4000M CT Overage Characters": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 4000M",
-              "meter_name": "Commitment Tier Connected 4000M CT Overage Characters"
-            },
-            "DZH318Z09WST/Commitment Tier Disconnected 4000M/Commitment Tier Disconnected 4000M Unit": {
-              "id": "DZH318Z09WST",
-              "name": "Translator Text - disconnected",
-              "sku_name": "Commitment Tier Disconnected 4000M",
-              "meter_name": "Commitment Tier Disconnected 4000M Unit"
-            },
-            "DZH318Z0BQLH/Commitment Tier Connected 1000M/Commitment Tier Connected 1000M Unit": {
-              "id": "DZH318Z0BQLH",
-              "name": "Translator Text",
-              "sku_name": "Commitment Tier Connected 1000M",
-              "meter_name": "Commitment Tier Connected 1000M Unit"
             }
           }
         }
@@ -26064,11 +26058,11 @@
               "sku_name": "Digital Twin Builder Operation Capacity Usage",
               "meter_name": "Digital Twin Builder Operation Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage/Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU": {
+            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener and Alert Capacity Usage/Real-Time Intelligence - Event Listener and Alert Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage",
-              "meter_name": "Real-Time Intelligence - Event Listener \u0026 Alert Capacity Usage CU"
+              "sku_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage",
+              "meter_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Other Operations via proxy Capacity Usage/OneLake BCDR Other Operations via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
