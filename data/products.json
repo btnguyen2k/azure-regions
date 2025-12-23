@@ -2286,6 +2286,12 @@
             "sku_name": "Commitment Tier Azure 4000M",
             "meter_name": "Commitment Tier Azure 4000M Unit"
           },
+          "DZH318Z0BQLH/D3/D3 Unit": {
+            "id": "DZH318Z0BQLH",
+            "name": "Translator Text",
+            "sku_name": "D3",
+            "meter_name": "D3 Unit"
+          },
           "DZH318Z0BP4S/Voice Live API Pro - Standard Speech Audio Output/Voice Live API Pro - Standard Speech Audio Output Tokens": {
             "id": "DZH318Z0BP4S",
             "name": "Azure Speech",
@@ -2615,12 +2621,6 @@
             "name": "Azure Video Analyzer",
             "sku_name": "Video Exporting",
             "meter_name": "Video Exporting Content Base"
-          },
-          "DZH318Z0BQLH/D3/D3 Unit": {
-            "id": "DZH318Z0BQLH",
-            "name": "Translator Text",
-            "sku_name": "D3",
-            "meter_name": "D3 Unit"
           },
           "DZH318Z0BP4S/Voice Live API Std - LLM Text Output/Voice Live API Std - LLM Text Output Tokens": {
             "id": "DZH318Z0BP4S",
@@ -3210,6 +3210,18 @@
             "sku_name": "Standard",
             "meter_name": "Standard Transactions"
           },
+          "DZH318Z0BQPV/S2/S2 Model Deployment": {
+            "id": "DZH318Z0BQPV",
+            "name": "Custom Speech",
+            "sku_name": "S2",
+            "meter_name": "S2 Model Deployment"
+          },
+          "DZH318Z0BQPV/S2/S2 Accuracy Test": {
+            "id": "DZH318Z0BQPV",
+            "name": "Custom Speech",
+            "sku_name": "S2",
+            "meter_name": "S2 Accuracy Test"
+          },
           "DZH318Z0BPJF/Free/Free Transactions": {
             "id": "DZH318Z0BPJF",
             "name": "Speaker Recognition",
@@ -3222,6 +3234,12 @@
             "sku_name": "Free",
             "meter_name": "Free Transactions"
           },
+          "DZH318Z0BQPV/S2/S2 Scaling": {
+            "id": "DZH318Z0BQPV",
+            "name": "Custom Speech",
+            "sku_name": "S2",
+            "meter_name": "S2 Scaling"
+          },
           "DZH318Z0BQLC/Standard/Standard Transactions": {
             "id": "DZH318Z0BQLC",
             "name": "Speaker Verification",
@@ -3233,6 +3251,18 @@
             "name": "Web Language Model",
             "sku_name": "Free",
             "meter_name": "Free Transactions"
+          },
+          "DZH318Z0BQPV/S2/S2 No Trace": {
+            "id": "DZH318Z0BQPV",
+            "name": "Custom Speech",
+            "sku_name": "S2",
+            "meter_name": "S2 No Trace"
+          },
+          "DZH318Z0BQPV/S2/S2 Request": {
+            "id": "DZH318Z0BQPV",
+            "name": "Custom Speech",
+            "sku_name": "S2",
+            "meter_name": "S2 Request"
           }
         }
       },
@@ -68184,6 +68214,12 @@
             "sku_name": "Standard_L96is_v3",
             "meter_name": "L96is v3"
           },
+          "DZH318Z0C621/Fsv2 Type4 Low Priority/Fsv2 Type4 Low Priority": {
+            "id": "DZH318Z0C621",
+            "name": "FSv2 Series Dedicated Host",
+            "sku_name": "Fsv2 Type4 Low Priority",
+            "meter_name": "Fsv2 Type4 Low Priority"
+          },
           "DZH318Z08NR7/Standard_L96is_v3/L96is v3": {
             "id": "DZH318Z08NR7",
             "name": "Virtual Machines Lsv3 Series",
@@ -68237,6 +68273,30 @@
             "name": "Virtual Machines Dv2 promo Series",
             "sku_name": "D11 v2",
             "meter_name": "D11 v2/DS11 v2 - Expired"
+          },
+          "DZH318Z0BXN9/NV24s v2 Low Priority/NV24s v2 Low Priority": {
+            "id": "DZH318Z0BXN9",
+            "name": "Virtual Machines NVSv2 Series Windows",
+            "sku_name": "NV24s v2 Low Priority",
+            "meter_name": "NV24s v2 Low Priority"
+          },
+          "DZH318Z0BXN9/NV12s v2 Spot/NV12s v2 Spot": {
+            "id": "DZH318Z0BXN9",
+            "name": "Virtual Machines NVSv2 Series Windows",
+            "sku_name": "NV12s v2 Spot",
+            "meter_name": "NV12s v2 Spot"
+          },
+          "DZH318Z0BXN9/NV12s v2/NV12s v2": {
+            "id": "DZH318Z0BXN9",
+            "name": "Virtual Machines NVSv2 Series Windows",
+            "sku_name": "NV12s v2",
+            "meter_name": "NV12s v2"
+          },
+          "DZH318Z0BXN9/NV12s v2 Low Priority/NV12s v2 Low Priority": {
+            "id": "DZH318Z0BXN9",
+            "name": "Virtual Machines NVSv2 Series Windows",
+            "sku_name": "NV12s v2 Low Priority",
+            "meter_name": "NV12s v2 Low Priority"
           },
           "DZH318Z0FD26/Standard_M416s_6_v3 Low Priority/Standard_M416s_6_v3 Low Priority": {
             "id": "DZH318Z0FD26",
@@ -68405,12 +68465,6 @@
             "name": "Virtual Machines MSv2 Series Windows",
             "sku_name": "M192s Low Priority",
             "meter_name": "M192s Low Priority"
-          },
-          "DZH318Z0C621/Fsv2 Type4 Low Priority/Fsv2 Type4 Low Priority": {
-            "id": "DZH318Z0C621",
-            "name": "FSv2 Series Dedicated Host",
-            "sku_name": "Fsv2 Type4 Low Priority",
-            "meter_name": "Fsv2 Type4 Low Priority"
           },
           "DZH318Z0BX5L/M192ms Low Priority/M192ms Low Priority": {
             "id": "DZH318Z0BX5L",
