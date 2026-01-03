@@ -2622,6 +2622,12 @@
             "sku_name": "Voice Live API Pro - LLM Audio Input",
             "meter_name": "Voice Live API Pro - LLM Audio Input Tokens"
           },
+          "DZH318Z0BP4S/TTS Standard Avatar Realtime/TTS Standard Avatar Realtime Speech": {
+            "id": "DZH318Z0BP4S",
+            "name": "Azure Speech",
+            "sku_name": "TTS Standard Avatar Realtime",
+            "meter_name": "TTS Standard Avatar Realtime Speech"
+          },
           "DZH318Z0BP4S/Voice Live BYO Standard Speech Audio Input/Voice Live BYO Standard Speech Audio Input Tokens": {
             "id": "DZH318Z0BP4S",
             "name": "Azure Speech",
@@ -2741,6 +2747,12 @@
             "name": "Azure Speech",
             "sku_name": "Voice Live BYO Custom Speech Audio Output",
             "meter_name": "Voice Live BYO Custom Speech Audio Output Tokens"
+          },
+          "DZH318Z09G9P/S0/S0 Batch Layout Pages": {
+            "id": "DZH318Z09G9P",
+            "name": "Azure Document Intelligence",
+            "sku_name": "S0",
+            "meter_name": "S0 Batch Layout Pages"
           },
           "DZH318Z0BP4S/Free/Free Speaker Recognition Transactions": {
             "id": "DZH318Z0BP4S",
@@ -2982,12 +2994,6 @@
             "sku_name": "Neural HD Text to Speech",
             "meter_name": "Neural HD Text to Speech Characters"
           },
-          "DZH318Z09G9P/S0/S0 Batch Layout Pages": {
-            "id": "DZH318Z09G9P",
-            "name": "Azure Document Intelligence",
-            "sku_name": "S0",
-            "meter_name": "S0 Batch Layout Pages"
-          },
           "DZH318Z09WSP/Commitment Tier Custom Disconnected 20K/Commitment Tier Custom Disconnected 20K Unit": {
             "id": "DZH318Z09WSP",
             "name": "Azure Document Intelligence - Disconnected",
@@ -3077,12 +3083,6 @@
             "name": "Observability",
             "sku_name": "Evaluations output tokens",
             "meter_name": "Evaluations output tokens Tokens"
-          },
-          "DZH318Z0BP4S/TTS Standard Avatar Realtime/TTS Standard Avatar Realtime Speech": {
-            "id": "DZH318Z0BP4S",
-            "name": "Azure Speech",
-            "sku_name": "TTS Standard Avatar Realtime",
-            "meter_name": "TTS Standard Avatar Realtime Speech"
           },
           "DZH318Z0V50L/Model Routers DZ/Model Routers DZ 1M Tokens": {
             "id": "DZH318Z0V50L",
@@ -68454,6 +68454,30 @@
             "sku_name": "ND128isrfNDRGB200v6",
             "meter_name": "ND128isrfNDRGB200v6"
           },
+          "DZH318Z0M2S0/L192is v4/L192is v4": {
+            "id": "DZH318Z0M2S0",
+            "name": "Virtual Machines Lsv4 Series Windows",
+            "sku_name": "L192is v4",
+            "meter_name": "L192is v4"
+          },
+          "DZH318Z0M2S2/L192is v4 Spot/L192is v4 Spot": {
+            "id": "DZH318Z0M2S2",
+            "name": "Virtual Machines Lsv4 Series",
+            "sku_name": "L192is v4 Spot",
+            "meter_name": "L192is v4 Spot"
+          },
+          "DZH318Z0M2S0/L192is v4 Spot/L192is v4 Spot": {
+            "id": "DZH318Z0M2S0",
+            "name": "Virtual Machines Lsv4 Series Windows",
+            "sku_name": "L192is v4 Spot",
+            "meter_name": "L192is v4 Spot"
+          },
+          "DZH318Z0M2S2/L192is v4/L192is v4": {
+            "id": "DZH318Z0M2S2",
+            "name": "Virtual Machines Lsv4 Series",
+            "sku_name": "L192is v4",
+            "meter_name": "L192is v4"
+          },
           "DZH318Z0BPSP/D4 v2/D4 v2/DS4 v2 - Expired": {
             "id": "DZH318Z0BPSP",
             "name": "Virtual Machines Dv2 promo Series",
@@ -71884,6 +71908,12 @@
             "sku_name": "Cosmos DB Backup Storage",
             "meter_name": "Cosmos DB Backup Storage Data Stored"
           },
+          "DZH318Z0KCZ7/Ontology AI Capacity Usage/Ontology AI Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Ontology AI Capacity Usage",
+            "meter_name": "Ontology AI Capacity Usage CU"
+          },
           "DZH318Z0KCZ7/Data Movement - Incremental copy Capacity Usage/Data Movement - Incremental copy Capacity Usage CU": {
             "id": "DZH318Z0KCZ7",
             "name": "Fabric Capacity",
@@ -71896,11 +71926,137 @@
             "sku_name": "Ontology Logic and Operations Capacity Usage",
             "meter_name": "Ontology Logic and Operations Capacity Usage CU"
           },
-          "DZH318Z0KCZ7/Ontology AI Capacity Usage/Ontology AI Capacity Usage CU": {
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Cold Capacity Usage/OneLake Iterative Write Operations Cold Capacity Usage CU": {
             "id": "DZH318Z0KCZ7",
             "name": "Fabric Capacity",
-            "sku_name": "Ontology AI Capacity Usage",
-            "meter_name": "Ontology AI Capacity Usage CU"
+            "sku_name": "OneLake Iterative Write Operations Cold Capacity Usage",
+            "meter_name": "OneLake Iterative Write Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Cold Capacity Usage/OneLake BCDR Other Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Cold Capacity Usage",
+            "meter_name": "OneLake BCDR Other Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Cool Capacity Usage/OneLake Iterative Write Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Write Operations Cool Capacity Usage",
+            "meter_name": "OneLake Iterative Write Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cool Capacity Usage/OneLake BCDR Iterative Write Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Cool Capacity Usage/OneLake Read Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Cool Capacity Usage",
+            "meter_name": "OneLake Read Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cool Capacity Usage/OneLake BCDR Iterative Read Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operations Cool Capacity Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Cold Capacity Usage/OneLake Read Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Cold Capacity Usage",
+            "meter_name": "OneLake Read Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Cool Capacity Usage/OneLake BCDR Other Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Cool Capacity Usage",
+            "meter_name": "OneLake BCDR Other Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/autoscale for Data Warehouse Capacity Usage/autoscale for Data Warehouse Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "autoscale for Data Warehouse Capacity Usage",
+            "meter_name": "autoscale for Data Warehouse Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Cool Capacity Usage/OneLake BCDR Write Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Cool Capacity Usage",
+            "meter_name": "OneLake BCDR Write Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cold Capacity Usage/OneLake BCDR Iterative Read Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Cold Capacity Usage/OneLake Iterative Read Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Cold Capacity Usage",
+            "meter_name": "OneLake Iterative Read Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Cold Capacity Usage/OneLake Write Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Cold Capacity Usage",
+            "meter_name": "OneLake Write Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cold Capacity Usage/OneLake BCDR Iterative Write Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Cool Capacity Usage/OneLake BCDR Read Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Cool Capacity Usage",
+            "meter_name": "OneLake BCDR Read Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Cool Capacity Usage/OneLake Other Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Cool Capacity Usage",
+            "meter_name": "OneLake Other Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Cold Capacity Usage/OneLake BCDR Write Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Cold Capacity Usage",
+            "meter_name": "OneLake BCDR Write Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Cold Capacity Usage/OneLake Other Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Cold Capacity Usage",
+            "meter_name": "OneLake Other Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Cool Capacity Usage/OneLake Iterative Read Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Cool Capacity Usage",
+            "meter_name": "OneLake Iterative Read Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Cool Capacity Usage/OneLake Write Operations Cool Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Cool Capacity Usage",
+            "meter_name": "OneLake Write Operations Cool Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Cold Capacity Usage/OneLake BCDR Read Operations Cold Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Cold Capacity Usage",
+            "meter_name": "OneLake BCDR Read Operations Cold Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/SQL database in Microsoft Fabric - LR Capacity Usage/SQL database in Microsoft Fabric - LR Capacity Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "SQL database in Microsoft Fabric - LR Capacity Usage",
+            "meter_name": "SQL database in Microsoft Fabric - LR Capacity Usage CU"
           }
         }
       },
@@ -74643,17 +74799,17 @@
             "sku_name": "RUm",
             "meter_name": "1000 RU/m"
           },
-          "DZH318Z0TF33/Memory Optimized v6/Memory Optimized v6 vCore": {
-            "id": "DZH318Z0TF33",
-            "name": "Azure Cosmos DB Garnet Cache",
-            "sku_name": "Memory Optimized v6",
-            "meter_name": "Memory Optimized v6 vCore"
-          },
           "DZH318Z0TF33/Compute Optimized v6/Compute Optimized v6 vCore": {
             "id": "DZH318Z0TF33",
             "name": "Azure Cosmos DB Garnet Cache",
             "sku_name": "Compute Optimized v6",
             "meter_name": "Compute Optimized v6 vCore"
+          },
+          "DZH318Z0TF33/Memory Optimized v6/Memory Optimized v6 vCore": {
+            "id": "DZH318Z0TF33",
+            "name": "Azure Cosmos DB Garnet Cache",
+            "sku_name": "Memory Optimized v6",
+            "meter_name": "Memory Optimized v6 vCore"
           },
           "DZH318Z0TF33/General Purpose v6/General Purpose v6 vCore": {
             "id": "DZH318Z0TF33",
@@ -78237,17 +78393,11 @@
             "sku_name": "Backup Storage ZRS",
             "meter_name": "Backup Storage ZRS Data Stored"
           },
-          "DZH318Z0DCQ4/Storage ZRS/Storage ZRS Data Stored": {
-            "id": "DZH318Z0DCQ4",
-            "name": "Azure Database for MySQL Flexible Server Storage",
-            "sku_name": "Storage ZRS",
-            "meter_name": "Storage ZRS Data Stored"
-          },
-          "DZH318Z0DCQ4/Additional IOPS ZRS/ZRS Additional IOPS": {
-            "id": "DZH318Z0DCQ4",
-            "name": "Azure Database for MySQL Flexible Server Storage",
-            "sku_name": "Additional IOPS ZRS",
-            "meter_name": "ZRS Additional IOPS"
+          "DZH318Z0VFFC/vCore/vCore": {
+            "id": "DZH318Z0VFFC",
+            "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv6 Series Compute",
+            "sku_name": "vCore",
+            "meter_name": "vCore"
           },
           "DZH318Z0VDQ6/vCore/vCore": {
             "id": "DZH318Z0VDQ6",
@@ -78255,21 +78405,27 @@
             "sku_name": "vCore",
             "meter_name": "vCore"
           },
-          "DZH318Z0VFSL/vCore/vCore": {
-            "id": "DZH318Z0VFSL",
-            "name": "Azure Database for MySQL Flexible Server Memory Optimized Esv6 Series Compute",
-            "sku_name": "vCore",
-            "meter_name": "vCore"
-          },
-          "DZH318Z0VFFC/vCore/vCore": {
-            "id": "DZH318Z0VFFC",
-            "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv6 Series Compute",
-            "sku_name": "vCore",
-            "meter_name": "vCore"
+          "DZH318Z0DCQ4/Storage ZRS/Storage ZRS Data Stored": {
+            "id": "DZH318Z0DCQ4",
+            "name": "Azure Database for MySQL Flexible Server Storage",
+            "sku_name": "Storage ZRS",
+            "meter_name": "Storage ZRS Data Stored"
           },
           "DZH318Z0V10S/vCore/vCore": {
             "id": "DZH318Z0V10S",
             "name": "Azure Database for MySQL Flexible Server General Purpose Dsv6 Series Compute",
+            "sku_name": "vCore",
+            "meter_name": "vCore"
+          },
+          "DZH318Z0DCQ4/Additional IOPS ZRS/ZRS Additional IOPS": {
+            "id": "DZH318Z0DCQ4",
+            "name": "Azure Database for MySQL Flexible Server Storage",
+            "sku_name": "Additional IOPS ZRS",
+            "meter_name": "ZRS Additional IOPS"
+          },
+          "DZH318Z0VFSL/vCore/vCore": {
+            "id": "DZH318Z0VFSL",
+            "name": "Azure Database for MySQL Flexible Server Memory Optimized Esv6 Series Compute",
             "sku_name": "vCore",
             "meter_name": "vCore"
           },
@@ -79807,11 +79963,11 @@
             "sku_name": "Consumption",
             "meter_name": "Consumption Data Retention"
           },
-          "DZH318Z0BQN4/Hybrid/Hybrid vCPU Duration": {
+          "DZH318Z0BQN4/Consumption/Consumption Agent Loop Output Token": {
             "id": "DZH318Z0BQN4",
             "name": "Logic Apps",
-            "sku_name": "Hybrid",
-            "meter_name": "Hybrid vCPU Duration"
+            "sku_name": "Consumption",
+            "meter_name": "Consumption Agent Loop Output Token"
           },
           "DZH318Z0BQN4/Consumption/Consumption Agent Loop Input Token": {
             "id": "DZH318Z0BQN4",
@@ -79819,11 +79975,11 @@
             "sku_name": "Consumption",
             "meter_name": "Consumption Agent Loop Input Token"
           },
-          "DZH318Z0BQN4/Consumption/Consumption Agent Loop Output Token": {
+          "DZH318Z0BQN4/Hybrid/Hybrid vCPU Duration": {
             "id": "DZH318Z0BQN4",
             "name": "Logic Apps",
-            "sku_name": "Consumption",
-            "meter_name": "Consumption Agent Loop Output Token"
+            "sku_name": "Hybrid",
+            "meter_name": "Hybrid vCPU Duration"
           }
         }
       },
@@ -84304,6 +84460,12 @@
             "sku_name": "Data Management Standard",
             "meter_name": "Data Management Standard Data Governance Processing Unit"
           },
+          "DZH318Z0LFXP/Investigations/Investigations Compute Unit": {
+            "id": "DZH318Z0LFXP",
+            "name": "Microsoft Purview Data Security",
+            "sku_name": "Investigations",
+            "meter_name": "Investigations Compute Unit"
+          },
           "DZH318Z0LFXP/Standard/Standard Asset": {
             "id": "DZH318Z0LFXP",
             "name": "Microsoft Purview Data Security",
@@ -84327,12 +84489,6 @@
             "name": "Microsoft Purview Data Governance",
             "sku_name": "Data Catalog Standard",
             "meter_name": "Data Catalog Standard Asset"
-          },
-          "DZH318Z0LFXP/Investigations/Investigations Compute Unit": {
-            "id": "DZH318Z0LFXP",
-            "name": "Microsoft Purview Data Security",
-            "sku_name": "Investigations",
-            "meter_name": "Investigations Compute Unit"
           }
         }
       },
@@ -92331,6 +92487,12 @@
             "sku_name": "Cold RA-GZRS",
             "meter_name": "Cold RA-GZRS Data Write"
           },
+          "DZH318Z0BP68/Instant Access Snapshots LRS/Instant Access Snapshots LRS": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Instant Access Snapshots LRS",
+            "meter_name": "Instant Access Snapshots LRS"
+          },
           "DZH318Z0BNZ5/Account Encrypted RA-GZRS/Account Encrypted Read Operations": {
             "id": "DZH318Z0BNZ5",
             "name": "Tables",
@@ -92391,11 +92553,23 @@
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Data Write"
           },
+          "DZH318Z0CBTJ/Smart Tier GZRS/Monitoring Operations": {
+            "id": "DZH318Z0CBTJ",
+            "name": "Blob Features",
+            "sku_name": "Smart Tier GZRS",
+            "meter_name": "Monitoring Operations"
+          },
           "DZH318Z0BJRM/Cold GZRS/Cold GZRS Write Operations": {
             "id": "DZH318Z0BJRM",
             "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Write Operations"
+          },
+          "DZH318Z0CBTJ/Smart Tier RA-GZRS/Monitoring Operations": {
+            "id": "DZH318Z0CBTJ",
+            "name": "Blob Features",
+            "sku_name": "Smart Tier RA-GZRS",
+            "meter_name": "Monitoring Operations"
           },
           "DZH318Z0BP09/Hot GZRS/Hot GZRS List Operations": {
             "id": "DZH318Z0BP09",
@@ -92408,6 +92582,12 @@
             "name": "General Block Blob v2 Hierarchical Namespace",
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Index Tags"
+          },
+          "DZH318Z0BP68/Instant Access Snapshots LRS/Instant Access Snapshots LRS Disk Capacity Restored": {
+            "id": "DZH318Z0BP68",
+            "name": "Ultra Disks",
+            "sku_name": "Instant Access Snapshots LRS",
+            "meter_name": "Instant Access Snapshots LRS Disk Capacity Restored"
           },
           "DZH318Z0BJRN/Cold RA-GZRS/Cold RA-GZRS Data Retrieval": {
             "id": "DZH318Z0BJRN",
@@ -92456,6 +92636,12 @@
             "name": "General Block Blob v2 Hierarchical Namespace",
             "sku_name": "Cool GZRS",
             "meter_name": "Cool GZRS Data Stored"
+          },
+          "DZH318Z0CBTJ/Smart Tier ZRS/Monitoring Operations": {
+            "id": "DZH318Z0CBTJ",
+            "name": "Blob Features",
+            "sku_name": "Smart Tier ZRS",
+            "meter_name": "Monitoring Operations"
           },
           "DZH318Z0BP09/Hot GZRS/Hot GZRS Other Operations": {
             "id": "DZH318Z0BP09",
@@ -92541,6 +92727,12 @@
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Data Stored"
           },
+          "DZH318Z0CPS6/Premium ZRS/Premium ZRS Data Scanned for Query Acceleration": {
+            "id": "DZH318Z0CPS6",
+            "name": "Premium ADLS Gen2 Hierarchical Namespace",
+            "sku_name": "Premium ZRS",
+            "meter_name": "Premium ZRS Data Scanned for Query Acceleration"
+          },
           "DZH318Z0BNZ5/Account Encrypted GZRS/Account Encrypted Read Operations": {
             "id": "DZH318Z0BNZ5",
             "name": "Tables",
@@ -92613,6 +92805,12 @@
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Read Operations"
           },
+          "DZH318Z0CPS8/Premium ZRS/Premium ZRS Data Scanned for Query Acceleration": {
+            "id": "DZH318Z0CPS8",
+            "name": "Premium ADLS Gen2 Flat Namespace",
+            "sku_name": "Premium ZRS",
+            "meter_name": "Premium ZRS Data Scanned for Query Acceleration"
+          },
           "DZH318Z0C120/Cold RA-GZRS/Cold RA-GZRS Data Retrieval": {
             "id": "DZH318Z0C120",
             "name": "General Block Blob v2 Hierarchical Namespace",
@@ -92624,6 +92822,12 @@
             "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
             "sku_name": "Cold RA-GZRS",
             "meter_name": "Cold RA-GZRS Early Delete"
+          },
+          "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Throughput MiBPS Free": {
+            "id": "DZH318Z0H96B",
+            "name": "Azure Files Provisioned v2",
+            "sku_name": "SSD ZRS",
+            "meter_name": "SSD ZRS Provisioned Throughput MiBPS Free"
           },
           "DZH318Z0BJRM/Hot GZRS/Hot GZRS Write Operations": {
             "id": "DZH318Z0BJRM",
@@ -92757,11 +92961,23 @@
             "sku_name": "Cold GZRS",
             "meter_name": "Cold GZRS Data Retrieval"
           },
+          "DZH318Z0CPS8/Premium ZRS/Premium ZRS Data Returned for Query Acceleration": {
+            "id": "DZH318Z0CPS8",
+            "name": "Premium ADLS Gen2 Flat Namespace",
+            "sku_name": "Premium ZRS",
+            "meter_name": "Premium ZRS Data Returned for Query Acceleration"
+          },
           "DZH318Z0C120/Hot GZRS/Hot GZRS Write Operations": {
             "id": "DZH318Z0C120",
             "name": "General Block Blob v2 Hierarchical Namespace",
             "sku_name": "Hot GZRS",
             "meter_name": "Hot GZRS Write Operations"
+          },
+          "DZH318Z0CPS6/Premium ZRS/Premium ZRS Data Returned for Query Acceleration": {
+            "id": "DZH318Z0CPS6",
+            "name": "Premium ADLS Gen2 Hierarchical Namespace",
+            "sku_name": "Premium ZRS",
+            "meter_name": "Premium ZRS Data Returned for Query Acceleration"
           },
           "DZH318Z0BJRM/Hot GZRS/Hot GZRS Data Stored": {
             "id": "DZH318Z0BJRM",
@@ -92786,6 +93002,12 @@
             "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
             "sku_name": "Hot GZRS",
             "meter_name": "Hot GZRS Index"
+          },
+          "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned IOPS Free": {
+            "id": "DZH318Z0H96B",
+            "name": "Azure Files Provisioned v2",
+            "sku_name": "SSD ZRS",
+            "meter_name": "SSD ZRS Provisioned IOPS Free"
           },
           "DZH318Z0C120/Hot GZRS/Hot Read Operations": {
             "id": "DZH318Z0C120",
@@ -93249,77 +93471,11 @@
             "sku_name": "Standard",
             "meter_name": "Standard Data Transfer"
           },
-          "DZH318Z0BP68/Instant Access Snapshots LRS/Instant Access Snapshots LRS": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Instant Access Snapshots LRS",
-            "meter_name": "Instant Access Snapshots LRS"
-          },
-          "DZH318Z0CPS6/Premium ZRS/Premium ZRS Data Returned for Query Acceleration": {
-            "id": "DZH318Z0CPS6",
-            "name": "Premium ADLS Gen2 Hierarchical Namespace",
-            "sku_name": "Premium ZRS",
-            "meter_name": "Premium ZRS Data Returned for Query Acceleration"
-          },
-          "DZH318Z0CPS8/Premium ZRS/Premium ZRS Data Scanned for Query Acceleration": {
-            "id": "DZH318Z0CPS8",
-            "name": "Premium ADLS Gen2 Flat Namespace",
-            "sku_name": "Premium ZRS",
-            "meter_name": "Premium ZRS Data Scanned for Query Acceleration"
-          },
-          "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Throughput MiBPS Free": {
-            "id": "DZH318Z0H96B",
-            "name": "Azure Files Provisioned v2",
-            "sku_name": "SSD ZRS",
-            "meter_name": "SSD ZRS Provisioned Throughput MiBPS Free"
-          },
-          "DZH318Z0CPS6/Premium ZRS/Premium ZRS Data Scanned for Query Acceleration": {
-            "id": "DZH318Z0CPS6",
-            "name": "Premium ADLS Gen2 Hierarchical Namespace",
-            "sku_name": "Premium ZRS",
-            "meter_name": "Premium ZRS Data Scanned for Query Acceleration"
-          },
-          "DZH318Z0CBTJ/Smart Tier ZRS/Monitoring Operations": {
-            "id": "DZH318Z0CBTJ",
-            "name": "Blob Features",
-            "sku_name": "Smart Tier ZRS",
-            "meter_name": "Monitoring Operations"
-          },
-          "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned IOPS Free": {
-            "id": "DZH318Z0H96B",
-            "name": "Azure Files Provisioned v2",
-            "sku_name": "SSD ZRS",
-            "meter_name": "SSD ZRS Provisioned IOPS Free"
-          },
-          "DZH318Z0BP68/Instant Access Snapshots LRS/Instant Access Snapshots LRS Disk Capacity Restored": {
-            "id": "DZH318Z0BP68",
-            "name": "Ultra Disks",
-            "sku_name": "Instant Access Snapshots LRS",
-            "meter_name": "Instant Access Snapshots LRS Disk Capacity Restored"
-          },
-          "DZH318Z0CPS8/Premium ZRS/Premium ZRS Data Returned for Query Acceleration": {
-            "id": "DZH318Z0CPS8",
-            "name": "Premium ADLS Gen2 Flat Namespace",
-            "sku_name": "Premium ZRS",
-            "meter_name": "Premium ZRS Data Returned for Query Acceleration"
-          },
           "DZH318Z0BJRM/Cool RA-GZRS/Cool RA-GZRS Early Delete": {
             "id": "DZH318Z0BJRM",
             "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
             "sku_name": "Cool RA-GZRS",
             "meter_name": "Cool RA-GZRS Early Delete"
-          },
-          "DZH318Z0CBTJ/Smart Tier GZRS/Monitoring Operations": {
-            "id": "DZH318Z0CBTJ",
-            "name": "Blob Features",
-            "sku_name": "Smart Tier GZRS",
-            "meter_name": "Monitoring Operations"
-          },
-          "DZH318Z0CBTJ/Smart Tier RA-GZRS/Monitoring Operations": {
-            "id": "DZH318Z0CBTJ",
-            "name": "Blob Features",
-            "sku_name": "Smart Tier RA-GZRS",
-            "meter_name": "Monitoring Operations"
           },
           "DZH318Z0C120/Cold GZRS/Cold GZRS All Other Operations": {
             "id": "DZH318Z0C120",
@@ -96109,23 +96265,23 @@
             "sku_name": "Free",
             "meter_name": "Free queries"
           },
-          "DZH318Z0BQKZ/Free Agentic Retrieval Minimum Reasoning/Free Agentic Retrieval Minimum Reasoning Tokens": {
-            "id": "DZH318Z0BQKZ",
-            "name": "Azure AI Search",
-            "sku_name": "Free Agentic Retrieval Minimum Reasoning",
-            "meter_name": "Free Agentic Retrieval Minimum Reasoning Tokens"
-          },
-          "DZH318Z0BQKZ/Agentic Retrieval Minimum Reasoning/Agentic Retrieval Minimum Reasoning Tokens": {
-            "id": "DZH318Z0BQKZ",
-            "name": "Azure AI Search",
-            "sku_name": "Agentic Retrieval Minimum Reasoning",
-            "meter_name": "Agentic Retrieval Minimum Reasoning Tokens"
-          },
           "DZH318Z0BQKZ/Free Agentic Retrieval Low Reasoning/Free Agentic Retrieval Low Reasoning Tokens": {
             "id": "DZH318Z0BQKZ",
             "name": "Azure AI Search",
             "sku_name": "Free Agentic Retrieval Low Reasoning",
             "meter_name": "Free Agentic Retrieval Low Reasoning Tokens"
+          },
+          "DZH318Z0BQKZ/Free Agentic Retrieval Medium Reasoning/Free Agentic Retrieval Medium Reasoning Tokens": {
+            "id": "DZH318Z0BQKZ",
+            "name": "Azure AI Search",
+            "sku_name": "Free Agentic Retrieval Medium Reasoning",
+            "meter_name": "Free Agentic Retrieval Medium Reasoning Tokens"
+          },
+          "DZH318Z0BQKZ/Free Agentic Retrieval Minimum Reasoning/Free Agentic Retrieval Minimum Reasoning Tokens": {
+            "id": "DZH318Z0BQKZ",
+            "name": "Azure AI Search",
+            "sku_name": "Free Agentic Retrieval Minimum Reasoning",
+            "meter_name": "Free Agentic Retrieval Minimum Reasoning Tokens"
           },
           "DZH318Z0BQKZ/Agentic Retrieval Medium Reasoning/Agentic Retrieval Medium Reasoning Tokens": {
             "id": "DZH318Z0BQKZ",
@@ -96133,11 +96289,11 @@
             "sku_name": "Agentic Retrieval Medium Reasoning",
             "meter_name": "Agentic Retrieval Medium Reasoning Tokens"
           },
-          "DZH318Z0BQKZ/Free Agentic Retrieval Medium Reasoning/Free Agentic Retrieval Medium Reasoning Tokens": {
+          "DZH318Z0BQKZ/Agentic Retrieval Minimum Reasoning/Agentic Retrieval Minimum Reasoning Tokens": {
             "id": "DZH318Z0BQKZ",
             "name": "Azure AI Search",
-            "sku_name": "Free Agentic Retrieval Medium Reasoning",
-            "meter_name": "Free Agentic Retrieval Medium Reasoning Tokens"
+            "sku_name": "Agentic Retrieval Minimum Reasoning",
+            "meter_name": "Agentic Retrieval Minimum Reasoning Tokens"
           }
         }
       }
