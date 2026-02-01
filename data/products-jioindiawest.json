@@ -26521,11 +26521,29 @@
               "sku_name": "Backup LRS",
               "meter_name": "Backup LRS Data Stored"
             },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
+            },
             "DZH318Z0DCRV/Standard_Eas/vCore": {
               "id": "DZH318Z0DCRV",
               "name": "Azure Database for MySQL Flexible Server\uFFFDMemory Optimized Series Compute",
               "sku_name": "Standard_Eas",
               "meter_name": "vCore"
+            },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
             },
             "DZH318Z0DCS3/B2S/B2S": {
               "id": "DZH318Z0DCS3",
@@ -30867,6 +30885,18 @@
               "name": "Microsoft Entra Domain Services",
               "sku_name": "Premium",
               "meter_name": "Premium Resource Forest"
+            }
+          }
+        },
+        "DZH319R3XQR9": {
+          "id": "DZH319R3XQR9",
+          "name": "Microsoft Purview",
+          "products": {
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             }
           }
         }
@@ -36044,6 +36074,12 @@
               "name": "Backup",
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob GRS Write Operations"
+            },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
             },
             "DZH318Z0BP05/Azure Blob/Azure Blob Protected Instances": {
               "id": "DZH318Z0BP05",
