@@ -47381,6 +47381,12 @@
               "sku_name": "Basic",
               "meter_name": "Basic Data Stored"
             },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
+            },
             "DZH318Z0C157/Standard/Standard Unit": {
               "id": "DZH318Z0C157",
               "name": "Azure Database for MySQL Standard Compute",
@@ -47657,6 +47663,12 @@
               "sku_name": "Standard_E8d_v5",
               "meter_name": "8 vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
+            },
             "DZH318Z0TW7C/vCore/vCore": {
               "id": "DZH318Z0TW7C",
               "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
@@ -47788,6 +47800,12 @@
               "name": "Azure Database for MySQL Flexible Server Confidential Compute ECadsv6 Series",
               "sku_name": "vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
             },
             "DZH318Z0TRNB/vCore/vCore": {
               "id": "DZH318Z0TRNB",
@@ -48610,6 +48628,12 @@
               "name": "SQL Managed Instance Business Critical - Compute Gen5",
               "sku_name": "24 vCore Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
+            },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
             },
             "DZH318Z0B172/16 vCore Zone Redundancy/Zone Redundancy vCore": {
               "id": "DZH318Z0B172",
@@ -52042,6 +52066,12 @@
               "name": "Azure Cosmos DB",
               "sku_name": "RUm",
               "meter_name": "1000 RU/m"
+            },
+            "DZH318Z0TF33/Storage Optimized/Storage Optimized vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Storage Optimized",
+              "meter_name": "Storage Optimized vCore"
             },
             "DZH318Z0CCGL/E2s/E2s": {
               "id": "DZH318Z0CCGL",
@@ -56782,6 +56812,18 @@
               "meter_name": "Enterprise VMware IP"
             }
           }
+        },
+        "DZH319QRVZXR": {
+          "id": "DZH319QRVZXR",
+          "name": "Azure API for FHIR",
+          "products": {
+            "DZH318Z0SLZ6/Classic Message/Classic Message": {
+              "id": "DZH318Z0SLZ6",
+              "name": "CXRReportGen Premium",
+              "sku_name": "Classic Message",
+              "meter_name": "Classic Message"
+            }
+          }
         }
       }
     },
@@ -57240,6 +57282,12 @@
               "name": "Microsoft Purview Data Compliance",
               "sku_name": "Communication Compliance Premium",
               "meter_name": "Communication Compliance Premium Asset"
+            },
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             },
             "DZH318Z0TJ9D/Audit Standard/Audit Standard Asset": {
               "id": "DZH318Z0TJ9D",
@@ -65448,6 +65496,12 @@
               "sku_name": "Ultra",
               "meter_name": "Ultra Capacity"
             },
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
+            },
             "DZH318Z0BXV9/Volume Restore/Volume Restore Capacity": {
               "id": "DZH318Z0BXV9",
               "name": "Azure NetApp Files",
@@ -65519,6 +65573,12 @@
               "name": "Backup",
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob RA-GRS Write Operations"
+            },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
             },
             "DZH318Z0BP05/Archive/GRS Data Stored": {
               "id": "DZH318Z0BP05",
