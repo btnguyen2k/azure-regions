@@ -30693,11 +30693,41 @@
           "id": "DZH319HJX2WX",
           "name": "Functions",
           "products": {
+            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Execution Time"
+            },
             "DZH318Z0BXVK/Premium/Premium Memory Duration": {
               "id": "DZH318Z0BXVK",
               "name": "Premium Functions",
               "sku_name": "Premium",
               "meter_name": "Premium Memory Duration"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Total Executions"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Baseline"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Total Executions"
             },
             "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
               "id": "DZH318Z0BXVK",
@@ -33798,6 +33828,12 @@
               "sku_name": "64 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
+            },
             "DZH318Z0BXWR/Backup ZRS/ZRS Data Stored": {
               "id": "DZH318Z0BXWR",
               "name": "SQL Managed Instance PITR Backup Storage",
@@ -34962,6 +34998,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
+            },
             "DZH318Z0TVNQ/1 vCore/1 vCore": {
               "id": "DZH318Z0TVNQ",
               "name": "Azure Database for MySQL Flexible Server General Purpose Dasv6 Series Compute",
@@ -35130,6 +35172,12 @@
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
+            },
             "DZH318Z0DCS3/Standard_B4ms/B4MS": {
               "id": "DZH318Z0DCS3",
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
@@ -35177,6 +35225,12 @@
               "name": "Azure Database for MySQL Extended Support",
               "sku_name": "Extended Support",
               "meter_name": "Extended Support vCore"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
             },
             "DZH318Z0DCRV/Standard_Eas/vCore": {
               "id": "DZH318Z0DCRV",
@@ -39177,6 +39231,18 @@
               "name": "Azure Active Directory B2C",
               "sku_name": "Basic",
               "meter_name": "Basic Multi-Factor Authentication"
+            }
+          }
+        },
+        "DZH319R3XQR9": {
+          "id": "DZH319R3XQR9",
+          "name": "Microsoft Purview",
+          "products": {
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             }
           }
         }
@@ -44457,6 +44523,12 @@
               "sku_name": "Cross Region Replication",
               "meter_name": "Cross Region Replication Days"
             },
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
+            },
             "DZH318Z0BXV9/Ultra Double Encrypted/Ultra Double Encrypted Capacity": {
               "id": "DZH318Z0BXV9",
               "name": "Azure NetApp Files",
@@ -44672,6 +44744,12 @@
               "name": "Backup",
               "sku_name": "Azure VM",
               "meter_name": "Azure VM Protected Instances"
+            },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
             },
             "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted Protected Instances": {
               "id": "DZH318Z0BP05",
