@@ -30143,6 +30143,12 @@
               "sku_name": "80 vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
+            },
             "DZH318Z0BXWR/Backup RA-GRS/RA-GRS Data Stored": {
               "id": "DZH318Z0BXWR",
               "name": "SQL Managed Instance PITR Backup Storage",
@@ -32339,6 +32345,12 @@
               "sku_name": "B2S",
               "meter_name": "B2S"
             },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
+            },
             "DZH318Z0DCS3/Standard_B4ms/B4MS": {
               "id": "DZH318Z0DCS3",
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
@@ -32470,6 +32482,12 @@
               "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv6 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
+            },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
             },
             "DZH318Z0TTZQ/vCore/vCore": {
               "id": "DZH318Z0TTZQ",
@@ -32608,6 +32626,12 @@
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
               "sku_name": "Standard_B16ms",
               "meter_name": "B16MS"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
             },
             "DZH318Z0DCS0/1 vCore/vCore": {
               "id": "DZH318Z0DCS0",
@@ -37448,6 +37472,18 @@
               "name": "Azure Active Directory B2C",
               "sku_name": "Basic",
               "meter_name": "Basic Multi-Factor Authentication"
+            }
+          }
+        },
+        "DZH319R3XQR9": {
+          "id": "DZH319R3XQR9",
+          "name": "Microsoft Purview",
+          "products": {
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             }
           }
         },
@@ -42686,6 +42722,12 @@
               "sku_name": "Azure Files",
               "meter_name": "Azure Files Protected Instances"
             },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
+            },
             "DZH318Z0BP05/Standard/RA-GRS Data Stored": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -42850,70 +42892,16 @@
             }
           }
         },
-        "DZH31890S8SF": {
-          "id": "DZH31890S8SF",
-          "name": "Data Box",
-          "products": {
-            "DZH318Z0BP08/100 TB/100 TB Import Service Fee": {
-              "id": "DZH318Z0BP08",
-              "name": "Data Box",
-              "sku_name": "100 TB",
-              "meter_name": "100 TB Import Service Fee"
-            },
-            "DZH318Z0BP08/100 TB/100 TB Lost or Damaged Device": {
-              "id": "DZH318Z0BP08",
-              "name": "Data Box",
-              "sku_name": "100 TB",
-              "meter_name": "100 TB Lost or Damaged Device"
-            },
-            "DZH318Z0BZ3R/Standard/Standard Daily Use Fee": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Daily Use Fee"
-            },
-            "DZH318Z0BZ3R/Standard/Standard Lost or Damaged Disk": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Lost or Damaged Disk"
-            },
-            "DZH318Z0BP08/100 TB/100 TB Device Standard Shipping": {
-              "id": "DZH318Z0BP08",
-              "name": "Data Box",
-              "sku_name": "100 TB",
-              "meter_name": "100 TB Device Standard Shipping"
-            },
-            "DZH318Z0BZ31/Standard/Standard Service Fee": {
-              "id": "DZH318Z0BZ31",
-              "name": "Data Box Gateway",
-              "sku_name": "Standard",
-              "meter_name": "Standard Service Fee"
-            },
-            "DZH318Z0BZ3R/Standard/Device Standard Shipping": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Device Standard Shipping"
-            },
-            "DZH318Z0BZ3R/Standard/Standard Service Fee": {
-              "id": "DZH318Z0BZ3R",
-              "name": "Data Box Disk",
-              "sku_name": "Standard",
-              "meter_name": "Standard Service Fee"
-            },
-            "DZH318Z0BP08/100 TB/100 TB Extra Day Fee": {
-              "id": "DZH318Z0BP08",
-              "name": "Data Box",
-              "sku_name": "100 TB",
-              "meter_name": "100 TB Extra Day Fee"
-            }
-          }
-        },
         "DZH3147RZ57L": {
           "id": "DZH3147RZ57L",
           "name": "Azure NetApp Files",
           "products": {
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
+            },
             "DZH318Z0BXV9/Cross Region Replication/Cross Region Replication Minutes": {
               "id": "DZH318Z0BXV9",
               "name": "Azure NetApp Files",
@@ -43021,6 +43009,66 @@
               "name": "Azure NetApp Files",
               "sku_name": "CRR - AU Central 2 to AU Central",
               "meter_name": "CRR - AU Central 2 to AU Central Hours"
+            }
+          }
+        },
+        "DZH31890S8SF": {
+          "id": "DZH31890S8SF",
+          "name": "Data Box",
+          "products": {
+            "DZH318Z0BP08/100 TB/100 TB Import Service Fee": {
+              "id": "DZH318Z0BP08",
+              "name": "Data Box",
+              "sku_name": "100 TB",
+              "meter_name": "100 TB Import Service Fee"
+            },
+            "DZH318Z0BP08/100 TB/100 TB Lost or Damaged Device": {
+              "id": "DZH318Z0BP08",
+              "name": "Data Box",
+              "sku_name": "100 TB",
+              "meter_name": "100 TB Lost or Damaged Device"
+            },
+            "DZH318Z0BZ3R/Standard/Standard Daily Use Fee": {
+              "id": "DZH318Z0BZ3R",
+              "name": "Data Box Disk",
+              "sku_name": "Standard",
+              "meter_name": "Standard Daily Use Fee"
+            },
+            "DZH318Z0BZ3R/Standard/Standard Lost or Damaged Disk": {
+              "id": "DZH318Z0BZ3R",
+              "name": "Data Box Disk",
+              "sku_name": "Standard",
+              "meter_name": "Standard Lost or Damaged Disk"
+            },
+            "DZH318Z0BP08/100 TB/100 TB Device Standard Shipping": {
+              "id": "DZH318Z0BP08",
+              "name": "Data Box",
+              "sku_name": "100 TB",
+              "meter_name": "100 TB Device Standard Shipping"
+            },
+            "DZH318Z0BZ31/Standard/Standard Service Fee": {
+              "id": "DZH318Z0BZ31",
+              "name": "Data Box Gateway",
+              "sku_name": "Standard",
+              "meter_name": "Standard Service Fee"
+            },
+            "DZH318Z0BZ3R/Standard/Device Standard Shipping": {
+              "id": "DZH318Z0BZ3R",
+              "name": "Data Box Disk",
+              "sku_name": "Standard",
+              "meter_name": "Device Standard Shipping"
+            },
+            "DZH318Z0BZ3R/Standard/Standard Service Fee": {
+              "id": "DZH318Z0BZ3R",
+              "name": "Data Box Disk",
+              "sku_name": "Standard",
+              "meter_name": "Standard Service Fee"
+            },
+            "DZH318Z0BP08/100 TB/100 TB Extra Day Fee": {
+              "id": "DZH318Z0BP08",
+              "name": "Data Box",
+              "sku_name": "100 TB",
+              "meter_name": "100 TB Extra Day Fee"
             }
           }
         }
