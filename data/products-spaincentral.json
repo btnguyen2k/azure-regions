@@ -3169,6 +3169,12 @@
               "sku_name": "o3 0416 Outp glbl",
               "meter_name": "o3 0416 Outp glbl Tokens"
             },
+            "DZH318XZPC51/text embedding 3 large DZ/text embedding 3 large DZ Tokens": {
+              "id": "DZH318XZPC51",
+              "name": "Azure OpenAI Embedding",
+              "sku_name": "text embedding 3 large DZ",
+              "meter_name": "text embedding 3 large DZ Tokens"
+            },
             "DZH318Z0HHG7/gpt-image-1-inp-txt-dzone/gpt-image-1-inp-txt-dzone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -4009,6 +4015,12 @@
               "sku_name": "gpt4omini-rt-aud1217 cchd Inp glbl",
               "meter_name": "gpt4omini-rt-aud1217 cchd Inp glbl Tokens"
             },
+            "DZH318XZPC51/text embedding 3 small DZ/text embedding 3 small DZ Tokens": {
+              "id": "DZH318XZPC51",
+              "name": "Azure OpenAI Embedding",
+              "sku_name": "text embedding 3 small DZ",
+              "meter_name": "text embedding 3 small DZ Tokens"
+            },
             "DZH318Z0HHG7/gpt-image-1-inp-img-dzone/gpt-image-1-inp-img-dzone Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -4428,6 +4440,18 @@
               "name": "Azure Document Intelligence",
               "sku_name": "S0",
               "meter_name": "S0 Batch Add-On Pages"
+            },
+            "DZH318Z0S78K/Hosted HOBO/Hosted HOBO Memory Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted HOBO",
+              "meter_name": "Hosted HOBO Memory Usage"
+            },
+            "DZH318Z0S78K/Hosted HOBO/Hosted HOBO vCPU Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted HOBO",
+              "meter_name": "Hosted HOBO vCPU Usage"
             },
             "DZH318Z09G9P/S0/S0 Batch Pages for Query Fields": {
               "id": "DZH318Z09G9P",
@@ -37888,6 +37912,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard vCPU Idle Usage"
             },
+            "DZH318Z0B0NC/Standard/Standard NC A100 v4 GPU Usage": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Standard",
+              "meter_name": "Standard NC A100 v4 GPU Usage"
+            },
             "DZH318Z0B0NC/Standard/Standard Memory Active Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -37912,6 +37942,12 @@
               "sku_name": "Dedicated",
               "meter_name": "Dedicated GPU Usage"
             },
+            "DZH318Z0B0NC/Standard/Standard NC T4 v3 GPU Usage": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Standard",
+              "meter_name": "Standard NC T4 v3 GPU Usage"
+            },
             "DZH318Z0B0NC/Dedicated/Dedicated vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -37929,6 +37965,12 @@
               "name": "Azure Container Apps",
               "sku_name": "Standard",
               "meter_name": "Standard Memory Idle Usage"
+            },
+            "DZH318Z0B0NC/Dynamic Sessions/Dynamic Sessions": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Dynamic Sessions",
+              "meter_name": "Dynamic Sessions"
             },
             "DZH318Z0B0NC/Dedicated/Dedicated Memory Usage": {
               "id": "DZH318Z0B0NC",
@@ -40087,6 +40129,12 @@
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
+            },
             "DZH318Z0TW7C/vCore/vCore": {
               "id": "DZH318Z0TW7C",
               "name": "Azure Database for MySQL Flexible Server General Purpose Dadsv6 Series Compute",
@@ -40116,6 +40164,12 @@
               "name": "Azure Database for MySQL Flexible Server Burstable BS Series Compute",
               "sku_name": "B2S",
               "meter_name": "B2S"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
             },
             "DZH318Z0DCQ4/Storage GP Accelerated Logs/Storage GP Accelerated Logs": {
               "id": "DZH318Z0DCQ4",
@@ -40308,6 +40362,12 @@
               "name": "Azure Database for MySQL Standard Storage",
               "sku_name": "Standard",
               "meter_name": "Standard Data Stored"
+            },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
             },
             "DZH318Z0VDQ6/vCore/vCore": {
               "id": "DZH318Z0VDQ6",
@@ -40740,6 +40800,12 @@
               "name": "SQL Managed Instance General Purpose - Compute Gen5",
               "sku_name": "4 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
             },
             "DZH318Z0B172/80 vCore Zone Redundancy/Zone Redundancy vCore": {
               "id": "DZH318Z0B172",
@@ -42965,36 +43031,6 @@
               "name": "Azure Managed Grafana",
               "sku_name": "Standard",
               "meter_name": "Standard Zone Redundancy"
-            }
-          }
-        },
-        "DZH318FPNV88": {
-          "id": "DZH318FPNV88",
-          "name": "Azure Fluid Relay",
-          "products": {
-            "DZH318Z0B7SW/Basic/Basic Client Connectivity Minutes": {
-              "id": "DZH318Z0B7SW",
-              "name": "Azure Fluid Relay",
-              "sku_name": "Basic",
-              "meter_name": "Basic Client Connectivity Minutes"
-            },
-            "DZH318Z0B7SW/Basic/Basic Operations In": {
-              "id": "DZH318Z0B7SW",
-              "name": "Azure Fluid Relay",
-              "sku_name": "Basic",
-              "meter_name": "Basic Operations In"
-            },
-            "DZH318Z0B7SW/Basic/Basic Operations Out": {
-              "id": "DZH318Z0B7SW",
-              "name": "Azure Fluid Relay",
-              "sku_name": "Basic",
-              "meter_name": "Basic Operations Out"
-            },
-            "DZH318Z0B7SW/Basic/Basic Storage": {
-              "id": "DZH318Z0B7SW",
-              "name": "Azure Fluid Relay",
-              "sku_name": "Basic",
-              "meter_name": "Basic Storage"
             }
           }
         },
@@ -50053,6 +50089,108 @@
             }
           }
         },
+        "DZH3147RZ57L": {
+          "id": "DZH3147RZ57L",
+          "name": "Azure NetApp Files",
+          "products": {
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
+            },
+            "DZH318Z0BXV9/Ultra Double Encrypted/Ultra Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Ultra Double Encrypted",
+              "meter_name": "Ultra Double Encrypted Capacity"
+            },
+            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Hours": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "CRR - ES Central to SE Central",
+              "meter_name": "CRR - ES Central to SE Central Hours"
+            },
+            "DZH318Z0BXV9/Standard Double Encrypted/Standard Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Double Encrypted",
+              "meter_name": "Standard Double Encrypted Capacity"
+            },
+            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Flexible Service Level",
+              "meter_name": "Flexible Service Level Capacity"
+            },
+            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Days": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "CRR - ES Central to SE Central",
+              "meter_name": "CRR - ES Central to SE Central Days"
+            },
+            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Storage with Cool Access",
+              "meter_name": "Standard Storage with Cool Access Capacity"
+            },
+            "DZH318Z0BXV9/Volume Restore/Volume Restore Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Volume Restore",
+              "meter_name": "Volume Restore Capacity"
+            },
+            "DZH318Z0BXV9/Ultra/Ultra Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Ultra",
+              "meter_name": "Ultra Capacity"
+            },
+            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Throughput MiBps": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Flexible Service Level",
+              "meter_name": "Flexible Service Level Throughput MiBps"
+            },
+            "DZH318Z0BXV9/Standard/Standard Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard",
+              "meter_name": "Standard Capacity"
+            },
+            "DZH318Z0BXV9/Backup/Backup Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Backup",
+              "meter_name": "Backup Capacity"
+            },
+            "DZH318Z0BXV9/Premium/Premium Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Premium",
+              "meter_name": "Premium Capacity"
+            },
+            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Minutes": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "CRR - ES Central to SE Central",
+              "meter_name": "CRR - ES Central to SE Central Minutes"
+            },
+            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Data Transfer": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Standard Storage with Cool Access",
+              "meter_name": "Standard Storage with Cool Access Data Transfer"
+            },
+            "DZH318Z0BXV9/Premium Double Encrypted/Premium Double Encrypted Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Premium Double Encrypted",
+              "meter_name": "Premium Double Encrypted Capacity"
+            }
+          }
+        },
         "DZH3155G7B5D": {
           "id": "DZH3155G7B5D",
           "name": "Backup",
@@ -50153,6 +50291,12 @@
               "sku_name": "Azure Files",
               "meter_name": "Azure Files Protected Instances"
             },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
+            },
             "DZH318Z0BP05/Azure Files Vaulted/LRS Data Stored": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -50212,102 +50356,6 @@
               "name": "Backup",
               "sku_name": "Azure Files Vaulted",
               "meter_name": "Azure Files Vaulted Protected Instances"
-            }
-          }
-        },
-        "DZH3147RZ57L": {
-          "id": "DZH3147RZ57L",
-          "name": "Azure NetApp Files",
-          "products": {
-            "DZH318Z0BXV9/Ultra Double Encrypted/Ultra Double Encrypted Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Ultra Double Encrypted",
-              "meter_name": "Ultra Double Encrypted Capacity"
-            },
-            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Hours": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "CRR - ES Central to SE Central",
-              "meter_name": "CRR - ES Central to SE Central Hours"
-            },
-            "DZH318Z0BXV9/Standard Double Encrypted/Standard Double Encrypted Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Standard Double Encrypted",
-              "meter_name": "Standard Double Encrypted Capacity"
-            },
-            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Flexible Service Level",
-              "meter_name": "Flexible Service Level Capacity"
-            },
-            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Days": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "CRR - ES Central to SE Central",
-              "meter_name": "CRR - ES Central to SE Central Days"
-            },
-            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Standard Storage with Cool Access",
-              "meter_name": "Standard Storage with Cool Access Capacity"
-            },
-            "DZH318Z0BXV9/Volume Restore/Volume Restore Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Volume Restore",
-              "meter_name": "Volume Restore Capacity"
-            },
-            "DZH318Z0BXV9/Ultra/Ultra Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Ultra",
-              "meter_name": "Ultra Capacity"
-            },
-            "DZH318Z0BXV9/Flexible Service Level/Flexible Service Level Throughput MiBps": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Flexible Service Level",
-              "meter_name": "Flexible Service Level Throughput MiBps"
-            },
-            "DZH318Z0BXV9/Standard/Standard Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Standard",
-              "meter_name": "Standard Capacity"
-            },
-            "DZH318Z0BXV9/Backup/Backup Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Backup",
-              "meter_name": "Backup Capacity"
-            },
-            "DZH318Z0BXV9/Premium/Premium Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Premium",
-              "meter_name": "Premium Capacity"
-            },
-            "DZH318Z0BXV9/CRR - ES Central to SE Central/CRR - ES Central to SE Central Minutes": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "CRR - ES Central to SE Central",
-              "meter_name": "CRR - ES Central to SE Central Minutes"
-            },
-            "DZH318Z0BXV9/Standard Storage with Cool Access/Standard Storage with Cool Access Data Transfer": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Standard Storage with Cool Access",
-              "meter_name": "Standard Storage with Cool Access Data Transfer"
-            },
-            "DZH318Z0BXV9/Premium Double Encrypted/Premium Double Encrypted Capacity": {
-              "id": "DZH318Z0BXV9",
-              "name": "Azure NetApp Files",
-              "sku_name": "Premium Double Encrypted",
-              "meter_name": "Premium Double Encrypted Capacity"
             }
           }
         }
