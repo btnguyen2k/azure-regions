@@ -24392,6 +24392,12 @@
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
+            },
             "DZH318Z0C157/Standard/Standard Unit": {
               "id": "DZH318Z0C157",
               "name": "Azure Database for MySQL Standard Compute",
@@ -24458,6 +24464,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
+            },
             "DZH318Z0TRNB/vCore/vCore": {
               "id": "DZH318Z0TRNB",
               "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
@@ -24493,6 +24505,12 @@
               "name": "Azure Database for MySQL Single Server - Backup Storage",
               "sku_name": "Backup LRS",
               "meter_name": "Backup LRS Data Stored"
+            },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
             },
             "DZH318Z0VFSL/vCore/vCore": {
               "id": "DZH318Z0VFSL",
@@ -24720,6 +24738,12 @@
               "id": "DZH318Z0B172",
               "name": "SQL Managed Instance General Purpose - Premium Series Memory Optimized Compute",
               "sku_name": "64 vCore Zone Redundancy",
+              "meter_name": "Zone Redundancy vCore"
+            },
+            "DZH318Z0BQK3/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+              "id": "DZH318Z0BQK3",
+              "name": "SQL Managed Instance Business Critical - Compute Gen5",
+              "sku_name": "vCore ZR Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
             },
             "DZH318Z0B172/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
@@ -24986,6 +25010,12 @@
               "sku_name": "40 vCore Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
             },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
+            },
             "DZH318Z0B17K/32 vCore/vCore": {
               "id": "DZH318Z0B17K",
               "name": "SQL Managed Instance General Purpose - Premium Series Compute",
@@ -25110,6 +25140,12 @@
               "id": "DZH318Z0B172",
               "name": "SQL Managed Instance General Purpose - Premium Series Memory Optimized Compute",
               "sku_name": "32 vCore Zone Redundancy",
+              "meter_name": "Zone Redundancy vCore"
+            },
+            "DZH318Z0B173/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+              "id": "DZH318Z0B173",
+              "name": "SQL Managed Instance Business Critical - Premium Series Memory Optimized Compute",
+              "sku_name": "vCore ZR Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
             },
             "DZH318Z0BQKP/64 vCore Zone Redundancy/Zone Redundancy vCore": {
@@ -25271,6 +25307,12 @@
             "DZH318Z0BQKP/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
               "id": "DZH318Z0BQKP",
               "name": "SQL Managed Instance General Purpose - Compute Gen5",
+              "sku_name": "vCore ZR Zone Redundancy",
+              "meter_name": "Zone Redundancy vCore"
+            },
+            "DZH318Z0B17J/vCore ZR Zone Redundancy/Zone Redundancy vCore": {
+              "id": "DZH318Z0B17J",
+              "name": "SQL Managed Instance Business Critical - Premium Series Compute",
               "sku_name": "vCore ZR Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
             }
@@ -35279,6 +35321,12 @@
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob GRS Write Operations"
             },
+            "DZH318Z0BP05/Azure Files Vaulted/ZRS Data Stored": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Files Vaulted",
+              "meter_name": "ZRS Data Stored"
+            },
             "DZH318Z0BP05/Azure Files/Azure Files Protected Instances": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -35296,6 +35344,24 @@
               "name": "Backup",
               "sku_name": "Archive",
               "meter_name": "Archive GRS Data Stored"
+            },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
+            },
+            "DZH318Z0BP05/Azure Files Vaulted/GRS Data Stored": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Files Vaulted",
+              "meter_name": "GRS Data Stored"
+            },
+            "DZH318Z0BP05/Azure Files Vaulted/LRS Data Stored": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Files Vaulted",
+              "meter_name": "LRS Data Stored"
             },
             "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Protected Instances": {
               "id": "DZH318Z0BP05",
@@ -35357,6 +35423,12 @@
               "sku_name": "ADLS Gen2 Vaulted",
               "meter_name": "ADLS Gen2 Vaulted Protected Instances"
             },
+            "DZH318Z0BP05/Azure Files Vaulted/RA-GRS Data Stored": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Files Vaulted",
+              "meter_name": "RA-GRS Data Stored"
+            },
             "DZH318Z0BP05/Azure VM/Azure VM Protected Instances": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -35380,6 +35452,12 @@
               "name": "Backup",
               "sku_name": "PostgreSQL",
               "meter_name": "PostgreSQL Protected Instances"
+            },
+            "DZH318Z0BP05/Azure Files Vaulted/Azure Files Vaulted Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Files Vaulted",
+              "meter_name": "Azure Files Vaulted Protected Instances"
             },
             "DZH318Z0BP05/SAP HANA on Azure VM/SAP HANA on Azure VM Protected Instances": {
               "id": "DZH318Z0BP05",
