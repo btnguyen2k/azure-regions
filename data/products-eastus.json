@@ -241,6 +241,12 @@
               "sku_name": "Standard Doc Content Extraction",
               "meter_name": "Standard Doc Content Extraction Pages"
             },
+            "DZH318Z0S78K/Hosted HOBO/Hosted HOBO Memory Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted HOBO",
+              "meter_name": "Hosted HOBO Memory Usage"
+            },
             "DZH318Z0BP4S/Commitment Tier Custom Speech to Text Azure 2K/Commitment Tier Custom Speech to Text Azure 2K Unit": {
               "id": "DZH318Z0BP4S",
               "name": "Azure Speech",
@@ -1188,6 +1194,12 @@
               "name": "Azure Immersive Reader",
               "sku_name": "Commercial",
               "meter_name": "Commercial Characters"
+            },
+            "DZH318Z0S78K/Hosted HOBO/Hosted HOBO vCPU Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted HOBO",
+              "meter_name": "Hosted HOBO vCPU Usage"
             },
             "DZH318Z0BQL9/S0/S0 Overage Transactions": {
               "id": "DZH318Z0BQL9",
@@ -6679,6 +6691,12 @@
               "sku_name": "o3-deep research 0626-out-glbl",
               "meter_name": "o3-deep research 0626-out-glbl 1M Tokens"
             },
+            "DZH318XZPC51/text embedding 3 large DZ/text embedding 3 large DZ Tokens": {
+              "id": "DZH318XZPC51",
+              "name": "Azure OpenAI Embedding",
+              "sku_name": "text embedding 3 large DZ",
+              "meter_name": "text embedding 3 large DZ Tokens"
+            },
             "DZH318Z0T9WD/GPT 5.1 chat cd inp Gl/GPT 5.1 chat cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -8472,6 +8490,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "5.1 codex opt Dz",
               "meter_name": "5.1 codex opt Dz 1M Tokens"
+            },
+            "DZH318XZPC51/text embedding 3 small DZ/text embedding 3 small DZ Tokens": {
+              "id": "DZH318XZPC51",
+              "name": "Azure OpenAI Embedding",
+              "sku_name": "text embedding 3 small DZ",
+              "meter_name": "text embedding 3 small DZ Tokens"
             },
             "DZH318Z0HHG7/o1 1217 Outp regnl/o1 1217 Outp regnl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -18726,6 +18750,12 @@
               "name": "Virtual Machines BS Series",
               "sku_name": "B1ls",
               "meter_name": "B1ls"
+            },
+            "DZH318Z0F5D3/M896ixds_24_v3 Spot/M896ixds_24_v3 Spot": {
+              "id": "DZH318Z0F5D3",
+              "name": "Virtual Machines Mdsv3 Very High Memory Series Linux",
+              "sku_name": "M896ixds_24_v3 Spot",
+              "meter_name": "M896ixds_24_v3 Spot"
             },
             "DZH318Z0F5F1/E96-24as v6 Spot/E96-24as v6 Spot": {
               "id": "DZH318Z0F5F1",
@@ -29928,6 +29958,12 @@
               "name": "Virtual Machines Easv4 Series",
               "sku_name": "E4-2as_v4 Low Priority",
               "meter_name": "E4-2as_v4 Low Priority"
+            },
+            "DZH318Z0F5CM/M896ixds_24_v3 Spot/M896ixds_24_v3 Spot": {
+              "id": "DZH318Z0F5CM",
+              "name": "Virtual Machines Mdsv3 Very High Memory Series Windows",
+              "sku_name": "M896ixds_24_v3 Spot",
+              "meter_name": "M896ixds_24_v3 Spot"
             },
             "DZH318Z0BPW4/DS12 Low Priority/DS12 Low Priority": {
               "id": "DZH318Z0BPW4",
@@ -45073,6 +45109,12 @@
               "sku_name": "E32as v4 Spot",
               "meter_name": "E32as v4 Spot"
             },
+            "DZH318Z0F5CM/M896ixds_24_v3/M896ixds_24_v3": {
+              "id": "DZH318Z0F5CM",
+              "name": "Virtual Machines Mdsv3 Very High Memory Series Windows",
+              "sku_name": "M896ixds_24_v3",
+              "meter_name": "M896ixds_24_v3"
+            },
             "DZH318Z0CSHB/E16-4ds v4 Low Priority/E16-4ds v4 Low Priority": {
               "id": "DZH318Z0CSHB",
               "name": "Virtual Machines Edsv4 Series Windows",
@@ -47550,6 +47592,12 @@
               "name": "Virtual Machines Mdsv3 High Memory Series Linux",
               "sku_name": "Standard_M832ids_16_v3",
               "meter_name": "Standard_M832ids_16_v3"
+            },
+            "DZH318Z0F5D3/M896ixds_24_v3/M896ixds_24_v3": {
+              "id": "DZH318Z0F5D3",
+              "name": "Virtual Machines Mdsv3 Very High Memory Series Linux",
+              "sku_name": "M896ixds_24_v3",
+              "meter_name": "M896ixds_24_v3"
             },
             "DZH318Z0GNH2/D128lds v6 Spot/D128lds v6 Spot": {
               "id": "DZH318Z0GNH2",
@@ -63707,11 +63755,11 @@
               "sku_name": "Apache Airflow job Capacity Usage",
               "meter_name": "Apache Airflow job Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/High Scale Dataflow Compute Capacity Usage/High Scale Dataflow Compute Capacity Usage CU": {
+            "DZH318Z0KCZ7/High Scale Dataflow Compute - SQL Capacity Usage/High Scale Dataflow Compute - SQL Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "High Scale Dataflow Compute Capacity Usage",
-              "meter_name": "High Scale Dataflow Compute Capacity Usage CU"
+              "sku_name": "High Scale Dataflow Compute - SQL Capacity Usage",
+              "meter_name": "High Scale Dataflow Compute - SQL Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Capacity Usage/OneLake BCDR Read Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -67084,6 +67132,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
+            },
             "DZH318Z0B173/1 vCore/vCore": {
               "id": "DZH318Z0B173",
               "name": "SQL Managed Instance Business Critical - Premium Series Memory Optimized Compute",
@@ -67780,6 +67834,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0DCQ4/SSD v2 Throughput/SSD v2 Throughput Prov Throughput (MBps)": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 Throughput",
+              "meter_name": "SSD v2 Throughput Prov Throughput (MBps)"
+            },
             "DZH318Z0DCQ4/Storage/Storage Data Stored": {
               "id": "DZH318Z0DCQ4",
               "name": "Azure Database for MySQL Flexible Server Storage",
@@ -67924,6 +67984,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0DCQ4/SSD v2/SSD v2 Data Stored": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2",
+              "meter_name": "SSD v2 Data Stored"
+            },
             "DZH318Z0TTZQ/vCore/vCore": {
               "id": "DZH318Z0TTZQ",
               "name": "Azure Database for MySQL Flexible Server Memory Optimized Easv6 Series Compute",
@@ -67983,6 +68049,12 @@
               "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv5 Series Compute",
               "sku_name": "vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0DCQ4/SSD v2 IOPS/SSD v2 IOPS Provisioned IOPS": {
+              "id": "DZH318Z0DCQ4",
+              "name": "Azure Database for MySQL Flexible Server Storage",
+              "sku_name": "SSD v2 IOPS",
+              "meter_name": "SSD v2 IOPS Provisioned IOPS"
             },
             "DZH318Z0BQKM/1 vCore/vCore": {
               "id": "DZH318Z0BQKM",
@@ -68763,6 +68835,12 @@
               "name": "Azure Cosmos DB Dedicated Gateway - General Purpose",
               "sku_name": "D32s",
               "meter_name": "D32s"
+            },
+            "DZH318Z0TF33/Storage Optimized/Storage Optimized vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Storage Optimized",
+              "meter_name": "Storage Optimized vCore"
             },
             "DZH318Z0B07D/D4s/D4s": {
               "id": "DZH318Z0B07D",
@@ -73723,6 +73801,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard 100 Provisioned Throughput RU/s"
             },
+            "DZH318Z0SLZ6/Classic Message/Classic Message": {
+              "id": "DZH318Z0SLZ6",
+              "name": "CXRReportGen Premium",
+              "sku_name": "Classic Message",
+              "meter_name": "Classic Message"
+            },
             "DZH318Z094ML/Structured De-Identification/Structured De-Identification": {
               "id": "DZH318Z094ML",
               "name": "Azure Health Data Services",
@@ -73942,6 +74026,12 @@
               "name": "Microsoft Purview Data Security",
               "sku_name": "Standard",
               "meter_name": "Standard Data Security Processing Unit"
+            },
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             },
             "DZH318Z0LFXP/Investigations/Investigations Compute Unit": {
               "id": "DZH318Z0LFXP",
@@ -83140,6 +83230,12 @@
               "sku_name": "PostgreSQL",
               "meter_name": "PostgreSQL Protected Instances"
             },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
+            },
             "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted Protected Instances": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -83397,6 +83493,12 @@
               "name": "Azure NetApp Files",
               "sku_name": "Cross Region Replication - US East to US West 2",
               "meter_name": "Cross Region Replication - US East to US West 2 Hours"
+            },
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
             },
             "DZH318Z0BXV9/Cross Region Replication - US East to US East 2/Cross Region Replication - US East to US East 2 Minutes": {
               "id": "DZH318Z0BXV9",
