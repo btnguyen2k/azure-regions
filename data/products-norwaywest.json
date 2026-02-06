@@ -26541,11 +26541,41 @@
               "sku_name": "Premium",
               "meter_name": "Premium Memory Duration"
             },
+            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Total Executions"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Execution Time"
+            },
             "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
               "id": "DZH318Z0BXVK",
               "name": "Premium Functions",
               "sku_name": "Premium",
               "meter_name": "Premium vCPU Duration"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Baseline"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Total Executions"
             }
           }
         }
@@ -26971,11 +27001,11 @@
               "sku_name": "Digital Twin Builder Capacity Usage",
               "meter_name": "Digital Twin Builder Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/High Scale Dataflow Compute Capacity Usage/High Scale Dataflow Compute Capacity Usage CU": {
+            "DZH318Z0KCZ7/High Scale Dataflow Compute - SQL Capacity Usage/High Scale Dataflow Compute - SQL Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "High Scale Dataflow Compute Capacity Usage",
-              "meter_name": "High Scale Dataflow Compute Capacity Usage CU"
+              "sku_name": "High Scale Dataflow Compute - SQL Capacity Usage",
+              "meter_name": "High Scale Dataflow Compute - SQL Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Copilot and AI Capacity Usage/Copilot and AI Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -27071,6 +27101,12 @@
               "name": "Azure Cosmos DB",
               "sku_name": "mRUs",
               "meter_name": "100 Multi-master RU/s"
+            },
+            "DZH318Z0TF33/Storage Optimized/Storage Optimized vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "Storage Optimized",
+              "meter_name": "Storage Optimized vCore"
             },
             "DZH318Z0TF33/Compute Optimized/Compute Optimized vCore": {
               "id": "DZH318Z0TF33",
@@ -29345,6 +29381,12 @@
               "name": "SQL Managed Instance Business Critical - Compute Gen4",
               "sku_name": "16 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318Z0B17K/Addl Memory Zone Redundancy/Addl Memory Additional Memory": {
+              "id": "DZH318Z0B17K",
+              "name": "SQL Managed Instance General Purpose - Premium Series Compute",
+              "sku_name": "Addl Memory Zone Redundancy",
+              "meter_name": "Addl Memory Additional Memory"
             },
             "DZH318Z0BQKP/24 vCore Zone Redundancy/Zone Redundancy vCore": {
               "id": "DZH318Z0BQKP",
@@ -32948,7 +32990,7 @@
             },
             "DZH318Z0RBZQ/Storage/Storage Data stored": {
               "id": "DZH318Z0RBZQ",
-              "name": "Microsoft 365 Additional Storage",
+              "name": "Microsoft 365 SharePoint Storage",
               "sku_name": "Storage",
               "meter_name": "Storage Data stored"
             },
@@ -34071,6 +34113,18 @@
               "name": "Azure Active Directory B2X",
               "sku_name": "P1",
               "meter_name": "P1 Monthly Active Users"
+            }
+          }
+        },
+        "DZH319R3XQR9": {
+          "id": "DZH319R3XQR9",
+          "name": "Microsoft Purview",
+          "products": {
+            "DZH318Z0LFXP/Optical Character Recognition/Optical Character Recognition Transaction": {
+              "id": "DZH318Z0LFXP",
+              "name": "Microsoft Purview Data Security",
+              "sku_name": "Optical Character Recognition",
+              "meter_name": "Optical Character Recognition Transaction"
             }
           }
         }
@@ -39435,6 +39489,12 @@
               "sku_name": "ADLS Gen2 Vaulted",
               "meter_name": "ADLS Gen2 Vaulted GRS Write Operations"
             },
+            "DZH318Z0BP05/Cross region for ADLS and Blobs/Cross region for ADLS and Blobs Protected Instances": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cross region for ADLS and Blobs",
+              "meter_name": "Cross region for ADLS and Blobs Protected Instances"
+            },
             "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Protected Instances": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -39650,6 +39710,12 @@
               "name": "Azure NetApp Files",
               "sku_name": "Cross Region Replication",
               "meter_name": "Cross Region Replication Hours"
+            },
+            "DZH318Z0BXV9/Elastic Zone Redundant Storage/Elastic Zone Redundant Storage Capacity": {
+              "id": "DZH318Z0BXV9",
+              "name": "Azure NetApp Files",
+              "sku_name": "Elastic Zone Redundant Storage",
+              "meter_name": "Elastic Zone Redundant Storage Capacity"
             },
             "DZH318Z0BXV9/Ultra Double Encrypted/Ultra Double Encrypted Capacity": {
               "id": "DZH318Z0BXV9",
