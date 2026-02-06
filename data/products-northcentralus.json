@@ -793,6 +793,12 @@
               "sku_name": "Command A Outp DZ",
               "meter_name": "Command A Outp DZ Tokens"
             },
+            "DZH318Z0SSVH/K2.5 Thinking Inp glbl/K2.5 Thinking Inp glbl Tokens": {
+              "id": "DZH318Z0SSVH",
+              "name": "Azure Kimi",
+              "sku_name": "K2.5 Thinking Inp glbl",
+              "meter_name": "K2.5 Thinking Inp glbl Tokens"
+            },
             "DZH318Z0V4PL/gpt rt aud mini cchd Inp glbl/gpt rt aud mini cchd Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
@@ -2772,6 +2778,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-rt-aud-0603 cchd Inp rgnl",
               "meter_name": "gpt-4o-rt-aud-0603 cchd Inp rgnl Tokens"
+            },
+            "DZH318Z0SSVH/K2.5 Thinking Outp glbl/K2.5 Thinking Outp glbl Tokens": {
+              "id": "DZH318Z0SSVH",
+              "name": "Azure Kimi",
+              "sku_name": "K2.5 Thinking Outp glbl",
+              "meter_name": "K2.5 Thinking Outp glbl Tokens"
             },
             "DZH318Z0HHG7/o1-pro Outp Data Zone/o1-pro Outp Data Zone Tokens": {
               "id": "DZH318Z0HHG7",
@@ -51954,11 +51966,11 @@
               "sku_name": "Map services Capacity Usage",
               "meter_name": "Map services Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/High Scale Dataflow Compute Capacity Usage/High Scale Dataflow Compute Capacity Usage CU": {
+            "DZH318Z0KCZ7/High Scale Dataflow Compute - SQL Capacity Usage/High Scale Dataflow Compute - SQL Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "High Scale Dataflow Compute Capacity Usage",
-              "meter_name": "High Scale Dataflow Compute Capacity Usage CU"
+              "sku_name": "High Scale Dataflow Compute - SQL Capacity Usage",
+              "meter_name": "High Scale Dataflow Compute - SQL Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Other Operations via proxy Capacity Usage/OneLake Other Operations via proxy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -60055,7 +60067,7 @@
             },
             "DZH318Z0RBZQ/Storage/Storage Data stored": {
               "id": "DZH318Z0RBZQ",
-              "name": "Microsoft 365 Additional Storage",
+              "name": "Microsoft 365 SharePoint Storage",
               "sku_name": "Storage",
               "meter_name": "Storage Data stored"
             },
@@ -62586,12 +62598,6 @@
               "name": "General Block Blob v2",
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Early Delete"
-            },
-            "DZH318Z0BNWT/Standard ZRS/Disk Read Additional IO": {
-              "id": "DZH318Z0BNWT",
-              "name": "Standard Page Blob v2",
-              "sku_name": "Standard ZRS",
-              "meter_name": "Disk Read Additional IO"
             },
             "DZH318Z0CPS8/Premium LRS/Premium LRS Iterative Read Operations": {
               "id": "DZH318Z0CPS8",
