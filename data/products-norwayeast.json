@@ -2659,6 +2659,12 @@
               "sku_name": "Voice Live API Lite - LLM Text Output",
               "meter_name": "Voice Live API Lite - LLM Text Output Tokens"
             },
+            "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 10K/Commitment Tier Speech to Text Connected 10K Speech To Text CT Overage": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Commitment Tier Speech to Text Connected 10K",
+              "meter_name": "Commitment Tier Speech to Text Connected 10K Speech To Text CT Overage"
+            },
             "DZH318Z0BP4S/Commitment Tier Neural Text to Speech Azure 2000M/Commitment Tier Neural Text to Speech Azure 2000M Neural Text To Speech CT Overage Characters": {
               "id": "DZH318Z0BP4S",
               "name": "Azure Speech",
@@ -2929,6 +2935,12 @@
               "sku_name": "S0",
               "meter_name": "S0 pages for doc classifier"
             },
+            "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 2K/Commitment Tier Speech to Text Connected 2K Speech To Text CT Overage": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Commitment Tier Speech to Text Connected 2K",
+              "meter_name": "Commitment Tier Speech to Text Connected 2K Speech To Text CT Overage"
+            },
             "DZH318Z09G9P/Commitment Tier Custom Azure 100K/Commitment Tier Custom Azure 100K CT Overage Transactions": {
               "id": "DZH318Z09G9P",
               "name": "Azure Document Intelligence",
@@ -3084,6 +3096,12 @@
               "name": "Azure Language",
               "sku_name": "Commitment Tier CLU Connected Cont 3M",
               "meter_name": "Commitment Tier CLU Connected Cont 3M CT Overage Transactions"
+            },
+            "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 10K/Commitment Tier Speech to Text Connected 10K Unit": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Commitment Tier Speech to Text Connected 10K",
+              "meter_name": "Commitment Tier Speech to Text Connected 10K Unit"
             },
             "DZH318Z0BQL9/Commitment Tier CLU Azure 3M/Commitment Tier CLU Azure 3M Unit": {
               "id": "DZH318Z0BQL9",
@@ -3816,6 +3834,12 @@
               "name": "Azure Document Intelligence",
               "sku_name": "Commitment Tier Custom Azure 1000K",
               "meter_name": "Commitment Tier Custom Azure 1000K Unit"
+            },
+            "DZH318Z0BP4S/Commitment Tier Speech to Text Connected 50K/Commitment Tier Speech to Text Connected 50K Speech To Text CT Overage": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Commitment Tier Speech to Text Connected 50K",
+              "meter_name": "Commitment Tier Speech to Text Connected 50K Speech To Text CT Overage"
             },
             "DZH318Z0BZ35/Liveness/Liveness Transactions": {
               "id": "DZH318Z0BZ35",
@@ -38827,11 +38851,23 @@
               "sku_name": "OneLake Read Operations Capacity Usage",
               "meter_name": "OneLake Read Operations Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Fabric Planning - Automated Jobs Capacity Usage/Fabric Planning - Automated Jobs Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Planning - Automated Jobs Capacity Usage",
+              "meter_name": "Fabric Planning - Automated Jobs Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Ontology AI Capacity Usage/Ontology AI Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Ontology AI Capacity Usage",
               "meter_name": "Ontology AI Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Fabric Planning - Contributor Sessions Capacity Usage/Fabric Planning - Contributor Sessions Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Planning - Contributor Sessions Capacity Usage",
+              "meter_name": "Fabric Planning - Contributor Sessions Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Eventhouse Capacity Usage/Eventhouse Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -38928,6 +38964,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations Hot Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations Hot Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Fabric Planning - Viewer Sessions Capacity Usage/Fabric Planning - Viewer Sessions Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Planning - Viewer Sessions Capacity Usage",
+              "meter_name": "Fabric Planning - Viewer Sessions Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Data Movement Capacity Usage/Data Movement Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -39072,6 +39114,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Other Operations Hot Capacity Usage",
               "meter_name": "OneLake Other Operations Hot Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Fabric Planning - Planner Sessions Capacity Usage/Fabric Planning - Planner Sessions Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Planning - Planner Sessions Capacity Usage",
+              "meter_name": "Fabric Planning - Planner Sessions Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Capacity Usage/OneLake BCDR Iterative Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -39834,12 +39882,6 @@
               "sku_name": "2 vCore Zone Redundancy",
               "meter_name": "Zone Redundancy vCore"
             },
-            "DZH318Z08M0D/16 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "16 vCore",
-              "meter_name": "vCore"
-            },
             "DZH318Z0BPXH/40 vCore/vCore": {
               "id": "DZH318Z0BPXH",
               "name": "SQL Database Single/Elastic Pool Business Critical - Compute Gen5",
@@ -40050,12 +40092,6 @@
               "sku_name": "Backup ZRS",
               "meter_name": "Backup ZRS Data Stored"
             },
-            "DZH318Z08M0D/10 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "10 vCore",
-              "meter_name": "vCore"
-            },
             "DZH318Z0BQFJ/Backup LRS/Backup LRS Data Stored": {
               "id": "DZH318Z0BQFJ",
               "name": "SQL Database - LTR Backup Storage",
@@ -40200,23 +40236,11 @@
               "sku_name": "16 vCore",
               "meter_name": "vCore"
             },
-            "DZH318Z08M0D/14 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "14 vCore",
-              "meter_name": "vCore"
-            },
             "DZH318Z0LT8H/1 vCore/1 vCore": {
               "id": "DZH318Z0LT8H",
               "name": "SQL Database - shared resource management",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
-            },
-            "DZH318Z08M0D/18 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "18 vCore",
-              "meter_name": "vCore"
             },
             "DZH318Z0BQHC/P1/P1 DTU": {
               "id": "DZH318Z0BQHC",
@@ -40338,12 +40362,6 @@
               "sku_name": "32 vCore",
               "meter_name": "vCore"
             },
-            "DZH318Z08M0D/32 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "32 vCore",
-              "meter_name": "vCore"
-            },
             "DZH318Z0BQHP/50 DTU Pack/eDTUs": {
               "id": "DZH318Z0BQHP",
               "name": "SQL Database Elastic Pool - Standard",
@@ -40422,23 +40440,11 @@
               "sku_name": "80 vCore",
               "meter_name": "80 vCore - Free"
             },
-            "DZH318Z08M0D/12 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "12 vCore",
-              "meter_name": "vCore"
-            },
             "DZH318Z0BQHM/300 DTU Pack/eDTUs": {
               "id": "DZH318Z0BQHM",
               "name": "SQL Database Elastic Pool - Basic",
               "sku_name": "300 DTU Pack",
               "meter_name": "eDTUs"
-            },
-            "DZH318Z08M0D/20 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "20 vCore",
-              "meter_name": "vCore"
             },
             "DZH318Z0BPXL/14 vCore/vCore": {
               "id": "DZH318Z0BPXL",
@@ -40450,12 +40456,6 @@
               "id": "DZH318Z0BPXL",
               "name": "SQL Database Single/Elastic Pool General Purpose - Compute Gen5",
               "sku_name": "10 vCore",
-              "meter_name": "vCore"
-            },
-            "DZH318Z08M0D/40 vCore/vCore": {
-              "id": "DZH318Z08M0D",
-              "name": "SQL Database Single/Elastic Pool Hyperscale - Compute DC-Series",
-              "sku_name": "40 vCore",
               "meter_name": "vCore"
             },
             "DZH318Z0BPXL/80 vCore/vCore": {
@@ -45989,12 +45989,6 @@
               "sku_name": "Standard",
               "meter_name": "Standard Frontend"
             },
-            "DZH318Z0KGFZ/Standard/Standard WAF Requests": {
-              "id": "DZH318Z0KGFZ",
-              "name": "Application Gateway for Containers",
-              "sku_name": "Standard",
-              "meter_name": "Standard WAF Requests"
-            },
             "DZH318Z0KGFZ/Standard/Standard Capacity Units": {
               "id": "DZH318Z0KGFZ",
               "name": "Application Gateway for Containers",
@@ -46042,12 +46036,6 @@
               "name": "Basic Application Gateway",
               "sku_name": "Medium",
               "meter_name": "Medium Gateway"
-            },
-            "DZH318Z0KGFZ/Standard/Standard AGC WAF": {
-              "id": "DZH318Z0KGFZ",
-              "name": "Application Gateway for Containers",
-              "sku_name": "Standard",
-              "meter_name": "Standard AGC WAF"
             },
             "DZH318Z0BSD0/Standard/Standard Captcha Sessions": {
               "id": "DZH318Z0BSD0",
@@ -54589,6 +54577,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot Read Operations"
+            },
+            "DZH318Z0BP88/Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
+              "id": "DZH318Z0BP88",
+              "name": "Standard SSD Managed Disks",
+              "sku_name": "Confidential Compute Encryption LRS",
+              "meter_name": "Confidential Compute Encryption LRS Provisioned Capacity"
             },
             "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted List Operations": {
               "id": "DZH318Z0BNZ5",
