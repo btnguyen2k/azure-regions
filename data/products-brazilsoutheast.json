@@ -30037,6 +30037,12 @@
               "sku_name": "Graph data management Capacity Usage",
               "meter_name": "Graph data management Capacity Usage CU"
             },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/Digital Twin Builder Operation Capacity Usage/Digital Twin Builder Operation Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -30055,11 +30061,23 @@
               "sku_name": "Map services Capacity Usage",
               "meter_name": "Map services Capacity Usage CU"
             },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
+            },
             "DZH318Z0KCZ7/user data functions Capacity Usage/user data functions Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "user data functions Capacity Usage",
               "meter_name": "user data functions Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
             },
             "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric Capacity Usage/Cosmos Database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -30072,6 +30090,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake Security Capacity Usage",
               "meter_name": "OneLake Security Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
             },
             "DZH318Z0KCZ7/Graph data science Capacity Usage/Graph data science Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -31698,6 +31722,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Write Operations"
             },
+            "DZH318Z0TF33/General Purpose - Burstable/General Purpose - Burstable vCore": {
+              "id": "DZH318Z0TF33",
+              "name": "Azure Cosmos DB Garnet Cache",
+              "sku_name": "General Purpose - Burstable",
+              "meter_name": "General Purpose - Burstable vCore"
+            },
             "DZH318Z0CGSV/AP3/AP3 100 RUs": {
               "id": "DZH318Z0CGSV",
               "name": "Azure Cosmos DB autoscale",
@@ -32370,6 +32400,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318XZR3TV/vCore/vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRL/B8ms/B8ms vCore": {
               "id": "DZH318Z0DCRL",
               "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
@@ -32441,6 +32477,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
               "sku_name": "B16ms",
               "meter_name": "B16ms vCore"
+            },
+            "DZH318XZR42P/1 vCore/1 vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCRX/Storage/Storage Data Stored": {
               "id": "DZH318Z0DCRX",
@@ -32574,6 +32616,12 @@
               "sku_name": "Compute - Free",
               "meter_name": "Compute - Free vCore"
             },
+            "DZH318XZR3TV/1 vCore/1 vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0BQJ3/1 vCore/vCore": {
               "id": "DZH318Z0BQJ3",
               "name": "Azure Database for PostgreSQL Single Server Basic - Compute Gen5",
@@ -32699,6 +32747,12 @@
               "name": "Az DB for PostgreSQL Flexible Server Storage",
               "sku_name": "PMD V2 IOPS",
               "meter_name": "PMD V2 IOPS Provisioned IOPS"
+            },
+            "DZH318XZR42P/vCore/vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
             },
             "DZH318Z0DCRZ/16 vCore/vCore": {
               "id": "DZH318Z0DCRZ",
@@ -35760,17 +35814,65 @@
           "id": "DZH3172B613C",
           "name": "Syntex",
           "products": {
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data stored"
+            },
             "DZH318Z0JSSN/Syntex Taxonomy Tagging/Syntex Taxonomy Tagging Transaction": {
               "id": "DZH318Z0JSSN",
               "name": "Syntex Taxonomy Tagging",
               "sku_name": "Syntex Taxonomy Tagging",
               "meter_name": "Syntex Taxonomy Tagging Transaction"
             },
+            "DZH318Z0K9J3/Syntex Backup/Data restored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data restored"
+            },
+            "DZH318Z0G8XJ/Stored/Stored Data stored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 SharePoint Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
+            },
+            "DZH318Z0G8XJ/Restored/Restored Data restored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Restored",
+              "meter_name": "Restored Data restored"
+            },
+            "DZH318Z0TFF6/Cold/Cold Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
+              "sku_name": "Cold",
+              "meter_name": "Cold Data stored"
+            },
             "DZH318Z0JSSM/Translation/Translation Transaction": {
               "id": "DZH318Z0JSSM",
               "name": "Translation",
               "sku_name": "Translation",
               "meter_name": "Translation Transaction"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data stored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data restored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data restored"
             },
             "DZH318Z0K0CT/Optical Character Recognition/Optical Character Recognition Transaction": {
               "id": "DZH318Z0K0CT",
@@ -37569,6 +37671,12 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot GRS Write Operations"
             },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
+            },
             "DZH318Z0CPS4/Premium LRS/Premium LRS Blob Inventory": {
               "id": "DZH318Z0CPS4",
               "name": "Premium Block Blob v2 Hierarchical Namespace",
@@ -39086,6 +39194,12 @@
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
               "sku_name": "Hot GRS",
               "meter_name": "Hot Read Operations"
+            },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
             },
             "DZH318Z0BNZH/Standard GRS/Read Operations": {
               "id": "DZH318Z0BNZH",
@@ -41222,6 +41336,12 @@
               "name": "Backup",
               "sku_name": "Azure Files",
               "meter_name": "Azure Files Protected Instances"
+            },
+            "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Snapshot Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "SQL Server in Azure VM",
+              "meter_name": "SQL Server in Azure VM Snapshot Instance"
             },
             "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted RA-GRS Write Operations": {
               "id": "DZH318Z0BP05",
