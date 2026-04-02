@@ -26666,6 +26666,12 @@
           "id": "DZH31767PK6Z",
           "name": "Microsoft Fabric",
           "products": {
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/Operations Agents Autonomous Reasoning Capacity Usage/Operations Agents Autonomous Reasoning Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26713,6 +26719,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Spark Memory Optimized Capacity Usage",
               "meter_name": "Spark Memory Optimized Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
             },
             "DZH318Z0KCZ7/Ontology Modeling Capacity Usage/Ontology Modeling Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26816,6 +26828,12 @@
               "sku_name": "autoscale for Spark Capacity Usage",
               "meter_name": "autoscale for Spark Capacity Usage CU"
             },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/Data Movement Capacity Usage/Data Movement Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26900,6 +26918,12 @@
               "sku_name": "Digital Twin Builder Capacity Usage",
               "meter_name": "Digital Twin Builder Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/High Scale Dataflow Compute - Spark Capacity Usage/High Scale Dataflow Compute - Spark Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "High Scale Dataflow Compute - Spark Capacity Usage",
+              "meter_name": "High Scale Dataflow Compute - Spark Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Map services Capacity Usage/Map services Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -26917,6 +26941,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Map processing Capacity Usage",
               "meter_name": "Map processing Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Fabric Meter 32 Capacity Usage/Fabric Meter 32 Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Meter 32 Capacity Usage",
+              "meter_name": "Fabric Meter 32 Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Operations Agents Compute Capacity Usage/Operations Agents Compute Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -27002,6 +27032,12 @@
               "sku_name": "OneLake BCDR Write Operations Hot Capacity Usage",
               "meter_name": "OneLake BCDR Write Operations Hot Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/Spark GPU Optimized Capacity Usage/Spark GPU Optimized Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Spark GPU Optimized Capacity Usage",
+              "meter_name": "Spark GPU Optimized Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/OneLake BCDR Other Operations Hot Capacity Usage/OneLake BCDR Other Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -27056,6 +27092,12 @@
               "sku_name": "Fabric Planning - Automated Jobs Capacity Usage",
               "meter_name": "Fabric Planning - Automated Jobs Capacity Usage CU"
             },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
+            },
             "DZH318Z0KCZ7/Eventstream Data Traffic Capacity Usage/Eventstream Data Traffic Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -27103,6 +27145,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Eventstream Connector Capacity Usage",
               "meter_name": "Eventstream Connector Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/Fabric Meter 24 Capacity Usage/Fabric Meter 24 Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "Fabric Meter 24 Capacity Usage",
+              "meter_name": "Fabric Meter 24 Capacity Usage CU"
             }
           }
         }
@@ -33919,6 +33967,65 @@
       }
     },
     {
+      "name": "Microsoft Syntex",
+      "services": {
+        "DZH3172B613C": {
+          "id": "DZH3172B613C",
+          "name": "Syntex",
+          "products": {
+            "DZH318Z0K9J3/Syntex Backup/Data restored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data restored"
+            },
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 SharePoint Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data stored"
+            },
+            "DZH318Z0TFF6/Cold/Cold Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
+              "sku_name": "Cold",
+              "meter_name": "Cold Data stored"
+            },
+            "DZH318Z0G8XJ/Stored/Stored Data stored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data restored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data restored"
+            },
+            "DZH318Z0G8XJ/Restored/Restored Data restored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Restored",
+              "meter_name": "Restored Data restored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data stored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data stored"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Networking",
       "services": {
         "DZH315ZTM3N9": {
@@ -38710,6 +38817,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "LRS Write Operations"
             },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
+            },
             "DZH318Z0FPZF/Azure Storage Tasks/Azure Storage Tasks Objects Targeted": {
               "id": "DZH318Z0FPZF",
               "name": "Storage Actions",
@@ -39232,6 +39345,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Hot LRS Blob Inventory"
             },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
+            },
             "DZH318Z0BP04/P40 LRS/P40 LRS Disk": {
               "id": "DZH318Z0BP04",
               "name": "Premium SSD Managed Disks",
@@ -39333,6 +39452,12 @@
               "name": "Backup",
               "sku_name": "AKS",
               "meter_name": "AKS Namespace"
+            },
+            "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Snapshot Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "SQL Server in Azure VM",
+              "meter_name": "SQL Server in Azure VM Snapshot Instance"
             },
             "DZH318Z0BP05/SAP HANA on Azure VM/SAP HANA on Azure VM Snapshot Instance": {
               "id": "DZH318Z0BP05",

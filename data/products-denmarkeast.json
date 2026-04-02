@@ -18531,6 +18531,41 @@
       }
     },
     {
+      "name": "Data",
+      "services": {
+        "DZH31767PK6Z": {
+          "id": "DZH31767PK6Z",
+          "name": "Microsoft Fabric",
+          "products": {
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
+            },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
+            },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Databases",
       "services": {
         "DZH318XWNZTN": {
@@ -18722,6 +18757,12 @@
               "name": "SQL Managed Instance General Purpose - Storage",
               "sku_name": "General Purpose",
               "meter_name": "General Purpose IO Rate Operations"
+            },
+            "DZH318Z0B17J/Addl Mm/Addl Mm Additional Memory": {
+              "id": "DZH318Z0B17J",
+              "name": "SQL Managed Instance Business Critical - Premium Series Compute",
+              "sku_name": "Addl Mm",
+              "meter_name": "Addl Mm Additional Memory"
             },
             "DZH318Z0B173/1 vCore/vCore": {
               "id": "DZH318Z0B173",
@@ -22840,6 +22881,65 @@
       }
     },
     {
+      "name": "Microsoft Syntex",
+      "services": {
+        "DZH3172B613C": {
+          "id": "DZH3172B613C",
+          "name": "Syntex",
+          "products": {
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data stored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data stored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data stored"
+            },
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 SharePoint Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
+            },
+            "DZH318Z0G8XJ/Stored/Stored Data stored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data restored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data restored"
+            },
+            "DZH318Z0TFF6/Cold/Cold Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
+              "sku_name": "Cold",
+              "meter_name": "Cold Data stored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data restored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data restored"
+            },
+            "DZH318Z0G8XJ/Restored/Restored Data restored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Restored",
+              "meter_name": "Restored Data restored"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Networking",
       "services": {
         "DZH319QDM5ZN": {
@@ -23677,6 +23777,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
               "meter_name": "Hot LRS Data Stored"
+            },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
             },
             "DZH318Z0BP0L/S10 LRS/S10 LRS Disk Operations": {
               "id": "DZH318Z0BP0L",
@@ -25435,6 +25541,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool LRS",
               "meter_name": "Cool Read Operations"
+            },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
             },
             "DZH318Z09V07/Instant Access Snapshots LRS/Instant Access Snapshots LRS Disk Capacity Restored": {
               "id": "DZH318Z09V07",
