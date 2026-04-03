@@ -24014,11 +24014,35 @@
           "id": "DZH31767PK6Z",
           "name": "Microsoft Fabric",
           "products": {
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
+            },
             "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric Capacity Usage/Cosmos Database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Cosmos Database in Microsoft Fabric Capacity Usage",
               "meter_name": "Cosmos Database in Microsoft Fabric Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
+            },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
+            },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
             },
             "DZH318Z0KCZ7/SQL database in Microsoft Fabric Capacity Usage/SQL database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26959,6 +26983,12 @@
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
+            "DZH318XZR3TV/vCore/vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0KF1X/4 vCore/vCore": {
               "id": "DZH318Z0KF1X",
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dadsv5 Series Compute",
@@ -27083,6 +27113,12 @@
               "id": "DZH318Z0KDX1",
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv5 Series Compute",
               "sku_name": "104 vCore",
+              "meter_name": "vCore"
+            },
+            "DZH318XZR42P/vCore/vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "vCore",
               "meter_name": "vCore"
             },
             "DZH318Z0KDZJ/2 vCore/vCore": {
@@ -27238,6 +27274,12 @@
             "DZH318Z0TKXL/1 vCore/1 vCore": {
               "id": "DZH318Z0TKXL",
               "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Edsv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318XZR42P/1 vCore/1 vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
@@ -27474,6 +27516,12 @@
               "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
               "sku_name": "16 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318XZR3TV/1 vCore/1 vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0DCRX/Ultra Disk Storage/Ultra Disk Storage Data Stored": {
               "id": "DZH318Z0DCRX",
@@ -31989,6 +32037,12 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "RA-GRS Data Stored"
             },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
+            },
             "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Data Stored": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -35193,6 +35247,12 @@
               "sku_name": "Archive GRS",
               "meter_name": "Archive Priority Read Operations"
             },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
+            },
             "DZH318Z0BP0W/P40 LRS/P40 LRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -36056,6 +36116,12 @@
               "name": "Backup",
               "sku_name": "SQL Server in Azure VM",
               "meter_name": "SQL Server in Azure VM Protected Instances"
+            },
+            "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Snapshot Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "SQL Server in Azure VM",
+              "meter_name": "SQL Server in Azure VM Snapshot Instance"
             },
             "DZH318Z0BP05/ADLS Gen2 Vaulted/ADLS Gen2 Vaulted LRS Write Operations": {
               "id": "DZH318Z0BP05",

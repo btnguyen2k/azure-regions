@@ -42317,76 +42317,16 @@
             }
           }
         },
-        "DZH315HTQSK6": {
-          "id": "DZH315HTQSK6",
-          "name": "Azure Kubernetes Service",
-          "products": {
-            "DZH318Z0RCC3/Automatic/Automatic Compute Optimized": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic Compute Optimized"
-            },
-            "DZH318Z0CQSH/Standard/Standard Long Term Support": {
-              "id": "DZH318Z0CQSH",
-              "name": "Azure Kubernetes Service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Long Term Support"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic High Performance Compute": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic High Performance Compute"
-            },
-            "DZH318Z0CQSH/Standard/Standard Uptime SLA": {
-              "id": "DZH318Z0CQSH",
-              "name": "Azure Kubernetes Service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Uptime SLA"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic Storage Optimized": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic Storage Optimized"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic Confidential Compute": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic Confidential Compute"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic GPU Accelerated": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic GPU Accelerated"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic Hosted Control Plane": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic Hosted Control Plane"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic General Purpose": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic General Purpose"
-            },
-            "DZH318Z0RCC3/Automatic/Automatic Memory Optimized": {
-              "id": "DZH318Z0RCC3",
-              "name": "Azure Kubernetes Service - Automatic",
-              "sku_name": "Automatic",
-              "meter_name": "Automatic Memory Optimized"
-            }
-          }
-        },
         "DZH319F70F09": {
           "id": "DZH319F70F09",
           "name": "Azure Container Apps",
           "products": {
+            "DZH318Z0B0NC/Dedicated/Dedicated GPU Usage": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Dedicated",
+              "meter_name": "Dedicated GPU Usage"
+            },
             "DZH318Z0B0NC/Hybrid/Hybrid vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -42458,6 +42398,72 @@
               "name": "Azure Container Apps",
               "sku_name": "Standard",
               "meter_name": "Standard vCPU Active Usage"
+            }
+          }
+        },
+        "DZH315HTQSK6": {
+          "id": "DZH315HTQSK6",
+          "name": "Azure Kubernetes Service",
+          "products": {
+            "DZH318Z0RCC3/Automatic/Automatic Compute Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Compute Optimized"
+            },
+            "DZH318Z0CQSH/Standard/Standard Long Term Support": {
+              "id": "DZH318Z0CQSH",
+              "name": "Azure Kubernetes Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Long Term Support"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic High Performance Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic High Performance Compute"
+            },
+            "DZH318Z0CQSH/Standard/Standard Uptime SLA": {
+              "id": "DZH318Z0CQSH",
+              "name": "Azure Kubernetes Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Uptime SLA"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Storage Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Storage Optimized"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Confidential Compute": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Confidential Compute"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic GPU Accelerated": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic GPU Accelerated"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Hosted Control Plane": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Hosted Control Plane"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic General Purpose": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic General Purpose"
+            },
+            "DZH318Z0RCC3/Automatic/Automatic Memory Optimized": {
+              "id": "DZH318Z0RCC3",
+              "name": "Azure Kubernetes Service - Automatic",
+              "sku_name": "Automatic",
+              "meter_name": "Automatic Memory Optimized"
             }
           }
         },
@@ -42835,6 +42841,12 @@
               "sku_name": "Data Orchestration Capacity Usage",
               "meter_name": "Data Orchestration Capacity Usage CU"
             },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/Real-Time Intelligence - Event Operations Capacity Usage/Real-Time Intelligence - Event Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -43039,6 +43051,12 @@
               "sku_name": "Cosmos DB Storage",
               "meter_name": "Cosmos DB Storage Data Stored"
             },
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations Hot Capacity Usage/OneLake Iterative Write Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -43080,6 +43098,12 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Iterative Write Operations Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Write Operations Capacity Usage CU"
+            },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
             },
             "DZH318Z0KCZ7/OneLake Iterative Read Operations Capacity Usage/OneLake Iterative Read Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43128,6 +43152,12 @@
               "name": "Fabric Capacity",
               "sku_name": "ML Model Endpoint Capacity Usage",
               "meter_name": "ML Model Endpoint Capacity Usage CU"
+            },
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
             },
             "DZH318Z0KCZ7/Data Movement - Incremental copy Capacity Usage/Data Movement - Incremental copy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -46584,6 +46614,12 @@
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
+            "DZH318XZR42P/1 vCore/1 vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0T669/vCore/vCore": {
               "id": "DZH318Z0T669",
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dsv6 Series Compute",
@@ -46613,6 +46649,12 @@
               "name": "Azure Database for PostgreSQL Flexible Server Autonomous Database Tuning Service",
               "sku_name": "Auto Tune",
               "meter_name": "Auto Tune vCore"
+            },
+            "DZH318XZR3TV/vCore/vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
             },
             "DZH318Z0KF1X/32 vCore/vCore": {
               "id": "DZH318Z0KF1X",
@@ -47028,6 +47070,12 @@
               "sku_name": "64 vCore",
               "meter_name": "vCore"
             },
+            "DZH318XZR42P/vCore/vCore": {
+              "id": "DZH318XZR42P",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Dasv6 Series Compute",
+              "sku_name": "vCore",
+              "meter_name": "vCore"
+            },
             "DZH318Z0DCRL/B1MS/B1MS": {
               "id": "DZH318Z0DCRL",
               "name": "Azure Database for PostgreSQL Flexible Server Burstable BS Series Compute",
@@ -47147,6 +47195,12 @@
               "name": "Azure Cosmos DB for PostgreSQL Compute- Burstable",
               "sku_name": "Free",
               "meter_name": "vCore"
+            },
+            "DZH318XZR3TV/1 vCore/1 vCore": {
+              "id": "DZH318XZR3TV",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Easv6 Series Compute",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0KDZJ/2 vCore/vCore": {
               "id": "DZH318Z0KDZJ",
@@ -48960,6 +49014,18 @@
           "id": "DZH3172B613C",
           "name": "Syntex",
           "products": {
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data restored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data restored"
+            },
             "DZH318Z0JSSM/Translation/Translation Transaction": {
               "id": "DZH318Z0JSSM",
               "name": "Translation",
@@ -48972,17 +49038,53 @@
               "sku_name": "Syntex Summarization",
               "meter_name": "Syntex Summarization Transaction"
             },
+            "DZH318Z0K9J3/Syntex Backup/Data stored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data stored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data restored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data restored"
+            },
             "DZH318Z0JSSK/Content Assembly/Content Assembly Transaction": {
               "id": "DZH318Z0JSSK",
               "name": "Content Assembly",
               "sku_name": "Content Assembly",
               "meter_name": "Content Assembly Transaction"
             },
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 SharePoint Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
+            },
+            "DZH318Z0G8XJ/Restored/Restored Data restored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Restored",
+              "meter_name": "Restored Data restored"
+            },
             "DZH318Z0JSSL/Image Tagging/Image Tagging Transaction": {
               "id": "DZH318Z0JSSL",
               "name": "Image Tagging",
               "sku_name": "Image Tagging",
               "meter_name": "Image Tagging Transaction"
+            },
+            "DZH318Z0G8XJ/Stored/Stored Data stored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0TFF6/Cold/Cold Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
+              "sku_name": "Cold",
+              "meter_name": "Cold Data stored"
             }
           }
         }
@@ -50503,6 +50605,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Early Delete"
+            },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
             },
             "DZH318Z0BNZJ/Hot LRS/Hot LRS Write Operations": {
               "id": "DZH318Z0BNZJ",
@@ -52784,6 +52892,12 @@
               "sku_name": "Cool ZRS",
               "meter_name": "Cool Read Operations"
             },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
+            },
             "DZH318Z0BZ18/Premium ZRS/Premium ZRS List and Create Container Operations": {
               "id": "DZH318Z0BZ18",
               "name": "Premium Block Blob",
@@ -53995,6 +54109,12 @@
               "name": "Backup",
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob Protected Instances"
+            },
+            "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Snapshot Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "SQL Server in Azure VM",
+              "meter_name": "SQL Server in Azure VM Snapshot Instance"
             },
             "DZH318Z0BP05/Azure Blob/Azure Blob LRS Write Operations": {
               "id": "DZH318Z0BP05",
