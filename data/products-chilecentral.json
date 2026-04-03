@@ -20906,6 +20906,12 @@
               "sku_name": "Power BI Capacity Usage",
               "meter_name": "Power BI Capacity Usage CU"
             },
+            "DZH318Z0F28J/Onelake BCDR Storage Cool/Onelake BCDR Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cool",
+              "meter_name": "Onelake BCDR Storage Cool Data Stored"
+            },
             "DZH318Z0KCZ7/Compute Pool Capacity Usage/Compute Pool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -20923,6 +20929,12 @@
               "name": "Fabric Capacity",
               "sku_name": "SQL database in Microsoft Fabric Capacity Usage",
               "meter_name": "SQL database in Microsoft Fabric Capacity Usage CU"
+            },
+            "DZH318Z0F28J/OneLake Storage Cold/OneLake Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cold",
+              "meter_name": "OneLake Storage Cold Data Stored"
             },
             "DZH318Z0KCZ7/Map processing Capacity Usage/Map processing Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -20972,6 +20984,12 @@
               "sku_name": "OneLake Security Capacity Usage",
               "meter_name": "OneLake Security Capacity Usage CU"
             },
+            "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "Onelake BCDR Storage Cold",
+              "meter_name": "Onelake BCDR Storage Cold Data Stored"
+            },
             "DZH318Z0KCZ7/Fabric Planning - Automated Jobs Capacity Usage/Fabric Planning - Automated Jobs Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -20995,6 +21013,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Copilot and AI Capacity Usage",
               "meter_name": "Copilot and AI Capacity Usage CU"
+            },
+            "DZH318Z0F28J/OneLake Storage Cool/OneLake Storage Cool Data Stored": {
+              "id": "DZH318Z0F28J",
+              "name": "OneLake",
+              "sku_name": "OneLake Storage Cool",
+              "meter_name": "OneLake Storage Cool Data Stored"
             },
             "DZH318Z0KCZ7/Graph data management Capacity Usage/Graph data management Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -26791,6 +26815,65 @@
       }
     },
     {
+      "name": "Microsoft Syntex",
+      "services": {
+        "DZH3172B613C": {
+          "id": "DZH3172B613C",
+          "name": "Syntex",
+          "products": {
+            "DZH318Z0RBZQ/Storage/Storage Data stored": {
+              "id": "DZH318Z0RBZQ",
+              "name": "Microsoft 365 SharePoint Storage",
+              "sku_name": "Storage",
+              "meter_name": "Storage Data stored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data stored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data stored"
+            },
+            "DZH318Z0G8XJ/Stored/Stored Data stored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Stored",
+              "meter_name": "Stored Data stored"
+            },
+            "DZH318Z0G8XJ/Restored/Restored Data restored": {
+              "id": "DZH318Z0G8XJ",
+              "name": "M365 Backup Storage",
+              "sku_name": "Restored",
+              "meter_name": "Restored Data restored"
+            },
+            "DZH318Z0K9J3/Syntex Backup/Data restored": {
+              "id": "DZH318Z0K9J3",
+              "name": "Syntex Backup",
+              "sku_name": "Syntex Backup",
+              "meter_name": "Data restored"
+            },
+            "DZH318Z0TFF6/Cold/Cold Data stored": {
+              "id": "DZH318Z0TFF6",
+              "name": "M365 Archive Storage",
+              "sku_name": "Cold",
+              "meter_name": "Cold Data stored"
+            },
+            "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data restored": {
+              "id": "DZH318Z0KP6R",
+              "name": "Syntex Archive",
+              "sku_name": "Syntex Archive",
+              "meter_name": "Syntex Archive Data restored"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Networking",
       "services": {
         "DZH319QDM5ZN": {
@@ -27725,6 +27808,12 @@
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS All Other Operations"
             },
+            "DZH318Z09V07/Instant Access Snapshots LRS/Instant Access Snapshots LRS Disk Capacity Restored": {
+              "id": "DZH318Z09V07",
+              "name": "Azure Premium SSD v2",
+              "sku_name": "Instant Access Snapshots LRS",
+              "meter_name": "Instant Access Snapshots LRS Disk Capacity Restored"
+            },
             "DZH318Z0BP88/E4 LRS/E4 LRS Disk": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -28655,6 +28744,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Hot Write Operations"
             },
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Premium Hierarchical Namespace",
+              "meter_name": "Premium Unindexed Tags"
+            },
             "DZH318Z0C120/Cold LRS/Cold LRS Data Write": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
@@ -28912,6 +29007,12 @@
               "name": "Standard SSD Managed Disks",
               "sku_name": "E30 ZRS",
               "meter_name": "E30 ZRS Disk"
+            },
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot Hierarchical Namespace",
+              "meter_name": "Hot Unindexed Tags"
             },
             "DZH318Z0C120/Hot LRS/Hot Other Operations": {
               "id": "DZH318Z0C120",
@@ -30233,6 +30334,12 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Blob Inventory"
             },
+            "DZH318Z09V07/Instant Access Snapshots LRS/Instant Access Snapshots LRS": {
+              "id": "DZH318Z09V07",
+              "name": "Azure Premium SSD v2",
+              "sku_name": "Instant Access Snapshots LRS",
+              "meter_name": "Instant Access Snapshots LRS"
+            },
             "DZH318Z0BJRM/Cold LRS/Cold LRS Data Scanned for Query Acceleration": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -31546,6 +31653,12 @@
               "name": "Backup",
               "sku_name": "Standard",
               "meter_name": "ZRS Data Stored"
+            },
+            "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Snapshot Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "SQL Server in Azure VM",
+              "meter_name": "SQL Server in Azure VM Snapshot Instance"
             },
             "DZH318Z0BP05/SAP ASE on Azure VM/SAP ASE on Azure VM Protected Instances": {
               "id": "DZH318Z0BP05",
