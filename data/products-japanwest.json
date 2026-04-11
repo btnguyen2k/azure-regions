@@ -3007,6 +3007,12 @@
               "sku_name": "V3.2 SP Outp DZ",
               "meter_name": "V3.2 SP Outp DZ Tokens"
             },
+            "DZH318XZQNK1/Image 2 Output glbl/Image 2 Output glbl Tokens": {
+              "id": "DZH318XZQNK1",
+              "name": "MAI Models",
+              "sku_name": "Image 2 Output glbl",
+              "meter_name": "Image 2 Output glbl Tokens"
+            },
             "DZH318Z0T7L1/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0T7L1",
               "name": "Azure Deepseek Models",
@@ -3030,6 +3036,12 @@
               "name": "Azure Grok Models",
               "sku_name": "Grok-3 Mini Inp glbl",
               "meter_name": "Grok-3 Mini Inp glbl Tokens"
+            },
+            "DZH318XZQNK1/Image 2 Text Input glbl/Image 2 Text Input glbl Tokens": {
+              "id": "DZH318XZQNK1",
+              "name": "MAI Models",
+              "sku_name": "Image 2 Text Input glbl",
+              "meter_name": "Image 2 Text Input glbl Tokens"
             },
             "DZH318Z0V4HX/Flex/Flex Megapixel": {
               "id": "DZH318Z0V4HX",
@@ -45056,7 +45068,7 @@
             },
             "DZH318Z0T3WG/1 vCore/1 vCore": {
               "id": "DZH318Z0T3WG",
-              "name": "Azure Database for PostgreSQL OrionDB Compute",
+              "name": "Azure Database for PostgreSQL HorizonDB Compute",
               "sku_name": "1 vCore",
               "meter_name": "1 vCore"
             },
@@ -47210,13 +47222,13 @@
             },
             "DZH318Z0DCRV/Standard_Eas/vCore": {
               "id": "DZH318Z0DCRV",
-              "name": "Azure Database for MySQL Flexible Server\uFFFDMemory Optimized Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Series Compute",
               "sku_name": "Standard_Eas",
               "meter_name": "vCore"
             },
             "DZH318Z0DCRV/vCore/vCore": {
               "id": "DZH318Z0DCRV",
-              "name": "Azure Database for MySQL Flexible Server\uFFFDMemory Optimized Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Series Compute",
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
@@ -47468,7 +47480,7 @@
             },
             "DZH318Z0DCRV/1 vCore/vCore": {
               "id": "DZH318Z0DCRV",
-              "name": "Azure Database for MySQL Flexible Server\uFFFDMemory Optimized Series Compute",
+              "name": "Azure Database for MySQL Flexible Server Memory Optimized Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
@@ -52261,11 +52273,11 @@
               "sku_name": "Premium ZRS",
               "meter_name": "Premium ZRS MetaData Storage"
             },
-            "DZH318Z0CBTJ/Smart Tier GRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier GRS/Smart Tier GRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier GRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier GRS Monitoring Operations"
             },
             "DZH318Z0BPH7/Cold LRS/Cold LRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -52507,17 +52519,17 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Data Write"
             },
-            "DZH318Z0C120/Archive LRS/Archive Data Retrieval": {
+            "DZH318Z0C120/Archive LRS/Archive LRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive LRS",
-              "meter_name": "Archive Data Retrieval"
+              "meter_name": "Archive LRS Data Retrieval"
             },
-            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Unindexed Tags": {
+            "DZH318Z0CBTJ/Premium Hierarchical Namespace/Premium Hierarchical Namespace Unindexed Tags": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Premium Hierarchical Namespace",
-              "meter_name": "Premium Unindexed Tags"
+              "meter_name": "Premium Hierarchical Namespace Unindexed Tags"
             },
             "DZH318Z0BP0L/Standard HDD Managed Disks - Confidential Compute Encryption LRS/Confidential Compute Encryption LRS Provisioned Capacity": {
               "id": "DZH318Z0BP0L",
@@ -52621,11 +52633,11 @@
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Archive Tier Down"
             },
-            "DZH318Z0CBTJ/Hot RA-GRS/RA-GRS Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot RA-GRS/Hot RA-GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot RA-GRS",
-              "meter_name": "RA-GRS Named Encryption Scopes"
+              "meter_name": "Hot RA-GRS Named Encryption Scopes"
             },
             "DZH318Z0BPH7/Cold GRS/Cold GRS Blob Inventory": {
               "id": "DZH318Z0BPH7",
@@ -52633,11 +52645,11 @@
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Blob Inventory"
             },
-            "DZH318Z0CBTJ/Cool RA-GRS/RA-GRS Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool RA-GRS/Cool RA-GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool RA-GRS",
-              "meter_name": "RA-GRS Named Encryption Scopes"
+              "meter_name": "Cool RA-GRS Named Encryption Scopes"
             },
             "DZH318Z0BNZJ/Archive GRS/Archive Read Operations": {
               "id": "DZH318Z0BNZJ",
@@ -52741,11 +52753,11 @@
               "sku_name": "P10 ZRS",
               "meter_name": "P10 ZRS Disk"
             },
-            "DZH318Z0C120/Cool LRS/Cool Write Operations": {
+            "DZH318Z0C120/Cool LRS/Cool LRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool LRS",
-              "meter_name": "Cool Write Operations"
+              "meter_name": "Cool LRS Write Operations"
             },
             "DZH318Z0BP88/E6 ZRS/E6 ZRS Disk Mount": {
               "id": "DZH318Z0BP88",
@@ -52915,11 +52927,11 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Data Write"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol RA-GZRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol RA-GZRS/SSH File Transfer Protocol RA-GZRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol RA-GZRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol RA-GZRS Hour Enabled"
             },
             "DZH318Z0BJRM/Hot LRS/Hot Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -53203,11 +53215,11 @@
               "sku_name": "Standard LRS",
               "meter_name": "LRS Write Operations"
             },
-            "DZH318Z0C120/Hot RA-GRS/Hot GRS Write Operations": {
+            "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
-              "meter_name": "Hot GRS Write Operations"
+              "meter_name": "Hot RA-GRS Write Operations"
             },
             "DZH318Z0BPH7/Hot ZRS/Index Tags": {
               "id": "DZH318Z0BPH7",
@@ -53233,11 +53245,11 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "GRS Class 1 Operations"
             },
-            "DZH318Z0CBTJ/Smart Tier LRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier LRS/Smart Tier LRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier LRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier LRS Monitoring Operations"
             },
             "DZH318Z0BNZF/Standard RA-GRS/Disk Data Stored": {
               "id": "DZH318Z0BNZF",
@@ -53467,11 +53479,11 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool GRS Write Operations"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol LRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol LRS/SSH File Transfer Protocol LRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol LRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol LRS Hour Enabled"
             },
             "DZH318Z0BP6Q/Premium ZRS/Premium ZRS Provisioned": {
               "id": "DZH318Z0BP6Q",
@@ -54013,11 +54025,11 @@
               "sku_name": "Hot GRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0CBTJ/Cool RA-GZRS/RA-GRS Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool RA-GZRS/Cool RA-GZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool RA-GZRS",
-              "meter_name": "RA-GRS Named Encryption Scopes"
+              "meter_name": "Cool RA-GZRS Named Encryption Scopes"
             },
             "DZH318Z0BNZF/Standard GRS/Read Additional IO": {
               "id": "DZH318Z0BNZF",
@@ -54037,11 +54049,11 @@
               "sku_name": "Hot GRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0C120/Cool RA-GRS/Cool Data Retrieval": {
+            "DZH318Z0C120/Cool RA-GRS/Cool RA-GRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GRS",
-              "meter_name": "Cool Data Retrieval"
+              "meter_name": "Cool RA-GRS Data Retrieval"
             },
             "DZH318Z0BNWT/Standard RA-GRS/Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -54049,11 +54061,11 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "Read Operations"
             },
-            "DZH318Z0C120/Archive LRS/Archive Priority Data Retrieval": {
+            "DZH318Z0C120/Archive LRS/Archive LRS Priority Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive LRS",
-              "meter_name": "Archive Priority Data Retrieval"
+              "meter_name": "Archive LRS Priority Data Retrieval"
             },
             "DZH318Z0BPH7/Cool ZRS/Cool ZRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -54205,11 +54217,11 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Early Delete"
             },
-            "DZH318Z0CBTJ/Archive LRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Archive LRS/Archive LRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Archive LRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Archive LRS Named Encryption Scopes"
             },
             "DZH318Z0BNZ5/Account Encrypted GRS/Account Encrypted GRS Batch Write Operations": {
               "id": "DZH318Z0BNZ5",
@@ -54223,17 +54235,17 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Write Operations"
             },
-            "DZH318Z0C120/Archive LRS/Archive Priority Read Operations": {
+            "DZH318Z0C120/Archive LRS/Archive LRS Priority Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive LRS",
-              "meter_name": "Archive Priority Read Operations"
+              "meter_name": "Archive LRS Priority Read Operations"
             },
-            "DZH318Z0CBTJ/Hot ZRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot ZRS/Hot ZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot ZRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Hot ZRS Named Encryption Scopes"
             },
             "DZH318Z0BJRM/Hot RA-GRS/Hot Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -54241,11 +54253,11 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot Read Operations"
             },
-            "DZH318Z0C120/Archive RA-GRS/Archive Priority Read Operations": {
+            "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Priority Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "Archive Priority Read Operations"
+              "meter_name": "Archive RA-GRS Priority Read Operations"
             },
             "DZH318Z0BPH7/Hot ZRS/Hot ZRS Write Operations": {
               "id": "DZH318Z0BPH7",
@@ -54433,11 +54445,11 @@
               "sku_name": "Standard LRS",
               "meter_name": "Disk Write Operations"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol GRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol GRS/SSH File Transfer Protocol GRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol GRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol GRS Hour Enabled"
             },
             "DZH318Z0BNZJ/Hot LRS/Hot LRS Write Operations": {
               "id": "DZH318Z0BNZJ",
@@ -54685,11 +54697,11 @@
               "sku_name": "P6 LRS",
               "meter_name": "P6 LRS Disk Mount"
             },
-            "DZH318Z0C120/Hot RA-GRS/Hot Read Operations": {
+            "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
-              "meter_name": "Hot Read Operations"
+              "meter_name": "Hot RA-GRS Read Operations"
             },
             "DZH318Z0BJRM/Archive RA-GRS/Archive RA-GRS Early Delete": {
               "id": "DZH318Z0BJRM",
@@ -54937,11 +54949,11 @@
               "sku_name": "Standard LRS",
               "meter_name": "Disk Write Additional IO"
             },
-            "DZH318Z0C120/Hot GRS/Hot Other Operations": {
+            "DZH318Z0C120/Hot GRS/Hot GRS Other Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot GRS",
-              "meter_name": "Hot Other Operations"
+              "meter_name": "Hot GRS Other Operations"
             },
             "DZH318Z0BZ18/Premium LRS/LRS Early Premium To Archive Tier Down": {
               "id": "DZH318Z0BZ18",
@@ -55135,11 +55147,11 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Data Stored"
             },
-            "DZH318Z0C120/Hot GRS/Delete Operations": {
+            "DZH318Z0C120/Hot GRS/Hot GRS Delete Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot GRS",
-              "meter_name": "Delete Operations"
+              "meter_name": "Hot GRS Delete Operations"
             },
             "DZH318Z0CBTJ/Data Geo Priority Replication GRS/Data Geo Priority Replication GRS Data Replicated": {
               "id": "DZH318Z0CBTJ",
@@ -55387,11 +55399,11 @@
               "sku_name": "P50 LRS",
               "meter_name": "P50 LRS Disk Mount"
             },
-            "DZH318Z0C120/Cool RA-GRS/Cool Read Operations": {
+            "DZH318Z0C120/Cool RA-GRS/Cool RA-GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GRS",
-              "meter_name": "Cool Read Operations"
+              "meter_name": "Cool RA-GRS Read Operations"
             },
             "DZH318Z0BNWT/Standard LRS/Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -55615,11 +55627,11 @@
               "sku_name": "Standard",
               "meter_name": "Standard Device Return Shipping/Package"
             },
-            "DZH318Z0CBTJ/Archive RA-GRS/RA-GRS Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Archive RA-GRS/Archive RA-GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "RA-GRS Named Encryption Scopes"
+              "meter_name": "Archive RA-GRS Named Encryption Scopes"
             },
             "DZH318Z0BJRM/Archive GRS/Priority Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -55645,11 +55657,11 @@
               "sku_name": "E50 ZRS",
               "meter_name": "E50 ZRS Disk Mount"
             },
-            "DZH318Z0CBTJ/Hot RA-GZRS/RA-GRS Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot RA-GZRS/Hot RA-GZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot RA-GZRS",
-              "meter_name": "RA-GRS Named Encryption Scopes"
+              "meter_name": "Hot RA-GZRS Named Encryption Scopes"
             },
             "DZH318Z0BJRN/Archive LRS/Archive LRS Data Stored": {
               "id": "DZH318Z0BJRN",
@@ -55717,11 +55729,11 @@
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive GRS Write Operations"
             },
-            "DZH318Z0CBTJ/Smart Tier RA-GZRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier RA-GZRS/Smart Tier RA-GZRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier RA-GZRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier RA-GZRS Monitoring Operations"
             },
             "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Storage": {
               "id": "DZH318Z0H96B",
@@ -55837,11 +55849,11 @@
               "sku_name": "Cool GRS",
               "meter_name": "Cool GRS Blob Inventory"
             },
-            "DZH318Z0C120/Archive RA-GRS/Archive Read Operations": {
+            "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "Archive Read Operations"
+              "meter_name": "Archive RA-GRS Read Operations"
             },
             "DZH318Z0BP0W/P20 ZRS/P20 ZRS Disk": {
               "id": "DZH318Z0BP0W",
@@ -55945,11 +55957,11 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Write Operations"
             },
-            "DZH318Z0C120/Hot LRS/Hot Read Operations": {
+            "DZH318Z0C120/Hot LRS/Hot LRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
-              "meter_name": "Hot Read Operations"
+              "meter_name": "Hot LRS Read Operations"
             },
             "DZH318Z0BJRN/Cold RA-GRS/Cold RA-GRS Data Returned for Query Acceleration": {
               "id": "DZH318Z0BJRN",
@@ -55963,11 +55975,11 @@
               "sku_name": "P40 ZRS",
               "meter_name": "P40 ZRS Disk"
             },
-            "DZH318Z0CBTJ/Cool LRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool LRS/Cool LRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool LRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Cool LRS Named Encryption Scopes"
             },
             "DZH318Z0BJRM/Cold LRS/Cold LRS Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -56263,11 +56275,11 @@
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Retrieval"
             },
-            "DZH318Z0C120/Archive RA-GRS/Archive GRS Write Operations": {
+            "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "Archive GRS Write Operations"
+              "meter_name": "Archive RA-GRS Write Operations"
             },
             "DZH318Z0CPS8/Premium LRS/LRS Early Premium To Hot Tier Down": {
               "id": "DZH318Z0CPS8",
@@ -56341,11 +56353,11 @@
               "sku_name": "AMLFS-Durable-Premium-40",
               "meter_name": "Provisioned Capacity"
             },
-            "DZH318Z0C120/Cool GRS/Cool Read Operations": {
+            "DZH318Z0C120/Cool GRS/Cool GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool GRS",
-              "meter_name": "Cool Read Operations"
+              "meter_name": "Cool GRS Read Operations"
             },
             "DZH318Z0BNZJ/Archive GRS/Archive Priority Read Operations": {
               "id": "DZH318Z0BNZJ",
@@ -56377,11 +56389,11 @@
               "sku_name": "Standard GRS",
               "meter_name": "Read Operations"
             },
-            "DZH318Z0C120/Hot RA-GRS/Hot Other Operations": {
+            "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Other Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
-              "meter_name": "Hot Other Operations"
+              "meter_name": "Hot RA-GRS Other Operations"
             },
             "DZH318Z0BPH7/Cool RA-GRS/Cool Data Retrieval": {
               "id": "DZH318Z0BPH7",
@@ -56527,11 +56539,11 @@
               "sku_name": "Standard RA-GZRS",
               "meter_name": "Disk Data Stored"
             },
-            "DZH318Z0C120/Archive LRS/Archive Write Operations": {
+            "DZH318Z0C120/Archive LRS/Archive LRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive LRS",
-              "meter_name": "Archive Write Operations"
+              "meter_name": "Archive LRS Write Operations"
             },
             "DZH318Z0BJRM/Cold GRS/Cold GRS Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -56671,11 +56683,11 @@
               "sku_name": "Burst Transactions ZRS",
               "meter_name": "ZRS Burst Transactions"
             },
-            "DZH318Z0C120/Archive GRS/Archive Priority Data Retrieval": {
+            "DZH318Z0C120/Archive GRS/Archive GRS Priority Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive GRS",
-              "meter_name": "Archive Priority Data Retrieval"
+              "meter_name": "Archive GRS Priority Data Retrieval"
             },
             "DZH318Z0BJRN/Hot RA-GRS/Hot Other Operations": {
               "id": "DZH318Z0BJRN",
@@ -56701,11 +56713,11 @@
               "sku_name": "HDD LRS",
               "meter_name": "HDD LRS Provisioned Storage"
             },
-            "DZH318Z0CBTJ/Smart Tier ZRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier ZRS/Smart Tier ZRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier ZRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier ZRS Monitoring Operations"
             },
             "DZH318Z0BNZ5/Standard RA-GRS/List Operations": {
               "id": "DZH318Z0BNZ5",
@@ -56785,11 +56797,11 @@
               "sku_name": "Standard LRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0C120/Archive RA-GRS/Archive Data Retrieval": {
+            "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "Archive Data Retrieval"
+              "meter_name": "Archive RA-GRS Data Retrieval"
             },
             "DZH318Z0BJRN/Cool RA-GRS/Cool RA-GRS Data Stored": {
               "id": "DZH318Z0BJRN",
@@ -56821,11 +56833,11 @@
               "sku_name": "Standard RA-GZRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0CBTJ/Hot GZRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot GZRS/Hot GZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot GZRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Hot GZRS Named Encryption Scopes"
             },
             "DZH318Z0BP0W/P70 LRS/P70 LRS Disk": {
               "id": "DZH318Z0BP0W",
@@ -56863,11 +56875,11 @@
               "sku_name": "Standard RA-GZRS",
               "meter_name": "ZRS Read Additional IO"
             },
-            "DZH318Z0C120/Cool LRS/Cool Data Retrieval": {
+            "DZH318Z0C120/Cool LRS/Cool LRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool LRS",
-              "meter_name": "Cool Data Retrieval"
+              "meter_name": "Cool LRS Data Retrieval"
             },
             "DZH318Z0BZ18/Premium LRS/LRS Early Premium To Hot Tier Down": {
               "id": "DZH318Z0BZ18",
@@ -56875,11 +56887,11 @@
               "sku_name": "Premium LRS",
               "meter_name": "LRS Early Premium To Hot Tier Down"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol ZRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol ZRS/SSH File Transfer Protocol ZRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol ZRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol ZRS Hour Enabled"
             },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive Data Write": {
               "id": "DZH318Z0BNZJ",
@@ -57019,11 +57031,11 @@
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive RA-GRS Data Stored"
             },
-            "DZH318Z0C120/Archive RA-GRS/Archive Priority Data Retrieval": {
+            "DZH318Z0C120/Archive RA-GRS/Archive RA-GRS Priority Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive RA-GRS",
-              "meter_name": "Archive Priority Data Retrieval"
+              "meter_name": "Archive RA-GRS Priority Data Retrieval"
             },
             "DZH318Z0H96B/SSD ZRS/SSD ZRS Provisioned Throughput MiBPS": {
               "id": "DZH318Z0H96B",
@@ -57037,11 +57049,11 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot GRS Iterative Write Operations"
             },
-            "DZH318Z0CBTJ/Cool GZRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool GZRS/Cool GZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool GZRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Cool GZRS Named Encryption Scopes"
             },
             "DZH318Z0BJRN/Cold GRS/Cold GRS Write Operations": {
               "id": "DZH318Z0BJRN",
@@ -57403,11 +57415,11 @@
               "sku_name": "Disk Transactions LRS",
               "meter_name": "Disk Transactions LRS Disk Operations"
             },
-            "DZH318Z0C120/Hot LRS/Delete Operations": {
+            "DZH318Z0C120/Hot LRS/Hot LRS Delete Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
-              "meter_name": "Delete Operations"
+              "meter_name": "Hot LRS Delete Operations"
             },
             "DZH318Z0BNZV/Standard/Standard Server - Free": {
               "id": "DZH318Z0BNZV",
@@ -57535,11 +57547,11 @@
               "sku_name": "Cold LRS",
               "meter_name": "Cold LRS Read Operations"
             },
-            "DZH318Z0C120/Archive GRS/Archive Read Operations": {
+            "DZH318Z0C120/Archive GRS/Archive GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive GRS",
-              "meter_name": "Archive Read Operations"
+              "meter_name": "Archive GRS Read Operations"
             },
             "DZH318Z0BNZ4/Standard RA-GZRS/RA-GZRS Data Stored": {
               "id": "DZH318Z0BNZ4",
@@ -57709,17 +57721,17 @@
               "sku_name": "Standard RA-GRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0C120/Hot LRS/Hot Write Operations": {
+            "DZH318Z0C120/Hot LRS/Hot LRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
-              "meter_name": "Hot Write Operations"
+              "meter_name": "Hot LRS Write Operations"
             },
-            "DZH318Z0CBTJ/Cool ZRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool ZRS/Cool ZRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool ZRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Cool ZRS Named Encryption Scopes"
             },
             "DZH318Z0CPS8/Premium LRS/Premium LRS Data Scanned for Query Acceleration": {
               "id": "DZH318Z0CPS8",
@@ -57841,11 +57853,11 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Blob Inventory"
             },
-            "DZH318Z0CBTJ/Hot LRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot LRS/Hot LRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot LRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Hot LRS Named Encryption Scopes"
             },
             "DZH318Z0BPH7/Cold RA-GZRS/Cold RA-GZRS Blob Inventory": {
               "id": "DZH318Z0BPH7",
@@ -57943,11 +57955,11 @@
               "sku_name": "Standard GRS",
               "meter_name": "Read Additional IO"
             },
-            "DZH318Z0CBTJ/Smart Tier RA-GRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier RA-GRS/Smart Tier RA-GRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier RA-GRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier RA-GRS Monitoring Operations"
             },
             "DZH318Z0BNZ5/Standard ZRS/ZRS Data Stored": {
               "id": "DZH318Z0BNZ5",
@@ -58393,11 +58405,11 @@
               "sku_name": "P60 LRS",
               "meter_name": "P60 LRS Disk"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol RA-GRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol RA-GRS/SSH File Transfer Protocol RA-GRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol RA-GRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol RA-GRS Hour Enabled"
             },
             "DZH318Z0C120/Hot GZRS/Hot GZRS Blob Inventory": {
               "id": "DZH318Z0C120",
@@ -58465,11 +58477,11 @@
               "sku_name": "Hot RA-GRS",
               "meter_name": "Hot GRS Write Operations"
             },
-            "DZH318Z0CBTJ/Cool GRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Cool GRS/Cool GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Cool GRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Cool GRS Named Encryption Scopes"
             },
             "DZH318Z0BJRN/Hot RA-GRS/Hot RA-GRS Data Stored": {
               "id": "DZH318Z0BJRN",
@@ -58483,11 +58495,11 @@
               "sku_name": "Priority Object Replication RA-GZRS",
               "meter_name": "Priority Object Replication RA-GZRS Data Replicated"
             },
-            "DZH318Z0C120/Hot GRS/Hot Read Operations": {
+            "DZH318Z0C120/Hot GRS/Hot GRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot GRS",
-              "meter_name": "Hot Read Operations"
+              "meter_name": "Hot GRS Read Operations"
             },
             "DZH318Z0BJRM/Cold RA-GRS/Cold RA-GRS Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -58519,11 +58531,11 @@
               "sku_name": "Cool RA-GRS",
               "meter_name": "Cool Data Returned for Query Acceleration"
             },
-            "DZH318Z0C120/Archive GRS/Archive Priority Read Operations": {
+            "DZH318Z0C120/Archive GRS/Archive GRS Priority Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive GRS",
-              "meter_name": "Archive Priority Read Operations"
+              "meter_name": "Archive GRS Priority Read Operations"
             },
             "DZH318Z0BPH7/Cold GZRS/Cold GZRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -58549,11 +58561,11 @@
               "sku_name": "Standard GRS",
               "meter_name": "All Other Operations"
             },
-            "DZH318Z0CBTJ/Hot GRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Hot GRS/Hot GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot GRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Hot GRS Named Encryption Scopes"
             },
             "DZH318Z0BNWT/Standard RA-GRS/Disk Data Stored": {
               "id": "DZH318Z0BNWT",
@@ -58591,23 +58603,23 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS Early Delete"
             },
-            "DZH318Z0CBTJ/Archive GRS/Named Encryption Scopes": {
+            "DZH318Z0CBTJ/Archive GRS/Archive GRS Named Encryption Scopes": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Archive GRS",
-              "meter_name": "Named Encryption Scopes"
+              "meter_name": "Archive GRS Named Encryption Scopes"
             },
-            "DZH318Z0CBTJ/SSH File Transfer Protocol GZRS/Hour Enabled": {
+            "DZH318Z0CBTJ/SSH File Transfer Protocol GZRS/SSH File Transfer Protocol GZRS Hour Enabled": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "SSH File Transfer Protocol GZRS",
-              "meter_name": "Hour Enabled"
+              "meter_name": "SSH File Transfer Protocol GZRS Hour Enabled"
             },
-            "DZH318Z0C120/Archive LRS/Archive Read Operations": {
+            "DZH318Z0C120/Archive LRS/Archive LRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive LRS",
-              "meter_name": "Archive Read Operations"
+              "meter_name": "Archive LRS Read Operations"
             },
             "DZH318Z0BNZJ/Hot GRS/GRS Index Tags": {
               "id": "DZH318Z0BNZJ",
@@ -58639,11 +58651,11 @@
               "sku_name": "Archive GRS",
               "meter_name": "Archive GRS Data Stored"
             },
-            "DZH318Z0CBTJ/Smart Tier GZRS/Monitoring Operations": {
+            "DZH318Z0CBTJ/Smart Tier GZRS/Smart Tier GZRS Monitoring Operations": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Smart Tier GZRS",
-              "meter_name": "Monitoring Operations"
+              "meter_name": "Smart Tier GZRS Monitoring Operations"
             },
             "DZH318Z0BZ18/Premium LRS/Premium LRS Write Operations": {
               "id": "DZH318Z0BZ18",
@@ -58693,11 +58705,11 @@
               "sku_name": "Premium LRS",
               "meter_name": "Premium LRS Read Operations"
             },
-            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Unindexed Tags": {
+            "DZH318Z0CBTJ/Hot Hierarchical Namespace/Hot Hierarchical Namespace Unindexed Tags": {
               "id": "DZH318Z0CBTJ",
               "name": "Blob Features",
               "sku_name": "Hot Hierarchical Namespace",
-              "meter_name": "Hot Unindexed Tags"
+              "meter_name": "Hot Hierarchical Namespace Unindexed Tags"
             },
             "DZH318Z0BNWT/Standard ZRS/ZRS Read Operations": {
               "id": "DZH318Z0BNWT",
@@ -58891,11 +58903,11 @@
               "sku_name": "E15 LRS",
               "meter_name": "E15 LRS Disk"
             },
-            "DZH318Z0C120/Cool LRS/Cool Read Operations": {
+            "DZH318Z0C120/Cool LRS/Cool LRS Read Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool LRS",
-              "meter_name": "Cool Read Operations"
+              "meter_name": "Cool LRS Read Operations"
             },
             "DZH318Z0C120/Cold RA-GRS/Cold RA-GRS Index Tags": {
               "id": "DZH318Z0C120",
@@ -58969,11 +58981,11 @@
               "sku_name": "Standard ZRS",
               "meter_name": "Delete Operations"
             },
-            "DZH318Z0C120/Hot RA-GRS/Delete Operations": {
+            "DZH318Z0C120/Hot RA-GRS/Hot RA-GRS Delete Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot RA-GRS",
-              "meter_name": "Delete Operations"
+              "meter_name": "Hot RA-GRS Delete Operations"
             },
             "DZH318Z0BNZ5/Account Encrypted RA-GRS/Account Encrypted Read Operations": {
               "id": "DZH318Z0BNZ5",
@@ -59023,17 +59035,17 @@
               "sku_name": "P80 LRS",
               "meter_name": "P80 LRS Disk"
             },
-            "DZH318Z0C120/Cool RA-GRS/Cool GRS Write Operations": {
+            "DZH318Z0C120/Cool RA-GRS/Cool RA-GRS Write Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GRS",
-              "meter_name": "Cool GRS Write Operations"
+              "meter_name": "Cool RA-GRS Write Operations"
             },
-            "DZH318Z0C120/Hot LRS/Hot Other Operations": {
+            "DZH318Z0C120/Hot LRS/Hot LRS Other Operations": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Hot LRS",
-              "meter_name": "Hot Other Operations"
+              "meter_name": "Hot LRS Other Operations"
             },
             "DZH318Z0BPH7/Cool GZRS/Cool GZRS Data Stored": {
               "id": "DZH318Z0BPH7",
@@ -59083,11 +59095,11 @@
               "sku_name": "P10 LRS",
               "meter_name": "P10 LRS Disk Mount"
             },
-            "DZH318Z0C120/Cool GRS/Cool Data Retrieval": {
+            "DZH318Z0C120/Cool GRS/Cool GRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool GRS",
-              "meter_name": "Cool Data Retrieval"
+              "meter_name": "Cool GRS Data Retrieval"
             },
             "DZH318Z0CPS6/Premium LRS/Premium LRS Iterative Read Operations": {
               "id": "DZH318Z0CPS6",
@@ -59203,11 +59215,11 @@
               "sku_name": "Archive LRS",
               "meter_name": "Archive Priority Read Operations"
             },
-            "DZH318Z0C120/Archive GRS/Archive Data Retrieval": {
+            "DZH318Z0C120/Archive GRS/Archive GRS Data Retrieval": {
               "id": "DZH318Z0C120",
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Archive GRS",
-              "meter_name": "Archive Data Retrieval"
+              "meter_name": "Archive GRS Data Retrieval"
             },
             "DZH318Z0BP09/Hot ZRS/ZRS Metadata": {
               "id": "DZH318Z0BP09",
