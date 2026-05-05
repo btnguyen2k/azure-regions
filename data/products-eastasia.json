@@ -373,6 +373,12 @@
               "sku_name": "Commitment Tier Azure 10M",
               "meter_name": "Commitment Tier Azure 10M CT Overage Transactions"
             },
+            "DZH318Z0S78K/Hosted/Hosted Memory Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted",
+              "meter_name": "Hosted Memory Usage"
+            },
             "DZH318Z0BQL9/Commitment Tier Summarization Connected 3M/Commitment Tier Summarization Connected 3M Unit": {
               "id": "DZH318Z0BQL9",
               "name": "Azure Language",
@@ -468,6 +474,12 @@
               "name": "Azure Speech",
               "sku_name": "Commitment Tier Neural Text to Speech Azure 80M",
               "meter_name": "Commitment Tier Neural Text to Speech Azure 80M Unit"
+            },
+            "DZH318Z0S78K/Hosted/Hosted vCPU Usage": {
+              "id": "DZH318Z0S78K",
+              "name": "Foundry Agents",
+              "sku_name": "Hosted",
+              "meter_name": "Hosted vCPU Usage"
             },
             "DZH318Z0BZ3Q/P3/P3 Unit": {
               "id": "DZH318Z0BZ3Q",
@@ -45146,6 +45158,12 @@
               "sku_name": "AV36P Trial Node",
               "meter_name": "AV36P Trial Node"
             },
+            "DZH318Z0D45Q/AV36 VCF BYOL/AV36 VCF BYOL Node": {
+              "id": "DZH318Z0D45Q",
+              "name": "Specialized Compute Azure VMware Solution",
+              "sku_name": "AV36 VCF BYOL",
+              "meter_name": "AV36 VCF BYOL Node"
+            },
             "DZH318Z0D45Q/AV64 Trial Node/AV64 Trial Node": {
               "id": "DZH318Z0D45Q",
               "name": "Specialized Compute Azure VMware Solution",
@@ -47268,6 +47286,12 @@
               "sku_name": "Graph data science Capacity Usage",
               "meter_name": "Graph data science Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake Data Retrieval Cold Capacity Usage/OneLake Data Retrieval Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Data Retrieval Cold Capacity Usage",
+              "meter_name": "OneLake Data Retrieval Cold Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Data Movement - Incremental copy Capacity Usage/Data Movement - Incremental copy Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -47393,6 +47417,12 @@
               "name": "OneLake",
               "sku_name": "OneLake Storage Cool",
               "meter_name": "OneLake Storage Cool Data Stored"
+            },
+            "DZH318Z0KCZ7/OneLake Data Retrieval Cool Capacity Usage/OneLake Data Retrieval Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Data Retrieval Cool Capacity Usage",
+              "meter_name": "OneLake Data Retrieval Cool Capacity Usage CU"
             },
             "DZH318Z0F28J/Onelake BCDR Storage Cold/Onelake BCDR Storage Cold Data Stored": {
               "id": "DZH318Z0F28J",
@@ -55607,12 +55637,6 @@
               "sku_name": "Egress",
               "meter_name": "Egress Data Transfer Out"
             },
-            "DZH318Z0RBZQ/Storage/Storage Data stored": {
-              "id": "DZH318Z0RBZQ",
-              "name": "Microsoft 365 SharePoint Storage",
-              "sku_name": "Storage",
-              "meter_name": "Storage Data stored"
-            },
             "DZH318Z0KP6R/Syntex Archive/Syntex Archive Data stored": {
               "id": "DZH318Z0KP6R",
               "name": "Syntex Archive",
@@ -57115,6 +57139,12 @@
               "sku_name": "Standard Trial",
               "meter_name": "Standard Trial Queries"
             },
+            "DZH318Z0BXB9/Malware Scanning Trial/Malware Scanning Trial Data Ingested": {
+              "id": "DZH318Z0BXB9",
+              "name": "Microsoft Defender for Storage",
+              "sku_name": "Malware Scanning Trial",
+              "meter_name": "Malware Scanning Trial Data Ingested"
+            },
             "DZH318Z0HZ5B/Defender EASM 30 Day Trial/Defender EASM 30 Day Trial Asset": {
               "id": "DZH318Z0HZ5B",
               "name": "Defender External Attack Surface Management",
@@ -58560,6 +58590,12 @@
               "sku_name": "Cool LRS",
               "meter_name": "Cool LRS List Operations"
             },
+            "DZH318Z0CBTJ/Hot GZRS/Hot GZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot GZRS",
+              "meter_name": "Hot GZRS Named Encryption Scopes"
+            },
             "DZH318Z0BJRM/Archive RA-GRS/Priority Data Retrieval": {
               "id": "DZH318Z0BJRM",
               "name": "Azure Data Lake Storage Gen2 Hierarchical Namespace",
@@ -58685,6 +58721,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cool GRS",
               "meter_name": "Cool GRS Write Operations"
+            },
+            "DZH318Z0CBTJ/Hot RA-GZRS/Hot RA-GZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot RA-GZRS",
+              "meter_name": "Hot RA-GZRS Named Encryption Scopes"
             },
             "DZH318Z0BP88/E15 ZRS/E15 ZRS Disk Operations": {
               "id": "DZH318Z0BP88",
@@ -59117,6 +59159,12 @@
               "name": "Premium Page Blob",
               "sku_name": "P50 LRS",
               "meter_name": "P50 LRS Disk"
+            },
+            "DZH318Z0CBTJ/Cool GZRS/Cool GZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Cool GZRS",
+              "meter_name": "Cool GZRS Named Encryption Scopes"
             },
             "DZH318Z0BPH7/Hot GZRS/Hot GZRS Blob Inventory": {
               "id": "DZH318Z0BPH7",
@@ -60330,12 +60378,6 @@
               "sku_name": "Standard LRS",
               "meter_name": "Protocol Operations"
             },
-            "DZH318Z0CBTJ/Smart Tier LRS/Smart Tier LRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier LRS",
-              "meter_name": "Smart Tier LRS Monitoring Operations"
-            },
             "DZH318Z0BNZ5/Account Encrypted ZRS/Account Encrypted Delete Operations": {
               "id": "DZH318Z0BNZ5",
               "name": "Tables",
@@ -61548,6 +61590,12 @@
               "sku_name": "Hot LRS",
               "meter_name": "Hot LRS List Operations"
             },
+            "DZH318Z0CBTJ/Hot ZRS/Hot ZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Hot ZRS",
+              "meter_name": "Hot ZRS Named Encryption Scopes"
+            },
             "DZH318Z0BNZJ/Archive RA-GRS/Archive Priority Read Operations": {
               "id": "DZH318Z0BNZJ",
               "name": "Blob Storage",
@@ -61601,12 +61649,6 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cold GZRS",
               "meter_name": "Cold GZRS Data Write"
-            },
-            "DZH318Z0CBTJ/Smart Tier GRS/Smart Tier GRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier GRS",
-              "meter_name": "Smart Tier GRS Monitoring Operations"
             },
             "DZH318Z0BNWT/Standard LRS/LRS Write Operations": {
               "id": "DZH318Z0BNWT",
@@ -62093,12 +62135,6 @@
               "name": "Blob Features",
               "sku_name": "Priority Object Replication RA-GRS",
               "meter_name": "Priority Object Replication RA-GRS Data Replicated"
-            },
-            "DZH318Z0CBTJ/Smart Tier RA-GRS/Smart Tier RA-GRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier RA-GRS",
-              "meter_name": "Smart Tier RA-GRS Monitoring Operations"
             },
             "DZH318Z0BNZ4/Standard LRS/LRS Class 1 Additional IO": {
               "id": "DZH318Z0BNZ4",
@@ -65316,6 +65352,12 @@
               "sku_name": "Cold RA-GRS",
               "meter_name": "Cold RA-GRS Early Delete"
             },
+            "DZH318Z0CBTJ/Cool RA-GZRS/Cool RA-GZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Cool RA-GZRS",
+              "meter_name": "Cool RA-GZRS Named Encryption Scopes"
+            },
             "DZH318Z0H96B/SSD LRS/SSD LRS Provisioned Throughput MiBPS Free": {
               "id": "DZH318Z0H96B",
               "name": "Azure Files Provisioned v2",
@@ -65411,6 +65453,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool ZRS",
               "meter_name": "Cool ZRS Read Operations"
+            },
+            "DZH318Z0CBTJ/Cool ZRS/Cool ZRS Named Encryption Scopes": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Cool ZRS",
+              "meter_name": "Cool ZRS Named Encryption Scopes"
             },
             "DZH318Z0BJRM/Cold GZRS/Cold GZRS Data Retrieval": {
               "id": "DZH318Z0BJRM",
@@ -65807,6 +65855,12 @@
               "name": "Backup",
               "sku_name": "ADLS Gen2 Vaulted",
               "meter_name": "ADLS Gen2 Vaulted Protected Instance"
+            },
+            "DZH318Z0BP05/Cosmos DB/Cosmos DB Protected Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cosmos DB",
+              "meter_name": "Cosmos DB Protected Instance"
             },
             "DZH318Z0BP05/Azure VM/Azure VM Protected Instance": {
               "id": "DZH318Z0BP05",
