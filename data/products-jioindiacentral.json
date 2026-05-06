@@ -984,11 +984,29 @@
           "id": "DZH319HK4RD6",
           "name": "Azure Databricks",
           "products": {
+            "DZH318Z0HS2D/Premium Jobs Compute Photon/Premium Jobs Compute Photon DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Jobs Compute Photon",
+              "meter_name": "Premium Jobs Compute Photon DBU"
+            },
+            "DZH318Z0HS2D/Premium SQL Analytics/Premium SQL Analytics DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium SQL Analytics",
+              "meter_name": "Premium SQL Analytics DBU"
+            },
             "DZH318Z0HS2D/Premium Interactive Serverless Compute/Premium Interactive Serverless Compute DBU": {
               "id": "DZH318Z0HS2D",
               "name": "Azure Databricks Regional",
               "sku_name": "Premium Interactive Serverless Compute",
               "meter_name": "Premium Interactive Serverless Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Core Compute Photon Delta Live Tables/Premium Core Compute Photon Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Core Compute Photon Delta Live Tables",
+              "meter_name": "Premium Core Compute Photon Delta Live Tables DBU"
             },
             "DZH318Z0HS2D/Premium Model Training/Premium Model Training DBU": {
               "id": "DZH318Z0HS2D",
@@ -1008,11 +1026,53 @@
               "sku_name": "Premium - Free Trial SQL Compute Pro",
               "meter_name": "Premium - Free Trial SQL Compute Pro DBU"
             },
+            "DZH318Z0HS2D/Premium All-Purpose Photon/Premium All-Purpose Photon DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium All-Purpose Photon",
+              "meter_name": "Premium All-Purpose Photon DBU"
+            },
+            "DZH318Z0HS2D/Premium Jobs Compute/Premium Jobs Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Jobs Compute",
+              "meter_name": "Premium Jobs Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium - Free Trial All-purpose Compute/Premium - Free Trial All-purpose Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium - Free Trial All-purpose Compute",
+              "meter_name": "Premium - Free Trial All-purpose Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Enhanced Security and Compliance/Premium Enhanced Security and Compliance DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Enhanced Security and Compliance",
+              "meter_name": "Premium Enhanced Security and Compliance DBU"
+            },
+            "DZH318Z0HS2D/Standard All-Purpose Photon/Standard All-Purpose Photon DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard All-Purpose Photon",
+              "meter_name": "Standard All-Purpose Photon DBU"
+            },
+            "DZH318Z0HS2D/Standard SQL Analytics/Standard SQL Analytics DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard SQL Analytics",
+              "meter_name": "Standard SQL Analytics DBU"
+            },
             "DZH318Z0HS2D/Premium SQL Compute Pro/Premium SQL Compute Pro DBU": {
               "id": "DZH318Z0HS2D",
               "name": "Azure Databricks Regional",
               "sku_name": "Premium SQL Compute Pro",
               "meter_name": "Premium SQL Compute Pro DBU"
+            },
+            "DZH318Z0HS2D/Premium Advanced Compute Delta Live Tables/Premium Advanced Compute Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Advanced Compute Delta Live Tables",
+              "meter_name": "Premium Advanced Compute Delta Live Tables DBU"
             },
             "DZH318Z0HS2D/Premium Serverless Realtime Inferencing/Premium Serverless Realtime Inferencing DBU": {
               "id": "DZH318Z0HS2D",
@@ -1020,17 +1080,89 @@
               "sku_name": "Premium Serverless Realtime Inferencing",
               "meter_name": "Premium Serverless Realtime Inferencing DBU"
             },
+            "DZH318Z0HS2D/Premium Clean Rooms Collaborator/Premium Collaborator": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Clean Rooms Collaborator",
+              "meter_name": "Premium Collaborator"
+            },
+            "DZH318Z0HS2D/Standard - Free Trial All-purpose Compute/Standard - Free Trial All-purpose Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard - Free Trial All-purpose Compute",
+              "meter_name": "Standard - Free Trial All-purpose Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Jobs Light Compute/Premium Jobs Light Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Jobs Light Compute",
+              "meter_name": "Premium Jobs Light Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium All-purpose Compute/Premium All-purpose Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium All-purpose Compute",
+              "meter_name": "Premium All-purpose Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Anthropic Serverless Inference/Premium Anthropic Serverless Inference DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Anthropic Serverless Inference",
+              "meter_name": "Premium Anthropic Serverless Inference DBU"
+            },
             "DZH318Z0HS2D/Launch Charge Serverless Realtime Inferencing/Launch Charge Serverless Realtime Inferencing DBU": {
               "id": "DZH318Z0HS2D",
               "name": "Azure Databricks Regional",
               "sku_name": "Launch Charge Serverless Realtime Inferencing",
               "meter_name": "Launch Charge Serverless Realtime Inferencing DBU"
             },
+            "DZH318Z0HS2D/Standard - Free Trial Jobs Compute/Standard - Free Trial Jobs Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard - Free Trial Jobs Compute",
+              "meter_name": "Standard - Free Trial Jobs Compute DBU"
+            },
             "DZH318Z0HS2D/Premium Automated Serverless Compute/Premium Automated Serverless Compute DBU": {
               "id": "DZH318Z0HS2D",
               "name": "Azure Databricks Regional",
               "sku_name": "Premium Automated Serverless Compute",
               "meter_name": "Premium Automated Serverless Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Pro Compute Photon Delta Live Tables/Premium Pro Compute Photon Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Pro Compute Photon Delta Live Tables",
+              "meter_name": "Premium Pro Compute Photon Delta Live Tables DBU"
+            },
+            "DZH318Z0HS2D/Standard All-purpose Compute/Standard All-purpose Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard All-purpose Compute",
+              "meter_name": "Standard All-purpose Compute DBU"
+            },
+            "DZH318Z0HS2D/Premium Pro Compute Delta Live Tables/Premium Pro Compute Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Pro Compute Delta Live Tables",
+              "meter_name": "Premium Pro Compute Delta Live Tables DBU"
+            },
+            "DZH318Z0HS2D/Premium Intelligence Tools - Promo/Premium User": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Intelligence Tools - Promo",
+              "meter_name": "Premium User"
+            },
+            "DZH318Z0HS2D/Premium - Free Trial Jobs Compute/Premium - Free Trial Jobs Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium - Free Trial Jobs Compute",
+              "meter_name": "Premium - Free Trial Jobs Compute DBU"
+            },
+            "DZH318Z0HS2D/Standard Jobs Light Compute/Standard Jobs Light Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard Jobs Light Compute",
+              "meter_name": "Standard Jobs Light Compute DBU"
             },
             "DZH318Z0HS2D/Premium Serverless SQL/Premium Serverless SQL DBU": {
               "id": "DZH318Z0HS2D",
@@ -1043,6 +1175,30 @@
               "name": "Azure Databricks Regional",
               "sku_name": "Premium Databricks Storage Unit",
               "meter_name": "Premium Databricks Storage Unit DSU"
+            },
+            "DZH318Z0HS2D/Standard Jobs Compute/Standard Jobs Compute DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard Jobs Compute",
+              "meter_name": "Standard Jobs Compute DBU"
+            },
+            "DZH318Z0HS2D/Standard Jobs Compute Photon/Standard Jobs Compute Photon DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Standard Jobs Compute Photon",
+              "meter_name": "Standard Jobs Compute Photon DBU"
+            },
+            "DZH318Z0HS2D/Premium Advanced Compute Photon Delta Live Tables/Premium Advanced Compute Photon Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Advanced Compute Photon Delta Live Tables",
+              "meter_name": "Premium Advanced Compute Photon Delta Live Tables DBU"
+            },
+            "DZH318Z0HS2D/Premium Core Compute Delta Live Tables/Premium Core Compute Delta Live Tables DBU": {
+              "id": "DZH318Z0HS2D",
+              "name": "Azure Databricks Regional",
+              "sku_name": "Premium Core Compute Delta Live Tables",
+              "meter_name": "Premium Core Compute Delta Live Tables DBU"
             }
           }
         },
@@ -2614,6 +2770,12 @@
               "sku_name": "M128-32ms",
               "meter_name": "M128-32ms"
             },
+            "DZH318Z0FD2W/Standard_M416ds_12_v3/Standard_M416ds_12_v3": {
+              "id": "DZH318Z0FD2W",
+              "name": "Virtual Machines Mdsv3 High Memory Series Linux",
+              "sku_name": "Standard_M416ds_12_v3",
+              "meter_name": "Standard_M416ds_12_v3"
+            },
             "DZH318Z0F5DQ/D48alds v6/D48alds v6": {
               "id": "DZH318Z0F5DQ",
               "name": "Virtual Machines Daldsv6 Series",
@@ -3513,6 +3675,12 @@
               "name": "Virtual Machines Dplsv5 Series",
               "sku_name": "Standard_D48pls_v5",
               "meter_name": "D48pls v5"
+            },
+            "DZH318Z0FD26/Standard_M416s_10_v3/Standard_M416s_10_v3": {
+              "id": "DZH318Z0FD26",
+              "name": "Virtual Machines Msv3 High Memory Series Linux",
+              "sku_name": "Standard_M416s_10_v3",
+              "meter_name": "Standard_M416s_10_v3"
             },
             "DZH318Z093XK/E16-4as v5 Low Priority/E16-4as v5 Low Priority": {
               "id": "DZH318Z093XK",
@@ -6694,6 +6862,12 @@
               "sku_name": "D8als v6 Low Priority",
               "meter_name": "D8als v6 Low Priority"
             },
+            "DZH318Z0FD2D/Standard_M416ds_10_v3/Standard_M416ds_10_v3": {
+              "id": "DZH318Z0FD2D",
+              "name": "Virtual Machines Mdsv3 High Memory Series Windows",
+              "sku_name": "Standard_M416ds_10_v3",
+              "meter_name": "Standard_M416ds_10_v3"
+            },
             "DZH318Z096SL/E20ds v5/E20ds v5": {
               "id": "DZH318Z096SL",
               "name": "Virtual Machines Edsv5 Series Windows",
@@ -7515,6 +7689,12 @@
               "name": "Virtual Machines MS Series",
               "sku_name": "M8-2ms Low Priority",
               "meter_name": "M8-2ms Low Priority"
+            },
+            "DZH318Z0FD25/Standard_M416s_12_v3/Standard_M416s_12_v3": {
+              "id": "DZH318Z0FD25",
+              "name": "Virtual Machines Msv3 High Memory Series Windows",
+              "sku_name": "Standard_M416s_12_v3",
+              "meter_name": "Standard_M416s_12_v3"
             },
             "DZH318Z0BPW5/M128-64ms Low Priority/M128-64ms Low Priority": {
               "id": "DZH318Z0BPW5",
@@ -9580,6 +9760,12 @@
               "sku_name": "Msmv2MedMem Type1",
               "meter_name": "Msmv2MedMem Type1"
             },
+            "DZH318Z0FD26/Standard_M416s_9_v3/Standard_M416s_9_v3": {
+              "id": "DZH318Z0FD26",
+              "name": "Virtual Machines Msv3 High Memory Series Linux",
+              "sku_name": "Standard_M416s_9_v3",
+              "meter_name": "Standard_M416s_9_v3"
+            },
             "DZH318Z0BQPW/DS12 v2 Low Priority/DS12 v2 Low Priority": {
               "id": "DZH318Z0BQPW",
               "name": "Virtual Machines DSv2 Series Windows",
@@ -9621,6 +9807,12 @@
               "name": "Virtual Machines Easv4 Series Windows",
               "sku_name": "E20as v4",
               "meter_name": "E20as v4"
+            },
+            "DZH318Z0FD2D/Standard_M416ds_12_v3/Standard_M416ds_12_v3": {
+              "id": "DZH318Z0FD2D",
+              "name": "Virtual Machines Mdsv3 High Memory Series Windows",
+              "sku_name": "Standard_M416ds_12_v3",
+              "meter_name": "Standard_M416ds_12_v3"
             },
             "DZH318Z093XK/E96as v5/E96as v5": {
               "id": "DZH318Z093XK",
@@ -11254,6 +11446,12 @@
               "sku_name": "standard_DC8s_v3",
               "meter_name": "DC8s_v3"
             },
+            "DZH318Z0FD26/Standard_M416s_12_v3/Standard_M416s_12_v3": {
+              "id": "DZH318Z0FD26",
+              "name": "Virtual Machines Msv3 High Memory Series Linux",
+              "sku_name": "Standard_M416s_12_v3",
+              "meter_name": "Standard_M416s_12_v3"
+            },
             "DZH318Z09B68/Standard_EC2as_v5/EC2as_v5": {
               "id": "DZH318Z09B68",
               "name": "ECasv5-series Linux",
@@ -12411,6 +12609,12 @@
               "name": "Virtual Machines Edv4 Series Windows",
               "sku_name": "E32d v4",
               "meter_name": "E32d v4"
+            },
+            "DZH318Z0FD25/Standard_M416s_9_v3/Standard_M416s_9_v3": {
+              "id": "DZH318Z0FD25",
+              "name": "Virtual Machines Msv3 High Memory Series Windows",
+              "sku_name": "Standard_M416s_9_v3",
+              "meter_name": "Standard_M416s_9_v3"
             },
             "DZH318Z092QW/E96as v5/E96as v5": {
               "id": "DZH318Z092QW",
@@ -13665,6 +13869,12 @@
               "name": "Bsv2 Series Cloud Services",
               "sku_name": "B2ts v2",
               "meter_name": "B2ts v2"
+            },
+            "DZH318Z0FD25/Standard_M416s_10_v3/Standard_M416s_10_v3": {
+              "id": "DZH318Z0FD25",
+              "name": "Virtual Machines Msv3 High Memory Series Windows",
+              "sku_name": "Standard_M416s_10_v3",
+              "meter_name": "Standard_M416s_10_v3"
             },
             "DZH318Z0K9JK/B16ps v2/B16ps v2": {
               "id": "DZH318Z0K9JK",
@@ -15736,6 +15946,12 @@
               "sku_name": "Standard_EC96ias_v5",
               "meter_name": "EC96ias_v5"
             },
+            "DZH318Z0FD2W/Standard_M416ds_10_v3/Standard_M416ds_10_v3": {
+              "id": "DZH318Z0FD2W",
+              "name": "Virtual Machines Mdsv3 High Memory Series Linux",
+              "sku_name": "Standard_M416ds_10_v3",
+              "meter_name": "Standard_M416ds_10_v3"
+            },
             "DZH318Z093X0/E32ads v5 Low Priority/E32ads v5 Low Priority": {
               "id": "DZH318Z093X0",
               "name": "Virtual Machines Eadsv5 Series",
@@ -15813,6 +16029,12 @@
               "name": "Virtual Machines Daldsv6 Series",
               "sku_name": "D32alds v6",
               "meter_name": "D32alds v6"
+            },
+            "DZH318Z0FD2D/Standard_M416ds_9_v3/Standard_M416ds_9_v3": {
+              "id": "DZH318Z0FD2D",
+              "name": "Virtual Machines Mdsv3 High Memory Series Windows",
+              "sku_name": "Standard_M416ds_9_v3",
+              "meter_name": "Standard_M416ds_9_v3"
             },
             "DZH318Z0DWTB/D32as v6 Low Priority/D32as v6 Low Priority": {
               "id": "DZH318Z0DWTB",
@@ -16089,6 +16311,12 @@
               "name": "Virtual Machines Easv5 Series Windows",
               "sku_name": "E96-48as v5",
               "meter_name": "E96-48as v5"
+            },
+            "DZH318Z0FD2W/Standard_M416ds_9_v3/Standard_M416ds_9_v3": {
+              "id": "DZH318Z0FD2W",
+              "name": "Virtual Machines Mdsv3 High Memory Series Linux",
+              "sku_name": "Standard_M416ds_9_v3",
+              "meter_name": "Standard_M416ds_9_v3"
             },
             "DZH318Z08W0T/Standard_D64as_v5 Low Priority/D64as v5 Low Priority": {
               "id": "DZH318Z08W0T",
@@ -23854,12 +24082,6 @@
               "sku_name": "Standard",
               "meter_name": "Standard Device Handling"
             },
-            "DZH318Z0CBTJ/Smart Tier GRS/Smart Tier GRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier GRS",
-              "meter_name": "Smart Tier GRS Monitoring Operations"
-            },
             "DZH318Z0BJRN/Hot RA-GRS/Hot GRS Write Operations": {
               "id": "DZH318Z0BJRN",
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
@@ -26170,12 +26392,6 @@
               "sku_name": "P40 LRS",
               "meter_name": "P40 LRS Disk"
             },
-            "DZH318Z0CBTJ/Smart Tier RA-GRS/Smart Tier RA-GRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier RA-GRS",
-              "meter_name": "Smart Tier RA-GRS Monitoring Operations"
-            },
             "DZH318Z0BP0W/P6 LRS/P6 LRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -26601,12 +26817,6 @@
               "name": "Blob Features",
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive RA-GRS Named Encryption Scopes"
-            },
-            "DZH318Z0CBTJ/Smart Tier LRS/Smart Tier LRS Monitoring Operations": {
-              "id": "DZH318Z0CBTJ",
-              "name": "Blob Features",
-              "sku_name": "Smart Tier LRS",
-              "meter_name": "Smart Tier LRS Monitoring Operations"
             },
             "DZH318Z0BNZH/Standard LRS/All Other Operations": {
               "id": "DZH318Z0BNZH",
@@ -28239,6 +28449,12 @@
               "name": "Backup",
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob ZRS Write Operations"
+            },
+            "DZH318Z0BP05/Cosmos DB/Cosmos DB Protected Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cosmos DB",
+              "meter_name": "Cosmos DB Protected Instance"
             },
             "DZH318Z0BP05/SQL Server in Azure VM/SQL Server in Azure VM Protected Instance": {
               "id": "DZH318Z0BP05",
