@@ -1089,7 +1089,7 @@
             },
             "DZH318Z0RZDT/4.1 mini pp Opt Gl/4.1 mini pp Opt Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 mini pp Opt Gl",
               "meter_name": "4.1 mini pp Opt Gl Tokens"
             },
@@ -1194,6 +1194,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "gpt 5 pro inp glbl",
               "meter_name": "gpt 5 pro inp glbl Tokens"
+            },
+            "DZH318Z0T7L1/V4 Pro Outp glbl/V4 Pro Outp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "V4 Pro Outp glbl",
+              "meter_name": "V4 Pro Outp glbl Tokens"
             },
             "DZH318Z0V4HX/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0V4HX",
@@ -1381,6 +1387,12 @@
               "sku_name": "5.4 nano cd Inp Gl",
               "meter_name": "5.4 nano cd Inp Gl 1M Tokens"
             },
+            "DZH318Z0T7L1/R1 Outp glbl/R1 Outp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "R1 Outp glbl",
+              "meter_name": "R1 Outp glbl Tokens"
+            },
             "DZH318Z0T9WD/5.1 codex opt Gl/5.1 codex opt Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -1459,6 +1471,18 @@
               "sku_name": "gpt rt 1.5 img inp Gl",
               "meter_name": "gpt rt 1.5 img inp Gl 1M Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-whisper Opt Gl/gpt-realtime-whisper Opt Gl Unit": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-whisper Opt Gl",
+              "meter_name": "gpt-realtime-whisper Opt Gl Unit"
+            },
+            "DZH318Z0T9WD/gpt-latest 05052026 opt Gl/gpt-latest 05052026 opt Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt-latest 05052026 opt Gl",
+              "meter_name": "gpt-latest 05052026 opt Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/GPT 5 Mini Inpt Glbl/GPT 5 Mini Inpt Glbl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -1494,6 +1518,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "GPT 5 Nano cchd Inpt Glbl",
               "meter_name": "GPT 5 Nano cchd Inpt Glbl 1M Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-translate Opt Gl/gpt-realtime-translate Opt Gl Unit": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-translate Opt Gl",
+              "meter_name": "gpt-realtime-translate Opt Gl Unit"
             },
             "DZH318Z0T9WD/5.4 nano Inp Gl/5.4 nano Inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -1555,6 +1585,12 @@
               "sku_name": "o1 mini Batch Inp glbl",
               "meter_name": "o1 mini Batch Inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2 Image cd inp Gl/gpt-realtime-2 Image cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2 Image cd inp Gl",
+              "meter_name": "gpt-realtime-2 Image cd inp Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/GPT 5.2 chat opt Gl/GPT 5.2 chat opt Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -1569,7 +1605,7 @@
             },
             "DZH318Z0RZDT/4.1 mini pp Inp Gl/4.1 mini pp Inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 mini pp Inp Gl",
               "meter_name": "4.1 mini pp Inp Gl Tokens"
             },
@@ -1695,7 +1731,7 @@
             },
             "DZH318Z0RZDT/4.1 pp cd inp Gl/4.1 pp cd inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 pp cd inp Gl",
               "meter_name": "4.1 pp cd inp Gl Tokens"
             },
@@ -1777,11 +1813,23 @@
               "sku_name": "gpt aud mini txt Outp glbl",
               "meter_name": "gpt aud mini txt Outp glbl Tokens"
             },
+            "DZH318Z0T879/4.3 Cached Inp Glbl L/4.3 Cached Inp Glbl L Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Cached Inp Glbl L",
+              "meter_name": "4.3 Cached Inp Glbl L Tokens"
+            },
             "DZH318Z0RZDT/4.1 pp inp Gl/4.1 pp inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 pp inp Gl",
               "meter_name": "4.1 pp inp Gl Tokens"
+            },
+            "DZH318Z0T879/4.3 Outp Glbl L/4.3 Outp Glbl L Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Outp Glbl L",
+              "meter_name": "4.3 Outp Glbl L Tokens"
             },
             "DZH318Z0HHG7/gpt4o realtime prvw text outp glbl/gpt4o realtime prvw text outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2053,6 +2101,12 @@
               "sku_name": "Doc AI 2512 glbl",
               "meter_name": "Doc AI 2512 glbl Pages"
             },
+            "DZH318Z0V4PL/gpt-realtime-2 Image inp Gl/gpt-realtime-2 Image inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2 Image inp Gl",
+              "meter_name": "gpt-realtime-2 Image inp Gl 1M Tokens"
+            },
             "DZH318Z0T9X1/3.3 70b FT/3.3 70b FT Deployment Hosting Unit": {
               "id": "DZH318Z0T9X1",
               "name": "Azure Llama Models",
@@ -2076,6 +2130,12 @@
               "name": "Azure OpenAI Reasoning",
               "sku_name": "codex mini out glbl",
               "meter_name": "codex mini out glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2 Text opt Gl/gpt-realtime-2 Text opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2 Text opt Gl",
+              "meter_name": "gpt-realtime-2 Text opt Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4-Turbo-Batch-128K Outp-glbl/gpt-4-Turbo-Batch-128K Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2335,11 +2395,29 @@
               "sku_name": "OCR 2512 glbl",
               "meter_name": "OCR 2512 glbl Pages"
             },
+            "DZH318Z0V4PL/gpt-latest 05052026 cd inp Gl/gpt-latest 05052026 cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-latest 05052026 cd inp Gl",
+              "meter_name": "gpt-latest 05052026 cd inp Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/gpt-latest 05052026 inp Gl/gpt-latest 05052026 inp Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt-latest 05052026 inp Gl",
+              "meter_name": "gpt-latest 05052026 inp Gl 1M Tokens"
+            },
             "DZH318Z0HHG7/o3 0416 Inp glbl/o3 0416 Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
               "sku_name": "o3 0416 Inp glbl",
               "meter_name": "o3 0416 Inp glbl Tokens"
+            },
+            "DZH318Z0T879/4.3 Inp Glbl/4.3 Inp Glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Inp Glbl",
+              "meter_name": "4.3 Inp Glbl Tokens"
             },
             "DZH318Z0HHG7/o1-pro Batch Inp glbl/o1-pro Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2544,6 +2622,12 @@
               "name": "Azure Grok Models",
               "sku_name": "Grok 4.1 Inp Glbl",
               "meter_name": "Grok 4.1 Inp Glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2 Text inp Gl/gpt-realtime-2 Text inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2 Text inp Gl",
+              "meter_name": "gpt-realtime-2 Text inp Gl 1M Tokens"
             },
             "DZH318Z0V4PL/gpt img 1.5 in txt gl/gpt img 1.5 in txt gl 1M Tokens": {
               "id": "DZH318Z0V4PL",
@@ -2923,11 +3007,23 @@
               "sku_name": "gpt 4.1 nano Batch Inp glbl",
               "meter_name": "gpt 4.1 nano Batch Inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2 Text cd inp Gl/gpt-realtime-2 Text cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2 Text cd inp Gl",
+              "meter_name": "gpt-realtime-2 Text cd inp Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/gpt aud mn txt out gl 1215/gpt aud mn txt out gl 1215 1M Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
               "sku_name": "gpt aud mn txt out gl 1215",
               "meter_name": "gpt aud mn txt out gl 1215 1M Tokens"
+            },
+            "DZH318Z0T7L1/V4 Flash Inp glbl/V4 Flash Inp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "V4 Flash Inp glbl",
+              "meter_name": "V4 Flash Inp glbl Tokens"
             },
             "DZH318Z0T9WD/GPT 5 Batch Inpt cchd Glbl/GPT 5 Batch Inpt cchd Glbl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -3127,6 +3223,18 @@
               "sku_name": "5.5 ShortCo inp Gl",
               "meter_name": "5.5 ShortCo inp Gl 1M Tokens"
             },
+            "DZH318Z0T7L1/V4 Flash Outp glbl/V4 Flash Outp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "V4 Flash Outp glbl",
+              "meter_name": "V4 Flash Outp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-latest 05052026 inp Gl/gpt-latest 05052026 inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-latest 05052026 inp Gl",
+              "meter_name": "gpt-latest 05052026 inp Gl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt 4o 1120 Outp glbl/gpt 4o 1120 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -3216,6 +3324,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o 1120 cached Inp regnl",
               "meter_name": "gpt 4o 1120 cached Inp regnl Tokens"
+            },
+            "DZH318Z0T879/4.3 Cached Inp Glbl/4.3 Cached Inp Glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Cached Inp Glbl",
+              "meter_name": "4.3 Cached Inp Glbl Tokens"
             },
             "DZH318Z0T9WD/5.2 pp opt Gl/5.2 pp opt Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -3445,6 +3559,12 @@
               "sku_name": "gpt-4.1-mini-dev-ft inpt glbl",
               "meter_name": "gpt-4.1-mini-dev-ft inpt glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-latest 05052026 opt Gl/gpt-latest 05052026 opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-latest 05052026 opt Gl",
+              "meter_name": "gpt-latest 05052026 opt Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5.4 pp cd inp Gl/5.4 pp cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -3645,7 +3765,7 @@
             },
             "DZH318Z0RZDT/4.1 mini pp cd Inp Gl/4.1 mini pp cd Inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 mini pp cd Inp Gl",
               "meter_name": "4.1 mini pp cd Inp Gl Tokens"
             },
@@ -3693,7 +3813,7 @@
             },
             "DZH318Z0RZDT/4.1 pp opt Gl/4.1 pp opt Gl Tokens": {
               "id": "DZH318Z0RZDT",
-              "name": "Azure OpenAI PP GPT4s",
+              "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 pp opt Gl",
               "meter_name": "4.1 pp opt Gl Tokens"
             },
@@ -3703,11 +3823,23 @@
               "sku_name": "Provisioned Throughput - Available",
               "meter_name": "Provisioned Throughput - Available Unit"
             },
+            "DZH318Z0T7L1/R1 Inp glbl/R1 Inp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "R1 Inp glbl",
+              "meter_name": "R1 Inp glbl Tokens"
+            },
             "DZH318Z0V4PL/gpt aud 0828 txt Outp glbl/gpt aud 0828 txt Outp glbl Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 0828 txt Outp glbl",
               "meter_name": "gpt aud 0828 txt Outp glbl Tokens"
+            },
+            "DZH318Z0T7L1/V4 Pro Inp glbl/V4 Pro Inp glbl Tokens": {
+              "id": "DZH318Z0T7L1",
+              "name": "Azure Deepseek Models",
+              "sku_name": "V4 Pro Inp glbl",
+              "meter_name": "V4 Pro Inp glbl Tokens"
             },
             "DZH318Z0HHG7/gpt 4.1 Outp glbl/gpt 4.1 Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -3823,6 +3955,12 @@
               "sku_name": "5.4 mini pp Inp Gl",
               "meter_name": "5.4 mini pp Inp Gl 1M Tokens"
             },
+            "DZH318Z0T9WD/gpt-latest 05052026 cd inp Gl/gpt-latest 05052026 cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "gpt-latest 05052026 cd inp Gl",
+              "meter_name": "gpt-latest 05052026 cd inp Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5.5 LongCo Batch cd inp Gl/5.5 LongCo Batch cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -3834,6 +3972,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4-turbo128K Inp-glbl",
               "meter_name": "gpt-4-turbo128K Inp-glbl Tokens"
+            },
+            "DZH318Z0T879/4.3 Inp Glbl L/4.3 Inp Glbl L Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Inp Glbl L",
+              "meter_name": "4.3 Inp Glbl L Tokens"
             },
             "DZH318Z0T9WD/GPT 5.1 Batch cd inp Gl/GPT 5.1 Batch cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -3888,6 +4032,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "5.2 pp inp Gl",
               "meter_name": "5.2 pp inp Gl 1M Tokens"
+            },
+            "DZH318Z0T879/4.3 Outp Glbl/4.3 Outp Glbl Tokens": {
+              "id": "DZH318Z0T879",
+              "name": "Azure Grok Models",
+              "sku_name": "4.3 Outp Glbl",
+              "meter_name": "4.3 Outp Glbl Tokens"
             },
             "DZH318Z0HHG7/o3 0416 Batch Inp glbl/o3 0416 Batch Inp glbl Tokens": {
               "id": "DZH318Z0HHG7",
