@@ -7,6 +7,12 @@
           "id": "DZH31600VF1F",
           "name": "Foundry Models",
           "products": {
+            "DZH318Z0TPCM/MM3.5 Inp glbl/MM3.5 Inp glbl Tokens": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "MM3.5 Inp glbl",
+              "meter_name": "MM3.5 Inp glbl Tokens"
+            },
             "DZH318Z0TPCM/Codestral Inp glbl/Codestral Inp glbl Tokens": {
               "id": "DZH318Z0TPCM",
               "name": "Azure Mistral Models",
@@ -49,6 +55,12 @@
               "sku_name": "Llama 3.3 70B Outp glbl",
               "meter_name": "Llama 3.3 70B Outp glbl Tokens"
             },
+            "DZH318Z0TPCM/MM3.5 Outp DZ/MM3.5 Outp DZ Tokens": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "MM3.5 Outp DZ",
+              "meter_name": "MM3.5 Outp DZ Tokens"
+            },
             "DZH318Z0T7L1/V3.2 Inp DZ/V3.2 Inp DZ Tokens": {
               "id": "DZH318Z0T7L1",
               "name": "Azure Deepseek Models",
@@ -67,6 +79,12 @@
               "sku_name": "Ministral 3B Model In-FT",
               "meter_name": "Ministral 3B Model In-FT Tokens"
             },
+            "DZH318Z0TPCM/OCR 4 glbl/OCR 4 glbl Pages": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "OCR 4 glbl",
+              "meter_name": "OCR 4 glbl Pages"
+            },
             "DZH318Z0T7L1/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
               "id": "DZH318Z0T7L1",
               "name": "Azure Deepseek Models",
@@ -78,6 +96,12 @@
               "name": "Azure Deepseek Models",
               "sku_name": "V3.2 SP Inp glbl",
               "meter_name": "V3.2 SP Inp glbl Tokens"
+            },
+            "DZH318Z0TPCM/OCR 4 annot glbl/OCR 4 annot glbl Pages": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "OCR 4 annot glbl",
+              "meter_name": "OCR 4 annot glbl Pages"
             },
             "DZH318Z0T9X1/Llama3.3 70b-IN-FT/Llama3.3 70b-IN-FT Tokens": {
               "id": "DZH318Z0T9X1",
@@ -187,6 +211,12 @@
               "sku_name": "Grok-3 Inp glbl",
               "meter_name": "Grok-3 Inp glbl Tokens"
             },
+            "DZH318Z0TPCM/OCR 4 DZ/OCR 4 DZ Pages": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "OCR 4 DZ",
+              "meter_name": "OCR 4 DZ Pages"
+            },
             "DZH318Z0T7L1/V4 Flash Outp DZ/V4 Flash Outp DZ Tokens": {
               "id": "DZH318Z0T7L1",
               "name": "Azure Deepseek Models",
@@ -211,11 +241,23 @@
               "sku_name": "3.3 70b FT",
               "meter_name": "3.3 70b FT Deployment Hosting Unit"
             },
+            "DZH318Z0TPCM/MM3.5 Inp DZ/MM3.5 Inp DZ Tokens": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "MM3.5 Inp DZ",
+              "meter_name": "MM3.5 Inp DZ Tokens"
+            },
             "DZH318Z0TPCM/Ministral 3B Model Out-FT/Ministral 3B Model Out-FT Tokens": {
               "id": "DZH318Z0TPCM",
               "name": "Azure Mistral Models",
               "sku_name": "Ministral 3B Model Out-FT",
               "meter_name": "Ministral 3B Model Out-FT Tokens"
+            },
+            "DZH318Z0TPCM/OCR 4 annot DZ/OCR 4 annot DZ Pages": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "OCR 4 annot DZ",
+              "meter_name": "OCR 4 annot DZ Pages"
             },
             "DZH318Z0TPCM/Large 3 Outp glbl/Large 3 Outp glbl Tokens": {
               "id": "DZH318Z0TPCM",
@@ -258,6 +300,12 @@
               "name": "Azure Deepseek Models",
               "sku_name": "V3.2 Outp DZ",
               "meter_name": "V3.2 Outp DZ Tokens"
+            },
+            "DZH318Z0TPCM/MM3.5 Outp glbl/MM3.5 Outp glbl Tokens": {
+              "id": "DZH318Z0TPCM",
+              "name": "Azure Mistral Models",
+              "sku_name": "MM3.5 Outp glbl",
+              "meter_name": "MM3.5 Outp glbl Tokens"
             },
             "DZH318Z0TPCM/Doc AI 2512 glbl/Doc AI 2512 glbl Pages": {
               "id": "DZH318Z0TPCM",
@@ -25977,11 +26025,11 @@
               "sku_name": "OneLake BCDR Iterative Read Operations Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Read Operations Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Fabric Meter 101 Capacity Usage/Fabric Meter 101 Capacity Usage CU": {
+            "DZH318Z0KCZ7/Data Warehouse (Accelerated) Capacity Usage/Data Warehouse (Accelerated) Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Fabric Meter 101 Capacity Usage",
-              "meter_name": "Fabric Meter 101 Capacity Usage CU"
+              "sku_name": "Data Warehouse (Accelerated) Capacity Usage",
+              "meter_name": "Data Warehouse (Accelerated) Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Write Operations Cool Capacity Usage/OneLake BCDR Write Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -29176,7 +29224,7 @@
             },
             "DZH318Z0KDZJ/vCore/vCore": {
               "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv5 Series Compute",
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
@@ -29332,7 +29380,7 @@
             },
             "DZH318Z0DCRZ/1 vCore/vCore": {
               "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv3 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
@@ -29368,21 +29416,21 @@
             },
             "DZH318Z0DCRZ/vCore/vCore": {
               "id": "DZH318Z0DCRZ",
-              "name": "Az DB for PGSQL Flexible Server Memory Optimized Esv3 Series Compute",
+              "name": "Azure Database for PostgreSQL Flexible Server Memory Optimized Esv3 Series Compute",
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
-            "DZH318Z0DCRX/PMD V2 Throughput/PMD V2 Throughput Prov Throughput (MBps)": {
+            "DZH318Z0DCRX/Premium SSDv2 Throughput/Premium SSDv2 Throughput Prov Throughput (MBps)": {
               "id": "DZH318Z0DCRX",
               "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "PMD V2 Throughput",
-              "meter_name": "PMD V2 Throughput Prov Throughput (MBps)"
+              "sku_name": "Premium SSDv2 Throughput",
+              "meter_name": "Premium SSDv2 Throughput Prov Throughput (MBps)"
             },
-            "DZH318Z0DCRX/Premium Managed Disk V2/Premium Managed Disk V2 Data Stored": {
+            "DZH318Z0DCRX/Premium SSD v2 Storage/Premium SSD v2 Storage Data Stored": {
               "id": "DZH318Z0DCRX",
               "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "Premium Managed Disk V2",
-              "meter_name": "Premium Managed Disk V2 Data Stored"
+              "sku_name": "Premium SSD v2 Storage",
+              "meter_name": "Premium SSD v2 Storage Data Stored"
             },
             "DZH318Z0JX31/8m vCore/vCore": {
               "id": "DZH318Z0JX31",
@@ -29390,11 +29438,11 @@
               "sku_name": "8m vCore",
               "meter_name": "vCore"
             },
-            "DZH318Z0DCRX/PMD V2 IOPS/PMD V2 IOPS Provisioned IOPS": {
+            "DZH318Z0DCRX/Premium SSD v2 IOPS/Premium SSD v2 IOPS Provisioned IOPS": {
               "id": "DZH318Z0DCRX",
               "name": "Az DB for PostgreSQL Flexible Server Storage",
-              "sku_name": "PMD V2 IOPS",
-              "meter_name": "PMD V2 IOPS Provisioned IOPS"
+              "sku_name": "Premium SSD v2 IOPS",
+              "meter_name": "Premium SSD v2 IOPS Provisioned IOPS"
             },
             "DZH318Z0LC91/Auto Tune/Auto Tune vCore": {
               "id": "DZH318Z0LC91",
@@ -29416,7 +29464,7 @@
             },
             "DZH318Z0KDZJ/1 vCore/vCore": {
               "id": "DZH318Z0KDZJ",
-              "name": "Azure Database for PostgreSQL Flexible Server General Purpose - Ddsv5 Series Compute",
+              "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv5 Series Compute",
               "sku_name": "1 vCore",
               "meter_name": "vCore"
             },
