@@ -30080,6 +30080,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard vCPU Duration"
             },
+            "DZH318Z0BQV6/Confidential containers ACI/Confidential containers ACI Memory Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Confidential containers ACI",
+              "meter_name": "Confidential containers ACI Memory Duration"
+            },
             "DZH318Z0BWWM/K80/Memory Duration": {
               "id": "DZH318Z0BWWM",
               "name": "Container Instances with GPU",
@@ -30097,6 +30103,12 @@
               "name": "Container Instances",
               "sku_name": "Standard",
               "meter_name": "Standard Windows Software Duration"
+            },
+            "DZH318Z0BQV6/Confidential containers ACI/Confidential containers ACI vCPU Duration": {
+              "id": "DZH318Z0BQV6",
+              "name": "Container Instances",
+              "sku_name": "Confidential containers ACI",
+              "meter_name": "Confidential containers ACI vCPU Duration"
             },
             "DZH318Z0BWWM/V100/V100 vGPU Duration": {
               "id": "DZH318Z0BWWM",
@@ -35338,8 +35350,1351 @@
       }
     },
     {
+      "name": "Gaming",
+      "services": {
+        "DZH314T0LV7W": {
+          "id": "DZH314T0LV7W",
+          "name": "PlayFab",
+          "products": {
+            "DZH318Z0TT2R/Consumption Extended Legacy Statistics/Consumption Extended Legacy Statistics Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Legacy Statistics",
+              "meter_name": "Consumption Extended Legacy Statistics Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Explorer Advanced/Consumption Extended Data Explorer Advanced queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Explorer Advanced",
+              "meter_name": "Consumption Extended Data Explorer Advanced queries"
+            },
+            "DZH318Z0SXM0/Consumption Extended Game Configuration/Consumption Extended Game Configuration Read Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Game Configuration",
+              "meter_name": "Consumption Extended Game Configuration Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Fabric KQL Database Intra-continental/Consumption Extended Data Connection Fabric KQL Database Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Fabric KQL Database Intra-continental",
+              "meter_name": "Consumption Extended Data Connection Fabric KQL Database Intra-continental Data Transfer"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size 5MB To 25MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size 5MB To 25MB"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Leaderboards/Consumption Extended Leaderboards Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Leaderboards",
+              "meter_name": "Consumption Extended Leaderboards Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Matchmaking/Consumption Extended Matchmaking Write Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Matchmaking",
+              "meter_name": "Consumption Extended Matchmaking Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Text Records": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Text Records"
+            },
+            "DZH318Z0TT1R/Consumption Standard Matchmaking/Consumption Standard Matchmaking Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Matchmaking",
+              "meter_name": "Consumption Standard Matchmaking Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Player Profile/Consumption Standard Player Profile Egress": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Player Profile",
+              "meter_name": "Consumption Standard Player Profile Egress"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Consumption Unit": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Consumption Unit"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection AWS S3 Internet/Consumption Standard Data Connection AWS S3 Internet Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection AWS S3 Internet",
+              "meter_name": "Consumption Standard Data Connection AWS S3 Internet Data Transfer"
+            },
+            "DZH318Z0TT1R/Consumption Standard Networking/Consumption Standard Networking Connectivity": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Networking",
+              "meter_name": "Consumption Standard Networking Connectivity"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Storage": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Storage"
+            },
+            "DZH318Z0TT1R/Consumption Extended Matchmaking/Consumption Extended Matchmaking Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Matchmaking",
+              "meter_name": "Consumption Extended Matchmaking Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Server Networking": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Server Networking"
+            },
+            "DZH318Z0TT2R/Consumption Extended Statistics/Consumption Extended Statistics Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Statistics",
+              "meter_name": "Consumption Extended Statistics Storage"
+            },
+            "DZH318Z0SXM0/Consumption Extended Action Executions/Consumption Extended Action Executions Executions": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Action Executions",
+              "meter_name": "Consumption Extended Action Executions Executions"
+            },
+            "DZH318XZP8NG/Consumption Standard Custom Telemetry Events/Consumption Standard Custom Telemetry Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Custom Telemetry Events",
+              "meter_name": "Consumption Standard Custom Telemetry Events Events"
+            },
+            "DZH318Z0SXM0/Consumption Standard Game Configuration/Consumption Standard Game Configuration Egress": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Game Configuration",
+              "meter_name": "Consumption Standard Game Configuration Egress"
+            },
+            "DZH318Z0TT2R/Consumption Extended Shared Group Data/Consumption Extended Shared Group Data Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Shared Group Data",
+              "meter_name": "Consumption Extended Shared Group Data Storage"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Text Records": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Text Records"
+            },
+            "DZH318Z0TT1R/Consumption Standard Matchmaking/Consumption Standard Matchmaking Write Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Matchmaking",
+              "meter_name": "Consumption Standard Matchmaking Write Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard Custom Properties/Consumption Standard Custom Properties Operations Invoked": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Custom Properties",
+              "meter_name": "Consumption Standard Custom Properties Operations Invoked"
+            },
+            "DZH318Z0TT2R/Consumption Standard Legacy Leaderboards/Consumption Standard Legacy Leaderboards Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Legacy Leaderboards",
+              "meter_name": "Consumption Standard Legacy Leaderboards Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Azure Blob Storage Intra-continental/Consumption Standard Data Connection Azure Blob Storage Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Azure Blob Storage Intra-continental",
+              "meter_name": "Consumption Standard Data Connection Azure Blob Storage Intra-continental Data Transfer"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Metadata Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Metadata Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Custom Translation Characters": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Custom Translation Characters"
+            },
+            "DZH318Z0TT1R/Consumption Standard Lobby/Consumption Standard Lobby Write Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Lobby",
+              "meter_name": "Consumption Standard Lobby Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Consumption Unit": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Consumption Unit"
+            },
+            "DZH318Z0TT1R/Consumption Standard Lobby/Consumption Standard Lobby Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Lobby",
+              "meter_name": "Consumption Standard Lobby Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Lobby/Consumption Extended Lobby Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Lobby",
+              "meter_name": "Consumption Extended Lobby Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Metadata Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Metadata Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size 1MB To 5MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size 1MB To 5MB"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Speech To Text": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Speech To Text"
+            },
+            "DZH318Z0TT2R/Consumption Extended Statistics/Consumption Extended Statistics Community Statistic Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Statistics",
+              "meter_name": "Consumption Extended Statistics Community Statistic Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Inventory/Consumption Standard Inventory Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Inventory",
+              "meter_name": "Consumption Standard Inventory Read Operations"
+            },
+            "DZH318XZLR4R/Consumption Extended Support Standard/Consumption Extended Support Standard Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Extended Support Standard",
+              "meter_name": "Consumption Extended Support Standard Monthly Subscription"
+            },
+            "DZH318Z0TT2R/Consumption Extended Player Profile/Consumption Extended Player Profile Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Player Profile",
+              "meter_name": "Consumption Extended Player Profile Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Shared Group Data/Consumption Standard Shared Group Data Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Shared Group Data",
+              "meter_name": "Consumption Standard Shared Group Data Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size 25MB To 50MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size 25MB To 50MB"
+            },
+            "DZH318Z0SXM0/Consumption Extended Title Data/Consumption Extended Title Data Write Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Title Data",
+              "meter_name": "Consumption Extended Title Data Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Legacy Leaderboards/Consumption Extended Legacy Leaderboards Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Legacy Leaderboards",
+              "meter_name": "Consumption Extended Legacy Leaderboards Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size 1MB To 5MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size 1MB To 5MB"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Friends/Consumption Standard Friends Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Friends",
+              "meter_name": "Consumption Standard Friends Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Write Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard Title Data/Consumption Standard Title Data Egress": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Title Data",
+              "meter_name": "Consumption Standard Title Data Egress"
+            },
+            "DZH318Z0SXM0/Consumption Standard Game Configuration/Consumption Standard Game Configuration Write Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Game Configuration",
+              "meter_name": "Consumption Standard Game Configuration Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Inventory/Consumption Standard Inventory Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Inventory",
+              "meter_name": "Consumption Standard Inventory Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Player Profile/Consumption Standard Player Profile Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Player Profile",
+              "meter_name": "Consumption Standard Player Profile Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Custom Text Records": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Custom Text Records"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Read Operations"
+            },
+            "DZH318XZLR4R/Consumption Standard Support Essential /Consumption Standard Support Essential Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Standard Support Essential ",
+              "meter_name": "Consumption Standard Support Essential Monthly Subscription"
+            },
+            "DZH318Z0TT2R/Consumption Extended Player Profile/Consumption Extended Player Profile Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Player Profile",
+              "meter_name": "Consumption Extended Player Profile Storage"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Groups/Consumption Standard Groups Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Groups",
+              "meter_name": "Consumption Standard Groups Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Legacy Inventory/Consumption Standard Legacy Inventory Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Legacy Inventory",
+              "meter_name": "Consumption Standard Legacy Inventory Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Statistics/Consumption Standard Statistics Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Statistics",
+              "meter_name": "Consumption Standard Statistics Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Legacy Statistics/Consumption Extended Legacy Statistics Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Legacy Statistics",
+              "meter_name": "Consumption Extended Legacy Statistics Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Service Orchestration": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Service Orchestration"
+            },
+            "DZH318Z0T02J/Consumption Extended Legacy Catalog/Consumption Extended Legacy Catalog Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Legacy Catalog",
+              "meter_name": "Consumption Extended Legacy Catalog Write Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Event Archive/Consumption Standard Event Archive Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Event Archive",
+              "meter_name": "Consumption Standard Event Archive Events"
+            },
+            "DZH318Z0SXM0/Consumption Standard Game Configuration/Consumption Standard Game Configuration Read Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Game Configuration",
+              "meter_name": "Consumption Standard Game Configuration Read Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Leaderboards/Consumption Standard Leaderboards Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Leaderboards",
+              "meter_name": "Consumption Standard Leaderboards Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Text To Speech Characters": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Text To Speech Characters"
+            },
+            "DZH318Z0SXM0/Consumption Extended Game Configuration/Consumption Extended Game Configuration Storage": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Game Configuration",
+              "meter_name": "Consumption Extended Game Configuration Storage"
+            },
+            "DZH318Z0TT1R/Consumption Extended Lobby/Consumption Extended Lobby Write Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Lobby",
+              "meter_name": "Consumption Extended Lobby Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Legacy Catalog/Consumption Standard Legacy Catalog Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Legacy Catalog",
+              "meter_name": "Consumption Standard Legacy Catalog Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Groups/Consumption Extended Groups Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Groups",
+              "meter_name": "Consumption Extended Groups Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Custom Translation Characters": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Custom Translation Characters"
+            },
+            "DZH318Z0TT2R/Consumption Extended Player Profile/Consumption Extended Player Profile Egress": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Player Profile",
+              "meter_name": "Consumption Extended Player Profile Egress"
+            },
+            "DZH318Z0TT2R/Consumption Standard Statistics/Consumption Standard Statistics Transactional Writes": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Statistics",
+              "meter_name": "Consumption Standard Statistics Transactional Writes"
+            },
+            "DZH318Z0TT2R/Consumption Standard Player Profile/Consumption Standard Player Profile Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Player Profile",
+              "meter_name": "Consumption Standard Player Profile Storage"
+            },
+            "DZH318Z0SXM0/Consumption Extended CloudScript/Consumption Extended CloudScript Execution Time": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended CloudScript",
+              "meter_name": "Consumption Extended CloudScript Execution Time"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size 50MB To 100MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size 50MB To 100MB"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save MetaData Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save MetaData Storage"
+            },
+            "DZH318Z0SXM0/Consumption Standard Title Data/Consumption Standard Title Data Read Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Title Data",
+              "meter_name": "Consumption Standard Title Data Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog MetaData Storage (MB)": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog MetaData Storage (MB)"
+            },
+            "DZH318Z0TT2R/Consumption Extended Player Profile/Consumption Extended Player Profile Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Player Profile",
+              "meter_name": "Consumption Extended Player Profile Write Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Azure Blob Storage Inter-continental/Consumption Standard Data Connection Azure Blob Storage Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Azure Blob Storage Inter-continental",
+              "meter_name": "Consumption Standard Data Connection Azure Blob Storage Inter-continental Data Transfer"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Server Allocate Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Server Allocate Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Statistics/Consumption Extended Statistics Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Statistics",
+              "meter_name": "Consumption Extended Statistics Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Custom PlayStream Events/Consumption Standard Custom PlayStream Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Custom PlayStream Events",
+              "meter_name": "Consumption Standard Custom PlayStream Events Events"
+            },
+            "DZH318Z0T02J/Consumption Extended Inventory/Consumption Extended Inventory Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Inventory",
+              "meter_name": "Consumption Extended Inventory Read Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard Azure Function Invocations/Consumption Standard Azure Function Invocations Invocations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Azure Function Invocations",
+              "meter_name": "Consumption Standard Azure Function Invocations Invocations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Speech Translation": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Speech Translation"
+            },
+            "DZH318Z0T02J/Consumption Standard Legacy Inventory/Consumption Standard Legacy Inventory Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Legacy Inventory",
+              "meter_name": "Consumption Standard Legacy Inventory Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Read Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size 50MB To 100MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size 50MB To 100MB"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Speech To Text": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Speech To Text"
+            },
+            "DZH318XZP8NG/Consumption Standard PlayStream Events/Consumption Standard PlayStream Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard PlayStream Events",
+              "meter_name": "Consumption Standard PlayStream Events Events"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Server List Build Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Server List Build Operations"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size 5MB To 25MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size 5MB To 25MB"
+            },
+            "DZH318Z0SXM0/Consumption Extended Azure Function Invocations/Consumption Extended Azure Function Invocations Invocations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Azure Function Invocations",
+              "meter_name": "Consumption Extended Azure Function Invocations Invocations"
+            },
+            "DZH318XZP8NG/Consumption Extended Player Search/Consumption Extended Player Search queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Player Search",
+              "meter_name": "Consumption Extended Player Search queries"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Explorer Advanced/Consumption Standard Data Explorer Advanced queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Explorer Advanced",
+              "meter_name": "Consumption Standard Data Explorer Advanced queries"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Server Allocate Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Server Allocate Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Real Time Messaging/Consumption Extended Real Time Messaging Concurrent Users": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Real Time Messaging",
+              "meter_name": "Consumption Extended Real Time Messaging Concurrent Users"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Azure Data Explorer Inter-continental/Consumption Extended Data Connection Azure Data Explorer Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Azure Data Explorer Inter-continental",
+              "meter_name": "Consumption Extended Data Connection Azure Data Explorer Inter-continental Data Transfer"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Friends/Consumption Extended Friends Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Friends",
+              "meter_name": "Consumption Extended Friends Write Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Friends/Consumption Extended Friends Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Friends",
+              "meter_name": "Consumption Extended Friends Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Real Time Messaging/Consumption Standard Real Time Messaging Concurrent Users": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Real Time Messaging",
+              "meter_name": "Consumption Standard Real Time Messaging Concurrent Users"
+            },
+            "DZH318Z0SXM0/Consumption Standard Segment Export/Consumption Standard Segment Export Profiles Exported": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Segment Export",
+              "meter_name": "Consumption Standard Segment Export Profiles Exported"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Metadata Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Metadata Write Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard CloudScript/Consumption Standard CloudScript Execution Time": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard CloudScript",
+              "meter_name": "Consumption Standard CloudScript Execution Time"
+            },
+            "DZH318Z0SXM0/Consumption Extended Game Configuration/Consumption Extended Game Configuration Write Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Game Configuration",
+              "meter_name": "Consumption Extended Game Configuration Write Operations"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Azure Data Explorer Intra-continental/Consumption Extended Data Connection Azure Data Explorer Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Azure Data Explorer Intra-continental",
+              "meter_name": "Consumption Extended Data Connection Azure Data Explorer Intra-continental Data Transfer"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size Up To 1MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size Up To 1MB"
+            },
+            "DZH318Z0SXM0/Consumption Standard CloudScript/Consumption Standard CloudScript Execution": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard CloudScript",
+              "meter_name": "Consumption Standard CloudScript Execution"
+            },
+            "DZH318Z0SXM0/Consumption Standard Player Churn Prediction/Consumption Standard Player Churn Prediction Participants": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Player Churn Prediction",
+              "meter_name": "Consumption Standard Player Churn Prediction Participants"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Azure Blob Storage Inter-continental/Consumption Extended Data Connection Azure Blob Storage Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Azure Blob Storage Inter-continental",
+              "meter_name": "Consumption Extended Data Connection Azure Blob Storage Inter-continental Data Transfer"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Egress": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Egress"
+            },
+            "DZH318Z0SXM0/Consumption Extended Experimentation/Consumption Extended Experimentation Events": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Experimentation",
+              "meter_name": "Consumption Extended Experimentation Events"
+            },
+            "DZH318XZLR4R/Consumption Standard Support Premium/Consumption Standard Support Premium Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Standard Support Premium",
+              "meter_name": "Consumption Standard Support Premium Monthly Subscription"
+            },
+            "DZH318Z0TT1R/Consumption Extended Networking/Consumption Extended Networking Connectivity": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Networking",
+              "meter_name": "Consumption Extended Networking Connectivity"
+            },
+            "DZH318XZP8NG/Consumption Standard Telemetry Events/Consumption Standard Telemetry Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Telemetry Events",
+              "meter_name": "Consumption Standard Telemetry Events Events"
+            },
+            "DZH318XZP8NG/Consumption Extended Event Archive/Consumption Extended Event Archive Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Event Archive",
+              "meter_name": "Consumption Extended Event Archive Events"
+            },
+            "DZH318XZLR4R/Consumption Extended Support Premium/Consumption Extended Support Premium Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Extended Support Premium",
+              "meter_name": "Consumption Extended Support Premium Monthly Subscription"
+            },
+            "DZH318Z0T02J/Consumption Extended Legacy Inventory/Consumption Extended Legacy Inventory Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Legacy Inventory",
+              "meter_name": "Consumption Extended Legacy Inventory Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Statistics/Consumption Standard Statistics Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Statistics",
+              "meter_name": "Consumption Standard Statistics Storage"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Friends/Consumption Standard Friends Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Friends",
+              "meter_name": "Consumption Standard Friends Write Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard Action Executions/Consumption Standard Action Executions Executions": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Action Executions",
+              "meter_name": "Consumption Standard Action Executions Executions"
+            },
+            "DZH318Z0T02J/Consumption Extended Legacy Catalog/Consumption Extended Legacy Catalog Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Legacy Catalog",
+              "meter_name": "Consumption Extended Legacy Catalog Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Statistics/Consumption Extended Statistics Transactional Writes": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Statistics",
+              "meter_name": "Consumption Extended Statistics Transactional Writes"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Leaderboards/Consumption Extended Leaderboards Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Leaderboards",
+              "meter_name": "Consumption Extended Leaderboards Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Extended Custom Telemetry Events/Consumption Extended Custom Telemetry Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Custom Telemetry Events",
+              "meter_name": "Consumption Extended Custom Telemetry Events Events"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Lobby/Consumption Standard Lobby Search": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Lobby",
+              "meter_name": "Consumption Standard Lobby Search"
+            },
+            "DZH318Z0T02J/Consumption Standard Legacy Catalog/Consumption Standard Legacy Catalog Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Legacy Catalog",
+              "meter_name": "Consumption Standard Legacy Catalog Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Shared Group Data/Consumption Extended Shared Group Data Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Shared Group Data",
+              "meter_name": "Consumption Extended Shared Group Data Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Server Networking": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Server Networking"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Groups/Consumption Extended Groups Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Groups",
+              "meter_name": "Consumption Extended Groups Read Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Custom Text Records": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Custom Text Records"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Client Connectivity Minutes": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Client Connectivity Minutes"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Leaderboards/Consumption Extended Leaderboards Storage": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Leaderboards",
+              "meter_name": "Consumption Extended Leaderboards Storage"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Search": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Search"
+            },
+            "DZH318XZP8NG/Consumption Extended Custom PlayStream Events/Consumption Extended Custom PlayStream Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Custom PlayStream Events",
+              "meter_name": "Consumption Extended Custom PlayStream Events Events"
+            },
+            "DZH318Z0SXM0/Consumption Extended Game Configuration/Consumption Extended Game Configuration Egress": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Game Configuration",
+              "meter_name": "Consumption Extended Game Configuration Egress"
+            },
+            "DZH318Z0SXM0/Consumption Standard Title Data/Consumption Standard Title Data Write Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Title Data",
+              "meter_name": "Consumption Standard Title Data Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Statistics/Consumption Standard Statistics Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Statistics",
+              "meter_name": "Consumption Standard Statistics Write Operations"
+            },
+            "DZH318Z0TT1R/Consumption Extended Networking/Consumption Extended Networking Egress": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Networking",
+              "meter_name": "Consumption Extended Networking Egress"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Fabric KQL Database Inter-continental/Consumption Extended Data Connection Fabric KQL Database Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Fabric KQL Database Inter-continental",
+              "meter_name": "Consumption Extended Data Connection Fabric KQL Database Inter-continental Data Transfer"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Fabric KQL Database Inter-continental/Consumption Standard Data Connection Fabric KQL Database Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Fabric KQL Database Inter-continental",
+              "meter_name": "Consumption Standard Data Connection Fabric KQL Database Inter-continental Data Transfer"
+            },
+            "DZH318Z0TT2R/Consumption Standard Shared Group Data/Consumption Standard Shared Group Data Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Shared Group Data",
+              "meter_name": "Consumption Standard Shared Group Data Read Operations"
+            },
+            "DZH318Z0SXM0/Consumption Extended CloudScript/Consumption Extended CloudScript Execution": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended CloudScript",
+              "meter_name": "Consumption Extended CloudScript Execution"
+            },
+            "DZH318Z0TT2R/Consumption Standard Legacy Statistics/Consumption Standard Legacy Statistics Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Legacy Statistics",
+              "meter_name": "Consumption Standard Legacy Statistics Read Operations"
+            },
+            "DZH318Z0T02J/Consumption Extended Legacy Inventory/Consumption Extended Legacy Inventory Read Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Legacy Inventory",
+              "meter_name": "Consumption Extended Legacy Inventory Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Egress": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Egress"
+            },
+            "DZH318XZP8NG/Consumption Extended PlayStream Events/Consumption Extended PlayStream Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended PlayStream Events",
+              "meter_name": "Consumption Extended PlayStream Events Events"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Fabric KQL Database Intra-continental/Consumption Standard Data Connection Fabric KQL Database Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Fabric KQL Database Intra-continental",
+              "meter_name": "Consumption Standard Data Connection Fabric KQL Database Intra-continental Data Transfer"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Explorer Basic/Consumption Standard Data Explorer Basic queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Explorer Basic",
+              "meter_name": "Consumption Standard Data Explorer Basic queries"
+            },
+            "DZH318Z0TT2R/Consumption Standard Player Profile/Consumption Standard Player Profile Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Player Profile",
+              "meter_name": "Consumption Standard Player Profile Read Operations"
+            },
+            "DZH318Z0SXM0/Consumption Standard Experimentation/Consumption Standard Experimentation Events": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Experimentation",
+              "meter_name": "Consumption Standard Experimentation Events"
+            },
+            "DZH318Z0TT2R/Consumption Standard Legacy Statistics/Consumption Standard Legacy Statistics Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Legacy Statistics",
+              "meter_name": "Consumption Standard Legacy Statistics Write Operations"
+            },
+            "DZH318XZLR4R/Consumption Extended Support Essential /Consumption Extended Support Essential Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Extended Support Essential ",
+              "meter_name": "Consumption Extended Support Essential Monthly Subscription"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Speech Translation": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Speech Translation"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Explorer Basic/Consumption Extended Data Explorer Basic queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Explorer Basic",
+              "meter_name": "Consumption Extended Data Explorer Basic queries"
+            },
+            "DZH318Z0T02J/Consumption Extended Inventory/Consumption Extended Inventory Write Operations": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Inventory",
+              "meter_name": "Consumption Extended Inventory Write Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Webhooks/Consumption Standard Webhooks Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Webhooks",
+              "meter_name": "Consumption Standard Webhooks Events"
+            },
+            "DZH318XZP8NG/Consumption Extended Telemetry Events/Consumption Extended Telemetry Events Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Telemetry Events",
+              "meter_name": "Consumption Extended Telemetry Events Events"
+            },
+            "DZH318Z0SXM0/Consumption Standard Game Configuration/Consumption Standard Game Configuration Storage": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Standard Game Configuration",
+              "meter_name": "Consumption Standard Game Configuration Storage"
+            },
+            "DZH318Z0TSPQ/Consumption Extended Player Communications/Consumption Extended Player Communications Client Connectivity Minutes": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Extended Player Communications",
+              "meter_name": "Consumption Extended Player Communications Client Connectivity Minutes"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Metadata Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Metadata Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Azure Data Explorer Inter-continental/Consumption Standard Data Connection Azure Data Explorer Inter-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Azure Data Explorer Inter-continental",
+              "meter_name": "Consumption Standard Data Connection Azure Data Explorer Inter-continental Data Transfer"
+            },
+            "DZH318XZP8NG/Consumption Extended Reports and Trends API Access/Consumption Extended Reports and Trends API Access API Calls": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Reports and Trends API Access",
+              "meter_name": "Consumption Extended Reports and Trends API Access API Calls"
+            },
+            "DZH318Z0SXM0/Consumption Extended Title Data/Consumption Extended Title Data Read Operations": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Title Data",
+              "meter_name": "Consumption Extended Title Data Read Operations"
+            },
+            "DZH318XZP8NG/Consumption Standard Reports and Trends API Access/Consumption Standard Reports and Trends API Access API Calls": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Reports and Trends API Access",
+              "meter_name": "Consumption Standard Reports and Trends API Access API Calls"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Read Operations"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Leaderboards/Consumption Standard Leaderboards Read Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Leaderboards",
+              "meter_name": "Consumption Standard Leaderboards Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Storage"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection Azure Blob Storage Intra-continental/Consumption Extended Data Connection Azure Blob Storage Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection Azure Blob Storage Intra-continental",
+              "meter_name": "Consumption Extended Data Connection Azure Blob Storage Intra-continental Data Transfer"
+            },
+            "DZH318Z0TT1R/Consumption Extended Game Server Hosting/Consumption Extended Game Server Hosting Service Orchestration": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Game Server Hosting",
+              "meter_name": "Consumption Extended Game Server Hosting Service Orchestration"
+            },
+            "DZH318Z0SXM0/Consumption Extended Segment Export/Consumption Extended Segment Export Profiles Exported": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Segment Export",
+              "meter_name": "Consumption Extended Segment Export Profiles Exported"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Player Communications/Consumption Standard Player Communications Text To Speech Characters": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Player Communications",
+              "meter_name": "Consumption Standard Player Communications Text To Speech Characters"
+            },
+            "DZH318Z0SXM0/Consumption Extended Title Data/Consumption Extended Title Data Egress": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Title Data",
+              "meter_name": "Consumption Extended Title Data Egress"
+            },
+            "DZH318XZLR4R/Consumption Standard Support Standard/Consumption Standard Support Standard Monthly Subscription": {
+              "id": "DZH318XZLR4R",
+              "name": "PlayFab Support",
+              "sku_name": "Consumption Standard Support Standard",
+              "meter_name": "Consumption Standard Support Standard Monthly Subscription"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Groups/Consumption Standard Groups Write Operations": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Groups",
+              "meter_name": "Consumption Standard Groups Write Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Statistics/Consumption Extended Statistics Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Statistics",
+              "meter_name": "Consumption Extended Statistics Read Operations"
+            },
+            "DZH318Z0TT1R/Consumption Standard Game Server Hosting/Consumption Standard Game Server Hosting Server List Build Operations": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Game Server Hosting",
+              "meter_name": "Consumption Standard Game Server Hosting Server List Build Operations"
+            },
+            "DZH318Z0SXM0/Consumption Extended Player Churn Prediction/Consumption Extended Player Churn Prediction Participants": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Player Churn Prediction",
+              "meter_name": "Consumption Extended Player Churn Prediction Participants"
+            },
+            "DZH318Z0TT2R/Consumption Standard Game Save/Consumption Standard Game Save Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Game Save",
+              "meter_name": "Consumption Standard Game Save Write Operations"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Storage": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Storage"
+            },
+            "DZH318XZP8NG/Consumption Extended Data Connection AWS S3 Internet/Consumption Extended Data Connection AWS S3 Internet Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Data Connection AWS S3 Internet",
+              "meter_name": "Consumption Extended Data Connection AWS S3 Internet Data Transfer"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save Storage"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size 25MB To 50MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size 25MB To 50MB"
+            },
+            "DZH318Z0TT1R/Consumption Standard Networking/Consumption Standard Networking Egress": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Standard Networking",
+              "meter_name": "Consumption Standard Networking Egress"
+            },
+            "DZH318Z0TT1R/Consumption Extended Lobby/Consumption Extended Lobby Search": {
+              "id": "DZH318Z0TT1R",
+              "name": "PlayFab Multiplayer",
+              "sku_name": "Consumption Extended Lobby",
+              "meter_name": "Consumption Extended Lobby Search"
+            },
+            "DZH318Z0TT2R/Consumption Standard Shared Group Data/Consumption Standard Shared Group Data Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Shared Group Data",
+              "meter_name": "Consumption Standard Shared Group Data Storage"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Content Requests - Size Above 100MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Content Requests - Size Above 100MB"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog MetaData Storage (MB)": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog MetaData Storage (MB)"
+            },
+            "DZH318XZP8NG/Consumption Standard Data Connection Azure Data Explorer Intra-continental/Consumption Standard Data Connection Azure Data Explorer Intra-continental Data Transfer": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Data Connection Azure Data Explorer Intra-continental",
+              "meter_name": "Consumption Standard Data Connection Azure Data Explorer Intra-continental Data Transfer"
+            },
+            "DZH318Z0T02J/Consumption Standard Catalog/Consumption Standard Catalog Search": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Standard Catalog",
+              "meter_name": "Consumption Standard Catalog Search"
+            },
+            "DZH318XZP8NG/Consumption Extended Webhooks/Consumption Extended Webhooks Events": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Extended Webhooks",
+              "meter_name": "Consumption Extended Webhooks Events"
+            },
+            "DZH318Z0TT2R/Consumption Standard Statistics/Consumption Standard Statistics Community Statistic Write Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Standard Statistics",
+              "meter_name": "Consumption Standard Statistics Community Statistic Write Operations"
+            },
+            "DZH318Z0SXM0/Consumption Extended Custom Properties/Consumption Extended Custom Properties Operations Invoked": {
+              "id": "DZH318Z0SXM0",
+              "name": "PlayFab Live Services Configuration",
+              "sku_name": "Consumption Extended Custom Properties",
+              "meter_name": "Consumption Extended Custom Properties Operations Invoked"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size Above 100MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size Above 100MB"
+            },
+            "DZH318Z0T02J/Consumption Extended Catalog/Consumption Extended Catalog Content Requests - Size Up To 1MB": {
+              "id": "DZH318Z0T02J",
+              "name": "PlayFab Economy and UGC",
+              "sku_name": "Consumption Extended Catalog",
+              "meter_name": "Consumption Extended Catalog Content Requests - Size Up To 1MB"
+            },
+            "DZH318Z0TSPQ/Consumption Standard Leaderboards/Consumption Standard Leaderboards Storage": {
+              "id": "DZH318Z0TSPQ",
+              "name": "PlayFab Community",
+              "sku_name": "Consumption Standard Leaderboards",
+              "meter_name": "Consumption Standard Leaderboards Storage"
+            },
+            "DZH318Z0TT2R/Consumption Extended Shared Group Data/Consumption Extended Shared Group Data Read Operations": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Shared Group Data",
+              "meter_name": "Consumption Extended Shared Group Data Read Operations"
+            },
+            "DZH318Z0TT2R/Consumption Extended Game Save/Consumption Extended Game Save MetaData Storage": {
+              "id": "DZH318Z0TT2R",
+              "name": "PlayFab Progression",
+              "sku_name": "Consumption Extended Game Save",
+              "meter_name": "Consumption Extended Game Save MetaData Storage"
+            },
+            "DZH318XZP8NG/Consumption Standard Player Search/Consumption Standard Player Search queries": {
+              "id": "DZH318XZP8NG",
+              "name": "PlayFab Game Data",
+              "sku_name": "Consumption Standard Player Search",
+              "meter_name": "Consumption Standard Player Search queries"
+            }
+          }
+        }
+      }
+    },
+    {
       "name": "Integration",
       "services": {
+        "DZH319T30TWX": {
+          "id": "DZH319T30TWX",
+          "name": "Logic Apps",
+          "products": {
+            "DZH318Z0BQN4/Connectors/Connectors Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Connectors",
+              "meter_name": "Connectors Standard Connector Actions"
+            },
+            "DZH318Z0BQN4/Standard/Standard Memory Duration": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Standard",
+              "meter_name": "Standard Memory Duration"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Agent Loop Output Token": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Agent Loop Output Token"
+            },
+            "DZH318Z0BQN1/Premium/Premium Unit": {
+              "id": "DZH318Z0BQN1",
+              "name": "Logic Apps Integration Account",
+              "sku_name": "Premium",
+              "meter_name": "Premium Unit"
+            },
+            "DZH318Z0C97T/Base/Base Unit": {
+              "id": "DZH318Z0C97T",
+              "name": "Logic Apps Integration Service Environment - Developer",
+              "sku_name": "Base",
+              "meter_name": "Base Unit"
+            },
+            "DZH318Z0BQN4/Connectors/Connectors Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Connectors",
+              "meter_name": "Connectors Data Retention"
+            },
+            "DZH318Z0BQN4/Connectors/Connectors Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Connectors",
+              "meter_name": "Connectors Enterprise Connector Actions"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Agent Loop Input Token": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Agent Loop Input Token"
+            },
+            "DZH318Z0BQN1/Standard/Standard Unit": {
+              "id": "DZH318Z0BQN1",
+              "name": "Logic Apps Integration Account",
+              "sku_name": "Standard",
+              "meter_name": "Standard Unit"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Built-in Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Built-in Actions"
+            },
+            "DZH318Z0BQN1/Basic/Basic Unit": {
+              "id": "DZH318Z0BQN1",
+              "name": "Logic Apps Integration Account",
+              "sku_name": "Basic",
+              "meter_name": "Basic Unit"
+            },
+            "DZH318Z0BQN4/Standard/Standard vCPU Duration": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Standard",
+              "meter_name": "Standard vCPU Duration"
+            },
+            "DZH318Z0BZ0B/Base/Base Unit": {
+              "id": "DZH318Z0BZ0B",
+              "name": "Logic Apps Integration Service Environment",
+              "sku_name": "Base",
+              "meter_name": "Base Unit"
+            },
+            "DZH318Z0BZ0B/Scale/Scale Unit": {
+              "id": "DZH318Z0BZ0B",
+              "name": "Logic Apps Integration Service Environment",
+              "sku_name": "Scale",
+              "meter_name": "Scale Unit"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Data Retention"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Enterprise Connector Actions"
+            },
+            "DZH318Z0BQN4/Consumption/Consumption Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Consumption",
+              "meter_name": "Consumption Standard Connector Actions"
+            }
+          }
+        },
         "DZH3179N6FXW": {
           "id": "DZH3179N6FXW",
           "name": "Service Bus",
@@ -35403,96 +36758,6 @@
               "name": "Service Bus",
               "sku_name": "Basic",
               "meter_name": "Basic Messaging Operations"
-            }
-          }
-        },
-        "DZH319T30TWX": {
-          "id": "DZH319T30TWX",
-          "name": "Logic Apps",
-          "products": {
-            "DZH318Z0BQN4/Standard/Standard Memory Duration": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Standard",
-              "meter_name": "Standard Memory Duration"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Agent Loop Output Token": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Agent Loop Output Token"
-            },
-            "DZH318Z0BQN1/Premium/Premium Unit": {
-              "id": "DZH318Z0BQN1",
-              "name": "Logic Apps Integration Account",
-              "sku_name": "Premium",
-              "meter_name": "Premium Unit"
-            },
-            "DZH318Z0C97T/Base/Base Unit": {
-              "id": "DZH318Z0C97T",
-              "name": "Logic Apps Integration Service Environment - Developer",
-              "sku_name": "Base",
-              "meter_name": "Base Unit"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Agent Loop Input Token": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Agent Loop Input Token"
-            },
-            "DZH318Z0BQN1/Standard/Standard Unit": {
-              "id": "DZH318Z0BQN1",
-              "name": "Logic Apps Integration Account",
-              "sku_name": "Standard",
-              "meter_name": "Standard Unit"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Built-in Actions": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Built-in Actions"
-            },
-            "DZH318Z0BQN1/Basic/Basic Unit": {
-              "id": "DZH318Z0BQN1",
-              "name": "Logic Apps Integration Account",
-              "sku_name": "Basic",
-              "meter_name": "Basic Unit"
-            },
-            "DZH318Z0BQN4/Standard/Standard vCPU Duration": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Standard",
-              "meter_name": "Standard vCPU Duration"
-            },
-            "DZH318Z0BZ0B/Base/Base Unit": {
-              "id": "DZH318Z0BZ0B",
-              "name": "Logic Apps Integration Service Environment",
-              "sku_name": "Base",
-              "meter_name": "Base Unit"
-            },
-            "DZH318Z0BZ0B/Scale/Scale Unit": {
-              "id": "DZH318Z0BZ0B",
-              "name": "Logic Apps Integration Service Environment",
-              "sku_name": "Scale",
-              "meter_name": "Scale Unit"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Data Retention": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Data Retention"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Enterprise Connector Actions": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Enterprise Connector Actions"
-            },
-            "DZH318Z0BQN4/Consumption/Consumption Standard Connector Actions": {
-              "id": "DZH318Z0BQN4",
-              "name": "Logic Apps",
-              "sku_name": "Consumption",
-              "meter_name": "Consumption Standard Connector Actions"
             }
           }
         }
