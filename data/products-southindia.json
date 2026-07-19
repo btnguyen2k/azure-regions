@@ -3,46 +3,16 @@
     {
       "name": "AI \u002B Machine Learning",
       "services": {
-        "DZH316FTM08Z": {
-          "id": "DZH316FTM08Z",
-          "name": "Azure Machine Learning",
-          "products": {
-            "DZH318Z0BZ0X/PB/PB vCPU Surcharge": {
-              "id": "DZH318Z0BZ0X",
-              "name": "Machine Learning service",
-              "sku_name": "PB",
-              "meter_name": "PB vCPU Surcharge"
-            },
-            "DZH318Z0BZ0X/Standard/Standard GPU Surcharge": {
-              "id": "DZH318Z0BZ0X",
-              "name": "Machine Learning service",
-              "sku_name": "Standard",
-              "meter_name": "Standard GPU Surcharge"
-            },
-            "DZH318Z0BZ0X/Standard/Standard Training vCPU Surcharge": {
-              "id": "DZH318Z0BZ0X",
-              "name": "Machine Learning service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Training vCPU Surcharge"
-            },
-            "DZH318Z0BZ0X/Standard/Standard vCPU Surcharge": {
-              "id": "DZH318Z0BZ0X",
-              "name": "Machine Learning service",
-              "sku_name": "Standard",
-              "meter_name": "Standard vCPU Surcharge"
-            },
-            "DZH318Z0BZ0X/Standard/Standard Training GPU Surcharge": {
-              "id": "DZH318Z0BZ0X",
-              "name": "Machine Learning service",
-              "sku_name": "Standard",
-              "meter_name": "Standard Training GPU Surcharge"
-            }
-          }
-        },
         "DZH31600VF1F": {
           "id": "DZH31600VF1F",
           "name": "Foundry Models",
           "products": {
+            "DZH318Z0T9WD/5.6 terra ShortCo Cd Wr PP Gl/5.6 terra ShortCo Cd Wr PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Cd Wr PP Gl",
+              "meter_name": "5.6 terra ShortCo Cd Wr PP Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/Image 2 txt inp Gl/Image 2 txt inp Gl 1M Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
@@ -96,6 +66,12 @@
               "name": "Azure Mistral Models",
               "sku_name": "OCR glbl",
               "meter_name": "OCR glbl Pages"
+            },
+            "DZH318Z0T9WD/5.6 terra LongCo Opt Std Gl/5.6 terra LongCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra LongCo Opt Std Gl",
+              "meter_name": "5.6 terra LongCo Opt Std Gl 1M Tokens"
             },
             "DZH318Z0T7L1/V3.2 SP Inp glbl/V3.2 SP Inp glbl Tokens": {
               "id": "DZH318Z0T7L1",
@@ -168,6 +144,12 @@
               "name": "Azure Grok Models",
               "sku_name": "Code Fast 1 Outp glbl",
               "meter_name": "Code Fast 1 Outp glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 sol LongCo Inp Std Gl/5.6 sol LongCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol LongCo Inp Std Gl",
+              "meter_name": "5.6 sol LongCo Inp Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-mini-transcribe-txt-inp-glbl/gpt-4o-mini-transcribe-txt-inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -421,6 +403,12 @@
               "sku_name": "Grok 4.1 Inp Glbl",
               "meter_name": "Grok 4.1 Inp Glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra LongCo Cd Wr Std Gl/5.6 terra LongCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra LongCo Cd Wr Std Gl",
+              "meter_name": "5.6 terra LongCo Cd Wr Std Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/gpt-realtime-2 Text opt Gl/gpt-realtime-2 Text opt Gl 1M Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
@@ -456,6 +444,12 @@
               "name": "Azure Mistral Models",
               "sku_name": "MM3.5 Inp glbl",
               "meter_name": "MM3.5 Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 sol LongCo Cd Wr Std Gl/5.6 sol LongCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol LongCo Cd Wr Std Gl",
+              "meter_name": "5.6 sol LongCo Cd Wr Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-mini-dev-ft opt glbl/gpt-4.1-mini-dev-ft opt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -678,6 +672,18 @@
               "name": "Azure OpenAI PP FT GPT4s",
               "sku_name": "4.1 mini pp Inp Gl",
               "meter_name": "4.1 mini pp Inp Gl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 sol ShortCo Opt Std Gl/5.6 sol ShortCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Opt Std Gl",
+              "meter_name": "5.6 sol ShortCo Opt Std Gl 1M Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Audio cd inp Gl/gpt-realtime-2.1 Audio cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Audio cd inp Gl",
+              "meter_name": "gpt-realtime-2.1 Audio cd inp Gl 1M Tokens"
             },
             "DZH318Z0TPCM/Provisioned Managed Regional/Provisioned Managed Regional Unit": {
               "id": "DZH318Z0TPCM",
@@ -1003,6 +1009,12 @@
               "sku_name": "Llama3.3 70b-IN-FT",
               "meter_name": "Llama3.3 70b-IN-FT Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol LongCo Cd Inp Std Gl/5.6 sol LongCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol LongCo Cd Inp Std Gl",
+              "meter_name": "5.6 sol LongCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0SLDG/Embed v4 Txt Glbl/Embed v4 Txt Glbl Tokens": {
               "id": "DZH318Z0SLDG",
               "name": "Cohere Models",
@@ -1045,6 +1057,12 @@
               "sku_name": "o3 mini 0131 input glbl",
               "meter_name": "o3 mini 0131 input glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol ShortCo Inp Std Gl/5.6 sol ShortCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Inp Std Gl",
+              "meter_name": "5.6 sol ShortCo Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0TDSR/o4-mini-ft hosting global/o4-mini-ft hosting global Unit": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
@@ -1081,11 +1099,23 @@
               "sku_name": "GPT 5.2 opt Dz",
               "meter_name": "GPT 5.2 opt Dz 1M Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Text opt Gl/gpt-realtime-2.1 Text opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Text opt Gl",
+              "meter_name": "gpt-realtime-2.1 Text opt Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/gpt rt aud 0828 Inp glbl/gpt rt aud 0828 Inp glbl Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
               "sku_name": "gpt rt aud 0828 Inp glbl",
               "meter_name": "gpt rt aud 0828 Inp glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Cd Wr Std Gl/5.6 luna ShortCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Cd Wr Std Gl",
+              "meter_name": "5.6 luna ShortCo Cd Wr Std Gl 1M Tokens"
             },
             "DZH318Z0T9WD/5.4 mini Inp Dz/5.4 mini Inp Dz 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -1279,6 +1309,12 @@
               "sku_name": "codex mini out glbl",
               "meter_name": "codex mini out glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 luna ShortCo Cd Inp Std Gl/5.6 luna ShortCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Cd Inp Std Gl",
+              "meter_name": "5.6 luna ShortCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318XZPC51/text embedding 3 small DZ/text embedding 3 small DZ Tokens": {
               "id": "DZH318XZPC51",
               "name": "Azure OpenAI Embedding",
@@ -1303,6 +1339,12 @@
               "sku_name": "gpt-4o-rt-txt-1217 cchd Inp glbl",
               "meter_name": "gpt-4o-rt-txt-1217 cchd Inp glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol ShortCo Inp PP Gl/5.6 sol ShortCo Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Inp PP Gl",
+              "meter_name": "5.6 sol ShortCo Inp PP Gl 1M Tokens"
+            },
             "DZH318Z0TDSR/o3-deep research 0626-out-glbl/o3-deep research 0626-out-glbl 1M Tokens": {
               "id": "DZH318Z0TDSR",
               "name": "Azure OpenAI Reasoning",
@@ -1326,6 +1368,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-image-1-inp-img-glbl",
               "meter_name": "gpt-image-1-inp-img-glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 sol ShortCo Cd Wr Std Gl/5.6 sol ShortCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Cd Wr Std Gl",
+              "meter_name": "5.6 sol ShortCo Cd Wr Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4o-0806-Batch-Outp-glbl/gpt-4o-0806-Batch-Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1495,11 +1543,23 @@
               "sku_name": "chat-latest 05282026 cd inp Gl",
               "meter_name": "chat-latest 05282026 cd inp Gl 1M Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol ShortCo Opt PP Gl/5.6 sol ShortCo Opt PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Opt PP Gl",
+              "meter_name": "5.6 sol ShortCo Opt PP Gl 1M Tokens"
+            },
             "DZH318Z0V4HX/Flux 1.1 Pro glbl/Flux 1.1 Pro glbl Images": {
               "id": "DZH318Z0V4HX",
               "name": "Azure BFL Flux Models",
               "sku_name": "Flux 1.1 Pro glbl",
               "meter_name": "Flux 1.1 Pro glbl Images"
+            },
+            "DZH318Z0T9WD/5.6 terra ShortCo Cd Inp PP Gl/5.6 terra ShortCo Cd Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Cd Inp PP Gl",
+              "meter_name": "5.6 terra ShortCo Cd Inp PP Gl 1M Tokens"
             },
             "DZH318Z0HHG7/computer-use-outp-glbl/computer-use-outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1597,6 +1657,12 @@
               "sku_name": "gpt4o realtime prvw text inp glbl",
               "meter_name": "gpt4o realtime prvw text inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Audio inp Gl/gpt-realtime-2.1 Audio inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Audio inp Gl",
+              "meter_name": "gpt-realtime-2.1 Audio inp Gl 1M Tokens"
+            },
             "DZH318Z0RZDT/4.1 pp cd inp Gl/4.1 pp cd inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
               "name": "Azure OpenAI PP FT GPT4s",
@@ -1614,6 +1680,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "5.4 pro longco batch opt Gl",
               "meter_name": "5.4 pro longco batch opt Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 sol LongCo Opt Std Gl/5.6 sol LongCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol LongCo Opt Std Gl",
+              "meter_name": "5.6 sol LongCo Opt Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4-8K-Batch-Outp-glbl/gpt-4-8K-Batch-Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1639,6 +1711,18 @@
               "sku_name": "5.4 mini Batch Inp Gl",
               "meter_name": "5.4 mini Batch Inp Gl 1M Tokens"
             },
+            "DZH318Z0T9WD/5.6 luna ShortCo Inp PP Gl/5.6 luna ShortCo Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Inp PP Gl",
+              "meter_name": "5.6 luna ShortCo Inp PP Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Cd Wr PP Gl/5.6 luna ShortCo Cd Wr PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Cd Wr PP Gl",
+              "meter_name": "5.6 luna ShortCo Cd Wr PP Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/GPT 5.2 cd inp Gl/GPT 5.2 cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -1650,6 +1734,12 @@
               "name": "Azure Llama Models",
               "sku_name": "Llama 4 Maverick 17B Inp glbl",
               "meter_name": "Llama 4 Maverick 17B Inp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Text cd inp Gl/gpt-realtime-2.1 Text cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Text cd inp Gl",
+              "meter_name": "gpt-realtime-2.1 Text cd inp Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-35-turbo-16K-1106 Input-regional/gpt-35-turbo-16K-1106 Input-regional Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1699,6 +1789,12 @@
               "sku_name": "gpt-4.1-mini-dev-ft inpt glbl",
               "meter_name": "gpt-4.1-mini-dev-ft inpt glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol ShortCo Cd Wr PP Gl/5.6 sol ShortCo Cd Wr PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Cd Wr PP Gl",
+              "meter_name": "5.6 sol ShortCo Cd Wr PP Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5.4 pro inp Gl/5.4 pro inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -1717,6 +1813,12 @@
               "sku_name": "V3.2 Outp glbl",
               "meter_name": "V3.2 Outp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Text cd inp Gl/gpt-realtime-2.1-mini Text cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Text cd inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Text cd inp Gl 1M Tokens"
+            },
             "DZH318Z0RZDT/4.1 pp inp Gl/4.1 pp inp Gl Tokens": {
               "id": "DZH318Z0RZDT",
               "name": "Azure OpenAI PP FT GPT4s",
@@ -1728,6 +1830,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt4omini-rt-txt1217 Inp glbl",
               "meter_name": "gpt4omini-rt-txt1217 Inp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Text inp Gl/gpt-realtime-2.1 Text inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Text inp Gl",
+              "meter_name": "gpt-realtime-2.1 Text inp Gl 1M Tokens"
             },
             "DZH318Z0HHG7/o1 1217 Batch Outp glbl/o1 1217 Batch Outp glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -1794,6 +1902,12 @@
               "name": "Azure OpenAI Media",
               "sku_name": "gpt4o mn tts txt in gl 1215",
               "meter_name": "gpt4o mn tts txt in gl 1215 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Cd Inp PP Gl/5.6 luna ShortCo Cd Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Cd Inp PP Gl",
+              "meter_name": "5.6 luna ShortCo Cd Inp PP Gl 1M Tokens"
             },
             "DZH318Z0T9WD/5.4 Batch cd inp Gl/5.4 Batch cd inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -1932,6 +2046,12 @@
               "name": "Azure Deepseek Models",
               "sku_name": "V4 Flash Inp glbl",
               "meter_name": "V4 Flash Inp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Text opt Gl/gpt-realtime-2.1-mini Text opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Text opt Gl",
+              "meter_name": "gpt-realtime-2.1-mini Text opt Gl 1M Tokens"
             },
             "DZH318Z0HHG7/embedding-ada-glbl/embedding-ada-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2197,6 +2317,12 @@
               "sku_name": "gpt 4o mini 0718 cached Inp glbl",
               "meter_name": "gpt 4o mini 0718 cached Inp glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 luna LongCo Cd Inp Std Gl/5.6 luna LongCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna LongCo Cd Inp Std Gl",
+              "meter_name": "5.6 luna LongCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0T879/4.3 Cached Inp Glbl/4.3 Cached Inp Glbl Tokens": {
               "id": "DZH318Z0T879",
               "name": "Azure Grok Models",
@@ -2221,11 +2347,23 @@
               "sku_name": "Large 3 Outp glbl",
               "meter_name": "Large 3 Outp glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra ShortCo Inp PP Gl/5.6 terra ShortCo Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Inp PP Gl",
+              "meter_name": "5.6 terra ShortCo Inp PP Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/gpt aud 1.5 inp Gl/gpt aud 1.5 inp Gl 1M Tokens": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
               "sku_name": "gpt aud 1.5 inp Gl",
               "meter_name": "gpt aud 1.5 inp Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna LongCo Inp Std Gl/5.6 luna LongCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna LongCo Inp Std Gl",
+              "meter_name": "5.6 luna LongCo Inp Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4.1-dev-ft inpt glbl/gpt-4.1-dev-ft inpt glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2244,6 +2382,18 @@
               "name": "Azure OpenAI Media",
               "sku_name": "Image 2 img cd inp Gl",
               "meter_name": "Image 2 img cd inp Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna LongCo Opt Std Gl/5.6 luna LongCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna LongCo Opt Std Gl",
+              "meter_name": "5.6 luna LongCo Opt Std Gl 1M Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Audio opt Gl/gpt-realtime-2.1-mini Audio opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Audio opt Gl",
+              "meter_name": "gpt-realtime-2.1-mini Audio opt Gl 1M Tokens"
             },
             "DZH318Z0T9WD/5.4 pro Batch inp Gl/5.4 pro Batch inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -2299,6 +2449,12 @@
               "sku_name": "V3.2 Inp DZ",
               "meter_name": "V3.2 Inp DZ Tokens"
             },
+            "DZH318Z0T9WD/5.6 sol ShortCo Cd Inp Std Gl/5.6 sol ShortCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Cd Inp Std Gl",
+              "meter_name": "5.6 sol ShortCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0SDFC/Qwen3 32B FT/Qwen3 32B FT Tokens": {
               "id": "DZH318Z0SDFC",
               "name": "Qwen models",
@@ -2352,6 +2508,18 @@
               "name": "Azure OpenAI Media",
               "sku_name": "gpt img 1.5 in txt gl",
               "meter_name": "gpt img 1.5 in txt gl 1M Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Audio opt Gl/gpt-realtime-2.1 Audio opt Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Audio opt Gl",
+              "meter_name": "gpt-realtime-2.1 Audio opt Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Inp Std Gl/5.6 luna ShortCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Inp Std Gl",
+              "meter_name": "5.6 luna ShortCo Inp Std Gl 1M Tokens"
             },
             "DZH318Z0V4PL/gpt aud mn out gl 1215/gpt aud mn out gl 1215 1M Tokens": {
               "id": "DZH318Z0V4PL",
@@ -2497,6 +2665,12 @@
               "sku_name": "Image 2 txt cd inp Gl",
               "meter_name": "Image 2 txt cd inp Gl 1M Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra LongCo Inp Std Gl/5.6 terra LongCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra LongCo Inp Std Gl",
+              "meter_name": "5.6 terra LongCo Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5.1 pp inp Gl/5.1 pp inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -2521,6 +2695,18 @@
               "sku_name": "gpt rt aud mini cchd Inp glbl",
               "meter_name": "gpt rt aud mini cchd Inp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Image inp Gl/gpt-realtime-2.1-mini Image inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Image inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Image inp Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 terra ShortCo Opt Std Gl/5.6 terra ShortCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Opt Std Gl",
+              "meter_name": "5.6 terra ShortCo Opt Std Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5 mini pp cd Inp Gl/5 mini pp cd Inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -2544,6 +2730,12 @@
               "name": "Azure Mistral Models",
               "sku_name": "OCR 4 annot glbl",
               "meter_name": "OCR 4 annot glbl Pages"
+            },
+            "DZH318Z0T9WD/5.6 sol ShortCo Cd Inp PP Gl/5.6 sol ShortCo Cd Inp PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 sol ShortCo Cd Inp PP Gl",
+              "meter_name": "5.6 sol ShortCo Cd Inp PP Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4-turbo128K Outp-glbl/gpt-4-turbo128K Outp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -2623,6 +2815,12 @@
               "sku_name": "5.4 mini cd Inp Gl",
               "meter_name": "5.4 mini cd Inp Gl 1M Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Audio inp Gl/gpt-realtime-2.1-mini Audio inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Audio inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Audio inp Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/5.4 longco opt Dz/5.4 longco opt Dz 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -2694,6 +2892,12 @@
               "name": "Azure OpenAI GPT5",
               "sku_name": "5 mini pp Opt Gl",
               "meter_name": "5 mini pp Opt Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Opt PP Gl/5.6 luna ShortCo Opt PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Opt PP Gl",
+              "meter_name": "5.6 luna ShortCo Opt PP Gl 1M Tokens"
             },
             "DZH318Z0T9WD/chat-latest 05282026 opt Gl/chat-latest 05282026 opt Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -2911,6 +3115,12 @@
               "sku_name": "gpt-4o-aud-1217 Outp glbl",
               "meter_name": "gpt-4o-aud-1217 Outp glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Image cd inp Gl/gpt-realtime-2.1-mini Image cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Image cd inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Image cd inp Gl 1M Tokens"
+            },
             "DZH318Z0T9WD/chat-latest 05282026 inp Gl/chat-latest 05282026 inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
               "name": "Azure OpenAI GPT5",
@@ -2958,6 +3168,18 @@
               "name": "Azure Grok Models",
               "sku_name": "Grok4 Fast Outp glbl",
               "meter_name": "Grok4 Fast Outp glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna LongCo Cd Wr Std Gl/5.6 luna LongCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna LongCo Cd Wr Std Gl",
+              "meter_name": "5.6 luna LongCo Cd Wr Std Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 luna ShortCo Opt Std Gl/5.6 luna ShortCo Opt Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 luna ShortCo Opt Std Gl",
+              "meter_name": "5.6 luna ShortCo Opt Std Gl 1M Tokens"
             },
             "DZH318XZQNK1/Image 2 Text Input glbl/Image 2 Text Input glbl Tokens": {
               "id": "DZH318XZQNK1",
@@ -3067,6 +3289,12 @@
               "sku_name": "gpt aud 0828 txt Inp glbl",
               "meter_name": "gpt aud 0828 txt Inp glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra LongCo Cd Inp Std Gl/5.6 terra LongCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra LongCo Cd Inp Std Gl",
+              "meter_name": "5.6 terra LongCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0SDFC/Qwen3 32B-Out-FT/Qwen3 32B-Out-FT Tokens": {
               "id": "DZH318Z0SDFC",
               "name": "Qwen models",
@@ -3109,11 +3337,23 @@
               "sku_name": "gpt-4.1-dev-ft opt glbl",
               "meter_name": "gpt-4.1-dev-ft opt glbl Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Audio cd inp Gl/gpt-realtime-2.1-mini Audio cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Audio cd inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Audio cd inp Gl 1M Tokens"
+            },
             "DZH318Z0V4PL/gpt-realtime-translate Opt Gl/gpt-realtime-translate Opt Gl Unit": {
               "id": "DZH318Z0V4PL",
               "name": "Azure OpenAI Media",
               "sku_name": "gpt-realtime-translate Opt Gl",
               "meter_name": "gpt-realtime-translate Opt Gl Unit"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1-mini Text inp Gl/gpt-realtime-2.1-mini Text inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1-mini Text inp Gl",
+              "meter_name": "gpt-realtime-2.1-mini Text inp Gl 1M Tokens"
             },
             "DZH318Z0TPCM/Codestral Inp glbl/Codestral Inp glbl Tokens": {
               "id": "DZH318Z0TPCM",
@@ -3193,6 +3433,12 @@
               "sku_name": "5.4 nano Inp Dz",
               "meter_name": "5.4 nano Inp Dz 1M Tokens"
             },
+            "DZH318Z0SLDG/Command A Plus Inp Glbl/Command A Plus Inp Glbl 1M Tokens": {
+              "id": "DZH318Z0SLDG",
+              "name": "Cohere Models",
+              "sku_name": "Command A Plus Inp Glbl",
+              "meter_name": "Command A Plus Inp Glbl 1M Tokens"
+            },
             "DZH318Z0T9X1/Llama 4 Maverick 17B Outp glbl/Llama 4 Maverick 17B Outp glbl Tokens": {
               "id": "DZH318Z0T9X1",
               "name": "Azure Llama Models",
@@ -3258,6 +3504,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt 4o 1120 cached Inp glbl",
               "meter_name": "gpt 4o 1120 cached Inp glbl Tokens"
+            },
+            "DZH318Z0SLDG/Command A Plus Outp Glbl/Command A Plus Outp Glbl 1M Tokens": {
+              "id": "DZH318Z0SLDG",
+              "name": "Cohere Models",
+              "sku_name": "Command A Plus Outp Glbl",
+              "meter_name": "Command A Plus Outp Glbl 1M Tokens"
             },
             "DZH318Z0T9WD/5.3 codex cd inp Dz/5.3 codex cd inp Dz 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -3457,6 +3709,12 @@
               "sku_name": "o4-mini-ft cached input global",
               "meter_name": "o4-mini-ft cached input global Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra ShortCo Cd Inp Std Gl/5.6 terra ShortCo Cd Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Cd Inp Std Gl",
+              "meter_name": "5.6 terra ShortCo Cd Inp Std Gl 1M Tokens"
+            },
             "DZH318Z0HHG7/Provisioned Managed Global/Provisioned Managed Global Unit": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -3493,6 +3751,12 @@
               "sku_name": "K2 Thinking Inp DZ",
               "meter_name": "K2 Thinking Inp DZ Tokens"
             },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Image cd inp Gl/gpt-realtime-2.1 Image cd inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Image cd inp Gl",
+              "meter_name": "gpt-realtime-2.1 Image cd inp Gl 1M Tokens"
+            },
             "DZH318Z0HHG7/gpt-4.1-nano-ft output global/gpt-4.1-nano-ft output global Tokens": {
               "id": "DZH318Z0HHG7",
               "name": "Azure OpenAI",
@@ -3504,6 +3768,12 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt-4o-transcribe-aud-inp-glbl",
               "meter_name": "gpt-4o-transcribe-aud-inp-glbl Tokens"
+            },
+            "DZH318Z0T9WD/5.6 terra ShortCo Inp Std Gl/5.6 terra ShortCo Inp Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Inp Std Gl",
+              "meter_name": "5.6 terra ShortCo Inp Std Gl 1M Tokens"
             },
             "DZH318Z0T9WD/5.5 ShortCo Batch inp Gl/5.5 ShortCo Batch inp Gl 1M Tokens": {
               "id": "DZH318Z0T9WD",
@@ -3534,6 +3804,12 @@
               "name": "Azure OpenAI Media",
               "sku_name": "gpt rt 1.5 txt cd inp Gl",
               "meter_name": "gpt rt 1.5 txt cd inp Gl 1M Tokens"
+            },
+            "DZH318Z0T9WD/5.6 terra ShortCo Cd Wr Std Gl/5.6 terra ShortCo Cd Wr Std Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Cd Wr Std Gl",
+              "meter_name": "5.6 terra ShortCo Cd Wr Std Gl 1M Tokens"
             },
             "DZH318Z0HHG7/gpt-4-turbo128K Inp-glbl/gpt-4-turbo128K Inp-glbl Tokens": {
               "id": "DZH318Z0HHG7",
@@ -3613,6 +3889,12 @@
               "sku_name": "o3 mini 0131 cached input glbl",
               "meter_name": "o3 mini 0131 cached input glbl Tokens"
             },
+            "DZH318Z0T9WD/5.6 terra ShortCo Opt PP Gl/5.6 terra ShortCo Opt PP Gl 1M Tokens": {
+              "id": "DZH318Z0T9WD",
+              "name": "Azure OpenAI GPT5",
+              "sku_name": "5.6 terra ShortCo Opt PP Gl",
+              "meter_name": "5.6 terra ShortCo Opt PP Gl 1M Tokens"
+            },
             "DZH318Z0TPCM/OCR 2512 glbl/OCR 2512 glbl Pages": {
               "id": "DZH318Z0TPCM",
               "name": "Azure Mistral Models",
@@ -3624,6 +3906,48 @@
               "name": "Azure OpenAI",
               "sku_name": "gpt4omini-rt-aud1217 Outp glbl",
               "meter_name": "gpt4omini-rt-aud1217 Outp glbl Tokens"
+            },
+            "DZH318Z0V4PL/gpt-realtime-2.1 Image inp Gl/gpt-realtime-2.1 Image inp Gl 1M Tokens": {
+              "id": "DZH318Z0V4PL",
+              "name": "Azure OpenAI Media",
+              "sku_name": "gpt-realtime-2.1 Image inp Gl",
+              "meter_name": "gpt-realtime-2.1 Image inp Gl 1M Tokens"
+            }
+          }
+        },
+        "DZH316FTM08Z": {
+          "id": "DZH316FTM08Z",
+          "name": "Azure Machine Learning",
+          "products": {
+            "DZH318Z0BZ0X/PB/PB vCPU Surcharge": {
+              "id": "DZH318Z0BZ0X",
+              "name": "Machine Learning service",
+              "sku_name": "PB",
+              "meter_name": "PB vCPU Surcharge"
+            },
+            "DZH318Z0BZ0X/Standard/Standard GPU Surcharge": {
+              "id": "DZH318Z0BZ0X",
+              "name": "Machine Learning service",
+              "sku_name": "Standard",
+              "meter_name": "Standard GPU Surcharge"
+            },
+            "DZH318Z0BZ0X/Standard/Standard Training vCPU Surcharge": {
+              "id": "DZH318Z0BZ0X",
+              "name": "Machine Learning service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Training vCPU Surcharge"
+            },
+            "DZH318Z0BZ0X/Standard/Standard vCPU Surcharge": {
+              "id": "DZH318Z0BZ0X",
+              "name": "Machine Learning service",
+              "sku_name": "Standard",
+              "meter_name": "Standard vCPU Surcharge"
+            },
+            "DZH318Z0BZ0X/Standard/Standard Training GPU Surcharge": {
+              "id": "DZH318Z0BZ0X",
+              "name": "Machine Learning service",
+              "sku_name": "Standard",
+              "meter_name": "Standard Training GPU Surcharge"
             }
           }
         },
@@ -10095,6 +10419,12 @@
               "sku_name": "D64lds v6 Spot",
               "meter_name": "D64lds v6 Spot"
             },
+            "DZH318Z0M2S2/L2s v4 Spot/L2s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L2s v4 Spot",
+              "meter_name": "L2s v4 Spot"
+            },
             "DZH318Z093WX/E20ads v5 Spot/E20ads v5 Spot": {
               "id": "DZH318Z093WX",
               "name": "Virtual Machines Eadsv5 Series Windows",
@@ -11564,6 +11894,12 @@
               "name": "Virtual Machines Eadsv5 Series",
               "sku_name": "E2ads v5 Low Priority",
               "meter_name": "E2ads v5 Low Priority"
+            },
+            "DZH318Z0M2S2/L16s v4 Spot/L16s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L16s v4 Spot",
+              "meter_name": "L16s v4 Spot"
             },
             "DZH318Z0H7F2/FX8-4ms_v2/FX8-4ms_v2": {
               "id": "DZH318Z0H7F2",
@@ -14511,6 +14847,12 @@
               "sku_name": "E2as v5 Low Priority",
               "meter_name": "E2as v5 Low Priority"
             },
+            "DZH318Z0M2S2/L80s v4/L80s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L80s v4",
+              "meter_name": "L80s v4"
+            },
             "DZH318Z0K7B2/Standard_M12s_v3/Standard_M12s_v3": {
               "id": "DZH318Z0K7B2",
               "name": "Virtual Machines Msv3 Medium Memory Series Linux",
@@ -14648,6 +14990,12 @@
               "name": "Virtual Machines Dlsv5 Series Windows",
               "sku_name": "D64ls v5 Low Priority",
               "meter_name": "D64ls v5 Low Priority"
+            },
+            "DZH318Z0M2S2/L64s v4 Spot/L64s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L64s v4 Spot",
+              "meter_name": "L64s v4 Spot"
             },
             "DZH318Z0BPW1/A2m v2 Low Priority/A2m v2 Low Priority": {
               "id": "DZH318Z0BPW1",
@@ -18219,6 +18567,12 @@
               "sku_name": "Standard_L8as_v3 Low Priority",
               "meter_name": "L8as v3 Low Priority"
             },
+            "DZH318Z0M2S2/L32s v4 Spot/L32s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L32s v4 Spot",
+              "meter_name": "L32s v4 Spot"
+            },
             "DZH318Z08NQZ/standard_DC2s_v3 Spot/DC2s_v3 Spot": {
               "id": "DZH318Z08NQZ",
               "name": "DCsv3 Series Windows",
@@ -20451,6 +20805,12 @@
               "sku_name": "D32s v4 Low Priority",
               "meter_name": "D32s v4 Low Priority"
             },
+            "DZH318Z0M2S2/L80s v4 Spot/L80s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L80s v4 Spot",
+              "meter_name": "L80s v4 Spot"
+            },
             "DZH318Z09LR4/Standard_E8bs_v5 Spot/E8bs v5 Spot": {
               "id": "DZH318Z09LR4",
               "name": "Virtual Machines Ebsv5 Series Windows",
@@ -20732,6 +21092,12 @@
               "name": "Virtual Machines Esv4 Series",
               "sku_name": "E8-2s v4 Spot",
               "meter_name": "E8-2s v4 Spot"
+            },
+            "DZH318Z0M2S2/L64s v4/L64s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L64s v4",
+              "meter_name": "L64s v4"
             },
             "DZH318Z0D1L7/E20 v4/E20 v4": {
               "id": "DZH318Z0D1L7",
@@ -21549,6 +21915,12 @@
               "sku_name": "D96ns v6 Spot",
               "meter_name": "D96ns v6 Spot"
             },
+            "DZH318Z0M2S2/L4s v4/L4s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L4s v4",
+              "meter_name": "L4s v4"
+            },
             "DZH318Z0FXXJ/F2as v6 Spot/F2as v6 Spot": {
               "id": "DZH318Z0FXXJ",
               "name": "Virtual Machines Fasv6 Series",
@@ -21866,6 +22238,12 @@
               "name": "Virtual Machines FXmsv2 Series Windows",
               "sku_name": "FX96ms v2",
               "meter_name": "FX96ms v2"
+            },
+            "DZH318Z0M2S2/L32s v4/L32s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L32s v4",
+              "meter_name": "L32s v4"
             },
             "DZH318Z0FZ08/F8als v6 Spot/F8als v6 Spot": {
               "id": "DZH318Z0FZ08",
@@ -23289,6 +23667,12 @@
               "sku_name": "Standard_M176ds_4_v3",
               "meter_name": "Standard_M176ds_4_v3"
             },
+            "DZH318Z0M2S2/L16s v4/L16s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L16s v4",
+              "meter_name": "L16s v4"
+            },
             "DZH318Z0LDPG/E32ns v6/E32ns v6": {
               "id": "DZH318Z0LDPG",
               "name": "Virtual Machines Ensv6 Series Linux",
@@ -24140,6 +24524,12 @@
               "name": "Virtual Machines Bsv2 Series",
               "sku_name": "B32s v2 Spot",
               "meter_name": "B32s v2 Spot"
+            },
+            "DZH318Z0M2S2/L48s v4 Spot/L48s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L48s v4 Spot",
+              "meter_name": "L48s v4 Spot"
             },
             "DZH318Z08NR0/standard_DC32s_v3/DC32s_v3": {
               "id": "DZH318Z08NR0",
@@ -26079,6 +26469,12 @@
               "sku_name": "E16as v5 Low Priority",
               "meter_name": "E16as v5 Low Priority"
             },
+            "DZH318Z0M2S2/L96s v4/L96s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L96s v4",
+              "meter_name": "L96s v4"
+            },
             "DZH318Z093XK/E96-48as v5 Low Priority/E96-48as v5 Low Priority": {
               "id": "DZH318Z093XK",
               "name": "Virtual Machines Easv5 Series Windows",
@@ -26877,6 +27273,12 @@
               "sku_name": "DS11 v2",
               "meter_name": "DS11 v2"
             },
+            "DZH318Z0M2S2/L96s v4 Spot/L96s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L96s v4 Spot",
+              "meter_name": "L96s v4 Spot"
+            },
             "DZH318Z08M9F/Standard_D32d_v5 Spot/D32d v5 Spot": {
               "id": "DZH318Z08M9F",
               "name": "Virtual Machines Ddv5 Series Windows",
@@ -27363,6 +27765,12 @@
               "sku_name": "D8 v3 Low Priority",
               "meter_name": "D8 v3/D8s v3 Low Priority"
             },
+            "DZH318Z0M2S2/L2s v4/L2s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L2s v4",
+              "meter_name": "L2s v4"
+            },
             "DZH318Z0GNHP/E2ds v6 Spot/E2ds v6 Spot": {
               "id": "DZH318Z0GNHP",
               "name": "Virtual Machines Edsv6 Series Windows",
@@ -27590,6 +27998,12 @@
               "name": "Virtual Machines Msv3 High Memory Series Linux",
               "sku_name": "Standard_M832-208s_12_v3",
               "meter_name": "Standard_M832-208s_12_v3"
+            },
+            "DZH318Z0M2S2/L8s v4 Spot/L8s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L8s v4 Spot",
+              "meter_name": "L8s v4 Spot"
             },
             "DZH318Z08W0T/Standard_D16as_v5 Low Priority/D16as v5 Low Priority": {
               "id": "DZH318Z08W0T",
@@ -29138,6 +29552,12 @@
               "name": "Virtual Machines DSv2 Series",
               "sku_name": "DS15 v2 Spot",
               "meter_name": "DS15 v2 Spot"
+            },
+            "DZH318Z0M2S2/L48s v4/L48s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L48s v4",
+              "meter_name": "L48s v4"
             },
             "DZH318Z08LV1/M128ds_v2/M128ds_v2": {
               "id": "DZH318Z08LV1",
@@ -32222,6 +32642,12 @@
               "name": "Virtual Machines Dlsv5 Series",
               "sku_name": "D64ls v5 Spot",
               "meter_name": "D64ls v5 Spot"
+            },
+            "DZH318Z0M2S2/L4s v4 Spot/L4s v4 Spot": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L4s v4 Spot",
+              "meter_name": "L4s v4 Spot"
             },
             "DZH318Z08M9R/Standard_E32d_v5 Spot/E32d v5 Spot": {
               "id": "DZH318Z08M9R",
@@ -35342,6 +35768,12 @@
               "name": "Virtual Machines Eadsv6 Series",
               "sku_name": "E32ads v6",
               "meter_name": "E32ads v6"
+            },
+            "DZH318Z0M2S2/L8s v4/L8s v4": {
+              "id": "DZH318Z0M2S2",
+              "name": "Virtual Machines Lsv4 Series",
+              "sku_name": "L8s v4",
+              "meter_name": "L8s v4"
             },
             "DZH318Z0K9JH/B4as v2/B4as v2": {
               "id": "DZH318Z0K9JH",
@@ -43219,6 +43651,12 @@
               "sku_name": "Onelake BCDR Storage Cool",
               "meter_name": "Onelake BCDR Storage Cool Data Stored"
             },
+            "DZH318Z0KCZ7/OneLake Other Operations Cool Capacity Usage/OneLake Other Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Other Operations Cool Capacity Usage",
+              "meter_name": "OneLake Other Operations Cool Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Ontology AI Capacity Usage/Ontology AI Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -43243,11 +43681,47 @@
               "sku_name": "OneLake BCDR Iterative Read Operation Hot Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Read Operation Hot Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake Iterative Write Operations Cool Capacity Usage/OneLake Iterative Write Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Iterative Write Operations Cool Capacity Usage",
+              "meter_name": "OneLake Iterative Write Operations Cool Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Fabric Planning - Stakeholder Sessions Capacity Usage/Fabric Planning - Stakeholder Sessions Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Fabric Planning - Stakeholder Sessions Capacity Usage",
               "meter_name": "Fabric Planning - Stakeholder Sessions Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Read Operations Cold Capacity Usage/OneLake Read Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Read Operations Cold Capacity Usage",
+              "meter_name": "OneLake Read Operations Cold Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Iterative Read Operations Cool Capacity Usage/OneLake Iterative Read Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Iterative Read Operations Cool Capacity Usage",
+              "meter_name": "OneLake Iterative Read Operations Cool Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Write Operations Cool Capacity Usage/OneLake BCDR Write Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Write Operations Cool Capacity Usage",
+              "meter_name": "OneLake BCDR Write Operations Cool Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Other Operations Cool Capacity Usage/OneLake BCDR Other Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Other Operations Cool Capacity Usage",
+              "meter_name": "OneLake BCDR Other Operations Cool Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Read Operations Cold Capacity Usage/OneLake BCDR Read Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Read Operations Cold Capacity Usage",
+              "meter_name": "OneLake BCDR Read Operations Cold Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Ontology Logic and Operations Capacity Usage/Ontology Logic and Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43285,11 +43759,11 @@
               "sku_name": "Operations Agents Compute Capacity Usage",
               "meter_name": "Operations Agents Compute Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Real-Time Intelligence - Event Listener and Alert Capacity Usage/Real-Time Intelligence - Event Listener and Alert Capacity Usage CU": {
+            "DZH318Z0KCZ7/RTI Event Listener and Alert Capacity Usage/RTI Event Listener and Alert Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage",
-              "meter_name": "Real-Time Intelligence - Event Listener and Alert Capacity Usage CU"
+              "sku_name": "RTI Event Listener and Alert Capacity Usage",
+              "meter_name": "RTI Event Listener and Alert Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Read Operations Capacity Usage/OneLake Read Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43363,6 +43837,12 @@
               "sku_name": "OneLake Iterative Read Operations Hot Capacity Usage",
               "meter_name": "OneLake Iterative Read Operations Hot Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake Other Operations Cold Capacity Usage/OneLake Other Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Other Operations Cold Capacity Usage",
+              "meter_name": "OneLake Other Operations Cold Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Graph data management Capacity Usage/Graph data management Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -43399,11 +43879,23 @@
               "sku_name": "OneLake Cache",
               "meter_name": "OneLake Cache Data Stored"
             },
+            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cool Capacity Usage/OneLake BCDR Iterative Read Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Iterative Read Operations Cool Capacity Usage",
+              "meter_name": "OneLake BCDR Iterative Read Operations Cool Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Fabric Planning - Viewer Sessions Capacity Usage/Fabric Planning - Viewer Sessions Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Fabric Planning - Viewer Sessions Capacity Usage",
               "meter_name": "Fabric Planning - Viewer Sessions Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Iterative Read Operations Cold Capacity Usage/OneLake Iterative Read Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Iterative Read Operations Cold Capacity Usage",
+              "meter_name": "OneLake Iterative Read Operations Cold Capacity Usage CU"
             },
             "DZH318Z0F28J/SQL Backup Storage/SQL Backup Storage Data Stored": {
               "id": "DZH318Z0F28J",
@@ -43422,6 +43914,24 @@
               "name": "Fabric Capacity",
               "sku_name": "Map services Capacity Usage",
               "meter_name": "Map services Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cool Capacity Usage/OneLake BCDR Iterative Write Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage",
+              "meter_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Write Operations Cold Capacity Usage/OneLake Write Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Write Operations Cold Capacity Usage",
+              "meter_name": "OneLake Write Operations Cold Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cold Capacity Usage/OneLake BCDR Iterative Write Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage",
+              "meter_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage CU"
             },
             "DZH318Z0KCZ7/Capacity Overage Capacity Usage/Capacity Overage Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43501,6 +44011,12 @@
               "sku_name": "OneLake Write Operations Capacity Usage",
               "meter_name": "OneLake Write Operations Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake Iterative Write Operations Cold Capacity Usage/OneLake Iterative Write Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Iterative Write Operations Cold Capacity Usage",
+              "meter_name": "OneLake Iterative Write Operations Cold Capacity Usage CU"
+            },
             "DZH318Z0KCZ7/Spark Memory Optimized Capacity Usage/Spark Memory Optimized Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -43542,6 +44058,12 @@
               "name": "Fabric Capacity",
               "sku_name": "SQL database in Microsoft Fabric Capacity Usage",
               "meter_name": "SQL database in Microsoft Fabric Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cold Capacity Usage/OneLake BCDR Iterative Read Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage",
+              "meter_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Hot Capacity Usage/OneLake BCDR Read Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43585,11 +44107,11 @@
               "sku_name": "Fabric Planning - Automated Jobs Capacity Usage",
               "meter_name": "Fabric Planning - Automated Jobs Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Real-Time Intelligence - Event Operations Capacity Usage/Real-Time Intelligence - Event Operations Capacity Usage CU": {
+            "DZH318Z0KCZ7/RTI Event Operations Capacity Usage/RTI Event Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
-              "sku_name": "Real-Time Intelligence - Event Operations Capacity Usage",
-              "meter_name": "Real-Time Intelligence - Event Operations Capacity Usage CU"
+              "sku_name": "RTI Event Operations Capacity Usage",
+              "meter_name": "RTI Event Operations Capacity Usage CU"
             },
             "DZH318Z0KCZ7/user data functions Capacity Usage/user data functions Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43627,6 +44149,12 @@
               "sku_name": "High Scale Dataflow Compute - Spark Capacity Usage",
               "meter_name": "High Scale Dataflow Compute - Spark Capacity Usage CU"
             },
+            "DZH318Z0KCZ7/OneLake BCDR Write Operations Cold Capacity Usage/OneLake BCDR Write Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Write Operations Cold Capacity Usage",
+              "meter_name": "OneLake BCDR Write Operations Cold Capacity Usage CU"
+            },
             "DZH318Z0F28J/SQL Storage/SQL Storage Data Stored": {
               "id": "DZH318Z0F28J",
               "name": "OneLake",
@@ -43644,6 +44172,24 @@
               "name": "Fabric Capacity",
               "sku_name": "Ontology Modeling Capacity Usage",
               "meter_name": "Ontology Modeling Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Read Operations Cool Capacity Usage/OneLake BCDR Read Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Read Operations Cool Capacity Usage",
+              "meter_name": "OneLake BCDR Read Operations Cool Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake BCDR Other Operations Cold Capacity Usage/OneLake BCDR Other Operations Cold Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake BCDR Other Operations Cold Capacity Usage",
+              "meter_name": "OneLake BCDR Other Operations Cold Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Read Operations Cool Capacity Usage/OneLake Read Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Read Operations Cool Capacity Usage",
+              "meter_name": "OneLake Read Operations Cool Capacity Usage CU"
             },
             "DZH318Z0KCZ7/dbt job Capacity Usage/dbt job Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -43710,6 +44256,12 @@
               "name": "Fabric Capacity",
               "sku_name": "Operations Agents Autonomous Reasoning Capacity Usage",
               "meter_name": "Operations Agents Autonomous Reasoning Capacity Usage CU"
+            },
+            "DZH318Z0KCZ7/OneLake Write Operations Cool Capacity Usage/OneLake Write Operations Cool Capacity Usage CU": {
+              "id": "DZH318Z0KCZ7",
+              "name": "Fabric Capacity",
+              "sku_name": "OneLake Write Operations Cool Capacity Usage",
+              "meter_name": "OneLake Write Operations Cool Capacity Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Other Operations Capacity Usage/OneLake Other Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -48540,6 +49092,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318Z0MH59/HorizonDB storage Free Tier/HorizonDB storage Free Tier Data Stored": {
+              "id": "DZH318Z0MH59",
+              "name": "Azure HorizonDB storage",
+              "sku_name": "HorizonDB storage Free Tier",
+              "meter_name": "HorizonDB storage Free Tier Data Stored"
+            },
             "DZH318Z0KDZJ/2 vCore/vCore": {
               "id": "DZH318Z0KDZJ",
               "name": "Azure Database for PostgreSQL Flexible Server General Purpose Ddsv5 Series Compute",
@@ -48608,7 +49166,7 @@
             },
             "DZH318Z0R90J/Extended Support/Extended Support vCore": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgreSQL Extended Support",
+              "name": "Azure Database for PostgSQL Extended Support",
               "sku_name": "Extended Support",
               "meter_name": "Extended Support vCore"
             },
