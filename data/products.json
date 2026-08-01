@@ -2556,6 +2556,12 @@
             "sku_name": "Memory Retrieval",
             "meter_name": "Memory Retrievals"
           },
+          "DZH318Z0V50L/Model Routers GL/Model Routers GL 1M Tokens": {
+            "id": "DZH318Z0V50L",
+            "name": "Model Tools",
+            "sku_name": "Model Routers GL",
+            "meter_name": "Model Routers GL 1M Tokens"
+          },
           "DZH318Z0BP4D/S0/S0 Transactions": {
             "id": "DZH318Z0BP4D",
             "name": "Azure Custom Vision",
@@ -3419,12 +3425,6 @@
             "name": "Azure Language",
             "sku_name": "Commitment Tier TA4H Connected 1M",
             "meter_name": "Commitment Tier TA4H Connected 1M CT Overage Transactions"
-          },
-          "DZH318Z0V50L/Model Routers GL/Model Routers GL 1M Tokens": {
-            "id": "DZH318Z0V50L",
-            "name": "Model Tools",
-            "sku_name": "Model Routers GL",
-            "meter_name": "Model Routers GL 1M Tokens"
           },
           "DZH318Z0V50L/Model Routers DZ/Model Routers DZ 1M Tokens": {
             "id": "DZH318Z0V50L",
@@ -67878,6 +67878,30 @@
             "sku_name": "HB120-32rs_v3 Spot",
             "meter_name": "HB120-32rs_v3 Spot"
           },
+          "DZH318Z0FRGB/Standard_M176bds_3_v3 Spot/Standard_M176bds_3_v3 Spot": {
+            "id": "DZH318Z0FRGB",
+            "name": "Virtual Machines Mbdsv3 Series Windows",
+            "sku_name": "Standard_M176bds_3_v3 Spot",
+            "meter_name": "Standard_M176bds_3_v3 Spot"
+          },
+          "DZH318Z0FRGC/Standard_M176bds_3_v3/Standard_M176bds_3_v3": {
+            "id": "DZH318Z0FRGC",
+            "name": "Virtual Machines Mbdsv3 Series",
+            "sku_name": "Standard_M176bds_3_v3",
+            "meter_name": "Standard_M176bds_3_v3"
+          },
+          "DZH318Z0FRGB/Standard_M176bds_3_v3/Standard_M176bds_3_v3": {
+            "id": "DZH318Z0FRGB",
+            "name": "Virtual Machines Mbdsv3 Series Windows",
+            "sku_name": "Standard_M176bds_3_v3",
+            "meter_name": "Standard_M176bds_3_v3"
+          },
+          "DZH318Z0FRGC/Standard_M176bds_3_v3 Spot/Standard_M176bds_3_v3 Spot": {
+            "id": "DZH318Z0FRGC",
+            "name": "Virtual Machines Mbdsv3 Series",
+            "sku_name": "Standard_M176bds_3_v3 Spot",
+            "meter_name": "Standard_M176bds_3_v3 Spot"
+          },
           "DZH318Z0BPRT/A8/A8": {
             "id": "DZH318Z0BPRT",
             "name": "Virtual Machines A Series",
@@ -73920,30 +73944,6 @@
             "sku_name": "DS15i v2 Low Priority",
             "meter_name": "DS15i v2 Low Priority"
           },
-          "DZH318Z0FRGC/Standard_M176bds_3_v3/Standard_M176bds_3_v3": {
-            "id": "DZH318Z0FRGC",
-            "name": "Virtual Machines Mbdsv3 Series",
-            "sku_name": "Standard_M176bds_3_v3",
-            "meter_name": "Standard_M176bds_3_v3"
-          },
-          "DZH318Z0FRGB/Standard_M176bds_3_v3 Spot/Standard_M176bds_3_v3 Spot": {
-            "id": "DZH318Z0FRGB",
-            "name": "Virtual Machines Mbdsv3 Series Windows",
-            "sku_name": "Standard_M176bds_3_v3 Spot",
-            "meter_name": "Standard_M176bds_3_v3 Spot"
-          },
-          "DZH318Z0FRGC/Standard_M176bds_3_v3 Spot/Standard_M176bds_3_v3 Spot": {
-            "id": "DZH318Z0FRGC",
-            "name": "Virtual Machines Mbdsv3 Series",
-            "sku_name": "Standard_M176bds_3_v3 Spot",
-            "meter_name": "Standard_M176bds_3_v3 Spot"
-          },
-          "DZH318Z0FRGB/Standard_M176bds_3_v3/Standard_M176bds_3_v3": {
-            "id": "DZH318Z0FRGB",
-            "name": "Virtual Machines Mbdsv3 Series Windows",
-            "sku_name": "Standard_M176bds_3_v3",
-            "meter_name": "Standard_M176bds_3_v3"
-          },
           "DZH318Z0CTQD/Msv2MedMem Type1 Low Priority/Msv2MedMem Type1 Low Priority": {
             "id": "DZH318Z0CTQD",
             "name": "MSv2 Series Dedicated Host",
@@ -76268,6 +76268,24 @@
           }
         }
       },
+      "DZH315LFVPHW": {
+        "id": "DZH315LFVPHW",
+        "name": "Durable Task Scheduler",
+        "products": {
+          "DZH318Z0N0PH/Consumption/Consumption Action": {
+            "id": "DZH318Z0N0PH",
+            "name": "Durable Task Scheduler",
+            "sku_name": "Consumption",
+            "meter_name": "Consumption Action"
+          },
+          "DZH318Z0N0PH/Dedicated/Dedicated Capacity Unit": {
+            "id": "DZH318Z0N0PH",
+            "name": "Durable Task Scheduler",
+            "sku_name": "Dedicated",
+            "meter_name": "Dedicated Capacity Unit"
+          }
+        }
+      },
       "DZH316MBDNZN": {
         "id": "DZH316MBDNZN",
         "name": "Specialized Compute",
@@ -76697,24 +76715,6 @@
             "name": "Ready Nodes for Nutanix",
             "sku_name": "ANRN36",
             "meter_name": "AN36"
-          }
-        }
-      },
-      "DZH315LFVPHW": {
-        "id": "DZH315LFVPHW",
-        "name": "Durable Task Scheduler",
-        "products": {
-          "DZH318Z0N0PH/Consumption/Consumption Action": {
-            "id": "DZH318Z0N0PH",
-            "name": "Durable Task Scheduler",
-            "sku_name": "Consumption",
-            "meter_name": "Consumption Action"
-          },
-          "DZH318Z0N0PH/Dedicated/Dedicated Capacity Unit": {
-            "id": "DZH318Z0N0PH",
-            "name": "Durable Task Scheduler",
-            "sku_name": "Dedicated",
-            "meter_name": "Dedicated Capacity Unit"
           }
         }
       },
@@ -77601,6 +77601,498 @@
             "name": "Fabric Capacity",
             "sku_name": "Spark Memory Optimized Capacity Usage",
             "meter_name": "Spark Memory Optimized Capacity Usage CU"
+          },
+          "DZH318Z0KCZ7/user data functions Serverless Usage/user data functions Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "user data functions Serverless Usage",
+            "meter_name": "user data functions Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Map processing Serverless Usage/Map processing Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Map processing Serverless Usage",
+            "meter_name": "Map processing Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Activator - Event Analytics Serverless Usage/Activator - Event Analytics Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Activator - Event Analytics Serverless Usage",
+            "meter_name": "Activator - Event Analytics Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/High Scale Dataflow Compute - Spark Serverless Usage/High Scale Dataflow Compute - Spark Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "High Scale Dataflow Compute - Spark Serverless Usage",
+            "meter_name": "High Scale Dataflow Compute - Spark Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Data Movement Serverless Usage/Data Movement Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Data Movement Serverless Usage",
+            "meter_name": "Data Movement Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Eventhouse Serverless Usage/Eventhouse Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Eventhouse Serverless Usage",
+            "meter_name": "Eventhouse Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Eventstream Connector Serverless Usage/eventstreams connectors Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Eventstream Connector Serverless Usage",
+            "meter_name": "eventstreams connectors Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Eventstream Data Traffic Serverless Usage/Eventstream Data Traffic Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Eventstream Data Traffic Serverless Usage",
+            "meter_name": "Eventstream Data Traffic Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Serverless Usage/OneLake Read Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Serverless Usage",
+            "meter_name": "OneLake Read Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Hot Serverless Usage/OneLake Iterative Write Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Write Operations Hot Serverless Usage",
+            "meter_name": "OneLake Iterative Write Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cold Serverless Usage/OneLake BCDR Iterative Read Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operations Cold Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/dbt job Serverless Usage/dbt job Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "dbt job Serverless Usage",
+            "meter_name": "dbt job Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Cool Serverless Usage/OneLake BCDR Other Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Cool Serverless Usage",
+            "meter_name": "OneLake BCDR Other Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Cold Serverless Usage/OneLake Other Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Cold Serverless Usage",
+            "meter_name": "OneLake Other Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Hot Serverless Usage/OneLake Other Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Hot Serverless Usage",
+            "meter_name": "OneLake Other Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Cold Serverless Usage/OneLake Iterative Write Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Write Operations Cold Serverless Usage",
+            "meter_name": "OneLake Iterative Write Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Serverless Usage/OneLake BCDR Write Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Serverless Usage",
+            "meter_name": "OneLake BCDR Write Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/SSIS in Fabric Serverless Usage/SSIS in Fabric Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "SSIS in Fabric Serverless Usage",
+            "meter_name": "SSIS in Fabric Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Hot Serverless Usage/OneLake BCDR Write Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Hot Serverless Usage",
+            "meter_name": "OneLake BCDR Write Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cool Serverless Usage/OneLake BCDR Iterative Write Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Cool Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Hot Serverless Usage/OneLake Iterative Read Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Hot Serverless Usage",
+            "meter_name": "OneLake Iterative Read Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Spark Memory Optimized Serverless Usage/Spark Memory Optimized Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Spark Memory Optimized Serverless Usage",
+            "meter_name": "Spark Memory Optimized Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/ML Model Endpoint Serverless Usage/ML Model Endpoint Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "ML Model Endpoint Serverless Usage",
+            "meter_name": "ML Model Endpoint Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Digital Twin Builder Serverless Usage/Digital Twin Builder Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Serverless Usage",
+            "meter_name": "Digital Twin Builder Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/VNet Data Gateway Serverless Usage/VNet Data Gateway Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "VNet Data Gateway Serverless Usage",
+            "meter_name": "VNet Data Gateway Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Graph data science Serverless Usage/Graph data science Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Graph data science Serverless Usage",
+            "meter_name": "Graph data science Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Hot Serverless Usage/OneLake BCDR Read Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Hot Serverless Usage",
+            "meter_name": "OneLake BCDR Read Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Map services Serverless Usage/Map services Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Map services Serverless Usage",
+            "meter_name": "Map services Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Ontology Modeling Serverless Usage/Ontology Modeling Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Ontology Modeling Serverless Usage",
+            "meter_name": "Ontology Modeling Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Cool Serverless Usage/OneLake Other Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Cool Serverless Usage",
+            "meter_name": "OneLake Other Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Operations Agents Compute Serverless Usage/Operations Agents Compute Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Operations Agents Compute Serverless Usage",
+            "meter_name": "Operations Agents Compute Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Other Operations Serverless Usage/OneLake Other Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Other Operations Serverless Usage",
+            "meter_name": "OneLake Other Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/RTI Event Listener and Alert Serverless Usage/RTI Event Listener and Alert Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "RTI Event Listener and Alert Serverless Usage",
+            "meter_name": "RTI Event Listener and Alert Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Cool Serverless Usage/OneLake BCDR Read Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Cool Serverless Usage",
+            "meter_name": "OneLake BCDR Read Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Data Warehouse Serverless Usage/Data Warehouse Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Data Warehouse Serverless Usage",
+            "meter_name": "Data Warehouse Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Copilot and AI Serverless Usage/Copilot and AI Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Copilot and AI Serverless Usage",
+            "meter_name": "Copilot and AI Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Cool Serverless Usage/OneLake Iterative Write Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Write Operations Cool Serverless Usage",
+            "meter_name": "OneLake Iterative Write Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/High Scale Dataflow Compute - SQL Serverless Usage/High Scale Dataflow Compute - SQL Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "High Scale Dataflow Compute - SQL Serverless Usage",
+            "meter_name": "High Scale Dataflow Compute - SQL Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Cool Serverless Usage/OneLake Read Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Cool Serverless Usage",
+            "meter_name": "OneLake Read Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/SQL database in Microsoft Fabric Serverless Usage/SQL database in Microsoft Fabric Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "SQL database in Microsoft Fabric Serverless Usage",
+            "meter_name": "SQL database in Microsoft Fabric Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Operations Agents Autonomous Reasoning Serverless Usage/Operations Agents Autonomous Reasoning Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Operations Agents Autonomous Reasoning Serverless Usage",
+            "meter_name": "Operations Agents Autonomous Reasoning Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric Serverless Usage/Cosmos Database in Microsoft Fabric Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Cosmos Database in Microsoft Fabric Serverless Usage",
+            "meter_name": "Cosmos Database in Microsoft Fabric Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Hot Serverless Usage/OneLake Write Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Hot Serverless Usage",
+            "meter_name": "OneLake Write Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Ontology AI Serverless Usage/Ontology AI Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Ontology AI Serverless Usage",
+            "meter_name": "Ontology AI Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Write Operations Serverless Usage/OneLake Iterative Write Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Write Operations Serverless Usage",
+            "meter_name": "OneLake Iterative Write Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/SQL DB in Microsoft Fabric LR Serverless Usage/SQL DB in Microsoft Fabric LR Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "SQL DB in Microsoft Fabric LR Serverless Usage",
+            "meter_name": "SQL DB in Microsoft Fabric LR Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Graph data management Serverless Usage/Graph data management Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Graph data management Serverless Usage",
+            "meter_name": "Graph data management Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Cold Serverless Usage/OneLake BCDR Read Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Cold Serverless Usage",
+            "meter_name": "OneLake BCDR Read Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Digital Twin Builder Operation Serverless Usage/Digital Twin Builder Operation Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Operation Serverless Usage",
+            "meter_name": "Digital Twin Builder Operation Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operation Hot Serverless Usage/OneLake BCDR Iterative Read Operation Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operation Hot Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operation Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Apache Airflow job Serverless Usage/Apache Airflow job Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Apache Airflow job Serverless Usage",
+            "meter_name": "Apache Airflow job Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Cold Serverless Usage/OneLake Read Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Cold Serverless Usage",
+            "meter_name": "OneLake Read Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Serverless Usage/OneLake BCDR Iterative Write Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Read Operations Serverless Usage/OneLake BCDR Read Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Read Operations Serverless Usage",
+            "meter_name": "OneLake BCDR Read Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Eventstream Processor Serverless Usage/Eventstream Processor Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Eventstream Processor Serverless Usage",
+            "meter_name": "Eventstream Processor Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Serverless Usage/OneLake BCDR Other Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Serverless Usage",
+            "meter_name": "OneLake BCDR Other Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake diagnostics Serverless Usage/OneLake diagnostics Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake diagnostics Serverless Usage",
+            "meter_name": "OneLake diagnostics Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cold Serverless Usage/OneLake BCDR Iterative Write Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Cold Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Cold Serverless Usage/OneLake BCDR Write Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Cold Serverless Usage",
+            "meter_name": "OneLake BCDR Write Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Write Operations Cool Serverless Usage/OneLake BCDR Write Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Write Operations Cool Serverless Usage",
+            "meter_name": "OneLake BCDR Write Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Serverless Usage/OneLake Iterative Read Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Serverless Usage",
+            "meter_name": "OneLake Iterative Read Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Dataflows Standard Compute Serverless Usage/Dataflows Standard Compute Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Dataflows Standard Compute Serverless Usage",
+            "meter_name": "Dataflows Standard Compute Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Data Orchestration Serverless Usage/Data Orchestration Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Data Orchestration Serverless Usage",
+            "meter_name": "Data Orchestration Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Ontology Logic and Operations Serverless Usage/Ontology Logic and Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Ontology Logic and Operations Serverless Usage",
+            "meter_name": "Ontology Logic and Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Eventstream Flat Serverless Usage/Eventstream Flat Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Eventstream Flat Serverless Usage",
+            "meter_name": "Eventstream Flat Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/RTI Event Operations Serverless Usage/RTI Event Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "RTI Event Operations Serverless Usage",
+            "meter_name": "RTI Event Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Data Movement - Incremental copy Serverless Usage/Data Movement - Incremental copy Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Data Movement - Incremental copy Serverless Usage",
+            "meter_name": "Data Movement - Incremental copy Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/API for GraphQL Query Serverless Usage/API for GraphQL Query Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "API for GraphQL Query Serverless Usage",
+            "meter_name": "API for GraphQL Query Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Hot Serverless Usage/OneLake BCDR Other Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Hot Serverless Usage",
+            "meter_name": "OneLake BCDR Other Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Security Serverless Usage/OneLake Security Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Security Serverless Usage",
+            "meter_name": "OneLake Security Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Serverless Usage/OneLake BCDR Iterative Read Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operations Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Cold Serverless Usage/OneLake Iterative Read Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Cold Serverless Usage",
+            "meter_name": "OneLake Iterative Read Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Cool Serverless Usage/OneLake Write Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Cool Serverless Usage",
+            "meter_name": "OneLake Write Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Iterative Read Operations Cool Serverless Usage/OneLake Iterative Read Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Iterative Read Operations Cool Serverless Usage",
+            "meter_name": "OneLake Iterative Read Operations Cool Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Hot Serverless Usage/OneLake BCDR Iterative Write Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Write Operations Hot Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Write Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Serverless Usage/OneLake Write Operations Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Serverless Usage",
+            "meter_name": "OneLake Write Operations Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Read Operations Hot Serverless Usage/OneLake Read Operations Hot Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Read Operations Hot Serverless Usage",
+            "meter_name": "OneLake Read Operations Hot Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake Write Operations Cold Serverless Usage/OneLake Write Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake Write Operations Cold Serverless Usage",
+            "meter_name": "OneLake Write Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Digital Twin Builder Query Serverless Usage/Digital Twin Builder Query Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Digital Twin Builder Query Serverless Usage",
+            "meter_name": "Digital Twin Builder Query Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Other Operations Cold Serverless Usage/OneLake BCDR Other Operations Cold Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Other Operations Cold Serverless Usage",
+            "meter_name": "OneLake BCDR Other Operations Cold Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/Anomaly Detector Queries Serverless Usage/Anomaly Detector Queries Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "Anomaly Detector Queries Serverless Usage",
+            "meter_name": "Anomaly Detector Queries Serverless Usage CU"
+          },
+          "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cool Serverless Usage/OneLake BCDR Iterative Read Operations Cool Serverless Usage CU": {
+            "id": "DZH318Z0KCZ7",
+            "name": "Fabric Capacity",
+            "sku_name": "OneLake BCDR Iterative Read Operations Cool Serverless Usage",
+            "meter_name": "OneLake BCDR Iterative Read Operations Cool Serverless Usage CU"
           },
           "DZH318Z0F28J/Cosmos DB Data Restore/Cosmos DB Data Restore Data Stored": {
             "id": "DZH318Z0F28J",
@@ -80661,6 +81153,12 @@
             "sku_name": "vCore",
             "meter_name": "vCore"
           },
+          "DZH318Z0R90J/Extd Spprt Free Tier/Extd Spprt Free Tier": {
+            "id": "DZH318Z0R90J",
+            "name": "Azure Database for PostgSQL Extended Support",
+            "sku_name": "Extd Spprt Free Tier",
+            "meter_name": "Extd Spprt Free Tier"
+          },
           "DZH318Z0BQFD/Backup GRS/Backup GRS Data Stored": {
             "id": "DZH318Z0BQFD",
             "name": "Azure Database for PostgreSQL Single Server - Backup Storage",
@@ -82286,6 +82784,12 @@
             "name": "Azure Database for MySQL Flexible Server General Purpose Ddsv6 Series Compute",
             "sku_name": "1 vCore",
             "meter_name": "1 vCore"
+          },
+          "DZH318Z0R90R/Extd Spprt Free Tier/Extd Spprt Free Tier vCore": {
+            "id": "DZH318Z0R90R",
+            "name": "Azure Database for MySQL Extended Support",
+            "sku_name": "Extd Spprt Free Tier",
+            "meter_name": "Extd Spprt Free Tier vCore"
           },
           "DZH318Z0DCQ4/Paid IO/Paid IO IO Rate Operations": {
             "id": "DZH318Z0DCQ4",
@@ -85615,6 +86119,12 @@
             "name": "API Management",
             "sku_name": "Isolated",
             "meter_name": "Isolated Unit"
+          },
+          "DZH318Z0BQCM/AI Gateway/10k AI Gateway Requests": {
+            "id": "DZH318Z0BQCM",
+            "name": "API Management",
+            "sku_name": "AI Gateway",
+            "meter_name": "10k AI Gateway Requests"
           }
         }
       },
@@ -91775,6 +92285,30 @@
           }
         }
       },
+      "DZH314JM2G7L": {
+        "id": "DZH314JM2G7L",
+        "name": "Microsoft Security Copilot",
+        "products": {
+          "DZH318Z0GL3P/Pay As You Go/Pay As You Go Security Compute Unit": {
+            "id": "DZH318Z0GL3P",
+            "name": "Microsoft Security Copilot",
+            "sku_name": "Pay As You Go",
+            "meter_name": "Pay As You Go Security Compute Unit"
+          },
+          "DZH318Z0GL3P/Provisioned/Provisioned Security Compute Unit": {
+            "id": "DZH318Z0GL3P",
+            "name": "Microsoft Security Copilot",
+            "sku_name": "Provisioned",
+            "meter_name": "Provisioned Security Compute Unit"
+          },
+          "DZH318Z0GL3P/Overage/Overage Security Compute Unit": {
+            "id": "DZH318Z0GL3P",
+            "name": "Microsoft Security Copilot",
+            "sku_name": "Overage",
+            "meter_name": "Overage Security Compute Unit"
+          }
+        }
+      },
       "DZH3182Q9KXV": {
         "id": "DZH3182Q9KXV",
         "name": "Azure confidential ledger",
@@ -91820,24 +92354,6 @@
             "name": "Azure confidential ledger",
             "sku_name": "Additional Storage",
             "meter_name": "Additional Storage Data Stored"
-          }
-        }
-      },
-      "DZH314JM2G7L": {
-        "id": "DZH314JM2G7L",
-        "name": "Microsoft Security Copilot",
-        "products": {
-          "DZH318Z0GL3P/Provisioned/Provisioned Security Compute Unit": {
-            "id": "DZH318Z0GL3P",
-            "name": "Microsoft Security Copilot",
-            "sku_name": "Provisioned",
-            "meter_name": "Provisioned Security Compute Unit"
-          },
-          "DZH318Z0GL3P/Overage/Overage Security Compute Unit": {
-            "id": "DZH318Z0GL3P",
-            "name": "Microsoft Security Copilot",
-            "sku_name": "Overage",
-            "meter_name": "Overage Security Compute Unit"
           }
         }
       },
