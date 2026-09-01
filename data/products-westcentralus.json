@@ -38396,6 +38396,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard NC A100 v4 GPU Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Private Endpoint": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Private Endpoint"
+            },
             "DZH318Z0B0NC/Dynamic Sessions/Dynamic Sessions": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -38408,11 +38414,23 @@
               "sku_name": "Dedicated",
               "meter_name": "Dedicated Memory Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Management Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Management Hour"
+            },
             "DZH318Z0B0NC/Dedicated/Dedicated vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
               "sku_name": "Dedicated",
               "meter_name": "Dedicated vCPU Usage"
+            },
+            "DZH318Z0B0NC/Environment/Environment Planned Maintenance Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Planned Maintenance Hour"
             }
           }
         },
@@ -45221,6 +45239,12 @@
               "sku_name": "S2",
               "meter_name": "S2"
             },
+            "DZH318XZM3HK/Data Ingestion/Data Ingestion": {
+              "id": "DZH318XZM3HK",
+              "name": "Azure Cosmos DB - Ingestion",
+              "sku_name": "Data Ingestion",
+              "meter_name": "Data Ingestion"
+            },
             "DZH318Z0BPJH/S1/S1": {
               "id": "DZH318Z0BPJH",
               "name": "Azure Cosmos DB",
@@ -48440,11 +48464,29 @@
               "sku_name": "Base",
               "meter_name": "Base Unit"
             },
+            "DZH318Z0BQN4/Automation/Automation Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Data Retention"
+            },
             "DZH318Z0BQN4/Connectors/Connectors Data Retention": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
               "sku_name": "Connectors",
               "meter_name": "Connectors Data Retention"
+            },
+            "DZH318Z0BQN4/Automation/Automation Memory Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Memory Isolated Code Execution"
+            },
+            "DZH318Z0BQN4/Automation/Automation Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Enterprise Connector Actions"
             },
             "DZH318Z0BQN4/Consumption/Consumption Data Retention": {
               "id": "DZH318Z0BQN4",
@@ -48458,17 +48500,41 @@
               "sku_name": "Consumption",
               "meter_name": "Consumption Enterprise Connector Actions"
             },
+            "DZH318Z0BQN4/Automation/Automation Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Standard Connector Actions"
+            },
             "DZH318Z0BQN4/Connectors/Connectors Enterprise Connector Actions": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
               "sku_name": "Connectors",
               "meter_name": "Connectors Enterprise Connector Actions"
             },
+            "DZH318Z0BQN4/Automation/Automation Azure Agent Credits": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Azure Agent Credits"
+            },
+            "DZH318Z0BQN4/Automation/Automation Core Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Core Execution"
+            },
             "DZH318Z0BQN4/Consumption/Consumption Built-in Actions": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
               "sku_name": "Consumption",
               "meter_name": "Consumption Built-in Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation vCPU Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation vCPU Isolated Code Execution"
             },
             "DZH318Z0BQN1/Basic/Basic Unit": {
               "id": "DZH318Z0BQN1",
@@ -48487,6 +48553,12 @@
               "name": "Logic Apps Integration Account",
               "sku_name": "Standard",
               "meter_name": "Standard Unit"
+            },
+            "DZH318Z0BQN4/Automation/Automation Environment Management": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Environment Management"
             }
           }
         },
@@ -58192,6 +58264,12 @@
               "sku_name": "Free",
               "meter_name": "Free Unit"
             },
+            "DZH318Z0BQKZ/Serverless Compute/Serverless Compute Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Serverless Compute",
+              "meter_name": "Serverless Compute Unit"
+            },
             "DZH318Z0BQKZ/Free Agentic Retrieval Low Reasoning/Free Agentic Retrieval Low Reasoning Tokens": {
               "id": "DZH318Z0BQKZ",
               "name": "Azure AI Search",
@@ -58209,6 +58287,12 @@
               "name": "Azure AI Search",
               "sku_name": "Agentic Retrieval Minimum Reasoning",
               "meter_name": "Agentic Retrieval Minimum Reasoning Tokens"
+            },
+            "DZH318Z0BQKZ/Serverless Storage/Serverless Storage Data Stored": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Serverless Storage",
+              "meter_name": "Serverless Storage Data Stored"
             },
             "DZH318Z0BQKZ/Free/Free queries": {
               "id": "DZH318Z0BQKZ",
