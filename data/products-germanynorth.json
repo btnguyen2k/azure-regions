@@ -33321,11 +33321,29 @@
               "sku_name": "Standard",
               "meter_name": "Standard Memory Active Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Planned Maintenance Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Planned Maintenance Hour"
+            },
             "DZH318Z0B0NC/Hybrid/Hybrid vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
               "sku_name": "Hybrid",
               "meter_name": "Hybrid vCPU Usage"
+            },
+            "DZH318Z0B0NC/Environment/Environment Management Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Management Hour"
+            },
+            "DZH318Z0B0NC/Environment/Environment Private Endpoint": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Private Endpoint"
             },
             "DZH318Z0B0NC/Standard/Standard NC A100 v4 GPU Usage": {
               "id": "DZH318Z0B0NC",
@@ -38324,7 +38342,7 @@
             },
             "DZH318Z0R90J/Extd Spprt Free Tier/Extd Spprt Free Tier": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extd Spprt Free Tier",
               "meter_name": "Extd Spprt Free Tier"
             },
@@ -38654,7 +38672,7 @@
             },
             "DZH318Z0R90J/Extended Support/Extended Support vCore": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extended Support",
               "meter_name": "Extended Support vCore"
             },
@@ -38813,6 +38831,12 @@
               "name": "Azure DocumentDB",
               "sku_name": "Burstable 2 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318XZM3HK/Data Ingestion/Data Ingestion": {
+              "id": "DZH318XZM3HK",
+              "name": "Azure Cosmos DB - Ingestion",
+              "sku_name": "Data Ingestion",
+              "meter_name": "Data Ingestion"
             },
             "DZH318Z0TF33/Memory Optimized v6/Memory Optimized v6 vCore": {
               "id": "DZH318Z0TF33",
@@ -40983,11 +41007,23 @@
               "sku_name": "Consumption",
               "meter_name": "Consumption Enterprise Connector Actions"
             },
+            "DZH318Z0BQN4/Automation/Automation Azure Agent Credits": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Azure Agent Credits"
+            },
             "DZH318Z0C97T/Base/Base Unit": {
               "id": "DZH318Z0C97T",
               "name": "Logic Apps Integration Service Environment - Developer",
               "sku_name": "Base",
               "meter_name": "Base Unit"
+            },
+            "DZH318Z0BQN4/Automation/Automation vCPU Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation vCPU Isolated Code Execution"
             },
             "DZH318Z0BZ0B/Scale/Scale Unit": {
               "id": "DZH318Z0BZ0B",
@@ -41007,6 +41043,12 @@
               "sku_name": "Connectors",
               "meter_name": "Connectors Data Retention"
             },
+            "DZH318Z0BQN4/Automation/Automation Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Enterprise Connector Actions"
+            },
             "DZH318Z0BQN4/Consumption/Consumption Data Retention": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
@@ -41025,6 +41067,18 @@
               "sku_name": "Consumption",
               "meter_name": "Consumption Agent Loop Output Token"
             },
+            "DZH318Z0BQN4/Automation/Automation Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Data Retention"
+            },
+            "DZH318Z0BQN4/Automation/Automation Environment Management": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Environment Management"
+            },
             "DZH318Z0BQN4/Consumption/Consumption Standard Connector Actions": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
@@ -41042,6 +41096,24 @@
               "name": "Logic Apps",
               "sku_name": "Connectors",
               "meter_name": "Connectors Enterprise Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation Memory Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Memory Isolated Code Execution"
+            },
+            "DZH318Z0BQN4/Automation/Automation Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Standard Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation Core Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Core Execution"
             },
             "DZH318Z0BQN4/Consumption/Consumption Built-in Actions": {
               "id": "DZH318Z0BQN4",
