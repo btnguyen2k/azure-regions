@@ -12436,6 +12436,12 @@
               "sku_name": "D32als v6",
               "meter_name": "D32als v6"
             },
+            "DZH318Z0K7B3/Standard_M16s_v3/Standard_M16s_v3": {
+              "id": "DZH318Z0K7B3",
+              "name": "Virtual Machines Msv3 Medium Memory Series Windows",
+              "sku_name": "Standard_M16s_v3",
+              "meter_name": "Standard_M16s_v3"
+            },
             "DZH318Z09LR5/Standard_E2bs_v5/E2bs v5": {
               "id": "DZH318Z09LR5",
               "name": "Virtual Machines Ebsv5 Series",
@@ -12723,6 +12729,12 @@
               "name": "Virtual Machines Ev3 Series Windows",
               "sku_name": "E2 v3",
               "meter_name": "E2 v3/E2s v3"
+            },
+            "DZH318Z0K7B2/Standard_M32ts_v3/Standard_M32ts_v3": {
+              "id": "DZH318Z0K7B2",
+              "name": "Virtual Machines Msv3 Medium Memory Series Linux",
+              "sku_name": "Standard_M32ts_v3",
+              "meter_name": "Standard_M32ts_v3"
             },
             "DZH318Z08M9H/Standard_E32_v5/E32 v5": {
               "id": "DZH318Z08M9H",
@@ -22630,6 +22642,12 @@
               "sku_name": "E16as v7",
               "meter_name": "E16as v7"
             },
+            "DZH318Z0K7B2/Standard_M16s_v3/Standard_M16s_v3": {
+              "id": "DZH318Z0K7B2",
+              "name": "Virtual Machines Msv3 Medium Memory Series Linux",
+              "sku_name": "Standard_M16s_v3",
+              "meter_name": "Standard_M16s_v3"
+            },
             "DZH318Z0GNHB/D128s v6/D128s v6": {
               "id": "DZH318Z0GNHB",
               "name": "Virtual Machines Dsv6 Series",
@@ -23001,6 +23019,12 @@
               "name": "Virtual Machines Ebdsv5 Series",
               "sku_name": "Standard_E2bds_v5 Low Priority",
               "meter_name": "E2bds v5 Low Priority"
+            },
+            "DZH318Z0K7B3/Standard_M32ts_v3/Standard_M32ts_v3": {
+              "id": "DZH318Z0K7B3",
+              "name": "Virtual Machines Msv3 Medium Memory Series Windows",
+              "sku_name": "Standard_M32ts_v3",
+              "meter_name": "Standard_M32ts_v3"
             },
             "DZH318Z09JCM/Standard_NV18ads_A10_v5/NV18ads A10 v5": {
               "id": "DZH318Z09JCM",
@@ -25372,6 +25396,18 @@
               "sku_name": "Dedicated",
               "meter_name": "Dedicated Plan Management"
             },
+            "DZH318Z0B0NC/Environment/Environment Private Endpoint": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Private Endpoint"
+            },
+            "DZH318Z0B0NC/Environment/Environment Planned Maintenance Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Planned Maintenance Hour"
+            },
             "DZH318Z0B0NC/Dedicated/Dedicated vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -25383,6 +25419,12 @@
               "name": "Azure Container Apps",
               "sku_name": "Standard",
               "meter_name": "Standard Memory Idle Usage"
+            },
+            "DZH318Z0B0NC/Environment/Environment Management Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Management Hour"
             },
             "DZH318Z0B0NC/Standard/Standard vCPU Idle Usage": {
               "id": "DZH318Z0B0NC",
@@ -27354,6 +27396,12 @@
               "name": "Graph API - General Purpose Compute",
               "sku_name": "D8s",
               "meter_name": "D8s"
+            },
+            "DZH318XZM3HK/Data Ingestion/Data Ingestion": {
+              "id": "DZH318XZM3HK",
+              "name": "Azure Cosmos DB - Ingestion",
+              "sku_name": "Data Ingestion",
+              "meter_name": "Data Ingestion"
             },
             "DZH318Z0CDGF/Standard/Standard Data Stored": {
               "id": "DZH318Z0CDGF",
@@ -29565,7 +29613,7 @@
             },
             "DZH318Z0R90J/Extended Support/Extended Support vCore": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extended Support",
               "meter_name": "Extended Support vCore"
             },
@@ -29799,7 +29847,7 @@
             },
             "DZH318Z0R90J/Extd Spprt Free Tier/Extd Spprt Free Tier": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extd Spprt Free Tier",
               "meter_name": "Extd Spprt Free Tier"
             },
@@ -31618,11 +31666,35 @@
               "sku_name": "Scale",
               "meter_name": "Scale Unit"
             },
+            "DZH318Z0BQN4/Automation/Automation Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Standard Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation vCPU Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation vCPU Isolated Code Execution"
+            },
+            "DZH318Z0BQN4/Automation/Automation Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Enterprise Connector Actions"
+            },
             "DZH318Z0BQN4/Consumption/Consumption Agent Loop Output Token": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
               "sku_name": "Consumption",
               "meter_name": "Consumption Agent Loop Output Token"
+            },
+            "DZH318Z0BQN4/Automation/Automation Core Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Core Execution"
             },
             "DZH318Z0BQN1/Basic/Basic Unit": {
               "id": "DZH318Z0BQN1",
@@ -31660,6 +31732,18 @@
               "sku_name": "Standard",
               "meter_name": "Standard vCPU Duration"
             },
+            "DZH318Z0BQN4/Automation/Automation Memory Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Memory Isolated Code Execution"
+            },
+            "DZH318Z0BQN4/Automation/Automation Azure Agent Credits": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Azure Agent Credits"
+            },
             "DZH318Z0BQN4/Connectors/Connectors Standard Connector Actions": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
@@ -31695,6 +31779,18 @@
               "name": "Logic Apps",
               "sku_name": "Consumption",
               "meter_name": "Consumption Enterprise Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation Environment Management": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Environment Management"
+            },
+            "DZH318Z0BQN4/Automation/Automation Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Data Retention"
             }
           }
         },
@@ -39798,6 +39894,12 @@
               "name": "Azure AI Search",
               "sku_name": "Standard S3",
               "meter_name": "Standard S3 Unit"
+            },
+            "DZH318Z0BQKZ/Agentic Retrieval Medium Reasoning/Agentic Retrieval Medium Reasoning Tokens": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Agentic Retrieval Medium Reasoning",
+              "meter_name": "Agentic Retrieval Medium Reasoning Tokens"
             },
             "DZH318Z0BQKZ/Custom Entity Skills/Custom Entity Skills Text Records": {
               "id": "DZH318Z0BQKZ",
