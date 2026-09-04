@@ -2890,6 +2890,12 @@
               "sku_name": "E8s v6",
               "meter_name": "E8s v6"
             },
+            "DZH318Z0K7B3/Standard_M32ts_v3/Standard_M32ts_v3": {
+              "id": "DZH318Z0K7B3",
+              "name": "Virtual Machines Msv3 Medium Memory Series Windows",
+              "sku_name": "Standard_M32ts_v3",
+              "meter_name": "Standard_M32ts_v3"
+            },
             "DZH318Z0GNH6/E16s v6/E16s v6": {
               "id": "DZH318Z0GNH6",
               "name": "Virtual Machines Esv6 Series",
@@ -5301,6 +5307,12 @@
               "name": "Bsv2 Series Cloud Services",
               "sku_name": "B8s v2",
               "meter_name": "B8s v2"
+            },
+            "DZH318Z0K7B2/Standard_M32ts_v3/Standard_M32ts_v3": {
+              "id": "DZH318Z0K7B2",
+              "name": "Virtual Machines Msv3 Medium Memory Series Linux",
+              "sku_name": "Standard_M32ts_v3",
+              "meter_name": "Standard_M32ts_v3"
             },
             "DZH318Z0BPVM/D15i v2/D15i v2/DS15i v2": {
               "id": "DZH318Z0BPVM",
@@ -9004,6 +9016,12 @@
               "sku_name": "E4ns v6",
               "meter_name": "E4ns v6"
             },
+            "DZH318Z0K7B3/Standard_M16s_v3/Standard_M16s_v3": {
+              "id": "DZH318Z0K7B3",
+              "name": "Virtual Machines Msv3 Medium Memory Series Windows",
+              "sku_name": "Standard_M16s_v3",
+              "meter_name": "Standard_M16s_v3"
+            },
             "DZH318Z08M9W/Standard_D48s_v5/D48s v5": {
               "id": "DZH318Z08M9W",
               "name": "Virtual Machines Dsv5 Series",
@@ -12615,6 +12633,12 @@
               "name": "Virtual Machines DSv2 Series Windows",
               "sku_name": "DS1 v2",
               "meter_name": "DS1 v2"
+            },
+            "DZH318Z0K7B2/Standard_M16s_v3/Standard_M16s_v3": {
+              "id": "DZH318Z0K7B2",
+              "name": "Virtual Machines Msv3 Medium Memory Series Linux",
+              "sku_name": "Standard_M16s_v3",
+              "meter_name": "Standard_M16s_v3"
             },
             "DZH318Z0LDRF/D8nds v6/D8nds v6": {
               "id": "DZH318Z0LDRF",
@@ -19176,58 +19200,16 @@
             }
           }
         },
-        "DZH319HJX2WX": {
-          "id": "DZH319HJX2WX",
-          "name": "Functions",
-          "products": {
-            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium vCPU Duration"
-            },
-            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
-              "id": "DZH318Z0DW2R",
-              "name": "Flex Consumption",
-              "sku_name": "On Demand",
-              "meter_name": "On Demand Execution Time"
-            },
-            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
-              "id": "DZH318Z0DW2R",
-              "name": "Flex Consumption",
-              "sku_name": "Always Ready",
-              "meter_name": "Always Ready Total Executions"
-            },
-            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
-              "id": "DZH318Z0DW2R",
-              "name": "Flex Consumption",
-              "sku_name": "On Demand",
-              "meter_name": "On Demand Total Executions"
-            },
-            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
-              "id": "DZH318Z0DW2R",
-              "name": "Flex Consumption",
-              "sku_name": "Always Ready",
-              "meter_name": "Always Ready Execution Time"
-            },
-            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
-              "id": "DZH318Z0DW2R",
-              "name": "Flex Consumption",
-              "sku_name": "Always Ready",
-              "meter_name": "Always Ready Baseline"
-            },
-            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
-              "id": "DZH318Z0BXVK",
-              "name": "Premium Functions",
-              "sku_name": "Premium",
-              "meter_name": "Premium Memory Duration"
-            }
-          }
-        },
         "DZH319F70F09": {
           "id": "DZH319F70F09",
           "name": "Azure Container Apps",
           "products": {
+            "DZH318Z0B0NC/Environment/Environment Planned Maintenance Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Planned Maintenance Hour"
+            },
             "DZH318Z0B0NC/Standard/Standard vCPU Idle Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -19239,6 +19221,12 @@
               "name": "Azure Container Apps",
               "sku_name": "Standard",
               "meter_name": "Standard NC A100 v4 GPU Usage"
+            },
+            "DZH318Z0B0NC/Environment/Environment Private Endpoint": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Private Endpoint"
             },
             "DZH318Z0B0NC/Standard/Standard vCPU Active Usage": {
               "id": "DZH318Z0B0NC",
@@ -19294,6 +19282,12 @@
               "sku_name": "Hybrid",
               "meter_name": "Hybrid vCPU Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Management Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Management Hour"
+            },
             "DZH318Z0B0NC/Standard/Standard Requests": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -19305,6 +19299,54 @@
               "name": "Azure Container Apps",
               "sku_name": "Standard",
               "meter_name": "Standard Memory Active Usage"
+            }
+          }
+        },
+        "DZH319HJX2WX": {
+          "id": "DZH319HJX2WX",
+          "name": "Functions",
+          "products": {
+            "DZH318Z0BXVK/Premium/Premium vCPU Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium vCPU Duration"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Total Executions"
+            },
+            "DZH318Z0DW2R/On Demand/On Demand Total Executions": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "On Demand",
+              "meter_name": "On Demand Total Executions"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Execution Time": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Execution Time"
+            },
+            "DZH318Z0DW2R/Always Ready/Always Ready Baseline": {
+              "id": "DZH318Z0DW2R",
+              "name": "Flex Consumption",
+              "sku_name": "Always Ready",
+              "meter_name": "Always Ready Baseline"
+            },
+            "DZH318Z0BXVK/Premium/Premium Memory Duration": {
+              "id": "DZH318Z0BXVK",
+              "name": "Premium Functions",
+              "sku_name": "Premium",
+              "meter_name": "Premium Memory Duration"
             }
           }
         },
@@ -21570,6 +21612,12 @@
               "name": "Azure DocumentDB",
               "sku_name": "Worker Node Free",
               "meter_name": "vCore"
+            },
+            "DZH318XZM3HK/Data Ingestion/Data Ingestion": {
+              "id": "DZH318XZM3HK",
+              "name": "Azure Cosmos DB - Ingestion",
+              "sku_name": "Data Ingestion",
+              "meter_name": "Data Ingestion"
             },
             "DZH318Z0J95H/Backup Globally Redundant Storage/Backup GRS Data Stored": {
               "id": "DZH318Z0J95H",
@@ -31435,6 +31483,12 @@
               "name": "Azure AI Search",
               "sku_name": "Basic",
               "meter_name": "Basic Unit"
+            },
+            "DZH318Z0BQKZ/Free Agentic Retrieval Medium Reasoning/Free Agentic Retrieval Medium Reasoning Tokens": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Free Agentic Retrieval Medium Reasoning",
+              "meter_name": "Free Agentic Retrieval Medium Reasoning Tokens"
             },
             "DZH318Z0BQKZ/Storage Optimized L1/Storage Optimized L1 Unit": {
               "id": "DZH318Z0BQKZ",
