@@ -33615,6 +33615,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard NC A100 v4 GPU Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Private Endpoint": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Private Endpoint"
+            },
             "DZH318Z0B0NC/Standard/Standard vCPU Active Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -33657,6 +33663,12 @@
               "sku_name": "Hybrid",
               "meter_name": "Hybrid vCPU Usage"
             },
+            "DZH318Z0B0NC/Environment/Environment Planned Maintenance Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Planned Maintenance Hour"
+            },
             "DZH318Z0B0NC/Dedicated/Dedicated vCPU Usage": {
               "id": "DZH318Z0B0NC",
               "name": "Azure Container Apps",
@@ -33680,6 +33692,12 @@
               "name": "Azure Container Apps",
               "sku_name": "Dedicated",
               "meter_name": "Dedicated Plan Management"
+            },
+            "DZH318Z0B0NC/Environment/Environment Management Hour": {
+              "id": "DZH318Z0B0NC",
+              "name": "Azure Container Apps",
+              "sku_name": "Environment",
+              "meter_name": "Environment Management Hour"
             },
             "DZH318Z0B0NC/Standard/Standard Requests": {
               "id": "DZH318Z0B0NC",
@@ -34507,12 +34525,6 @@
               "sku_name": "OneLake BCDR Storage Hot",
               "meter_name": "OneLake BCDR Storage Hot Data Stored"
             },
-            "DZH318Z0KCZ7/OneLake Iterative Write Operations Cool On-Demand Usage/OneLake Iterative Write Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Write Operations Cool On-Demand Usage",
-              "meter_name": "OneLake Iterative Write Operations Cool On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Map services Capacity Usage/Map services Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34537,18 +34549,6 @@
               "sku_name": "OneLake Data Retrieval Cold Capacity Usage",
               "meter_name": "OneLake Data Retrieval Cold Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake Write Operations On-Demand Usage/OneLake Write Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Write Operations On-Demand Usage",
-              "meter_name": "OneLake Write Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Spark Memory Optimized On-Demand Usage/Spark Memory Optimized On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Spark Memory Optimized On-Demand Usage",
-              "meter_name": "Spark Memory Optimized On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Capacity Usage/OneLake BCDR Read Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34561,23 +34561,11 @@
               "sku_name": "Fabric Planning - Planner Sessions Capacity Usage",
               "meter_name": "Fabric Planning - Planner Sessions Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Write Operations On-Demand Usage/OneLake BCDR Write Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Write Operations On-Demand Usage",
-              "meter_name": "OneLake BCDR Write Operations On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Other Operations Cool Capacity Usage/OneLake BCDR Other Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Other Operations Cool Capacity Usage",
               "meter_name": "OneLake BCDR Other Operations Cool Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Map services On-Demand Usage/Map services On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Map services On-Demand Usage",
-              "meter_name": "Map services On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Digital Twin Builder Operation Capacity Usage/Digital Twin Builder Operation Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34603,29 +34591,11 @@
               "sku_name": "API for GraphQL Query Capacity Usage",
               "meter_name": "API for GraphQL Query Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Other Operations On-Demand Usage/OneLake BCDR Other Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Other Operations On-Demand Usage",
-              "meter_name": "OneLake BCDR Other Operations On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations Hot Capacity Usage/OneLake Iterative Write Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations Hot Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations Hot Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Read Operations Cold On-Demand Usage/OneLake Read Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Read Operations Cold On-Demand Usage",
-              "meter_name": "OneLake Read Operations Cold On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Other Operations Cold On-Demand Usage/OneLake BCDR Other Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Other Operations Cold On-Demand Usage",
-              "meter_name": "OneLake BCDR Other Operations Cold On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Capacity Overage Capacity Usage/Capacity Overage Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34639,23 +34609,11 @@
               "sku_name": "OneLake Cache",
               "meter_name": "OneLake Cache Data Stored"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Read Operations Cold On-Demand Usage/OneLake BCDR Read Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Read Operations Cold On-Demand Usage",
-              "meter_name": "OneLake BCDR Read Operations Cold On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Write Operations Cold Capacity Usage/OneLake Write Operations Cold Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Write Operations Cold Capacity Usage",
               "meter_name": "OneLake Write Operations Cold Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Digital Twin Builder Query On-Demand Usage/Digital Twin Builder Query On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Digital Twin Builder Query On-Demand Usage",
-              "meter_name": "Digital Twin Builder Query On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Cold Capacity Usage/OneLake BCDR Read Operations Cold Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34681,12 +34639,6 @@
               "sku_name": "Activator - Event Analytics Capacity Usage",
               "meter_name": "Activator - Event Analytics Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/SSIS in Fabric On-Demand Usage/SSIS in Fabric On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "SSIS in Fabric On-Demand Usage",
-              "meter_name": "SSIS in Fabric On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Eventhouse Capacity Usage/Eventhouse Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34698,30 +34650,6 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Read Operations Cold Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cool On-Demand Usage/OneLake BCDR Iterative Write Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Write Operations Cool On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Write Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Write Operations Hot On-Demand Usage/OneLake BCDR Write Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Write Operations Hot On-Demand Usage",
-              "meter_name": "OneLake BCDR Write Operations Hot On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations On-Demand Usage/OneLake BCDR Iterative Write Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Write Operations On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Write Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Write Operations Cold On-Demand Usage/OneLake Write Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Write Operations Cold On-Demand Usage",
-              "meter_name": "OneLake Write Operations Cold On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/VNet Data Gateway Capacity Usage/VNet Data Gateway Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34735,41 +34663,11 @@
               "sku_name": "Graph data science Capacity Usage",
               "meter_name": "Graph data science Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake Other Operations Cold On-Demand Usage/OneLake Other Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Other Operations Cold On-Demand Usage",
-              "meter_name": "OneLake Other Operations Cold On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/SQL database in Microsoft Fabric On-Demand Usage/SQL database in Microsoft Fabric On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "SQL database in Microsoft Fabric On-Demand Usage",
-              "meter_name": "SQL database in Microsoft Fabric On-Demand Usage CU"
-            },
             "DZH318Z0F28J/Storage Mirroring/Storage Mirroring Data Stored": {
               "id": "DZH318Z0F28J",
               "name": "OneLake",
               "sku_name": "Storage Mirroring",
               "meter_name": "Storage Mirroring Data Stored"
-            },
-            "DZH318Z0KCZ7/Activator - Event Analytics On-Demand Usage/Activator - Event Analytics On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Activator - Event Analytics On-Demand Usage",
-              "meter_name": "Activator - Event Analytics On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/SQL DB in Microsoft Fabric LR On-Demand Usage/SQL DB in Microsoft Fabric LR On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "SQL DB in Microsoft Fabric LR On-Demand Usage",
-              "meter_name": "SQL DB in Microsoft Fabric LR On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cold On-Demand Usage/OneLake BCDR Iterative Read Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Read Operations Cold On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Read Operations Cold On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Power BI Capacity Usage/Power BI Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34783,59 +34681,11 @@
               "sku_name": "Apache Airflow job Capacity Usage",
               "meter_name": "Apache Airflow job Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Read Operations On-Demand Usage/OneLake BCDR Read Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Read Operations On-Demand Usage",
-              "meter_name": "OneLake BCDR Read Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Copilot and AI On-Demand Usage/Copilot and AI On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Copilot and AI On-Demand Usage",
-              "meter_name": "Copilot and AI On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Hot On-Demand Usage/OneLake BCDR Iterative Write Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Write Operations Hot On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Write Operations Hot On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Operations Agents Autonomous Reasoning On-Demand Usage/Operations Agents Autonomous Reasoning On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Operations Agents Autonomous Reasoning On-Demand Usage",
-              "meter_name": "Operations Agents Autonomous Reasoning On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/RTI Event Listener and Alert On-Demand Usage/RTI Event Listener and Alert On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "RTI Event Listener and Alert On-Demand Usage",
-              "meter_name": "RTI Event Listener and Alert On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Data Orchestration On-Demand Usage/Data Orchestration On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Data Orchestration On-Demand Usage",
-              "meter_name": "Data Orchestration On-Demand Usage CU"
-            },
             "DZH318Z0F28J/SQL Storage/SQL Storage Data Stored": {
               "id": "DZH318Z0F28J",
               "name": "OneLake",
               "sku_name": "SQL Storage",
               "meter_name": "SQL Storage Data Stored"
-            },
-            "DZH318Z0KCZ7/OneLake Write Operations Cool On-Demand Usage/OneLake Write Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Write Operations Cool On-Demand Usage",
-              "meter_name": "OneLake Write Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Data Warehouse On-Demand Usage/Data Warehouse On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Data Warehouse On-Demand Usage",
-              "meter_name": "Data Warehouse On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Operations Agents Compute Capacity Usage/Operations Agents Compute Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34849,12 +34699,6 @@
               "sku_name": "Ontology Modeling Capacity Usage",
               "meter_name": "Ontology Modeling Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Digital Twin Builder On-Demand Usage/Digital Twin Builder On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Digital Twin Builder On-Demand Usage",
-              "meter_name": "Digital Twin Builder On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Write Operations Cool Capacity Usage/OneLake Write Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34866,12 +34710,6 @@
               "name": "Fabric Capacity",
               "sku_name": "OneLake diagnostics Capacity Usage",
               "meter_name": "OneLake diagnostics Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Read Operations Cool On-Demand Usage/OneLake BCDR Read Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Read Operations Cool On-Demand Usage",
-              "meter_name": "OneLake BCDR Read Operations Cool On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Data Retrieval Cool Capacity Usage/OneLake Data Retrieval Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34921,12 +34759,6 @@
               "sku_name": "Dataflows Standard Compute Capacity Usage",
               "meter_name": "Dataflows Standard Compute Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Ontology Logic and Operations On-Demand Usage/Ontology Logic and Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Ontology Logic and Operations On-Demand Usage",
-              "meter_name": "Ontology Logic and Operations On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Other Operations Hot Capacity Usage/OneLake BCDR Other Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34938,12 +34770,6 @@
               "name": "Fabric Capacity",
               "sku_name": "user data functions Capacity Usage",
               "meter_name": "user data functions Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/High Scale Dataflow Compute - Spark On-Demand Usage/High Scale Dataflow Compute - Spark On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "High Scale Dataflow Compute - Spark On-Demand Usage",
-              "meter_name": "High Scale Dataflow Compute - Spark On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Cool Capacity Usage/OneLake BCDR Read Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -34969,12 +34795,6 @@
               "sku_name": "OneLake BCDR Iterative Write Operations Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Write Operations Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Cosmos Database in Microsoft Fabric On-Demand Usage/Cosmos Database in Microsoft Fabric On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Cosmos Database in Microsoft Fabric On-Demand Usage",
-              "meter_name": "Cosmos Database in Microsoft Fabric On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Fabric Planning - Stakeholder Sessions Capacity Usage/Fabric Planning - Stakeholder Sessions Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -34987,59 +34807,17 @@
               "sku_name": "Onelake BCDR Storage Cold",
               "meter_name": "Onelake BCDR Storage Cold Data Stored"
             },
-            "DZH318Z0KCZ7/Eventstream Connector On-Demand Usage/eventstreams connectors On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Eventstream Connector On-Demand Usage",
-              "meter_name": "eventstreams connectors On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations Cool On-Demand Usage/OneLake BCDR Iterative Read Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Read Operations Cool On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Read Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Read Operations Cool On-Demand Usage/OneLake Read Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Read Operations Cool On-Demand Usage",
-              "meter_name": "OneLake Read Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/user data functions On-Demand Usage/user data functions On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "user data functions On-Demand Usage",
-              "meter_name": "user data functions On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Graph data science On-Demand Usage/Graph data science On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Graph data science On-Demand Usage",
-              "meter_name": "Graph data science On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Spark Memory Optimized Capacity Usage/Spark Memory Optimized Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Spark Memory Optimized Capacity Usage",
               "meter_name": "Spark Memory Optimized Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/RTI Event Operations On-Demand Usage/RTI Event Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "RTI Event Operations On-Demand Usage",
-              "meter_name": "RTI Event Operations On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/High Scale Dataflow Compute - Spark Capacity Usage/High Scale Dataflow Compute - Spark Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "High Scale Dataflow Compute - Spark Capacity Usage",
               "meter_name": "High Scale Dataflow Compute - Spark Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/API for GraphQL Query On-Demand Usage/API for GraphQL Query On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "API for GraphQL Query On-Demand Usage",
-              "meter_name": "API for GraphQL Query On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Read Operations Cold Capacity Usage/OneLake Read Operations Cold Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35059,23 +34837,11 @@
               "sku_name": "autoscale for Spark Capacity Usage",
               "meter_name": "autoscale for Spark Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Ontology AI On-Demand Usage/Ontology AI On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Ontology AI On-Demand Usage",
-              "meter_name": "Ontology AI On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Read Operations Hot Capacity Usage/OneLake BCDR Read Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Read Operations Hot Capacity Usage",
               "meter_name": "OneLake BCDR Read Operations Hot Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Write Operations Cold On-Demand Usage/OneLake Iterative Write Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Write Operations Cold On-Demand Usage",
-              "meter_name": "OneLake Iterative Write Operations Cold On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/SQL database in Microsoft Fabric Capacity Usage/SQL database in Microsoft Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35083,23 +34849,11 @@
               "sku_name": "SQL database in Microsoft Fabric Capacity Usage",
               "meter_name": "SQL database in Microsoft Fabric Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake Security On-Demand Usage/OneLake Security On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Security On-Demand Usage",
-              "meter_name": "OneLake Security On-Demand Usage CU"
-            },
             "DZH318Z0F28J/Cosmos DB Storage/Cosmos DB Storage Data Stored": {
               "id": "DZH318Z0F28J",
               "name": "OneLake",
               "sku_name": "Cosmos DB Storage",
               "meter_name": "Cosmos DB Storage Data Stored"
-            },
-            "DZH318Z0KCZ7/Data Movement On-Demand Usage/Data Movement On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Data Movement On-Demand Usage",
-              "meter_name": "Data Movement On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Ontology AI Capacity Usage/Ontology AI Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35107,23 +34861,11 @@
               "sku_name": "Ontology AI Capacity Usage",
               "meter_name": "Ontology AI Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Eventhouse On-Demand Usage/Eventhouse On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Eventhouse On-Demand Usage",
-              "meter_name": "Eventhouse On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Iterative Read Operations Cold Capacity Usage/OneLake Iterative Read Operations Cold Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Read Operations Cold Capacity Usage",
               "meter_name": "OneLake Iterative Read Operations Cold Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Eventstream Processor On-Demand Usage/Eventstream Processor On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Eventstream Processor On-Demand Usage",
-              "meter_name": "Eventstream Processor On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operation Hot Capacity Usage/OneLake BCDR Iterative Read Operation Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35136,24 +34878,6 @@
               "name": "OneLake",
               "sku_name": "SQL Backup Storage",
               "meter_name": "SQL Backup Storage Data Stored"
-            },
-            "DZH318Z0KCZ7/Graph data management On-Demand Usage/Graph data management On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Graph data management On-Demand Usage",
-              "meter_name": "Graph data management On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Read Operations Cold On-Demand Usage/OneLake Iterative Read Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Read Operations Cold On-Demand Usage",
-              "meter_name": "OneLake Iterative Read Operations Cold On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Operations Agents Compute On-Demand Usage/Operations Agents Compute On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Operations Agents Compute On-Demand Usage",
-              "meter_name": "Operations Agents Compute On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Table Read via API Capacity Usage/OneLake Table Read via API Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35185,12 +34909,6 @@
               "sku_name": "OneLake Iterative Read Operations Capacity Usage",
               "meter_name": "OneLake Iterative Read Operations Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake Iterative Read Operations Hot On-Demand Usage/OneLake Iterative Read Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Read Operations Hot On-Demand Usage",
-              "meter_name": "OneLake Iterative Read Operations Hot On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Ontology Logic and Operations Capacity Usage/Ontology Logic and Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -35215,47 +34933,17 @@
               "sku_name": "OneLake Read Operations Hot Capacity Usage",
               "meter_name": "OneLake Read Operations Hot Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Anomaly Detector Queries On-Demand Usage/Anomaly Detector Queries On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Anomaly Detector Queries On-Demand Usage",
-              "meter_name": "Anomaly Detector Queries On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Fabric Planning - Viewer Sessions On-Demand Usage/Fabric Planning - Viewer Sessions On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Fabric Planning - Viewer Sessions On-Demand Usage",
-              "meter_name": "Fabric Planning - Viewer Sessions On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/High Scale Dataflow Compute - SQL On-Demand Usage/High Scale Dataflow Compute - SQL On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "High Scale Dataflow Compute - SQL On-Demand Usage",
-              "meter_name": "High Scale Dataflow Compute - SQL On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cool Capacity Usage/OneLake BCDR Iterative Write Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Write Operations Cool Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operation Hot On-Demand Usage/OneLake BCDR Iterative Read Operation Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Read Operation Hot On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Read Operation Hot On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Read Operations Cool Capacity Usage/OneLake Read Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Read Operations Cool Capacity Usage",
               "meter_name": "OneLake Read Operations Cool Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Digital Twin Builder Operation On-Demand Usage/Digital Twin Builder Operation On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Digital Twin Builder Operation On-Demand Usage",
-              "meter_name": "Digital Twin Builder Operation On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations Cool Capacity Usage/OneLake Iterative Write Operations Cool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35269,65 +34957,11 @@
               "sku_name": "OneLake Storage Cold",
               "meter_name": "OneLake Storage Cold Data Stored"
             },
-            "DZH318Z0KCZ7/OneLake Other Operations Hot On-Demand Usage/OneLake Other Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Other Operations Hot On-Demand Usage",
-              "meter_name": "OneLake Other Operations Hot On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Other Operations On-Demand Usage/OneLake Other Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Other Operations On-Demand Usage",
-              "meter_name": "OneLake Other Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Fabric Planning - Automated Jobs On-Demand Usage/Fabric Planning - Automated Jobs On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Fabric Planning - Automated Jobs On-Demand Usage",
-              "meter_name": "Fabric Planning - Automated Jobs On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/dbt job On-Demand Usage/dbt job On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "dbt job On-Demand Usage",
-              "meter_name": "dbt job On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Write Operations Hot On-Demand Usage/OneLake Iterative Write Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Write Operations Hot On-Demand Usage",
-              "meter_name": "OneLake Iterative Write Operations Hot On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/ML Model Endpoint On-Demand Usage/ML Model Endpoint On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "ML Model Endpoint On-Demand Usage",
-              "meter_name": "ML Model Endpoint On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Eventstream Data Traffic On-Demand Usage/Eventstream Data Traffic On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Eventstream Data Traffic On-Demand Usage",
-              "meter_name": "Eventstream Data Traffic On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Map processing On-Demand Usage/Map processing On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Map processing On-Demand Usage",
-              "meter_name": "Map processing On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Other Operations Hot Capacity Usage/OneLake Other Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Other Operations Hot Capacity Usage",
               "meter_name": "OneLake Other Operations Hot Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Write Operations On-Demand Usage/OneLake Iterative Write Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Write Operations On-Demand Usage",
-              "meter_name": "OneLake Iterative Write Operations On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake Write Operations Capacity Usage/OneLake Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35335,23 +34969,11 @@
               "sku_name": "OneLake Write Operations Capacity Usage",
               "meter_name": "OneLake Write Operations Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Other Operations Hot On-Demand Usage/OneLake BCDR Other Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Other Operations Hot On-Demand Usage",
-              "meter_name": "OneLake BCDR Other Operations Hot On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Write Operations Hot Capacity Usage/OneLake Write Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Write Operations Hot Capacity Usage",
               "meter_name": "OneLake Write Operations Hot Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Read Operations Hot On-Demand Usage/OneLake Read Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Read Operations Hot On-Demand Usage",
-              "meter_name": "OneLake Read Operations Hot On-Demand Usage CU"
             },
             "DZH318Z0F28J/OneLake Storage Hot/OneLake Storage Hot Data Stored": {
               "id": "DZH318Z0F28J",
@@ -35365,12 +34987,6 @@
               "sku_name": "Cosmos Database in Microsoft Fabric Capacity Usage",
               "meter_name": "Cosmos Database in Microsoft Fabric Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Read Operations On-Demand Usage/OneLake BCDR Iterative Read Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Read Operations On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Read Operations On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Fabric Planning - Automated Jobs Capacity Usage/Fabric Planning - Automated Jobs Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -35382,12 +34998,6 @@
               "name": "Fabric Capacity",
               "sku_name": "Fabric Planning - Viewer Sessions Capacity Usage",
               "meter_name": "Fabric Planning - Viewer Sessions Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Apache Airflow job On-Demand Usage/Apache Airflow job On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Apache Airflow job On-Demand Usage",
-              "meter_name": "Apache Airflow job On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/dbt job Capacity Usage/dbt job Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35431,41 +35041,11 @@
               "sku_name": "OneLake Storage Cool",
               "meter_name": "OneLake Storage Cool Data Stored"
             },
-            "DZH318Z0KCZ7/Fabric Planning - Stakeholder Sessions On-Demand Usage/Fabric Planning - Stakeholder Sessions On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Fabric Planning - Stakeholder Sessions On-Demand Usage",
-              "meter_name": "Fabric Planning - Stakeholder Sessions On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Write Operations Cold On-Demand Usage/OneLake BCDR Write Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Write Operations Cold On-Demand Usage",
-              "meter_name": "OneLake BCDR Write Operations Cold On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Write Operations Hot Capacity Usage/OneLake BCDR Write Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake BCDR Write Operations Hot Capacity Usage",
               "meter_name": "OneLake BCDR Write Operations Hot Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Cold On-Demand Usage/OneLake BCDR Iterative Write Operations Cold On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Iterative Write Operations Cold On-Demand Usage",
-              "meter_name": "OneLake BCDR Iterative Write Operations Cold On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Read Operations Cool On-Demand Usage/OneLake Iterative Read Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Read Operations Cool On-Demand Usage",
-              "meter_name": "OneLake Iterative Read Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Read Operations Hot On-Demand Usage/OneLake BCDR Read Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Read Operations Hot On-Demand Usage",
-              "meter_name": "OneLake BCDR Read Operations Hot On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/OneLake BCDR Other Operations Capacity Usage/OneLake BCDR Other Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35485,47 +35065,11 @@
               "sku_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage",
               "meter_name": "OneLake BCDR Iterative Write Operations Cold Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake diagnostics On-Demand Usage/OneLake diagnostics On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake diagnostics On-Demand Usage",
-              "meter_name": "OneLake diagnostics On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/Compute Pool Capacity Usage/Compute Pool Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "Compute Pool Capacity Usage",
               "meter_name": "Compute Pool Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Read Operations On-Demand Usage/OneLake Read Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Read Operations On-Demand Usage",
-              "meter_name": "OneLake Read Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Write Operations Cool On-Demand Usage/OneLake BCDR Write Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Write Operations Cool On-Demand Usage",
-              "meter_name": "OneLake BCDR Write Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Data Movement - Incremental copy On-Demand Usage/Data Movement - Incremental copy On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Data Movement - Incremental copy On-Demand Usage",
-              "meter_name": "Data Movement - Incremental copy On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Other Operations Cool On-Demand Usage/OneLake Other Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Other Operations Cool On-Demand Usage",
-              "meter_name": "OneLake Other Operations Cool On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Eventstream Flat On-Demand Usage/Eventstream Flat On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Eventstream Flat On-Demand Usage",
-              "meter_name": "Eventstream Flat On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/Data Warehouse (Accelerated) Capacity Usage/Data Warehouse (Accelerated) Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35563,12 +35107,6 @@
               "sku_name": "Digital Twin Builder Query Capacity Usage",
               "meter_name": "Digital Twin Builder Query Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/OneLake Write Operations Hot On-Demand Usage/OneLake Write Operations Hot On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Write Operations Hot On-Demand Usage",
-              "meter_name": "OneLake Write Operations Hot On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake BCDR Iterative Write Operations Hot Capacity Usage/OneLake BCDR Iterative Write Operations Hot Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
@@ -35581,35 +35119,11 @@
               "sku_name": "RTI Event Listener and Alert Capacity Usage",
               "meter_name": "RTI Event Listener and Alert Capacity Usage CU"
             },
-            "DZH318Z0KCZ7/Ontology Modeling On-Demand Usage/Ontology Modeling On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Ontology Modeling On-Demand Usage",
-              "meter_name": "Ontology Modeling On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake Iterative Read Operations On-Demand Usage/OneLake Iterative Read Operations On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake Iterative Read Operations On-Demand Usage",
-              "meter_name": "OneLake Iterative Read Operations On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/Fabric Planning - Planner Sessions On-Demand Usage/Fabric Planning - Planner Sessions On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Fabric Planning - Planner Sessions On-Demand Usage",
-              "meter_name": "Fabric Planning - Planner Sessions On-Demand Usage CU"
-            },
             "DZH318Z0KCZ7/OneLake Iterative Write Operations Capacity Usage/OneLake Iterative Write Operations Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
               "name": "Fabric Capacity",
               "sku_name": "OneLake Iterative Write Operations Capacity Usage",
               "meter_name": "OneLake Iterative Write Operations Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/VNet Data Gateway On-Demand Usage/VNet Data Gateway On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "VNet Data Gateway On-Demand Usage",
-              "meter_name": "VNet Data Gateway On-Demand Usage CU"
             },
             "DZH318Z0KCZ7/SSIS in Fabric Capacity Usage/SSIS in Fabric Capacity Usage CU": {
               "id": "DZH318Z0KCZ7",
@@ -35622,18 +35136,6 @@
               "name": "Fabric Capacity",
               "sku_name": "Data Movement Capacity Usage",
               "meter_name": "Data Movement Capacity Usage CU"
-            },
-            "DZH318Z0KCZ7/Dataflows Standard Compute On-Demand Usage/Dataflows Standard Compute On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "Dataflows Standard Compute On-Demand Usage",
-              "meter_name": "Dataflows Standard Compute On-Demand Usage CU"
-            },
-            "DZH318Z0KCZ7/OneLake BCDR Other Operations Cool On-Demand Usage/OneLake BCDR Other Operations Cool On-Demand Usage CU": {
-              "id": "DZH318Z0KCZ7",
-              "name": "Fabric Capacity",
-              "sku_name": "OneLake BCDR Other Operations Cool On-Demand Usage",
-              "meter_name": "OneLake BCDR Other Operations Cool On-Demand Usage CU"
             }
           }
         }
@@ -36977,6 +36479,12 @@
               "name": "Azure DocumentDB",
               "sku_name": "Coordinator Node 64 vCore",
               "meter_name": "vCore"
+            },
+            "DZH318XZM3HK/Data Ingestion/Data Ingestion": {
+              "id": "DZH318XZM3HK",
+              "name": "Azure Cosmos DB - Ingestion",
+              "sku_name": "Data Ingestion",
+              "meter_name": "Data Ingestion"
             },
             "DZH318Z0J95H/Coordinator Node 16 vCore/vCore": {
               "id": "DZH318Z0J95H",
@@ -38678,7 +38186,7 @@
             },
             "DZH318Z0R90J/Extended Support/Extended Support vCore": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extended Support",
               "meter_name": "Extended Support vCore"
             },
@@ -38732,7 +38240,7 @@
             },
             "DZH318Z0R90J/Extd Spprt Free Tier/Extd Spprt Free Tier": {
               "id": "DZH318Z0R90J",
-              "name": "Azure Database for PostgSQL Extended Support",
+              "name": "Azure Database for Postgres Extended Support",
               "sku_name": "Extd Spprt Free Tier",
               "meter_name": "Extd Spprt Free Tier"
             },
@@ -42237,6 +41745,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Unit"
             },
+            "DZH318Z0BQN4/Automation/Automation Environment Management": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Environment Management"
+            },
             "DZH318Z0BQN4/Consumption/Consumption Data Retention": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
@@ -42254,6 +41768,18 @@
               "name": "Logic Apps",
               "sku_name": "Standard",
               "meter_name": "Standard Memory Duration"
+            },
+            "DZH318Z0BQN4/Automation/Automation Standard Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Standard Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation Memory Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Memory Isolated Code Execution"
             },
             "DZH318Z0BQN1/Premium/Premium Unit": {
               "id": "DZH318Z0BQN1",
@@ -42273,11 +41799,35 @@
               "sku_name": "Consumption",
               "meter_name": "Consumption Built-in Actions"
             },
+            "DZH318Z0BQN4/Automation/Automation Enterprise Connector Actions": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Enterprise Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation Core Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Core Execution"
+            },
+            "DZH318Z0BQN4/Automation/Automation Azure Agent Credits": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Azure Agent Credits"
+            },
             "DZH318Z0BQN4/Standard/Standard vCPU Duration": {
               "id": "DZH318Z0BQN4",
               "name": "Logic Apps",
               "sku_name": "Standard",
               "meter_name": "Standard vCPU Duration"
+            },
+            "DZH318Z0BQN4/Automation/Automation Data Retention": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation Data Retention"
             },
             "DZH318Z0BQN1/Basic/Basic Unit": {
               "id": "DZH318Z0BQN1",
@@ -42296,6 +41846,12 @@
               "name": "Logic Apps",
               "sku_name": "Consumption",
               "meter_name": "Consumption Standard Connector Actions"
+            },
+            "DZH318Z0BQN4/Automation/Automation vCPU Isolated Code Execution": {
+              "id": "DZH318Z0BQN4",
+              "name": "Logic Apps",
+              "sku_name": "Automation",
+              "meter_name": "Automation vCPU Isolated Code Execution"
             },
             "DZH318Z0BZ0B/Scale/Scale Unit": {
               "id": "DZH318Z0BZ0B",
@@ -50502,6 +50058,12 @@
           "id": "DZH318X5DGJB",
           "name": "Azure Cognitive Search",
           "products": {
+            "DZH318Z0BQKZ/Agentic Retrieval Medium Reasoning/Agentic Retrieval Medium Reasoning Tokens": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Agentic Retrieval Medium Reasoning",
+              "meter_name": "Agentic Retrieval Medium Reasoning Tokens"
+            },
             "DZH318Z0BQKZ/Standard S1/Standard S1 Unit": {
               "id": "DZH318Z0BQKZ",
               "name": "Azure AI Search",
@@ -50555,6 +50117,12 @@
               "name": "Azure AI Search",
               "sku_name": "Storage Optimized L1",
               "meter_name": "Storage Optimized L1 Unit"
+            },
+            "DZH318Z0BQKZ/Free Agentic Retrieval Medium Reasoning/Free Agentic Retrieval Medium Reasoning Tokens": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Free Agentic Retrieval Medium Reasoning",
+              "meter_name": "Free Agentic Retrieval Medium Reasoning Tokens"
             },
             "DZH318Z0BQKZ/Custom Entity Skills/Custom Entity Skills Text Records": {
               "id": "DZH318Z0BQKZ",
