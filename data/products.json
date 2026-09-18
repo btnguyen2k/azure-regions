@@ -3516,6 +3516,12 @@
             "sku_name": "GPT-OSS-20b-IN-FT",
             "meter_name": "GPT-OSS-20b-IN-FT Tokens"
           },
+          "DZH318Z0SLDG/Parser V5 Glbl/Parser V5 Glbl Pages": {
+            "id": "DZH318Z0SLDG",
+            "name": "Cohere Models",
+            "sku_name": "Parser V5 Glbl",
+            "meter_name": "Parser V5 Glbl Pages"
+          },
           "DZH318Z0TPCM/MM3.5 Inp glbl/MM3.5 Inp glbl Tokens": {
             "id": "DZH318Z0TPCM",
             "name": "Azure Mistral Models",
@@ -3545,6 +3551,12 @@
             "name": "Azure OpenAI OSS Models",
             "sku_name": "OSS-20b FT",
             "meter_name": "OSS-20b FT Deployment Hosting Unit"
+          },
+          "DZH318Z0SLDG/Parser V5 DZ/Parser V5 DZ Pages": {
+            "id": "DZH318Z0SLDG",
+            "name": "Cohere Models",
+            "sku_name": "Parser V5 DZ",
+            "meter_name": "Parser V5 DZ Pages"
           },
           "DZH318Z0TPCM/Mnstrl 3B FT/Mnstrl 3B FT Tokens": {
             "id": "DZH318Z0TPCM",
@@ -4493,12 +4505,6 @@
             "name": "Azure OpenAI Media",
             "sku_name": "gpt rt 1.5 txt inp Gl",
             "meter_name": "gpt rt 1.5 txt inp Gl 1M Tokens"
-          },
-          "DZH318Z0SLDG/Parser V5 DZ/Parser V5 DZ Pages": {
-            "id": "DZH318Z0SLDG",
-            "name": "Cohere Models",
-            "sku_name": "Parser V5 DZ",
-            "meter_name": "Parser V5 DZ Pages"
           },
           "DZH318Z0T879/Grok 4.1 Inp Glbl/Grok 4.1 Inp Glbl Tokens": {
             "id": "DZH318Z0T879",
@@ -8009,12 +8015,6 @@
             "name": "Azure OpenAI",
             "sku_name": "gpt4omini-aud1217 Inp glbl",
             "meter_name": "gpt4omini-aud1217 Inp glbl Tokens"
-          },
-          "DZH318Z0SLDG/Parser V5 Glbl/Parser V5 Glbl Pages": {
-            "id": "DZH318Z0SLDG",
-            "name": "Cohere Models",
-            "sku_name": "Parser V5 Glbl",
-            "meter_name": "Parser V5 Glbl Pages"
           },
           "DZH318Z0T9WD/5.6 terra ShortCo Cd Inp Std Gl/5.6 terra ShortCo Cd Inp Std Gl 1M Tokens": {
             "id": "DZH318Z0T9WD",
@@ -13764,17 +13764,77 @@
             "sku_name": "o3 0416 Inp regnl",
             "meter_name": "o3 0416 Inp regnl Tokens"
           },
-          "DZH318Z0T9X1/3.3 70b FT regnl/3.3 70b FT regnl Deployment Hosting Unit": {
-            "id": "DZH318Z0T9X1",
-            "name": "Azure Llama Models",
-            "sku_name": "3.3 70b FT regnl",
-            "meter_name": "3.3 70b FT regnl Deployment Hosting Unit"
+          "DZH318XZQS6V/FW Kimi-K3 Gl Inp/FW Kimi-K3 Gl Inp Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW Kimi-K3 Gl Inp",
+            "meter_name": "FW Kimi-K3 Gl Inp Tokens"
+          },
+          "DZH318Z0V4PL/Live 1 DZ/Live 1 DZ Unit": {
+            "id": "DZH318Z0V4PL",
+            "name": "Azure OpenAI Media",
+            "sku_name": "Live 1 DZ",
+            "meter_name": "Live 1 DZ Unit"
+          },
+          "DZH318XZQS6V/FW DS-V4.1-Flash Gl Opt/FW DS-V4.1-Flash Gl Opt Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW DS-V4.1-Flash Gl Opt",
+            "meter_name": "FW DS-V4.1-Flash Gl Opt Tokens"
+          },
+          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Inp/FW GLM-5.3-Flash Gl Inp Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW GLM-5.3-Flash Gl Inp",
+            "meter_name": "FW GLM-5.3-Flash Gl Inp Tokens"
+          },
+          "DZH318XZQS6V/FW Kimi-K3 Gl Opt/FW Kimi-K3 Gl Opt Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW Kimi-K3 Gl Opt",
+            "meter_name": "FW Kimi-K3 Gl Opt Tokens"
+          },
+          "DZH318XZQS6V/FW DS-V4.1-Flash Gl Cd Inp/FW DS-V4.1-Flash Gl Cd Inp Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW DS-V4.1-Flash Gl Cd Inp",
+            "meter_name": "FW DS-V4.1-Flash Gl Cd Inp Tokens"
+          },
+          "DZH318Z0SSVH/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
+            "id": "DZH318Z0SSVH",
+            "name": "Azure Kimi",
+            "sku_name": "Provisioned Managed Data Zone",
+            "meter_name": "Provisioned Managed Data Zone Unit"
+          },
+          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Cd Inp/FW GLM-5.3-Flash Gl Cd Inp Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW GLM-5.3-Flash Gl Cd Inp",
+            "meter_name": "FW GLM-5.3-Flash Gl Cd Inp Tokens"
+          },
+          "DZH318XZQS6V/FW Kimi-K3 Gl Cd Inp/FW Kimi-K3 Gl Cd Inp Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW Kimi-K3 Gl Cd Inp",
+            "meter_name": "FW Kimi-K3 Gl Cd Inp Tokens"
           },
           "DZH318XZQS6V/FW DS-V4.1-Flash Gl Inp/FW DS-V4.1-Flash Gl Inp Tokens": {
             "id": "DZH318XZQS6V",
             "name": "Azure Fireworks Models",
             "sku_name": "FW DS-V4.1-Flash Gl Inp",
             "meter_name": "FW DS-V4.1-Flash Gl Inp Tokens"
+          },
+          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Opt/FW GLM-5.3-Flash Gl Opt Tokens": {
+            "id": "DZH318XZQS6V",
+            "name": "Azure Fireworks Models",
+            "sku_name": "FW GLM-5.3-Flash Gl Opt",
+            "meter_name": "FW GLM-5.3-Flash Gl Opt Tokens"
+          },
+          "DZH318Z0T9X1/3.3 70b FT regnl/3.3 70b FT regnl Deployment Hosting Unit": {
+            "id": "DZH318Z0T9X1",
+            "name": "Azure Llama Models",
+            "sku_name": "3.3 70b FT regnl",
+            "meter_name": "3.3 70b FT regnl Deployment Hosting Unit"
           },
           "DZH318Z0V4PL/Sora 1080p 11-15s regnl/Sora 1080p 11-15s regnl Video": {
             "id": "DZH318Z0V4PL",
@@ -13800,12 +13860,6 @@
             "sku_name": "Sora 720p 1-5s regnl",
             "meter_name": "Sora 720p 1-5s regnl Video"
           },
-          "DZH318XZQS6V/FW Kimi-K3 Gl Opt/FW Kimi-K3 Gl Opt Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW Kimi-K3 Gl Opt",
-            "meter_name": "FW Kimi-K3 Gl Opt Tokens"
-          },
           "DZH318Z0V4PL/Sora 1080p Sq 11-15s regnl/Sora 1080p Sq 11-15s regnl Video": {
             "id": "DZH318Z0V4PL",
             "name": "Azure OpenAI Media",
@@ -13830,23 +13884,11 @@
             "sku_name": "20b FT regnl",
             "meter_name": "20b FT regnl Tokens"
           },
-          "DZH318XZQS6V/FW DS-V4.1-Flash Gl Cd Inp/FW DS-V4.1-Flash Gl Cd Inp Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW DS-V4.1-Flash Gl Cd Inp",
-            "meter_name": "FW DS-V4.1-Flash Gl Cd Inp Tokens"
-          },
           "DZH318Z0V4PL/Sora 1080p 1-5s regnl/Sora 1080p 1-5s regnl Video": {
             "id": "DZH318Z0V4PL",
             "name": "Azure OpenAI Media",
             "sku_name": "Sora 1080p 1-5s regnl",
             "meter_name": "Sora 1080p 1-5s regnl Video"
-          },
-          "DZH318XZQS6V/FW Kimi-K3 Gl Inp/FW Kimi-K3 Gl Inp Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW Kimi-K3 Gl Inp",
-            "meter_name": "FW Kimi-K3 Gl Inp Tokens"
           },
           "DZH318Z0V4PL/Sora 480p Sq 1-20s regnl/Sora 480p Sq 1-20s regnl Video": {
             "id": "DZH318Z0V4PL",
@@ -13854,41 +13896,17 @@
             "sku_name": "Sora 480p Sq 1-20s regnl",
             "meter_name": "Sora 480p Sq 1-20s regnl Video"
           },
-          "DZH318Z0V4PL/Live 1 DZ/Live 1 DZ Unit": {
-            "id": "DZH318Z0V4PL",
-            "name": "Azure OpenAI Media",
-            "sku_name": "Live 1 DZ",
-            "meter_name": "Live 1 DZ Unit"
-          },
           "DZH318Z0V4PL/Sora 720p Sq 1-20s regnl/Sora 720p Sq 1-20s regnl Video": {
             "id": "DZH318Z0V4PL",
             "name": "Azure OpenAI Media",
             "sku_name": "Sora 720p Sq 1-20s regnl",
             "meter_name": "Sora 720p Sq 1-20s regnl Video"
           },
-          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Opt/FW GLM-5.3-Flash Gl Opt Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW GLM-5.3-Flash Gl Opt",
-            "meter_name": "FW GLM-5.3-Flash Gl Opt Tokens"
-          },
           "DZH318Z0V4PL/Sora 1080p 16-20s regnl/Sora 1080p 16-20s regnl Video": {
             "id": "DZH318Z0V4PL",
             "name": "Azure OpenAI Media",
             "sku_name": "Sora 1080p 16-20s regnl",
             "meter_name": "Sora 1080p 16-20s regnl Video"
-          },
-          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Cd Inp/FW GLM-5.3-Flash Gl Cd Inp Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW GLM-5.3-Flash Gl Cd Inp",
-            "meter_name": "FW GLM-5.3-Flash Gl Cd Inp Tokens"
-          },
-          "DZH318Z0SSVH/Provisioned Managed Data Zone/Provisioned Managed Data Zone Unit": {
-            "id": "DZH318Z0SSVH",
-            "name": "Azure Kimi",
-            "sku_name": "Provisioned Managed Data Zone",
-            "meter_name": "Provisioned Managed Data Zone Unit"
           },
           "DZH318Z0V4PL/Sora 720p 6-10s regnl/Sora 720p 6-10s regnl Video": {
             "id": "DZH318Z0V4PL",
@@ -13914,35 +13932,17 @@
             "sku_name": "Sora 480p 1-20s regnl",
             "meter_name": "Sora 480p 1-20s regnl Video"
           },
-          "DZH318XZQS6V/FW Kimi-K3 Gl Cd Inp/FW Kimi-K3 Gl Cd Inp Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW Kimi-K3 Gl Cd Inp",
-            "meter_name": "FW Kimi-K3 Gl Cd Inp Tokens"
-          },
           "DZH318Z0TPCM/Ministral 3bFTregnl/Ministral 3bFTregnl Tokens": {
             "id": "DZH318Z0TPCM",
             "name": "Azure Mistral Models",
             "sku_name": "Ministral 3bFTregnl",
             "meter_name": "Ministral 3bFTregnl Tokens"
           },
-          "DZH318XZQS6V/FW DS-V4.1-Flash Gl Opt/FW DS-V4.1-Flash Gl Opt Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW DS-V4.1-Flash Gl Opt",
-            "meter_name": "FW DS-V4.1-Flash Gl Opt Tokens"
-          },
           "DZH318Z0VXNR/20b FT regnl/20b FT regnl Deployment Hosting Unit": {
             "id": "DZH318Z0VXNR",
             "name": "Azure OpenAI OSS Models",
             "sku_name": "20b FT regnl",
             "meter_name": "20b FT regnl Deployment Hosting Unit"
-          },
-          "DZH318XZQS6V/FW GLM-5.3-Flash Gl Inp/FW GLM-5.3-Flash Gl Inp Tokens": {
-            "id": "DZH318XZQS6V",
-            "name": "Azure Fireworks Models",
-            "sku_name": "FW GLM-5.3-Flash Gl Inp",
-            "meter_name": "FW GLM-5.3-Flash Gl Inp Tokens"
           },
           "DZH318Z0V4PL/Sora 1080p Sq 16-20s regnl/Sora 1080p Sq 16-20s regnl Video": {
             "id": "DZH318Z0V4PL",
