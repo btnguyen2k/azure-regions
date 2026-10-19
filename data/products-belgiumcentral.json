@@ -29492,11 +29492,11 @@
               "sku_name": "Periodic Backup - LRS",
               "meter_name": "Periodic Backup - LRS Data Stored"
             },
-            "DZH318XZM99D/Vaulted Bckp/Vaulted Bckp Data Restore": {
+            "DZH318XZM99D/External Restore/External Restore Data Restore": {
               "id": "DZH318XZM99D",
-              "name": "Azure Cosmos DB Restore",
-              "sku_name": "Vaulted Bckp",
-              "meter_name": "Vaulted Bckp Data Restore"
+              "name": "Azure Backup for Cosmos DB",
+              "sku_name": "External Restore",
+              "meter_name": "External Restore Data Restore"
             },
             "DZH318Z0CCGK/D2s/D2s": {
               "id": "DZH318Z0CCGK",
@@ -32181,6 +32181,23 @@
               "name": "Application Insights",
               "sku_name": "Basic",
               "meter_name": "Data Retention"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Microsoft 365 Copilot",
+      "services": {
+        "DZH31522F4P0": {
+          "id": "DZH31522F4P0",
+          "name": "Microsoft Copilot Studio",
+          "products": {
+            "DZH318XZNW0V/Pay As You Go/Pay As You Go Copilot Credit": {
+              "id": "DZH318XZNW0V",
+              "name": "Microsoft Contact Center Intelligence",
+              "sku_name": "Pay As You Go",
+              "meter_name": "Pay As You Go Copilot Credit"
             }
           }
         }
