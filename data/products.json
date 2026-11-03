@@ -15546,6 +15546,18 @@
             "sku_name": "Commitment Tier Connected 5M",
             "meter_name": "Commitment Tier Connected 5M Unit"
           },
+          "DZH318Z0ML96/Doc Content Extraction Sync Min/Doc Content Extraction Sync Min Pages": {
+            "id": "DZH318Z0ML96",
+            "name": "Azure Content Understanding",
+            "sku_name": "Doc Content Extraction Sync Min",
+            "meter_name": "Doc Content Extraction Sync Min Pages"
+          },
+          "DZH318Z0BP4S/Emb Speech to Text/Emb Speech to Text Speech To Text": {
+            "id": "DZH318Z0BP4S",
+            "name": "Azure Speech",
+            "sku_name": "Emb Speech to Text",
+            "meter_name": "Emb Speech to Text Speech To Text"
+          },
           "DZH318Z0BQL9/Commitment Tier TA4H 3M/Commitment Tier TA4H 3M CT Overage Transactions": {
             "id": "DZH318Z0BQL9",
             "name": "Azure Language",
@@ -15575,6 +15587,12 @@
             "name": "Text Analytics Container",
             "sku_name": "Standard",
             "meter_name": "Standard Text Records"
+          },
+          "DZH318Z0BP4S/Emb Neural Text to Speech/Emb Neural Text to Speech Characters": {
+            "id": "DZH318Z0BP4S",
+            "name": "Azure Speech",
+            "sku_name": "Emb Neural Text to Speech",
+            "meter_name": "Emb Neural Text to Speech Characters"
           },
           "DZH318Z0BQL9/Commitment Tier TA4H Connected 1M/Commitment Tier TA4H Connected 1M Unit": {
             "id": "DZH318Z0BQL9",
@@ -15881,24 +15899,6 @@
             "name": "Azure Speech",
             "sku_name": "OAI-based Neural Text to Speech",
             "meter_name": "OAI-based Neural Text to Speech Characters"
-          },
-          "DZH318Z0ML96/Doc Content Extraction Sync Min/Doc Content Extraction Sync Min Pages": {
-            "id": "DZH318Z0ML96",
-            "name": "Azure Content Understanding",
-            "sku_name": "Doc Content Extraction Sync Min",
-            "meter_name": "Doc Content Extraction Sync Min Pages"
-          },
-          "DZH318Z0BP4S/Emb Speech to Text/Emb Speech to Text Speech To Text": {
-            "id": "DZH318Z0BP4S",
-            "name": "Azure Speech",
-            "sku_name": "Emb Speech to Text",
-            "meter_name": "Emb Speech to Text Speech To Text"
-          },
-          "DZH318Z0BP4S/Emb Neural Text to Speech/Emb Neural Text to Speech Characters": {
-            "id": "DZH318Z0BP4S",
-            "name": "Azure Speech",
-            "sku_name": "Emb Neural Text to Speech",
-            "meter_name": "Emb Neural Text to Speech Characters"
           },
           "DZH318Z0BPJG/Standard/Standard Transactions": {
             "id": "DZH318Z0BPJG",
@@ -97594,17 +97594,23 @@
             "sku_name": "Logs emitted AzMon pipeline",
             "meter_name": "Logs emitted AzMon pipeline Data Emitted"
           },
+          "DZH318Z0BQLB/Health System Log Monitored at 5 Minute Frequency/Health System Log Monitored at 5 Minute Frequency": {
+            "id": "DZH318Z0BQLB",
+            "name": "Azure Monitor",
+            "sku_name": "Health System Log Monitored at 5 Minute Frequency",
+            "meter_name": "Health System Log Monitored at 5 Minute Frequency"
+          },
+          "DZH318Z0BQLB/Health Prom Monitored/Health Prom Monitored Metric Monitored": {
+            "id": "DZH318Z0BQLB",
+            "name": "Azure Monitor",
+            "sku_name": "Health Prom Monitored",
+            "meter_name": "Health Prom Monitored Metric Monitored"
+          },
           "DZH318Z0BQLB/Health System Log Monitored at 15 Minute Frequency/Health System Log Monitored at 15 Minute Frequency": {
             "id": "DZH318Z0BQLB",
             "name": "Azure Monitor",
             "sku_name": "Health System Log Monitored at 15 Minute Frequency",
             "meter_name": "Health System Log Monitored at 15 Minute Frequency"
-          },
-          "DZH318Z0BQLB/Health System Log Monitored at 1 Minute Frequency/Health System Log Monitored at 1 Minute Frequency": {
-            "id": "DZH318Z0BQLB",
-            "name": "Azure Monitor",
-            "sku_name": "Health System Log Monitored at 1 Minute Frequency",
-            "meter_name": "Health System Log Monitored at 1 Minute Frequency"
           },
           "DZH318Z0BQLB/Health Dynamic Threshold Signal/Health Dynamic Threshold Signal": {
             "id": "DZH318Z0BQLB",
@@ -97618,29 +97624,23 @@
             "sku_name": "Health Metric Monitored",
             "meter_name": "Health Metric Monitored"
           },
-          "DZH318Z0BQLB/Health Prom Monitored/Health Prom Monitored Metric Monitored": {
+          "DZH318Z0BQLB/Health System Log Monitored at 1 Minute Frequency/Health System Log Monitored at 1 Minute Frequency": {
             "id": "DZH318Z0BQLB",
             "name": "Azure Monitor",
-            "sku_name": "Health Prom Monitored",
-            "meter_name": "Health Prom Monitored Metric Monitored"
-          },
-          "DZH318Z0BQLB/Health System Log Monitored at 5 Minute Frequency/Health System Log Monitored at 5 Minute Frequency": {
-            "id": "DZH318Z0BQLB",
-            "name": "Azure Monitor",
-            "sku_name": "Health System Log Monitored at 5 Minute Frequency",
-            "meter_name": "Health System Log Monitored at 5 Minute Frequency"
-          },
-          "DZH318Z0BQLB/Health API Calls/Health API Calls": {
-            "id": "DZH318Z0BQLB",
-            "name": "Azure Monitor",
-            "sku_name": "Health API Calls",
-            "meter_name": "Health API Calls"
+            "sku_name": "Health System Log Monitored at 1 Minute Frequency",
+            "meter_name": "Health System Log Monitored at 1 Minute Frequency"
           },
           "DZH318Z0BQLB/Health System Log Monitored at 10 Minute Frequency/Health System Log Monitored at 10 Minute Frequency": {
             "id": "DZH318Z0BQLB",
             "name": "Azure Monitor",
             "sku_name": "Health System Log Monitored at 10 Minute Frequency",
             "meter_name": "Health System Log Monitored at 10 Minute Frequency"
+          },
+          "DZH318Z0BQLB/Health API Calls/Health API Calls": {
+            "id": "DZH318Z0BQLB",
+            "name": "Azure Monitor",
+            "sku_name": "Health API Calls",
+            "meter_name": "Health API Calls"
           },
           "DZH318Z0BQLB/OneDsCollector/OneDsCollector Bond To Json Translation": {
             "id": "DZH318Z0BQLB",
@@ -110078,18 +110078,6 @@
             "sku_name": "ADLS Gen2 Vaulted",
             "meter_name": "ADLS Gen2 Vaulted ZRS Write Operations"
           },
-          "DZH318Z0BP05/Cyber/Cyber 100 Restore (GB)": {
-            "id": "DZH318Z0BP05",
-            "name": "Backup",
-            "sku_name": "Cyber",
-            "meter_name": "Cyber 100 Restore (GB)"
-          },
-          "DZH318Z0BP05/Cyber/Cyber 1 Threat Detection PI/Month": {
-            "id": "DZH318Z0BP05",
-            "name": "Backup",
-            "sku_name": "Cyber",
-            "meter_name": "Cyber 1 Threat Detection PI/Month"
-          },
           "DZH318Z0BP05/Azure Disks Vaulted/Azure Disks Vaulted Protected Instance": {
             "id": "DZH318Z0BP05",
             "name": "Backup",
@@ -110101,6 +110089,18 @@
             "name": "Backup",
             "sku_name": "Cyber",
             "meter_name": "Cyber 1 Recovery Plan/Month"
+          },
+          "DZH318Z0BP05/Cyber/Cyber 100 Restore (GB)": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Cyber",
+            "meter_name": "Cyber 100 Restore (GB)"
+          },
+          "DZH318Z0BP05/Cyber/Cyber 1 Threat Detection PI/Month": {
+            "id": "DZH318Z0BP05",
+            "name": "Backup",
+            "sku_name": "Cyber",
+            "meter_name": "Cyber 1 Threat Detection PI/Month"
           }
         }
       },
