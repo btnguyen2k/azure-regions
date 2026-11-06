@@ -11011,6 +11011,12 @@
               "sku_name": "Voice Live API Lite - Standard Speech Audio Output",
               "meter_name": "Voice Live API Lite - Standard Speech Audio Output Tokens"
             },
+            "DZH318Z0BP4S/Emb Neural Text to Speech/Emb Neural Text to Speech Characters": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Emb Neural Text to Speech",
+              "meter_name": "Emb Neural Text to Speech Characters"
+            },
             "DZH318Z0BP4S/S1/S1 Conversation Transcription Multichannel Audio": {
               "id": "DZH318Z0BP4S",
               "name": "Azure Speech",
@@ -12540,6 +12546,12 @@
               "name": "Azure Speech",
               "sku_name": "Commit Tier Neural TTS Connected 80M",
               "meter_name": "Commit Tier Neural TTS Connected 80M Neural Text To Speech CT Overage Characters"
+            },
+            "DZH318Z0BP4S/Emb Speech to Text/Emb Speech to Text Speech To Text": {
+              "id": "DZH318Z0BP4S",
+              "name": "Azure Speech",
+              "sku_name": "Emb Speech to Text",
+              "meter_name": "Emb Speech to Text Speech To Text"
             },
             "DZH318Z0BQLH/S1/S1 Custom Translation Characters": {
               "id": "DZH318Z0BQLH",
@@ -59006,6 +59018,12 @@
               "sku_name": "IDH v2",
               "meter_name": "IDH v2"
             },
+            "DZH318XZMV5T/Standard/Standard App": {
+              "id": "DZH318XZMV5T",
+              "name": "Geo-redundancy in Azure App Service",
+              "sku_name": "Standard",
+              "meter_name": "Standard App"
+            },
             "DZH318Z0TFB3/P0v4/P0v4": {
               "id": "DZH318Z0TFB3",
               "name": "Azure App Service Premium v4 Plan - Linux",
@@ -62921,6 +62939,12 @@
               "sku_name": "vCore",
               "meter_name": "vCore"
             },
+            "DZH318XZNPG3/1 vCore/1 vCore": {
+              "id": "DZH318XZNPG3",
+              "name": "Azure Database for PostgreSQL Flex Serv General Purpose Dsv5 Ser Comp",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
             "DZH318Z0T3WG/1 vCore Free Tier/1 vCore Free Tier": {
               "id": "DZH318Z0T3WG",
               "name": "Azure HorizonDB Compute",
@@ -63466,6 +63490,18 @@
               "name": "Azure Cosmos DB for PostgreSQL Compute- Burstable",
               "sku_name": "8m vCore",
               "meter_name": "vCore"
+            },
+            "DZH318XZNP94/1 vCore/1 vCore": {
+              "id": "DZH318XZNP94",
+              "name": "Azure Database for PostgreSQL Flex Serv General Purpose Dasv5 Ser Comp",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
+            },
+            "DZH318XZNPDT/1 vCore/1 vCore": {
+              "id": "DZH318XZNPDT",
+              "name": "Azure Database for PostgreSQL Flex Serv Memory Optimized Esv5 Ser Comp",
+              "sku_name": "1 vCore",
+              "meter_name": "1 vCore"
             },
             "DZH318Z0JX31/2m vCore/vCore": {
               "id": "DZH318Z0JX31",
@@ -70004,7 +70040,7 @@
           "products": {
             "DZH318XZMWM4/Pay As You Go/Pay As You Go Analysis": {
               "id": "DZH318XZMWM4",
-              "name": "Defender ISOC",
+              "name": "Microsoft Defender ISOC",
               "sku_name": "Pay As You Go",
               "meter_name": "Pay As You Go Analysis"
             }
@@ -70262,6 +70298,150 @@
               "name": "Public IP Prefix",
               "sku_name": "Global",
               "meter_name": "Global Static Public IP"
+            }
+          }
+        },
+        "DZH318G79HZT": {
+          "id": "DZH318G79HZT",
+          "name": "Azure Firewall",
+          "products": {
+            "DZH318Z0BZ06/Premium App Threat Protection/Premium App Threat Protection Requests": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium App Threat Protection",
+              "meter_name": "Premium App Threat Protection Requests"
+            },
+            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard Secure Virtual Hub",
+              "meter_name": "Standard Secure Virtual Hub Data Processed"
+            },
+            "DZH318Z0BZ06/Premium AI Security Virtual Hub/Premium AI Security Virtual Hub Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium AI Security Virtual Hub",
+              "meter_name": "Premium AI Security Virtual Hub Deployment"
+            },
+            "DZH318Z0BZ06/Premium Malware Protection/Premium Malware Protection Requests": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Malware Protection",
+              "meter_name": "Premium Malware Protection Requests"
+            },
+            "DZH318Z0BZ06/Premium Data Loss Prevention/Premium Data Loss Prevention Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Data Loss Prevention",
+              "meter_name": "Premium Data Loss Prevention Data Processed"
+            },
+            "DZH318Z0BZ06/Basic/Basic Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Basic",
+              "meter_name": "Basic Deployment"
+            },
+            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard Secure Virtual Hub",
+              "meter_name": "Standard Secure Virtual Hub Capacity Unit"
+            },
+            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard Secure Virtual Hub",
+              "meter_name": "Standard Secure Virtual Hub Deployment"
+            },
+            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Secured Virtual Hub",
+              "meter_name": "Premium Secured Virtual Hub Capacity Unit"
+            },
+            "DZH318Z0BZ06/Premium AI Security/Premium AI Security Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium AI Security",
+              "meter_name": "Premium AI Security Capacity Unit"
+            },
+            "DZH318Z0BZ06/Standard/Standard Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard",
+              "meter_name": "Standard Deployment"
+            },
+            "DZH318Z0BZ06/Standard/Standard Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard",
+              "meter_name": "Standard Capacity Unit"
+            },
+            "DZH318Z0BZ06/Premium/Premium Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium",
+              "meter_name": "Premium Capacity Unit"
+            },
+            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Secured Virtual Hub",
+              "meter_name": "Premium Secured Virtual Hub Data Processed"
+            },
+            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium Secured Virtual Hub",
+              "meter_name": "Premium Secured Virtual Hub Deployment"
+            },
+            "DZH318Z0BZ06/Premium/Premium Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium",
+              "meter_name": "Premium Data Processed"
+            },
+            "DZH318Z0BZ06/Basic Secured Virtual Hub/Basic Secured Virtual Hub Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Basic Secured Virtual Hub",
+              "meter_name": "Basic Secured Virtual Hub Data Processed"
+            },
+            "DZH318Z0BZ06/Premium AI Security/Premium AI Security Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium AI Security",
+              "meter_name": "Premium AI Security Deployment"
+            },
+            "DZH318Z0BZ06/Premium/Premium Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium",
+              "meter_name": "Premium Deployment"
+            },
+            "DZH318Z0BZ06/Basic/Basic Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Basic",
+              "meter_name": "Basic Data Processed"
+            },
+            "DZH318Z0BZ06/Premium AI Security Virtual Hub/Premium AI Security Virtual Hub Capacity Unit": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Premium AI Security Virtual Hub",
+              "meter_name": "Premium AI Security Virtual Hub Capacity Unit"
+            },
+            "DZH318Z0BZ06/Standard/Standard Data Processed": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Standard",
+              "meter_name": "Standard Data Processed"
+            },
+            "DZH318Z0BZ06/Basic Secured Virtual Hub/Basic Secured Virtual Hub Deployment": {
+              "id": "DZH318Z0BZ06",
+              "name": "Azure Firewall",
+              "sku_name": "Basic Secured Virtual Hub",
+              "meter_name": "Basic Secured Virtual Hub Deployment"
             }
           }
         },
@@ -70569,6 +70749,12 @@
               "sku_name": "Premium",
               "meter_name": "Premium Gateway"
             },
+            "DZH318Z0CB56/RDP Vision/RDP Vision Recording": {
+              "id": "DZH318Z0CB56",
+              "name": "Azure Bastion",
+              "sku_name": "RDP Vision",
+              "meter_name": "RDP Vision Recording"
+            },
             "DZH318Z0CB56/Basic/Basic Gateway": {
               "id": "DZH318Z0CB56",
               "name": "Azure Bastion",
@@ -70580,6 +70766,12 @@
               "name": "Azure Bastion",
               "sku_name": "Standard",
               "meter_name": "Standard Data Transfer Out"
+            },
+            "DZH318Z0CB56/SSH Vision/SSH Vision Data Processed": {
+              "id": "DZH318Z0CB56",
+              "name": "Azure Bastion",
+              "sku_name": "SSH Vision",
+              "meter_name": "SSH Vision Data Processed"
             },
             "DZH318Z0CB56/Standard/Standard Additional Gateway": {
               "id": "DZH318Z0CB56",
@@ -70725,6 +70917,12 @@
               "sku_name": "Standard",
               "meter_name": "Standard Capacity Units"
             },
+            "DZH318Z0BSD1/Confidential Compute/Confidential Compute Fixed Cost": {
+              "id": "DZH318Z0BSD1",
+              "name": "Application Gateway Standard v2",
+              "sku_name": "Confidential Compute",
+              "meter_name": "Confidential Compute Fixed Cost"
+            },
             "DZH318Z0BSD1/Standard/Standard Fixed Cost": {
               "id": "DZH318Z0BSD1",
               "name": "Application Gateway Standard v2",
@@ -70754,108 +70952,6 @@
               "name": "Application Gateway Basic v2",
               "sku_name": "Basic",
               "meter_name": "Basic Fixed Cost"
-            }
-          }
-        },
-        "DZH318G79HZT": {
-          "id": "DZH318G79HZT",
-          "name": "Azure Firewall",
-          "products": {
-            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard Secure Virtual Hub",
-              "meter_name": "Standard Secure Virtual Hub Data Processed"
-            },
-            "DZH318Z0BZ06/Basic/Basic Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Basic",
-              "meter_name": "Basic Deployment"
-            },
-            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Capacity Unit": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard Secure Virtual Hub",
-              "meter_name": "Standard Secure Virtual Hub Capacity Unit"
-            },
-            "DZH318Z0BZ06/Standard Secure Virtual Hub/Standard Secure Virtual Hub Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard Secure Virtual Hub",
-              "meter_name": "Standard Secure Virtual Hub Deployment"
-            },
-            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Capacity Unit": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium Secured Virtual Hub",
-              "meter_name": "Premium Secured Virtual Hub Capacity Unit"
-            },
-            "DZH318Z0BZ06/Standard/Standard Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard",
-              "meter_name": "Standard Deployment"
-            },
-            "DZH318Z0BZ06/Standard/Standard Capacity Unit": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard",
-              "meter_name": "Standard Capacity Unit"
-            },
-            "DZH318Z0BZ06/Premium/Premium Capacity Unit": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium",
-              "meter_name": "Premium Capacity Unit"
-            },
-            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium Secured Virtual Hub",
-              "meter_name": "Premium Secured Virtual Hub Data Processed"
-            },
-            "DZH318Z0BZ06/Premium Secured Virtual Hub/Premium Secured Virtual Hub Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium Secured Virtual Hub",
-              "meter_name": "Premium Secured Virtual Hub Deployment"
-            },
-            "DZH318Z0BZ06/Premium/Premium Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium",
-              "meter_name": "Premium Data Processed"
-            },
-            "DZH318Z0BZ06/Basic Secured Virtual Hub/Basic Secured Virtual Hub Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Basic Secured Virtual Hub",
-              "meter_name": "Basic Secured Virtual Hub Data Processed"
-            },
-            "DZH318Z0BZ06/Premium/Premium Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Premium",
-              "meter_name": "Premium Deployment"
-            },
-            "DZH318Z0BZ06/Basic/Basic Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Basic",
-              "meter_name": "Basic Data Processed"
-            },
-            "DZH318Z0BZ06/Standard/Standard Data Processed": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Standard",
-              "meter_name": "Standard Data Processed"
-            },
-            "DZH318Z0BZ06/Basic Secured Virtual Hub/Basic Secured Virtual Hub Deployment": {
-              "id": "DZH318Z0BZ06",
-              "name": "Azure Firewall",
-              "sku_name": "Basic Secured Virtual Hub",
-              "meter_name": "Basic Secured Virtual Hub Deployment"
             }
           }
         },
@@ -72630,6 +72726,12 @@
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Write"
             },
+            "DZH318Z0CBTJ/Public Endpoint Standard/Public Endpoint Standard Hour Enabled": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Public Endpoint Standard",
+              "meter_name": "Public Endpoint Standard Hour Enabled"
+            },
             "DZH318Z0BNWT/Standard RA-GZRS/ZRS Read Additional IO": {
               "id": "DZH318Z0BNWT",
               "name": "Standard Page Blob v2",
@@ -73530,6 +73632,12 @@
               "sku_name": "Standard LRS",
               "meter_name": "LRS Data Stored"
             },
+            "DZH318Z0BPH7/Turbo LRS/Turbo LRS Data Stored": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Turbo LRS",
+              "meter_name": "Turbo LRS Data Stored"
+            },
             "DZH318Z0CPS6/Premium ZRS/Premium ZRS MetaData Storage": {
               "id": "DZH318Z0CPS6",
               "name": "Premium ADLS Gen2 Hierarchical Namespace",
@@ -74021,6 +74129,12 @@
               "name": "General Block Blob v2 Hierarchical Namespace",
               "sku_name": "Cool RA-GZRS",
               "meter_name": "Cool RA-GZRS Data Stored"
+            },
+            "DZH318Z0BPH7/Turbo LRS/Account Enabled": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Turbo LRS",
+              "meter_name": "Account Enabled"
             },
             "DZH318Z0BP04/P4 ZRS/P4 ZRS Disk": {
               "id": "DZH318Z0BP04",
@@ -75569,6 +75683,12 @@
               "name": "Blob Storage",
               "sku_name": "Archive RA-GRS",
               "meter_name": "GRS Index Tags"
+            },
+            "DZH318Z0CBTJ/Private Endpoint Premium/Private Endpoint Premium Hour Enabled": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Private Endpoint Premium",
+              "meter_name": "Private Endpoint Premium Hour Enabled"
             },
             "DZH318Z0BJRM/Cool GRS/Cool Read Operations": {
               "id": "DZH318Z0BJRM",
@@ -77802,6 +77922,12 @@
               "sku_name": "Archive RA-GRS",
               "meter_name": "Archive Read Operations"
             },
+            "DZH318Z0BPH7/Turbo LRS/TPS Included": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Turbo LRS",
+              "meter_name": "TPS Included"
+            },
             "DZH318Z0BP0W/P4 ZRS/P4 ZRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -78468,6 +78594,12 @@
               "sku_name": "Instant Access Snapshots LRS",
               "meter_name": "Instant Access Snapshots LRS"
             },
+            "DZH318Z0BZ26/Turbo/Turbo TPS Provisioned": {
+              "id": "DZH318Z0BZ26",
+              "name": "Storage - Bandwidth",
+              "sku_name": "Turbo",
+              "meter_name": "Turbo TPS Provisioned"
+            },
             "DZH318Z0BP0W/P70 LRS/P70 LRS Disk": {
               "id": "DZH318Z0BP0W",
               "name": "Premium Page Blob",
@@ -78569,6 +78701,12 @@
               "name": "General Block Blob v2",
               "sku_name": "Cool LRS",
               "meter_name": "Index Tags"
+            },
+            "DZH318Z0BPH7/Turbo LRS/Bandwidth Included (gbps)": {
+              "id": "DZH318Z0BPH7",
+              "name": "General Block Blob v2",
+              "sku_name": "Turbo LRS",
+              "meter_name": "Bandwidth Included (gbps)"
             },
             "DZH318Z0BNZ5/Account Encrypted LRS/LRS Data Stored": {
               "id": "DZH318Z0BNZ5",
@@ -78761,6 +78899,12 @@
               "name": "Azure Data Lake Storage Gen2 Flat Namespace",
               "sku_name": "Cold GRS",
               "meter_name": "Cold GRS Data Retrieval"
+            },
+            "DZH318Z0CBTJ/Public Endpoint Standard/Public Endpoint Standard Data Processed": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Public Endpoint Standard",
+              "meter_name": "Public Endpoint Standard Data Processed"
             },
             "DZH318Z0BJRM/Hot RA-GRS/Hot GRS Iterative Write Operations": {
               "id": "DZH318Z0BJRM",
@@ -79326,6 +79470,12 @@
               "sku_name": "Hot GRS",
               "meter_name": "GRS List and Create Container Operations"
             },
+            "DZH318Z0BZ26/Turbo/Turbo Bandwidth Provisioned (gbps)": {
+              "id": "DZH318Z0BZ26",
+              "name": "Storage - Bandwidth",
+              "sku_name": "Turbo",
+              "meter_name": "Turbo Bandwidth Provisioned (gbps)"
+            },
             "DZH318Z0BP88/E4 ZRS/E4 ZRS Disk Mount": {
               "id": "DZH318Z0BP88",
               "name": "Standard SSD Managed Disks",
@@ -79817,6 +79967,12 @@
               "name": "Tables",
               "sku_name": "Account Encrypted GZRS",
               "meter_name": "Account Encrypted List Operations"
+            },
+            "DZH318Z0CBTJ/Private Endpoint Premium/Private Endpoint Premium Data Processed": {
+              "id": "DZH318Z0CBTJ",
+              "name": "Blob Features",
+              "sku_name": "Private Endpoint Premium",
+              "meter_name": "Private Endpoint Premium Data Processed"
             },
             "DZH318Z0C120/Cool RA-GRS/Cool RA-GRS Read Operations": {
               "id": "DZH318Z0C120",
@@ -80610,6 +80766,12 @@
               "sku_name": "Archive",
               "meter_name": "Archive LRS Data Stored"
             },
+            "DZH318Z0BP05/Cyber/Cyber 1 Threat Detection PI/Month": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cyber",
+              "meter_name": "Cyber 1 Threat Detection PI/Month"
+            },
             "DZH318Z0BP05/Azure Files Vaulted/Azure Files Vaulted GRS Data Stored": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -80688,6 +80850,12 @@
               "sku_name": "Azure Blob",
               "meter_name": "Azure Blob Protected Instance"
             },
+            "DZH318Z0BP05/Cyber/Cyber 1 Recovery Plan/Month": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cyber",
+              "meter_name": "Cyber 1 Recovery Plan/Month"
+            },
             "DZH318Z0BP05/Standard/Standard RA-GRS Data Stored": {
               "id": "DZH318Z0BP05",
               "name": "Backup",
@@ -80699,6 +80867,12 @@
               "name": "Backup",
               "sku_name": "Azure Kubernetes",
               "meter_name": "Azure Kubernetes Protected Instance"
+            },
+            "DZH318Z0BP05/Azure Disks Vaulted/Azure Disks Vaulted Protected Instance": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Azure Disks Vaulted",
+              "meter_name": "Azure Disks Vaulted Protected Instance"
             },
             "DZH318Z0BP05/Archive/Archive GRS Early Delete": {
               "id": "DZH318Z0BP05",
@@ -80747,6 +80921,12 @@
               "name": "Backup",
               "sku_name": "On Premises Server",
               "meter_name": "On Premises Server Protected Instance"
+            },
+            "DZH318Z0BP05/Cyber/Cyber 100 Restore (GB)": {
+              "id": "DZH318Z0BP05",
+              "name": "Backup",
+              "sku_name": "Cyber",
+              "meter_name": "Cyber 100 Restore (GB)"
             },
             "DZH318Z0BP05/Standard/Standard ZRS Data Stored": {
               "id": "DZH318Z0BP05",
@@ -81005,11 +81185,29 @@
               "sku_name": "Document Cracking",
               "meter_name": "Document Cracking Image Extraction"
             },
+            "DZH318Z0BQKZ/Standard S3 CC/Standard S3 CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Standard S3 CC",
+              "meter_name": "Standard S3 CC Unit"
+            },
             "DZH318Z0BQKZ/Agentic Retrieval Low Reasoning/Agentic Retrieval Low Reasoning Tokens": {
               "id": "DZH318Z0BQKZ",
               "name": "Azure AI Search",
               "sku_name": "Agentic Retrieval Low Reasoning",
               "meter_name": "Agentic Retrieval Low Reasoning Tokens"
+            },
+            "DZH318Z0BQKZ/Standard S2 CC/Standard S2 CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Standard S2 CC",
+              "meter_name": "Standard S2 CC Unit"
+            },
+            "DZH318Z0BQKZ/Basic CC/Basic CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Basic CC",
+              "meter_name": "Basic CC Unit"
             },
             "DZH318Z0BQKZ/Standard S1/Standard S1 Unit": {
               "id": "DZH318Z0BQKZ",
@@ -81047,11 +81245,29 @@
               "sku_name": "Storage Optimized L1",
               "meter_name": "Storage Optimized L1 Unit"
             },
+            "DZH318Z0BQKZ/Storage Optimized L1 CC/Storage Optimized L1 CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Storage Optimized L1 CC",
+              "meter_name": "Storage Optimized L1 CC Unit"
+            },
             "DZH318Z0BQKZ/Free Agentic Retrieval Medium Reasoning/Free Agentic Retrieval Medium Reasoning Tokens": {
               "id": "DZH318Z0BQKZ",
               "name": "Azure AI Search",
               "sku_name": "Free Agentic Retrieval Medium Reasoning",
               "meter_name": "Free Agentic Retrieval Medium Reasoning Tokens"
+            },
+            "DZH318Z0BQKZ/Storage Optimized L2 CC/Storage Optimized L2 CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Storage Optimized L2 CC",
+              "meter_name": "Storage Optimized L2 CC Unit"
+            },
+            "DZH318Z0BQKZ/Standard S1 CC/Standard S1 CC Unit": {
+              "id": "DZH318Z0BQKZ",
+              "name": "Azure AI Search",
+              "sku_name": "Standard S1 CC",
+              "meter_name": "Standard S1 CC Unit"
             },
             "DZH318Z0BQKZ/Basic/Basic Unit": {
               "id": "DZH318Z0BQKZ",
